@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: navigationLink
+name: Navigation Link
+icon: link
+parameters:
+  - id: linkText
+    name: Link Text
+    type: text
+    guidance: The text displayed for the navigation link
+    localizable: true
+  - id: linkUrl
+    name: Link URL
+    type: link
+    guidance: The destination URL for the navigation link
+categoryId: 71244a75-2906-47dc-bf08-ecb810656b7a
+description: A navigation link for use in headers and menus
+previewImageUrl: https://i.imgur.com/2FVsZ3M.png
+useTeamPermissions: true
+slots: []
+titleParameter: linkText
+canBeComposition: false
+created: '2025-09-18T09:18:26.348935+00:00'
+updated: '2025-09-18T12:27:54.899132+00:00'

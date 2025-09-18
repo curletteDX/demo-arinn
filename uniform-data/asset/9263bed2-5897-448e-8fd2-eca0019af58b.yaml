@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 9263bed2-5897-448e-8fd2-eca0019af58b
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Image-Seven.png
+    file:
+      type: file
+      value: 515ea3d0-592f-47d1-8556-c9faa458daf5
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/B_pYo6ldS-eTTCmaM1KshA-Image-Seven.png
+      type: text
+    size:
+      value: 2904170
+      type: number
+    width:
+      value: 1536
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-09-18T10:28:54.843709+00:00'
+modified: '2025-09-18T10:28:54.843709+00:00'

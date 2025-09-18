@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: card
+name: Card
+icon: card-diamonds
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: The card title
+    localizable: true
+  - id: content
+    name: Content
+    type: text
+    guidance: The card content
+    typeConfig:
+      multiline: true
+    localizable: true
+categoryId: 6aa9e30c-30ab-4a81-8ac2-0655d576d312
+description: A simple card component with title and content
+previewImageUrl: https://i.imgur.com/PwXFoUt.png
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2025-09-18T13:13:35.089291+00:00'
+updated: '2025-09-18T14:48:57.348995+00:00'

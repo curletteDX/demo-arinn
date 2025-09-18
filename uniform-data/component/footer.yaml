@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: footer
+name: Footer
+icon: border-bottom
+parameters:
+  - id: copyrightText
+    name: Copyright Text
+    type: text
+    guidance: Copyright notice or footer text
+    localizable: true
+categoryId: 71244a75-2906-47dc-bf08-ecb810656b7a
+description: Clean footer component with links and copyright text
+previewImageUrl: https://i.imgur.com/uwSDYgC.png
+useTeamPermissions: true
+slots:
+  - id: footerLinks
+    name: Footer Links
+    allowedComponents:
+      - footerNavLink
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: copyrightText
+canBeComposition: false
+created: '2025-09-18T09:21:53.305475+00:00'
+updated: '2025-09-18T12:30:01.423411+00:00'

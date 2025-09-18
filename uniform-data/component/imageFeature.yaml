@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: imageFeature
+name: Image Feature
+icon: view-cols
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: The feature title
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Feature description
+    typeConfig:
+      multiline: true
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    guidance: Feature image or icon
+categoryId: 9e341b38-52b6-4569-b24e-e945488d2ed8
+description: A feature component with image, title and description
+previewImageUrl: https://i.imgur.com/j85kHgI.png
+useTeamPermissions: true
+slots:
+  - id: cta
+    name: CTA
+    maxComponents: 1
+    minComponents: 0
+    allowedComponents:
+      - cta
+    inheritAllowedComponents: false
+titleParameter: title
+canBeComposition: false
+created: '2025-09-18T10:07:21.282505+00:00'
+updated: '2025-09-18T14:49:33.054821+00:00'

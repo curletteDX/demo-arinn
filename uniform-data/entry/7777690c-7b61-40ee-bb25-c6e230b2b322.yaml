@@ -1,0 +1,274 @@
+created: '2025-09-18T13:20:33.646244+00:00'
+modified: '2025-09-18T13:53:56.684096+00:00'
+pattern: false
+entry:
+  _id: 7777690c-7b61-40ee-bb25-c6e230b2b322
+  _name: 'Social Media Strategy: Building Brand Engagement in 2024'
+  _slug: social-media-strategy
+  _thumbnail: >-
+    https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/h_qUNXwcTlSN1seNMaYOBQ-Image-Five.png
+  type: article
+  fields:
+    tags:
+      type: multi-select
+      value:
+        - seo
+        - performance
+    title:
+      type: text
+      locales:
+        en-US: 'Social Media Strategy: Building Brand Engagement in 2024'
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-7777690c-7b61-40ee-bb25-c6e230b2b322-author/entries/0}
+    content:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Social media marketing has evolved far beyond simply
+                      posting updates or sharing links. Today, successful brands
+                      use platform-specific strategies, thoughtful content
+                      planning, active community management, and data-driven
+                      performance measurement to stand out in crowded digital
+                      spaces. 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'In this guide, you''ll learn:'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Platform-Specific Strategies:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' How to tailor your approach for major platforms like Facebook, Instagram, X (Twitter), LinkedIn, and TikTok.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Content Planning:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Tips for creating a content calendar, balancing promotional and value-driven posts, and leveraging trends.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Community Management:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Best practices for engaging with followers, handling feedback, and building authentic relationships.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Performance Measurement:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Key metrics to track, tools for analytics, and how to adjust your strategy based on results.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      By mastering these areas, you can create content that not
+                      only drives engagement but also delivers real business
+                      results. Whether you're a small business owner, marketer,
+                      or entrepreneur, this guide will help you build a loyal
+                      online community and achieve your social media goals.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    excerpt:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Create a winning social media strategy that builds
+                      community and drives business growth. Learn platform best
+                      practices and engagement tactics to maximize your brand's
+                      impact online.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    category:
+      type: select
+      value: marketing
+    readingTime:
+      type: number
+      value: 15
+    metaKeywords:
+      type: text
+      value: social media marketing, brand engagement, content strategy
+    featuredImage:
+      type: asset
+      value:
+        - _id: 761e33af-d873-4e15-bbce-ccecb02d6a55
+          type: image
+          fields:
+            id:
+              type: text
+              value: 61c05cea-d8a4-4730-9790-eb4d565dd02e
+            url:
+              value: >-
+                https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/h_qUNXwcTlSN1seNMaYOBQ-Image-Five.png
+              type: text
+            file:
+              type: file
+              value: e60b6720-a805-447a-967b-2144bf9d84e3
+            size:
+              value: 2178518
+              type: number
+            title:
+              type: text
+              value: Image-Five.png
+            width:
+              value: 1536
+              type: number
+            height:
+              value: 1024
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    publishedDate:
+      type: date
+      value: '2024-03-05'
+    metaDescription:
+      type: text
+      locales:
+        en-US: >-
+          Build effective social media strategies that drive engagement and
+          business growth. Learn proven tactics, tools, and tips to boost your
+          brand's presence and results on social platforms.
+  _dataResources:
+    ref-7777690c-7b61-40ee-bb25-c6e230b2b322-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 168c2f5a-cddb-411b-864c-47ea0de22c55
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

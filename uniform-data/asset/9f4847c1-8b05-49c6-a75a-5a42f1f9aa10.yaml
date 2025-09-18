@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 9f4847c1-8b05-49c6-a75a-5a42f1f9aa10
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Avatar-Three.png
+    file:
+      type: file
+      value: f06e9361-0205-45a2-a231-542171c5c88b
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/BFB2d4snS0CwhbO3oAnc7g-Avatar-Three.png
+      type: text
+    size:
+      value: 1190695
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-09-18T13:35:57.942482+00:00'
+modified: '2025-09-18T13:35:57.942482+00:00'

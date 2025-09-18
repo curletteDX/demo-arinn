@@ -1,0 +1,35 @@
+composition:
+  _name: Standard Page
+  _id: 9a0d09c6-6e05-4424-875c-fef893bc73b7
+  type: page
+  slots:
+    body:
+      - _id: bea24f96-81cb-4cd0-ba68-f82bcf404627
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Components
+        _overridability:
+          hideLockedParameters: true
+    footer:
+      - _id: dce5f1e0-958c-482a-96ba-0e2dfbd8d648
+        type: footer
+        _pattern: 47c3251e-6a82-45cd-8cbe-59de99b0253c
+    header:
+      - _id: 523332cf-3039-4862-b0ba-4d1f27726976
+        type: header
+        _pattern: db0f953b-73cb-41d7-9831-8ee413e5c1dd
+  _overridability:
+    parameters:
+      pageTitle: 'yes'
+      metaKeywords: 'yes'
+      metaDescription: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-09-18T10:15:03.780104+00:00'
+modified: '2025-09-18T12:53:21.630537+00:00'
+pattern: true
+previewImageUrl: https://i.imgur.com/RImFCcc.png
+categoryId: ffaea98e-8af9-4f04-9e5b-d3287f7665d7

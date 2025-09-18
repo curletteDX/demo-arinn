@@ -1,0 +1,96 @@
+created: '2025-09-18T13:20:33.105934+00:00'
+modified: '2025-09-18T13:35:25.230141+00:00'
+pattern: false
+entry:
+  _id: 01dfaf2e-ca36-4152-9fdf-03b3768c9c36
+  _name: Emma Rodriguez
+  _slug: emma-rodriguez
+  _thumbnail: >-
+    https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/FlDQMeVERg2zEmaXudOVCQ-Avatar-One.png
+  type: author
+  fields:
+    bio:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    UX/UI designer turned developer with a passion for creating
+                    beautiful, accessible web experiences. Advocates for design
+                    systems and component-driven development.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+    name:
+      type: text
+      value: Emma Rodriguez
+    email:
+      type: text
+      value: emma.rodriguez@example.com
+    avatar:
+      type: asset
+      value:
+        - _id: fee470e4-1af7-421f-8037-9cc6c9349d1d
+          type: image
+          fields:
+            id:
+              type: text
+              value: c32fdd5a-493f-4419-9bbf-038313efaf6b
+            url:
+              value: >-
+                https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/FlDQMeVERg2zEmaXudOVCQ-Avatar-One.png
+              type: text
+            file:
+              type: file
+              value: 90322fff-9e3d-46aa-b7cb-49c5ac61494a
+            size:
+              value: 1207256
+              type: number
+            title:
+              type: text
+              value: Avatar-One.png
+            width:
+              value: 1024
+              type: number
+            height:
+              value: 1024
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    twitter:
+      type: link
+      value:
+        path: https://twitter.com/emmarodriguezux
+        type: url
+    website:
+      type: link
+      value:
+        path: https://emmarodriguez.design
+        type: url
+    linkedin:
+      type: link
+      value:
+        path: https://linkedin.com/in/emma-rodriguez-design
+        type: url
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

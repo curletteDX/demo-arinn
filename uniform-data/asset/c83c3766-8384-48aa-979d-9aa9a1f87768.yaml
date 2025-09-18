@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: c83c3766-8384-48aa-979d-9aa9a1f87768
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Image-X.png
+    file:
+      type: file
+      value: 84205e43-ba4a-4613-99c6-76f847f93299
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/k_nHHANGSG6di8DlQzIvmw-Image-X.png
+      type: text
+    size:
+      value: 1211732
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-09-18T13:29:24.296241+00:00'
+modified: '2025-09-18T13:29:24.296241+00:00'

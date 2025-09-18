@@ -1,0 +1,210 @@
+created: '2025-09-18T13:20:36.264802+00:00'
+modified: '2025-09-18T13:56:20.572417+00:00'
+pattern: false
+entry:
+  _id: 585eb56a-d179-49b5-903c-afd4526833e9
+  _name: 'Email Marketing Automation: Complete Guide for 2024'
+  _slug: email-marketing-automation
+  _thumbnail: >-
+    https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/5zxffHXmSVWw50Wo5-Mcsg-Image-Six.png
+  type: article
+  fields:
+    tags:
+      type: multi-select
+      value:
+        - seo
+        - performance
+    title:
+      type: text
+      locales:
+        en-US: 'Email Marketing Automation: Complete Guide for 2024'
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-585eb56a-d179-49b5-903c-afd4526833e9-author/entries/0}
+    content:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Email marketing automation has transformed how businesses
+                      nurture leads and maintain customer relationships. Modern
+                      automation platforms allow marketers to create
+                      sophisticated workflows that respond to customer behavior,
+                      preferences, and engagement patterns. The key to
+                      successful automation lies in understanding your audience
+                      segments and creating personalized experiences at scale.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Start by mapping your customer journey and identifying key
+                      touchpoints where automated messages can provide value.
+                      Welcome series emails introduce new subscribers to your
+                      brand and set expectations for future communications.
+                      Behavioral triggers based on website activity, purchase
+                      history, or email engagement create timely and relevant
+                      messaging opportunities.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Segmentation allows you to deliver targeted content to
+                      specific audience groups based on demographics, interests,
+                      or past interactions. A/B testing helps optimize subject
+                      lines, content, and send times for maximum engagement.
+                      Proper list hygiene and compliance with regulations like
+                      GDPR ensure your campaigns reach engaged subscribers while
+                      maintaining trust.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Analytics and reporting provide insights into open rates,
+                      click-through rates, and conversion metrics that guide
+                      future campaign improvements. The most effective automated
+                      campaigns feel personal and helpful rather than generic
+                      and promotional.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    excerpt:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Transform your email marketing with automation workflows
+                      that nurture leads and drive conversions. Learn best
+                      practices, tools, and strategies.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    category:
+      type: select
+      value: marketing
+    readingTime:
+      type: number
+      value: 10
+    metaKeywords:
+      type: text
+      value: email marketing, automation, lead nurturing, email campaigns
+    featuredImage:
+      type: asset
+      value:
+        - _id: d0aebc13-cab6-4729-9559-008d928986fc
+          type: image
+          fields:
+            id:
+              type: text
+              value: 45f6e75d-c94e-4fb2-a7b7-dcd3f96b0b74
+            url:
+              value: >-
+                https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/5zxffHXmSVWw50Wo5-Mcsg-Image-Six.png
+              type: text
+            file:
+              type: file
+              value: e4576708-8af0-4601-82b1-2423454f83fa
+            size:
+              value: 2083740
+              type: number
+            title:
+              type: text
+              value: Image-Six.png
+            width:
+              value: 1536
+              type: number
+            height:
+              value: 1024
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    publishedDate:
+      type: date
+      value: '2024-02-18'
+    metaDescription:
+      type: text
+      locales:
+        en-US: >-
+          Master email marketing automation with expert strategies for
+          workflows, segmentation, and personalization. Boost engagement and
+          results with proven techniques for 2024.
+  _dataResources:
+    ref-585eb56a-d179-49b5-903c-afd4526833e9-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: ed22a4e2-77e0-4b61-bad0-7610178c844a
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

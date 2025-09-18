@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 45f6e75d-c94e-4fb2-a7b7-dcd3f96b0b74
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Image-Six.png
+    file:
+      type: file
+      value: e4576708-8af0-4601-82b1-2423454f83fa
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/5zxffHXmSVWw50Wo5-Mcsg-Image-Six.png
+      type: text
+    size:
+      value: 2083740
+      type: number
+    width:
+      value: 1536
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-09-18T10:28:54.843709+00:00'
+modified: '2025-09-18T10:28:54.843709+00:00'

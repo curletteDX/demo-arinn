@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 61c05cea-d8a4-4730-9790-eb4d565dd02e
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Image-Five.png
+    file:
+      type: file
+      value: e60b6720-a805-447a-967b-2144bf9d84e3
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/h_qUNXwcTlSN1seNMaYOBQ-Image-Five.png
+      type: text
+    size:
+      value: 2178518
+      type: number
+    width:
+      value: 1536
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-09-18T10:28:54.843709+00:00'
+modified: '2025-09-18T10:28:54.843709+00:00'

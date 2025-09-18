@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: da260fce-5f33-412f-af03-d89726d9b241
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Image-Eight.png
+    file:
+      type: file
+      value: 4226dcfb-ea4e-464e-a4b8-cc43157868e7
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/dmFoxWEcRyWdW8PI72Z5ZA-Image-Eight.png
+      type: text
+    size:
+      value: 2441948
+      type: number
+    width:
+      value: 1536
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-09-18T13:27:15.772059+00:00'
+modified: '2025-09-18T13:27:15.772059+00:00'

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 9029d3aa-40be-41e6-bb3d-a357e8714f05
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Image-Four.png
+    file:
+      type: file
+      value: 83b01e95-786b-45f8-9437-22e1ba965b10
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/9ov9io9gTGWkWhr7zzv2WQ-Image-Four.png
+      type: text
+    size:
+      value: 2249609
+      type: number
+    width:
+      value: 1536
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-09-18T10:28:54.843709+00:00'
+modified: '2025-09-18T10:28:54.843709+00:00'

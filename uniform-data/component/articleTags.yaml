@@ -1,0 +1,45 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: articleTags
+name: Article Tags
+icon: tag
+parameters:
+  - id: tags
+    name: Tags
+    type: multi-select
+    guidance: Article tags
+    typeConfig:
+      options:
+        - text: React
+          value: react
+        - text: Next.js
+          value: nextjs
+        - text: TypeScript
+          value: typescript
+        - text: Uniform
+          value: uniform
+        - text: CMS
+          value: cms
+        - text: JavaScript
+          value: javascript
+        - text: UI/UX
+          value: uiux
+        - text: Performance
+          value: performance
+        - text: SEO
+          value: seo
+        - text: Tutorial
+          value: tutorial
+  - id: tagsLabel
+    name: Tags Label
+    type: text
+    guidance: Label text for the tags section
+    localizable: true
+categoryId: 4c555eac-0c3e-40ac-b297-6bf564bed3ef
+description: Display article tags in a styled format
+previewImageUrl: https://i.imgur.com/yk3BUd2.png
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2025-09-18T14:29:29.107252+00:00'
+updated: '2025-09-18T15:19:14.399464+00:00'

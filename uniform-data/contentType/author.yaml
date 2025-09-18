@@ -1,0 +1,94 @@
+id: author
+name: Author
+created: '2025-09-18T13:13:29.919105+00:00'
+updated: '2025-09-18T13:13:29.919105+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    guidance: Full name of the author
+    localizable: false
+  - id: bio
+    name: Bio
+    type: richText
+    guidance: Short biography or description of the author
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: false
+  - id: avatar
+    name: Avatar
+    type: asset
+    guidance: Profile photo or avatar image
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: false
+  - id: email
+    name: Email
+    type: text
+    guidance: Author's contact email address
+    localizable: false
+  - id: socialLinks
+    name: Social Links
+    type: group
+    guidance: Social media and professional links
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - twitter
+        - linkedin
+        - website
+    localizable: false
+  - id: twitter
+    name: Twitter
+    type: link
+    guidance: Twitter/X profile URL
+    localizable: false
+  - id: linkedin
+    name: LinkedIn
+    type: link
+    guidance: LinkedIn profile URL
+    localizable: false
+  - id: website
+    name: Website
+    type: link
+    guidance: Personal or professional website URL
+    localizable: false
+entryName: name
+thumbnailField: avatar
+description: Author information for articles and blog posts
+icon: file-document
+type: contentType
+permissions: []
+previewConfigurations: []

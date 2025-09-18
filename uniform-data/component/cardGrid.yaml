@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: cardGrid
+name: Card Grid
+icon: view-grid
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: The grid section title
+    localizable: true
+categoryId: 6aa9e30c-30ab-4a81-8ac2-0655d576d312
+description: A grid layout for displaying multiple cards
+previewImageUrl: https://i.imgur.com/4J20x7t.png
+useTeamPermissions: true
+slots:
+  - id: cards
+    name: Cards
+    allowedComponents:
+      - imageFeature
+      - card
+      - $loop
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-09-18T09:31:04.686502+00:00'
+updated: '2025-09-18T14:42:50.680943+00:00'

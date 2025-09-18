@@ -1,0 +1,272 @@
+composition:
+  _name: Image Showcase
+  _id: eff7bb10-7ea6-4498-af67-c7ff794ead8d
+  _slug: /image-showcase
+  type: page
+  _overrides:
+    eff7bb10-7ea6-4498-af67-c7ff794ead8d:
+      parameters:
+        pageTitle:
+          type: text
+          locales:
+            en-US: Images
+    eff7bb10-7ea6-4498-af67-c7ff794ead8d|bea24f96-81cb-4cd0-ba68-f82bcf404627:
+      slots:
+        $slotSectionItems:
+          - _id: 34fb1e70-3eee-4021-a3bf-95b8d48b0388
+            type: imageHero
+            parameters:
+              title:
+                type: text
+                value: Visual Asset Management
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Discover how easy it is to manage images and
+                              visual content with Uniform. Use the content panel
+                              to add a background image to this hero section and
+                              make your page stand out.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                        textStyle: ''
+                        textFormat: 0
+                    direction: null
+              backgroundImage:
+                type: asset
+                value:
+                  - _id: 23245a6e-74a2-4735-a838-58a06ed4a4b8
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: 48e3ccbb-fcda-4707-8994-6a57241dd3fb
+                      url:
+                        value: >-
+                          https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/nwJ_9FYsTNCt_euV_nbjCw-Image-One.png
+                        type: text
+                      file:
+                        type: file
+                        value: ebd5886b-b456-48bf-8afa-98f34bcfab86
+                      size:
+                        value: 2649939
+                        type: number
+                      title:
+                        type: text
+                        value: Image-One.png
+                      width:
+                        value: 1536
+                        type: number
+                      height:
+                        value: 1024
+                        type: number
+                      mediaType:
+                        value: image/png
+                        type: text
+                    _source: uniform-assets
+          - _id: c0249472-71ee-47de-839a-164a53c841e4
+            type: image
+            parameters:
+              image:
+                type: asset
+                value:
+                  - _id: a00e32b1-f3d5-4141-b8ea-c607ee6a8245
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: 4c15d29f-e88d-4ba1-bbc4-5d58a193fa20
+                      url:
+                        value: >-
+                          https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/su8zdd78SVSfetd-3J1cGg-Image-Two.png
+                        type: text
+                      file:
+                        type: file
+                        value: c9be9ca7-8290-4999-8f68-8c9ff7d52430
+                      size:
+                        value: 1872087
+                        type: number
+                      title:
+                        type: text
+                        value: Image-Two.png
+                      width:
+                        value: 1536
+                        type: number
+                      height:
+                        value: 1024
+                        type: number
+                      mediaType:
+                        value: image/png
+                        type: text
+                    _source: uniform-assets
+              title:
+                type: text
+                value: Standalone Image Component
+              caption:
+                type: text
+                value: >-
+                  Perfect for showcasing products, team photos, or any visual
+                  content.
+          - _id: f713599e-cfaf-4ffa-ba15-507952f0ffdc
+            type: cardGrid
+            slots:
+              cards:
+                - _id: 8bc07963-b5aa-4a8d-9003-473dc36a285b
+                  type: imageFeature
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: f438dbd0-95e6-45e0-94ef-93c81e9ec461
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: b03d6df4-f821-4a6f-a90f-1da86d331aaa
+                            url:
+                              value: >-
+                                https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/le-N3vqaSgeS5awtKTObuw-Image-Three.png
+                              type: text
+                            file:
+                              type: file
+                              value: 7ee40ee3-dc0d-44e5-ac8d-f90ae23108b4
+                            size:
+                              value: 2208534
+                              type: number
+                            title:
+                              type: text
+                              value: Image-Three.png
+                            width:
+                              value: 1536
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                          _source: uniform-assets
+                    title:
+                      type: text
+                      value: Easy Upload
+                    description:
+                      type: text
+                      value: >-
+                        Easily upload images by dragging and dropping them
+                        directly into the content panel, streamlining your
+                        workflow and saving time.
+                - _id: 85409951-01c6-496e-ac8b-d0c63d15d2e2
+                  type: imageFeature
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: 196366cb-de27-4443-b387-778584827ab1
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 9029d3aa-40be-41e6-bb3d-a357e8714f05
+                            url:
+                              value: >-
+                                https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/9ov9io9gTGWkWhr7zzv2WQ-Image-Four.png
+                              type: text
+                            file:
+                              type: file
+                              value: 83b01e95-786b-45f8-9437-22e1ba965b10
+                            size:
+                              value: 2249609
+                              type: number
+                            title:
+                              type: text
+                              value: Image-Four.png
+                            width:
+                              value: 1536
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                          _source: uniform-assets
+                    title:
+                      type: text
+                      value: Auto Optimization
+                    description:
+                      type: text
+                      value: >-
+                        Images are automatically optimized to ensure fast
+                        loading times and adapt seamlessly to different screen
+                        sizes, providing the best performance and user
+                        experience across all devices.
+                - _id: 7cd0eb99-3ff3-496f-8874-ac6d3341bad4
+                  type: imageFeature
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: 60cd9625-148e-42c3-ab8f-889eb8ca7f6c
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 61c05cea-d8a4-4730-9790-eb4d565dd02e
+                            url:
+                              value: >-
+                                https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/h_qUNXwcTlSN1seNMaYOBQ-Image-Five.png
+                              type: text
+                            file:
+                              type: file
+                              value: e60b6720-a805-447a-967b-2144bf9d84e3
+                            size:
+                              value: 2178518
+                              type: number
+                            title:
+                              type: text
+                              value: Image-Five.png
+                            width:
+                              value: 1536
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                          _source: uniform-assets
+                    title:
+                      type: text
+                      value: Focal Point Control
+                    description:
+                      type: text
+                      value: >-
+                        Set focal points to ensure the most important parts of
+                        your images remain visible and well-framed, no matter
+                        what device or screen size your audience is using.
+            parameters:
+              title:
+                type: text
+                value: Features with Images
+  _locales:
+    - en-US
+  _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
+created: '2025-09-18T10:19:48.734189+00:00'
+modified: '2025-09-18T14:51:07.484012+00:00'
+pattern: false

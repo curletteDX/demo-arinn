@@ -1,0 +1,356 @@
+created: '2025-09-18T13:36:17.055038+00:00'
+modified: '2025-09-18T13:52:04.247932+00:00'
+pattern: false
+entry:
+  _id: c98f8ed8-e015-4a74-8a37-0237ab5e29eb
+  _name: 'Next.js 13 App Directory: Complete Migration Guide'
+  _slug: nextjs-13-app-directory-guide
+  _thumbnail: >-
+    https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/dmFoxWEcRyWdW8PI72Z5ZA-Image-Eight.png
+  type: article
+  fields:
+    tags:
+      type: multi-select
+      value:
+        - react
+        - nextjs
+    title:
+      type: text
+      locales:
+        en-US: 'Next.js 13 App Directory: Complete Migration Guide'
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-c98f8ed8-e015-4a74-8a37-0237ab5e29eb-author/entries/0}
+    content:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The release of Next.js 13 brought significant changes to
+                      how we build React applications. The most notable addition
+                      is the App Directory, which fundamentally changes the
+                      file-based routing system we've grown accustomed to.
+                      Server Components are now the default, running on the
+                      server and reducing client-side JavaScript. Client
+                      Components require the 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: '"use client"'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 16
+                    version: 1
+                  - mode: normal
+                    text: ' directive when you need browser features like '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: useState
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 16
+                    version: 1
+                  - mode: normal
+                    text: ' or event handlers. The new layout system allows you to create persistent UI elements that don''t re-render during navigation. Data fetching happens directly in Server Components using '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: async/await
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 16
+                    version: 1
+                  - mode: normal
+                    text: ', eliminating the need for '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: getServerSideProps
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 16
+                    version: 1
+                  - mode: normal
+                    text: ' in many cases. Migration requires moving files from the '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: pages
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 16
+                    version: 1
+                  - mode: normal
+                    text: ' directory to the new '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: app
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 16
+                    version: 1
+                  - mode: normal
+                    text: ' directory structure, where '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: page.js
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 16
+                    version: 1
+                  - mode: normal
+                    text: ' files define routes. Performance improvements come from reduced bundle sizes and better caching strategies. The App Directory represents a major shift toward server-first rendering while maintaining the flexibility of client-side interactivity when needed.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'In this comprehensive guide, you''ll learn:'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          How to migrate your existing Next.js projects to the
+                          new App Directory structure
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The key differences between Server and Client
+                          Components, and when to use each
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          How to leverage new features like layouts, loading
+                          states, and streaming for improved performance
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Best practices for code organization, data fetching,
+                          and state management in the new architecture
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Whether you're upgrading an existing project or starting
+                      fresh, this guide will help you confidently adopt Next.js
+                      13's revolutionary features and unlock a better developer
+                      experience.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    excerpt:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Explore the new Next.js 13 App Directory with this guide.
+                      Discover how server components, layouts, and effective
+                      migration strategies can help you build modern, scalable
+                      React applications.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    category:
+      type: select
+      value: development
+    readingTime:
+      type: number
+      value: 18
+    metaKeywords:
+      type: text
+      value: >-
+        Next.js 13, app directory, server components, Next.js migration, migrate
+        to Next.js 13, Next.js server components, Next.js app directory
+        migration, upgrading Next.js, Next.js 13 features, Next.js best
+        practices, Next.js guide
+    featuredImage:
+      type: asset
+      value:
+        - _id: 6de6bfa1-6e3a-4a14-a7d3-e3ed083ccfb4
+          type: image
+          fields:
+            id:
+              type: text
+              value: da260fce-5f33-412f-af03-d89726d9b241
+            url:
+              value: >-
+                https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/dmFoxWEcRyWdW8PI72Z5ZA-Image-Eight.png
+              type: text
+            file:
+              type: file
+              value: 4226dcfb-ea4e-464e-a4b8-cc43157868e7
+            size:
+              value: 2441948
+              type: number
+            title:
+              type: text
+              value: Image-Eight.png
+            width:
+              value: 1536
+              type: number
+            height:
+              value: 1024
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    publishedDate:
+      type: date
+      value: '2024-03-20'
+    metaDescription:
+      type: text
+      locales:
+        en-US: >-
+          Discover a complete guide to Next.js 13 App Directory, server
+          components, and effective migration strategies. Learn best practices,
+          new features, and how to transition your projects smoothly.
+  _dataResources:
+    ref-c98f8ed8-e015-4a74-8a37-0237ab5e29eb-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 01dfaf2e-ca36-4152-9fdf-03b3768c9c36
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

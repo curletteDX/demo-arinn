@@ -1,0 +1,66 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: imageHero
+name: Image Hero
+icon: card
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: The hero title
+    localizable: true
+  - id: description
+    name: Description
+    type: richText
+    guidance: Hero description text
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: backgroundImage
+    name: Background Image
+    type: asset
+    guidance: Background image for the hero
+categoryId: 9e341b38-52b6-4569-b24e-e945488d2ed8
+description: A hero section with background image
+previewImageUrl: https://i.imgur.com/OThrG4A.jpeg
+useTeamPermissions: true
+slots:
+  - id: cta
+    name: CTA
+    allowedComponents:
+      - cta
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-09-18T10:07:23.811017+00:00'
+updated: '2025-09-18T12:33:04.266195+00:00'

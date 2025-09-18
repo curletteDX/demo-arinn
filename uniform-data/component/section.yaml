@@ -1,0 +1,84 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: section
+name: Section
+icon: image-text
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: The section title or headline
+    typeConfig:
+      required: true
+    localizable: true
+  - id: description
+    name: Description
+    type: richText
+    guidance: The section description or content
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: variant
+    name: Variant
+    type: select
+    guidance: The visual style and size of the section
+    typeConfig:
+      options:
+        - text: Hero
+          value: hero
+        - text: Content
+          value: content
+        - text: Feature
+          value: feature
+        - text: Testimonial
+          value: testimonial
+        - text: Callout
+          value: callout
+        - text: Minimal
+          value: minimal
+      required: false
+categoryId: f131d88f-05d5-4b45-ac10-22456aebedb2
+description: A flexible section component that can be used as a hero or content section
+previewImageUrl: https://i.imgur.com/J2nfgpy.png
+useTeamPermissions: true
+slots:
+  - id: cta
+    name: CTA
+    maxComponents: 3
+    allowedComponents:
+      - cta
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-09-18T11:07:15.904513+00:00'
+updated: '2025-09-18T12:38:09.304247+00:00'

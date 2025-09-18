@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: header
+name: Header
+icon: border-top
+parameters: []
+categoryId: 71244a75-2906-47dc-bf08-ecb810656b7a
+description: Clean header component with navigation links
+previewImageUrl: https://i.imgur.com/86qpYIg.png
+useTeamPermissions: true
+slots:
+  - id: navigationLinks
+    name: Navigation Links
+    allowedComponents:
+      - navigationLink
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+canBeComposition: false
+created: '2025-09-18T09:15:58.309187+00:00'
+updated: '2025-09-18T12:28:50.379258+00:00'

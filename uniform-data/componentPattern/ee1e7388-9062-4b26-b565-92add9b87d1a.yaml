@@ -1,0 +1,94 @@
+composition:
+  _name: Articles Grid Pattern
+  _id: ee1e7388-9062-4b26-b565-92add9b87d1a
+  type: cardGrid
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: Articles
+  slots:
+    cards:
+      - _id: cb2da89a-b37a-4a74-91b7-c54f1205e908
+        type: $loop
+        slots:
+          body:
+            - _id: 48017668-1430-4ab0-b6e9-daf5657f46e8
+              type: imageFeature
+              slots:
+                cta:
+                  - _id: 1bbc92c2-f2bf-44ce-9b0d-9691174c0974
+                    type: cta
+                    parameters:
+                      link:
+                        type: link
+                        value:
+                          path: >-
+                            /${locale}/articles/${#jptr:/Uniform Articles Query
+                            Content entries Loop Item/entry/_slug}
+                          type: projectMapNode
+                          nodeId: 39f084ef-83c6-4ed5-8203-cbe347a6dae7
+                          projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
+                          dynamicInputValues:
+                            slug: >-
+                              ${#jptr:/Uniform Articles Query Content entries
+                              Loop Item/entry/_slug}
+                            locale: ${locale}
+                      text:
+                        type: text
+                        locales:
+                          en-US: Read Article
+                      style:
+                        type: select
+                        value: primary
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                image:
+                  type: asset
+                  value: >-
+                    ${#jptr:/Uniform Articles Query Content entries Loop
+                    Item/entry/fields/featuredImage/value}
+                title:
+                  type: text
+                  locales:
+                    en-US: >-
+                      ${#jptr:/Uniform Articles Query Content entries Loop
+                      Item/entry/fields/title/value}
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      By ${#jptr:/Uniform Articles Query Content entries Loop
+                      Item/entry/fields/author/value/entry/fields/name/value}
+              _overridability:
+                hideLockedParameters: true
+        _dataResources:
+          Uniform Articles Query Content entries Loop Item:
+            type: sys-reserved-loop
+            variables:
+              connectedData: '#jptr:/Uniform Articles Query Content/entries:fa=c'
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Uniform Articles Query Content:
+      type: uniformArticlesQuery
+      variables:
+        limit: '9'
+        locale: ${locale}
+        search: ''
+        filters: '{"type[eq]":"article"}'
+        orderBy: fields.publishedDate_DESC
+        uiFilters: '[{"field":"type","operator":"eq","value":"article"}]'
+        contentTypes: article
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-09-18T14:42:21.590865+00:00'
+modified: '2025-09-18T15:21:45.735992+00:00'
+pattern: true
+previewImageUrl: https://i.imgur.com/ehkC4pB.png
+categoryId: 4c555eac-0c3e-40ac-b297-6bf564bed3ef

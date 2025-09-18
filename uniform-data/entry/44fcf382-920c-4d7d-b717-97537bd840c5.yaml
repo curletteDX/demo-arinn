@@ -1,0 +1,802 @@
+created: '2025-09-18T13:20:35.951848+00:00'
+modified: '2025-09-18T13:55:07.990851+00:00'
+pattern: false
+entry:
+  _id: 44fcf382-920c-4d7d-b717-97537bd840c5
+  _name: 'Customer Journey Mapping: Guide to Better User Experience'
+  _slug: customer-journey-mapping
+  _thumbnail: >-
+    https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/9ov9io9gTGWkWhr7zzv2WQ-Image-Four.png
+  type: article
+  fields:
+    tags:
+      type: multi-select
+      value:
+        - uiux
+        - cms
+    title:
+      type: text
+      locales:
+        en-US: 'Customer Journey Mapping: Guide to Better User Experience'
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-44fcf382-920c-4d7d-b717-97537bd840c5-author/entries/0}
+    content:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Customer journey mapping helps you understand how
+                      customers interact with your brand across all touchpoints.
+                      This guide covers the essential steps to create effective
+                      journey maps, identify optimization opportunities, and
+                      improve customer experience at every stage of the buying
+                      process.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: What is Customer Journey Mapping?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Customer journey mapping is the process of visualizing the
+                      steps your customers take when engaging with your
+                      business—from initial awareness to post-purchase support.
+                      By mapping these interactions, you can gain insights into
+                      customer needs, pain points, and emotions at each stage.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Why is Customer Journey Mapping Important?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Identifies Pain Points:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Reveals obstacles that prevent customers from moving forward.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Highlights Opportunities:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Uncovers areas for improvement and innovation.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Aligns Teams:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Ensures marketing, sales, and support teams work towards a unified customer experience.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Improves Retention:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Enhances satisfaction and loyalty by addressing customer needs.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Steps to Create an Effective Customer Journey Map
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ol
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Define Your Objectives
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: null
+                listType: number
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Clarify what you want to achieve (e.g., increase
+                          conversions, reduce churn).
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: ol
+                type: list
+                start: 2
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Create Customer Personas
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: null
+                listType: number
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Develop detailed profiles representing your key
+                          customer segments.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: ol
+                type: list
+                start: 3
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: List All Touchpoints
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: null
+                listType: number
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Identify every interaction customers have with your
+                          brand (website, social media, email, in-store, etc.).
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: ol
+                type: list
+                start: 4
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Map the Customer Journey Stages
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: null
+                listType: number
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Typical stages include Awareness, Consideration,
+                          Purchase, Retention, and Advocacy.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: ol
+                type: list
+                start: 5
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Gather Data and Insights
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: null
+                listType: number
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Use analytics, customer feedback, and team input to
+                          understand behaviors and emotions at each stage.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: ol
+                type: list
+                start: 6
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 6
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Visualize the Journey
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: null
+                listType: number
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Create a visual map (flowchart, diagram, or table)
+                          showing steps, touchpoints, and customer feelings.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: ol
+                type: list
+                start: 7
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 7
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Identify Pain Points and Opportunities
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: null
+                listType: number
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Highlight friction areas and brainstorm solutions to
+                          improve the experience.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: ol
+                type: list
+                start: 8
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 8
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Implement Changes and Monitor Results
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: null
+                listType: number
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Take action on insights and track the impact on
+                          customer satisfaction and business metrics.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Tips for Effective Journey Mapping
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Involve cross-functional teams for diverse
+                          perspectives.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Update your journey maps regularly as customer
+                          behaviors evolve.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Use real customer quotes and data to add depth.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Focus on both digital and offline touchpoints.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Conclusion
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Customer journey mapping is a powerful tool for
+                      understanding and improving the customer experience. By
+                      following these steps, you can create actionable maps that
+                      drive better engagement, satisfaction, and business
+                      growth.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    excerpt:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Understand your customers better with journey mapping.
+                      Learn how to identify touchpoints, pain points, and
+                      opportunities for improvement.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    category:
+      type: select
+      value: business
+    readingTime:
+      type: number
+      value: 14
+    metaKeywords:
+      type: text
+      value: >-
+        customer journey mapping, user experience, touchpoints, conversion
+        optimization
+    featuredImage:
+      type: asset
+      value:
+        - _id: 321d848d-918c-4a0f-8bd5-6f5ae746f7f9
+          type: image
+          fields:
+            id:
+              type: text
+              value: 9029d3aa-40be-41e6-bb3d-a357e8714f05
+            url:
+              value: >-
+                https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/9ov9io9gTGWkWhr7zzv2WQ-Image-Four.png
+              type: text
+            file:
+              type: file
+              value: 83b01e95-786b-45f8-9437-22e1ba965b10
+            size:
+              value: 2249609
+              type: number
+            title:
+              type: text
+              value: Image-Four.png
+            width:
+              value: 1536
+              type: number
+            height:
+              value: 1024
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    publishedDate:
+      type: date
+      value: '2024-04-12'
+    metaDescription:
+      type: text
+      locales:
+        en-US: >-
+          Learn effective customer journey mapping techniques to enhance user
+          experience and boost conversions on your website.
+  _dataResources:
+    ref-44fcf382-920c-4d7d-b717-97537bd840c5-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 168c2f5a-cddb-411b-864c-47ea0de22c55
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

@@ -1,0 +1,18 @@
+id: articleBySlug
+displayName: Article by Slug
+ttl: 30
+path: /single-by-slug
+custom:
+  maxDepth: 3
+  proposedName: Article
+  allowedContentTypes:
+    - article
+method: GET
+purgeKey: 46825720-3818-4f02-ac71-3f2d63a73781
+archetype: singleEntryBySlug
+variables:
+  slug:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

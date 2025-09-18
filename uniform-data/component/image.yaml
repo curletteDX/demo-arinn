@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: image
+name: Image
+icon: image
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: The image title
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    guidance: The main image to display
+  - id: caption
+    name: Caption
+    type: text
+    guidance: Optional image caption
+    localizable: true
+categoryId: 9e341b38-52b6-4569-b24e-e945488d2ed8
+description: A simple image component with title and caption
+previewImageUrl: https://i.imgur.com/kCHHWE4.png
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2025-09-18T13:13:35.895978+00:00'
+updated: '2025-09-18T13:13:35.895978+00:00'

@@ -1,0 +1,116 @@
+composition:
+  _name: Home
+  _id: 45f97431-3075-4477-9e46-c3947f4a6bab
+  _slug: /
+  type: page
+  _overrides:
+    45f97431-3075-4477-9e46-c3947f4a6bab:
+      parameters:
+        pageTitle:
+          type: text
+          locales:
+            en-US: Homepage
+    45f97431-3075-4477-9e46-c3947f4a6bab|bea24f96-81cb-4cd0-ba68-f82bcf404627:
+      slots:
+        $slotSectionItems:
+          - _id: 86f36267-d257-4420-a4c3-e7e4c001a12d
+            type: section
+            parameters:
+              title:
+                type: text
+                locales:
+                  en-US: Welcome to Your Sandbox
+              variant:
+                type: select
+                value: hero
+              description:
+                type: richText
+                locales:
+                  en-US:
+                    root:
+                      type: root
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Click directly on any text to edit it inline.
+                                Use the '+' buttons to add new components
+                                anywhere on the page. Drag components to
+                                rearrange them. Everything is editable right
+                                here in the visual interface.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+          - _id: cd31abee-21b4-460c-96be-1dd4c22a2883
+            type: cardGrid
+            slots:
+              cards:
+                - _id: d77ac2a8-48fc-4cbd-a88e-f0a7dc7d2369
+                  type: card
+                  parameters:
+                    title:
+                      type: text
+                      value: ✨ Visual Editing
+                    content:
+                      type: text
+                      value: >-
+                        Edit content directly in the browser with real-time
+                        preview. No technical skills required!
+                - _id: 976dc430-d6b5-47bc-8d11-c2574a059c98
+                  type: card
+                  parameters:
+                    title:
+                      type: text
+                      value: Add Components
+                    content:
+                      type: text
+                      value: >-
+                        Look for the '+' buttons around the page to add new
+                        sections, cards, or content blocks.
+                - _id: 1325b426-01fe-406c-b864-dacd4dccaee5
+                  type: card
+                  parameters:
+                    title:
+                      type: text
+                      value: 🔄 Drag & Drop
+                    content:
+                      type: text
+                      locales:
+                        en-US: >
+                          Use the structure panel to drag and drop components
+                          and create the perfect layout.
+            parameters:
+              title:
+                type: text
+                value: Try These Actions
+          - _id: ede311f9-b6b9-4724-8bfe-52abe4404087
+            type: text
+            parameters:
+              content:
+                type: text
+                value: >-
+                  🎯 Try it now! Click on this text or any other text on the
+                  page to edit it directly. This sandbox demonstrates how
+                  Uniform empowers content teams to manage websites
+                  independently, while developers focus on building great
+                  components. Questions? Ask your Uniform representative about
+                  setting up your own project.
+  _locales:
+    - en-US
+  _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
+created: '2025-09-18T10:16:39.551463+00:00'
+modified: '2025-09-18T15:07:37.159848+00:00'
+pattern: false

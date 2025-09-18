@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: footerNavLink
+name: Footer Navigation Link
+icon: link
+parameters:
+  - id: text
+    name: Link Text
+    type: text
+    guidance: The text displayed for the footer link
+    localizable: true
+  - id: link
+    name: Link URL
+    type: link
+    guidance: The destination URL for the footer link
+categoryId: 71244a75-2906-47dc-bf08-ecb810656b7a
+description: A navigation link for use in footers
+previewImageUrl: https://i.imgur.com/AHp4n6z.png
+useTeamPermissions: true
+slots: []
+titleParameter: text
+canBeComposition: false
+created: '2025-09-18T09:21:59.746907+00:00'
+updated: '2025-09-18T12:28:03.509715+00:00'

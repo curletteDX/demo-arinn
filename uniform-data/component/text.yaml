@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: text
+name: Text
+icon: list
+parameters:
+  - id: content
+    name: Content
+    type: text
+    guidance: The text content
+    localizable: true
+categoryId: f131d88f-05d5-4b45-ac10-22456aebedb2
+description: A simple text content component
+previewImageUrl: https://i.imgur.com/4AoLtuZ.png
+useTeamPermissions: true
+slots: []
+titleParameter: content
+canBeComposition: false
+created: '2025-09-18T13:13:37.646506+00:00'
+updated: '2025-09-18T13:13:37.646506+00:00'

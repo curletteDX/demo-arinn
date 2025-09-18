@@ -1,0 +1,97 @@
+created: '2025-09-18T13:20:35.598264+00:00'
+modified: '2025-09-18T13:35:35.935437+00:00'
+pattern: false
+entry:
+  _id: 168c2f5a-cddb-411b-864c-47ea0de22c55
+  _name: Jennifer Martinez
+  _slug: sarah-johnson
+  _thumbnail: >-
+    https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/8snid6jqS9m6ZTu0G2BLAA-Avatar-Two.png
+  type: author
+  fields:
+    bio:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Digital Marketing Director with 10+ years experience in
+                    content strategy, campaign optimization, and customer
+                    engagement. Passionate about data-driven marketing and
+                    creating compelling brand experiences.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+    name:
+      type: text
+      value: Jennifer Martinez
+    email:
+      type: text
+      value: jennifer.martinez@example.com
+    avatar:
+      type: asset
+      value:
+        - _id: da8905a0-9977-4f4a-9265-d86e16f22fb6
+          type: image
+          fields:
+            id:
+              type: text
+              value: 2e411a3c-ebbc-40ea-a805-90f27fc11309
+            url:
+              value: >-
+                https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/8snid6jqS9m6ZTu0G2BLAA-Avatar-Two.png
+              type: text
+            file:
+              type: file
+              value: 07444621-307f-4e01-8fc9-182d974993c2
+            size:
+              value: 1218287
+              type: number
+            title:
+              type: text
+              value: Avatar-Two.png
+            width:
+              value: 1024
+              type: number
+            height:
+              value: 1024
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    twitter:
+      type: link
+      value:
+        path: https://twitter.com/jennifermktg
+        type: url
+    website:
+      type: link
+      value:
+        path: https://jennifermartinez.marketing
+        type: url
+    linkedin:
+      type: link
+      value:
+        path: https://linkedin.com/in/jennifer-martinez-marketing
+        type: url
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

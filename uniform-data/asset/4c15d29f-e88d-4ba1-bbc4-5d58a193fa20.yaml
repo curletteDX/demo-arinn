@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 4c15d29f-e88d-4ba1-bbc4-5d58a193fa20
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Image-Two.png
+    file:
+      type: file
+      value: c9be9ca7-8290-4999-8f68-8c9ff7d52430
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/su8zdd78SVSfetd-3J1cGg-Image-Two.png
+      type: text
+    size:
+      value: 1872087
+      type: number
+    width:
+      value: 1536
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-09-18T10:28:54.843709+00:00'
+modified: '2025-09-18T10:28:54.843709+00:00'

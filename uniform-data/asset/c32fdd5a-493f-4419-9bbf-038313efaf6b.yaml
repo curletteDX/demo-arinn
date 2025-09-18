@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: c32fdd5a-493f-4419-9bbf-038313efaf6b
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Avatar-One.png
+    file:
+      type: file
+      value: 90322fff-9e3d-46aa-b7cb-49c5ac61494a
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/FlDQMeVERg2zEmaXudOVCQ-Avatar-One.png
+      type: text
+    size:
+      value: 1207256
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-09-18T13:35:09.165889+00:00'
+modified: '2025-09-18T13:35:09.165889+00:00'

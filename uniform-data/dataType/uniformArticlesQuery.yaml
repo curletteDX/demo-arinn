@@ -1,0 +1,38 @@
+id: uniformArticlesQuery
+displayName: Uniform Articles Query
+ttl: 30
+path: /query
+custom:
+  maxDepth: 3
+  proposedName: Query Article
+  allowedOrderBy:
+    - name_ASC
+    - name_DESC
+    - updated_at_DESC
+    - updated_at_ASC
+    - created_at_DESC
+    - created_at_ASC
+  includeTotalCount: true
+  allowedContentTypes:
+    - article
+method: GET
+purgeKey: c19594ff-ceb7-43b3-8322-1916a24a8b0d
+archetype: queryEntries
+variables:
+  limit:
+    type: text
+    default: '20'
+  offset:
+    type: text
+    default: '0'
+  filters:
+    type: text
+    default: '{}'
+  orderBy:
+    type: text
+    default: ''
+  contentTypes:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

@@ -1,0 +1,50 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: richText
+name: Rich Text
+icon: format-text
+parameters:
+  - id: content
+    name: Content
+    type: richText
+    guidance: The rich text content
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+categoryId: f131d88f-05d5-4b45-ac10-22456aebedb2
+description: A standalone rich text content component
+previewImageUrl: https://i.imgur.com/yHDEyZk.png
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2025-09-18T09:31:09.548011+00:00'
+updated: '2025-09-18T12:36:02.962502+00:00'

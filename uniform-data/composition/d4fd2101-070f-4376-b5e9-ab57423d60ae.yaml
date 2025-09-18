@@ -1,0 +1,125 @@
+composition:
+  _name: Article
+  _id: d4fd2101-070f-4376-b5e9-ab57423d60ae
+  _slug: ':article'
+  type: page
+  _dataResources:
+    Article by Slug Content:
+      type: articleBySlug
+      variables:
+        slug: ${slug}
+        locale: ${locale}
+  _overrides:
+    d4fd2101-070f-4376-b5e9-ab57423d60ae:
+      parameters:
+        pageTitle:
+          type: text
+          locales:
+            en-US: ${#jptr:/Article by Slug Content/entry/fields/title/value}
+        metaKeywords:
+          type: text
+          locales:
+            en-US: ${#jptr:/Article by Slug Content/entry/fields/metaKeywords/value}
+        metaDescription:
+          type: text
+          locales:
+            en-US: >-
+              ${#jptr:/Article by Slug
+              Content/entry/fields/metaDescription/value}
+    d4fd2101-070f-4376-b5e9-ab57423d60ae|bea24f96-81cb-4cd0-ba68-f82bcf404627:
+      slots:
+        $slotSectionItems:
+          - _id: 5a892b9a-7791-4d5b-ae1c-e3a2a85020a9
+            type: articleHeader
+            parameters:
+              title:
+                type: text
+                locales:
+                  en-US: ${#jptr:/Article by Slug Content/entry/fields/title/value}
+              excerpt:
+                type: richText
+                locales:
+                  en-US: ${#jptr:/Article by Slug Content/entry/fields/excerpt/value}
+              category:
+                type: select
+                value: ${#jptr:/Article by Slug Content/entry/fields/category/value}
+              authorName:
+                type: text
+                value: >-
+                  ${#jptr:/Article by Slug
+                  Content/entry/fields/author/value/entry/fields/name/value}
+              readingTime:
+                type: text
+                value: >-
+                  ${#jptr:/Article by Slug
+                  Content/entry/fields/readingTime/value} min read
+              featuredImage:
+                type: asset
+                value: >-
+                  ${#jptr:/Article by Slug
+                  Content/entry/fields/featuredImage/value}
+              publishedDate:
+                type: date
+                value: >-
+                  ${#jptr:/Article by Slug
+                  Content/entry/fields/publishedDate/value}
+          - _id: 878954c9-48f8-4d3b-b81e-89a2de80504f
+            type: articleContent
+            parameters:
+              content:
+                type: richText
+                locales:
+                  en-US: ${#jptr:/Article by Slug Content/entry/fields/content/value}
+          - _id: 0b9a93e2-3c33-4432-adf8-c6a821ca15ea
+            type: articleTags
+            parameters:
+              tags:
+                type: multi-select
+                value: ${#jptr:/Article by Slug Content/entry/fields/tags/value}
+              tagsLabel:
+                type: text
+                locales:
+                  en-US: Tags
+          - _id: bd888c86-3dea-4496-a5ee-5d891e066422
+            type: articleAuthor
+            parameters:
+              bio:
+                type: richText
+                value: >-
+                  ${#jptr:/Article by Slug
+                  Content/entry/fields/author/value/entry/fields/bio/value}
+              name:
+                type: text
+                value: >-
+                  ${#jptr:/Article by Slug
+                  Content/entry/fields/author/value/entry/fields/name/value}
+              avatar:
+                type: asset
+                value: >-
+                  ${#jptr:/Article by Slug
+                  Content/entry/fields/author/value/entry/fields/avatar/value}
+              twitterUrl:
+                type: link
+                value: >-
+                  ${#jptr:/Article by Slug
+                  Content/entry/fields/author/value/entry/fields/twitter/value}
+              websiteUrl:
+                type: link
+                value: >-
+                  ${#jptr:/Article by Slug
+                  Content/entry/fields/author/value/entry/fields/website/value}
+              linkedinUrl:
+                type: link
+                value: >-
+                  ${#jptr:/Article by Slug
+                  Content/entry/fields/author/value/entry/fields/linkedin/value}
+              sectionTitle:
+                type: text
+                locales:
+                  en-US: About the Author
+  _locales:
+    - en-US
+  _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
+created: '2025-09-18T15:00:04.690722+00:00'
+modified: '2025-09-18T15:39:29.762408+00:00'
+pattern: false

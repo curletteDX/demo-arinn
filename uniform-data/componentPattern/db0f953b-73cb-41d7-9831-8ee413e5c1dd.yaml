@@ -1,0 +1,67 @@
+composition:
+  _name: Header Pattern
+  _id: db0f953b-73cb-41d7-9831-8ee413e5c1dd
+  type: header
+  slots:
+    navigationLinks:
+      - _id: 00689b02-545e-4922-89cb-fafbbba06a60
+        type: navigationLink
+        parameters:
+          linkUrl:
+            type: link
+            value:
+              path: /${locale}
+              type: projectMapNode
+              nodeId: 6fd43f82-6a0e-42f3-bd05-566c6415ed9c
+              projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
+              dynamicInputValues:
+                locale: ${locale}
+          linkText:
+            type: text
+            locales:
+              en-US: Home
+        _overridability:
+          hideLockedParameters: true
+      - _id: 3f97c16c-0d25-4c8c-90d9-d42c6632b2ef
+        type: navigationLink
+        parameters:
+          linkUrl:
+            type: link
+            value:
+              path: /${locale}/images
+              type: projectMapNode
+              nodeId: 86925a2f-efdb-484f-a1a2-cb5c9f49126f
+              projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
+              dynamicInputValues:
+                locale: ${locale}
+          linkText:
+            type: text
+            locales:
+              en-US: Images
+        _overridability:
+          hideLockedParameters: true
+      - _id: d605f580-d4ba-4191-9191-422db879ec28
+        type: navigationLink
+        parameters:
+          linkUrl:
+            type: link
+            value:
+              path: /${locale}/articles
+              type: projectMapNode
+              nodeId: dfee8dab-fa34-42cc-bd1d-0363ea233c44
+              projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
+              dynamicInputValues:
+                locale: ${locale}
+          linkText:
+            type: text
+            locales:
+              en-US: Articles
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-09-18T10:42:04.115359+00:00'
+modified: '2025-09-18T15:10:26.310849+00:00'
+pattern: true

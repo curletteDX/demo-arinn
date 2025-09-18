@@ -1,0 +1,63 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: video
+name: Video
+icon: play-button-o
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: The video title
+    localizable: true
+  - id: description
+    name: Description
+    type: richText
+    guidance: Video description text
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: video
+    name: Video
+    type: asset
+    guidance: The video file to display
+    typeConfig:
+      allowedTypes:
+        - video
+categoryId: 9e341b38-52b6-4569-b24e-e945488d2ed8
+description: A simple video component with title and description
+previewImageUrl: https://i.imgur.com/8pjItvd.png
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2025-09-18T13:13:36.717835+00:00'
+updated: '2025-09-18T13:13:36.717835+00:00'

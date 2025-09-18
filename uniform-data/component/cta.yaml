@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: cta
+name: CTA
+icon: rectangle-rounded
+parameters:
+  - id: text
+    name: Text
+    type: text
+    guidance: Button text that appears on the CTA
+    typeConfig:
+      required: true
+    localizable: true
+  - id: link
+    name: Link
+    type: link
+    guidance: Destination URL for the button click
+    typeConfig:
+      required: false
+  - id: style
+    name: Style
+    type: select
+    guidance: Visual style of the button
+    typeConfig:
+      options:
+        - text: Primary
+          value: primary
+        - text: Secondary
+          value: secondary
+      required: false
+categoryId: f131d88f-05d5-4b45-ac10-22456aebedb2
+description: A call-to-action button with customizable text and link
+previewImageUrl: https://i.imgur.com/IAYStP0.png
+useTeamPermissions: true
+slots: []
+titleParameter: text
+canBeComposition: false
+created: '2025-09-18T10:59:57.82236+00:00'
+updated: '2025-09-18T12:31:33.906141+00:00'

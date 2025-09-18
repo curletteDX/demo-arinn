@@ -1,0 +1,191 @@
+id: article
+name: Article
+created: '2025-09-18T13:13:29.086675+00:00'
+updated: '2025-09-18T15:09:04.977506+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: title
+    name: Title
+    type: text
+    guidance: Main article headline
+    localizable: true
+  - id: excerpt
+    name: Excerpt
+    type: richText
+    guidance: Short summary or introduction to the article
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: content
+    name: Content
+    type: richText
+    guidance: Main article body content
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: featuredImage
+    name: Featured Image
+    type: asset
+    guidance: Main image for the article
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: false
+  - id: author
+    name: Author
+    type: contentReference
+    guidance: The author of the article
+    typeConfig:
+      allowedContentTypes:
+        - author
+  - id: category
+    name: Category
+    type: select
+    guidance: Article category or topic
+    typeConfig:
+      options:
+        - text: Technology
+          value: technology
+        - text: Design
+          value: design
+        - text: Business
+          value: business
+        - text: Marketing
+          value: marketing
+        - text: Development
+          value: development
+        - text: Lifestyle
+          value: lifestyle
+    localizable: false
+  - id: tags
+    name: Tags
+    type: multi-select
+    guidance: Relevant tags for the article
+    typeConfig:
+      options:
+        - text: React
+          value: react
+        - text: Next.js
+          value: nextjs
+        - text: TypeScript
+          value: typescript
+        - text: Uniform
+          value: uniform
+        - text: CMS
+          value: cms
+        - text: JavaScript
+          value: javascript
+        - text: UI/UX
+          value: uiux
+        - text: Performance
+          value: performance
+        - text: SEO
+          value: seo
+        - text: Tutorial
+          value: tutorial
+    localizable: false
+  - id: publishedDate
+    name: Published Date
+    type: date
+    guidance: When the article was published
+    localizable: false
+  - id: metaInfo
+    name: Meta Information
+    type: group
+    guidance: SEO and metadata fields
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - metaDescription
+        - metaKeywords
+    localizable: false
+  - id: metaDescription
+    name: Meta Description
+    type: text
+    guidance: SEO meta description for search engines
+    localizable: true
+  - id: metaKeywords
+    name: Meta Keywords
+    type: text
+    guidance: SEO keywords separated by commas
+    localizable: false
+  - id: readingTime
+    name: Reading Time
+    type: number
+    guidance: Estimated reading time in minutes
+    typeConfig:
+      max: 60
+      min: 1
+    localizable: false
+entryName: title
+thumbnailField: featuredImage
+description: Blog posts and articles with content and metadata
+icon: file-document
+type: contentType
+permissions: []
+previewConfigurations:
+  - type: project-map
+    id: 39f084ef-83c6-4ed5-8203-cbe347a6dae7
+    label: Article Detail Page
+    dynamicInputs:
+      slug: ${#jptr:/entry/_slug}
+      locale: ${locale}

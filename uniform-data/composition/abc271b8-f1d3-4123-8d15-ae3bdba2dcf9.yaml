@@ -1,0 +1,47 @@
+composition:
+  _name: Articles
+  _id: abc271b8-f1d3-4123-8d15-ae3bdba2dcf9
+  _slug: articles
+  type: page
+  _overrides:
+    48b2df45-0f94-439f-8271-7eca315a4399:
+      dataResources:
+        Uniform Articles Query Content:
+          type: uniformArticlesQuery
+          variables:
+            limit: '9'
+            locale: ${locale}
+            search: ''
+            filters: '{"type[eq]":"article"}'
+            orderBy: fields.publishedDate_DESC
+            contentTypes: article
+    abc271b8-f1d3-4123-8d15-ae3bdba2dcf9:
+      parameters:
+        pageTitle:
+          type: text
+          locales:
+            en-US: Articles
+    abc271b8-f1d3-4123-8d15-ae3bdba2dcf9|bea24f96-81cb-4cd0-ba68-f82bcf404627:
+      slots:
+        $slotSectionItems:
+          - _id: 48b2df45-0f94-439f-8271-7eca315a4399
+            type: cardGrid
+            _pattern: ee1e7388-9062-4b26-b565-92add9b87d1a
+            _dataResources:
+              Uniform Articles Query Content:
+                type: uniformArticlesQuery
+                variables:
+                  limit: '9'
+                  locale: ${locale}
+                  search: ''
+                  filters: '{"type[eq]":"article"}'
+                  orderBy: fields.publishedDate_DESC
+                  contentTypes: article
+            _overridability:
+              hideLockedParameters: true
+  _locales:
+    - en-US
+  _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
+created: '2025-09-18T14:41:06.667928+00:00'
+modified: '2025-09-18T15:36:50.689824+00:00'
+pattern: false
