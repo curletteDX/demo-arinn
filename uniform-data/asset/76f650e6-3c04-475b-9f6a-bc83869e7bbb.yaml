@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 76f650e6-3c04-475b-9f6a-bc83869e7bbb
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: placeholder-logo.svg
+    file:
+      type: file
+      value: 516af308-fcb0-413f-98d2-fd5223d7f8a7
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/T-Aqx3UGQo2mv3V6_U6F1g-placeholder-logo.svg
+      type: text
+    size:
+      value: 3208
+      type: number
+    width:
+      value: 215
+      type: number
+    height:
+      value: 48
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:44.822637+00:00'
+modified: '2025-11-25T12:06:44.822637+00:00'

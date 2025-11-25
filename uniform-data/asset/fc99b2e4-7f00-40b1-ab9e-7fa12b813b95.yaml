@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: fc99b2e4-7f00-40b1-ab9e-7fa12b813b95
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: coastal-bedroom-light-blue-linen-bedding-white-fur.jpg
+    file:
+      type: file
+      value: 864a63f5-3fd4-4178-8086-3d50a52665c8
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/2O_ougzWTO6IWRlbJF3ywg-coastal-bedroom-light-blue-linen-bedding-white-fur.jpg
+      type: text
+    size:
+      value: 114874
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:04:48.56833+00:00'
+modified: '2025-11-25T12:04:48.56833+00:00'

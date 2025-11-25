@@ -1,12 +1,12 @@
-created: '2025-09-18T13:20:33.292514+00:00'
-modified: '2025-09-18T13:56:31.499952+00:00'
+created: '2025-11-25T11:16:27.718479+00:00'
+modified: '2025-11-25T11:16:27.718479+00:00'
 pattern: false
 entry:
   _id: ed22a4e2-77e0-4b61-bad0-7610178c844a
   _name: David Thompson
   _slug: david-thompson
   _thumbnail: >-
-    https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/BFB2d4snS0CwhbO3oAnc7g-Avatar-Three.png
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/116YY_guRj28rIa7l0wtpw-Avatar-Three.png
   type: author
   fields:
     bio:
@@ -54,7 +54,7 @@ entry:
               value: 9f4847c1-8b05-49c6-a75a-5a42f1f9aa10
             url:
               value: >-
-                https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/BFB2d4snS0CwhbO3oAnc7g-Avatar-Three.png
+                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/116YY_guRj28rIa7l0wtpw-Avatar-Three.png
               type: text
             file:
               type: file

@@ -1,7 +1,7 @@
 // Global styles and application setup
 import "@/styles/globals.css";
 import Head from 'next/head'; // Next.js head management
-import { Outfit, JetBrains_Mono } from "next/font/google"; // Google Fonts
+import { Inter, Libre_Baskerville, Geist_Mono } from "next/font/google"; // Google Fonts
 import createUniformContext from "@/uniformContext/context"; // Uniform context creation
 import { UniformAppProps } from "@uniformdev/context-next"; // Uniform Next.js integration
 import { UniformContext } from "@uniformdev/context-react"; // Uniform React context
@@ -10,24 +10,32 @@ import type { RootComponentInstance } from '@uniformdev/canvas'; // Uniform comp
 
 /**
  * Font Configuration - Google Fonts Setup
- * 
+ *
  * Using Next.js font optimization for better performance:
- * - Outfit: Main UI font (clean, modern sans-serif)
- * - JetBrains Mono: Code/monospace font (for technical content)
- * 
+ * - Inter: Main UI font (clean, modern sans-serif)
+ * - Libre Baskerville: Elegant serif font for headings (mid-century modern aesthetic)
+ * - Geist Mono: Code/monospace font (for technical content)
+ *
  * CSS Variables:
- * - --font-outfit: Available in CSS as var(--font-outfit)
- * - --font-jetbrains-mono: Available in CSS as var(--font-jetbrains-mono)
+ * - --font-inter: Available in CSS as var(--font-inter)
+ * - --font-libre-baskerville: Available in CSS as var(--font-libre-baskerville)
+ * - --font-geist-mono: Available in CSS as var(--font-geist-mono)
  */
-const outfit = Outfit({
-  subsets: ["latin"], // Character subset to load
-  variable: "--font-outfit", // CSS variable name
-  weight: ["300", "400", "500", "600", "700", "800"], // Available font weights
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  weight: ["300", "400", "500", "600", "700"],
 });
 
-const jetbrainsMono = JetBrains_Mono({
+const libreBaskerville = Libre_Baskerville({
   subsets: ["latin"],
-  variable: "--font-jetbrains-mono",
+  variable: "--font-libre-baskerville",
+  weight: ["400", "700"],
+});
+
+const geistMono = Geist_Mono({
+  subsets: ["latin"],
+  variable: "--font-geist-mono",
 });
 
 // Create Uniform context for client-side operations
@@ -35,23 +43,23 @@ const clientContext = createUniformContext();
 
 /**
  * Next.js App Component - Application Root
- * 
+ *
  * This is the root component that wraps every page in the application.
  * It sets up global providers, fonts, metadata, and Uniform context.
- * 
+ *
  * Key Responsibilities:
  * - Global CSS injection
  * - SEO metadata management (title, description, keywords)
- * - Font loading and CSS variable setup  
+ * - Font loading and CSS variable setup
  * - Uniform context provider setup
  * - Mobile menu state management
  * - Server/client context handling
- * 
+ *
  * Metadata Handling:
  * - Extracts page metadata from Uniform composition parameters
  * - Sets HTML title, meta description, and keywords
  * - Provides fallback values for better SEO
- * 
+ *
  * Provider Hierarchy:
  * 1. MobileMenuProvider: Mobile navigation state
  * 2. UniformContext: Uniform CMS context and personalization
@@ -63,15 +71,15 @@ export default function App({
   serverUniformContext, // Uniform context from server-side
 }: UniformAppProps<{ data: RootComponentInstance }>) {
   const outputType = "standard"; // Uniform output type for rendering
-  
+
   // Extract composition data for metadata
   const { data: composition } = pageProps || {};
   const { pageTitle, pageMetaDescription, pageKeywords } = composition?.parameters || {};
-  
-  // Extract metadata values with fallbacks
-  const title = (pageTitle?.value as string) || 'Uniform Next.js Starter';
-  const description = (pageMetaDescription?.value as string) || 'A clean, elegant Next.js starter project integrated with Uniform headless CMS';
-  const keywords = (pageKeywords?.value as string) || 'uniform, cms, nextjs, headless, content management';
+
+  // Extract metadata values with fallbacks - Arinn branding
+  const title = (pageTitle?.value as string) || 'Arinn | Furniture for the Modern Hearth';
+  const description = (pageMetaDescription?.value as string) || 'Inspired by the ancient Viking arinn—the sacred hearth at the center of every home. Handcrafted mid-century modern furniture built to witness generations of your family\'s story.';
+  const keywords = (pageKeywords?.value as string) || 'furniture, mid-century modern, handcrafted, home decor, arinn, hearth, living room, bedroom, dining';
 
   return (
     <>
@@ -83,7 +91,7 @@ export default function App({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+
       {/* Application Providers and Layout */}
       <MobileMenuProvider>
         <UniformContext
@@ -91,7 +99,7 @@ export default function App({
           outputType={outputType}
         >
           {/* Font CSS variables wrapper */}
-          <div className={`${outfit.variable} ${jetbrainsMono.variable}`}>
+            <div className={`${inter.variable} ${libreBaskerville.variable} ${geistMono.variable}`}>
             {/* Render the current page component */}
             <Component {...pageProps} />
           </div>

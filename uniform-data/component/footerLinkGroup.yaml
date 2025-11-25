@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: footerLinkGroup
+name: Footer Link Group
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Group title, e.g., 'Shop', 'Company', 'Support'
+    typeConfig:
+      required: true
+    localizable: true
+description: >-
+  A titled group of footer navigation links, typically used for organizing links
+  into categories like Shop, Company, Support.
+useTeamPermissions: true
+slots:
+  - id: links
+    name: Links
+    minComponents: 1
+    allowedComponents:
+      - footerNavLink
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-11-25T13:35:19.117235+00:00'
+updated: '2025-11-25T13:35:19.117235+00:00'

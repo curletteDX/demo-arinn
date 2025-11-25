@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 9c662cc6-b526-4c90-abc2-b592f362465e
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: bedroom-tapestry-blue-headboard-white-linens.jpg
+    file:
+      type: file
+      value: 8bee2612-588a-4ead-a31e-19ca0026c9ac
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/dAiFwefJTcOdBK4xBGpSaw-bedroom-tapestry-blue-headboard-white-linens.jpg
+      type: text
+    size:
+      value: 120307
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:04:48.56833+00:00'
+modified: '2025-11-25T12:04:48.56833+00:00'

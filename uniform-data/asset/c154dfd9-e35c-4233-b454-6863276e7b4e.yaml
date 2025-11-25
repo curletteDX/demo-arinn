@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: c154dfd9-e35c-4233-b454-6863276e7b4e
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: mid-century-lounge-chair-side-view.jpg
+    file:
+      type: file
+      value: 59e040d1-c12e-4b25-9831-a493eb67ee03
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/m6W63rTJSbGm1Xu-baFHjA-mid-century-lounge-chair-side-view.jpg
+      type: text
+    size:
+      value: 102935
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:58.412835+00:00'
+modified: '2025-11-25T12:05:58.412835+00:00'

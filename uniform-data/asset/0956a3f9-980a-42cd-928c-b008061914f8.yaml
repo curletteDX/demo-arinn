@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 0956a3f9-980a-42cd-928c-b008061914f8
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: elegant-living-room-deep-teal-velvet-sofa-botanica.jpg
+    file:
+      type: file
+      value: 6579d71c-9b87-4ace-954c-a5ddfff2c436
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/pkm59ZKURk6Y8_QFrSEyIQ-elegant-living-room-deep-teal-velvet-sofa-botanica.jpg
+      type: text
+    size:
+      value: 205453
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:45.831328+00:00'
+modified: '2025-11-25T12:05:45.831328+00:00'

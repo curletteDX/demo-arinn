@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: c36433f2-4f3c-47ea-9da7-911a572e3afc
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: mid-century-modern-bookshelf-walnut-open-shelving-.jpg
+    file:
+      type: file
+      value: fbbefb96-fefb-45d4-a6bd-59a995f4e13b
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/18Dzj81cTymSgGS58b7gYQ-mid-century-modern-bookshelf-walnut-open-shelving-.jpg
+      type: text
+    size:
+      value: 146820
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:58.412835+00:00'
+modified: '2025-11-25T12:05:58.412835+00:00'

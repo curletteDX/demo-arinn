@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 2906f5b9-25ec-436c-8862-2bec02888643
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: cozy-reading-nook-dusty-pink-velvet-armchair-books.jpg
+    file:
+      type: file
+      value: 369a5e43-34d0-4484-b0a4-5148a5f189ac
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/AfYyMa0gRS6Sq-3uJnRDxg-cozy-reading-nook-dusty-pink-velvet-armchair-books.jpg
+      type: text
+    size:
+      value: 209952
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:04.704266+00:00'
+modified: '2025-11-25T12:05:04.704266+00:00'

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: ba53c6f4-f11d-480d-8566-9626a5d2bbcb
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: bright-living-room-with-sectional-sofa-and-plants-.jpg
+    file:
+      type: file
+      value: 00008804-c99c-4e7c-8b23-62d713c520f9
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/3vYISgeSQAeYF725Eofs5g-bright-living-room-with-sectional-sofa-and-plants-.jpg
+      type: text
+    size:
+      value: 138433
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:04:48.56833+00:00'
+modified: '2025-11-25T12:04:48.56833+00:00'

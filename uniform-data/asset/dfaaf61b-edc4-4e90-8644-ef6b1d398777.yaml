@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: dfaaf61b-edc4-4e90-8644-ef6b1d398777
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: cozy-living-room-mocha-brown-sofa-warm-lighting-pl.jpg
+    file:
+      type: file
+      value: 84d4903b-7939-483c-ad6e-1d4de34abc97
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/MJA36-q9TLGW09qcNLI5fA-cozy-living-room-mocha-brown-sofa-warm-lighting-pl.jpg
+      type: text
+    size:
+      value: 78100
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:04.704266+00:00'
+modified: '2025-11-25T12:05:04.704266+00:00'

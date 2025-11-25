@@ -1,0 +1,110 @@
+composition:
+  _name: Testimonial Section Pattern
+  _id: 125c3a9a-5527-4539-b2c6-b52b67ce0f17
+  type: testimonialSection
+  parameters:
+    title:
+      type: text
+      value: Loved by Thousands of Happy Homes
+    reviewCount:
+      type: text
+      value: 12,847
+    averageRating:
+      type: text
+      value: '4.9'
+  slots:
+    testimonials:
+      - _id: a1d743b5-f594-41e4-889a-3eebd9f5b501
+        type: testimonialCard
+        parameters:
+          quote:
+            type: text
+            value: >-
+              We spent 3 months searching for the perfect sofa. The Lewis
+              sectional was worth every day of the wait—it's been 2 years and it
+              still looks brand new.
+          author:
+            type: text
+            value: Sarah & Michael T.
+          rating:
+            type: number
+            value: 5
+          product:
+            type: text
+            value: Lewis Sectional in Moss Velvet
+          location:
+            type: text
+            value: Portland, OR
+        _overridability:
+          parameters:
+            quote: 'yes'
+            author: 'yes'
+            rating: 'yes'
+            product: 'yes'
+            location: 'yes'
+      - _id: b05bfc74-8dd7-42fb-8af1-a0b953ed0839
+        type: testimonialCard
+        parameters:
+          quote:
+            type: text
+            value: >-
+              The quality is unreal. I've had my Soto chair for 5 years through
+              two moves and a toddler. Still my favorite spot in the house.
+          author:
+            type: text
+            value: Jennifer R.
+          rating:
+            type: number
+            value: 5
+          product:
+            type: text
+            value: Soto Chair in Cognac Leather
+          location:
+            type: text
+            value: Austin, TX
+        _overridability:
+          parameters:
+            quote: 'yes'
+            author: 'yes'
+            rating: 'yes'
+            product: 'yes'
+            location: 'yes'
+      - _id: 9d399b6e-36bc-40d4-b9da-1b70c7fc188e
+        type: testimonialCard
+        parameters:
+          quote:
+            type: text
+            value: >-
+              Free design consultation was a game-changer. They helped me pick
+              fabrics that work with my kids and dogs. Finally, a beautiful home
+              I can actually live in.
+          author:
+            type: text
+            value: David & Lisa K.
+          rating:
+            type: number
+            value: 5
+          product:
+            type: text
+            value: Custom Living Room Set
+          location:
+            type: text
+            value: Brooklyn, NY
+        _overridability:
+          parameters:
+            quote: 'yes'
+            author: 'yes'
+            rating: 'yes'
+            product: 'yes'
+            location: 'yes'
+  _overridability:
+    parameters:
+      title: 'yes'
+      reviewCount: 'yes'
+      averageRating: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-11-25T13:10:11.505019+00:00'
+modified: '2025-11-25T13:10:39.076455+00:00'
+pattern: true

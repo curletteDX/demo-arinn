@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d28e4bab-670e-4197-b62a-28b944493aff
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: wooden-coffee-table-in-cozy-living-space-lifestyl.jpg
+    file:
+      type: file
+      value: 8891a40e-d275-4ac2-9a0b-dfb54650c3be
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/zW5hDUWmSLSkJws3zt_4UA-wooden-coffee-table-in-cozy-living-space-lifestyl.jpg
+      type: text
+    size:
+      value: 144461
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:07:07.061539+00:00'
+modified: '2025-11-25T12:07:07.061539+00:00'

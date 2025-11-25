@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 5bdbd261-f9db-4b77-9289-cccb7d187500
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: cozy-room-with-textured-rug-throw-pillows-plants.jpg
+    file:
+      type: file
+      value: 2eb52224-294e-4af8-93e4-283457d84650
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/m8x23sGxRJe3Td-oVAvQEw-cozy-room-with-textured-rug-throw-pillows-plants.jpg
+      type: text
+    size:
+      value: 240367
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:04.704266+00:00'
+modified: '2025-11-25T12:05:04.704266+00:00'

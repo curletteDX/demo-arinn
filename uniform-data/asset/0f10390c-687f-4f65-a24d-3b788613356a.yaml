@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 0f10390c-687f-4f65-a24d-3b788613356a
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: mixed-material-sectional-sofa-brown-leather-and-fa.jpg
+    file:
+      type: file
+      value: 6f94c4e2-3907-45c7-b17b-656db926e7bf
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/D1_TBGa2QX-aBb-L5O-KBQ-mixed-material-sectional-sofa-brown-leather-and-fa.jpg
+      type: text
+    size:
+      value: 57874
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:13.841189+00:00'
+modified: '2025-11-25T12:06:13.841189+00:00'

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 7c6c7e9b-323f-45a1-9da3-775d33be7ce4
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: swivel-chair-brown-checker-pattern-velvet-mid-cent.jpg
+    file:
+      type: file
+      value: 69786a75-dd8f-44e9-820b-e77d2dfafa2a
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/BbwZORlfTcyDD7UtzPFZtQ-swivel-chair-brown-checker-pattern-velvet-mid-cent.jpg
+      type: text
+    size:
+      value: 98348
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:55.585834+00:00'
+modified: '2025-11-25T12:06:55.585834+00:00'

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: f814afd3-c097-4d8f-99a2-660ec0f9847a
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: serene-bedroom-deep-blue-velvet-bed-white-linens-n.jpg
+    file:
+      type: file
+      value: b422d3b6-4bfc-47b7-852b-2d3af39c1d37
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/a4pVB8SGTRe-SsyAXWmVng-serene-bedroom-deep-blue-velvet-bed-white-linens-n.jpg
+      type: text
+    size:
+      value: 89626
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:55.585834+00:00'
+modified: '2025-11-25T12:06:55.585834+00:00'

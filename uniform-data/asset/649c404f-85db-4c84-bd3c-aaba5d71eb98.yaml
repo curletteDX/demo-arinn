@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 649c404f-85db-4c84-bd3c-aaba5d71eb98
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: mid-century-modern-platform-bed-walnut-wood-frame-.jpg
+    file:
+      type: file
+      value: 875a0368-bb56-4f40-9129-9dfd62022d64
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/gnfb9--mT5SegdQlcydH7A-mid-century-modern-platform-bed-walnut-wood-frame-.jpg
+      type: text
+    size:
+      value: 65873
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:13.841189+00:00'
+modified: '2025-11-25T12:06:13.841189+00:00'

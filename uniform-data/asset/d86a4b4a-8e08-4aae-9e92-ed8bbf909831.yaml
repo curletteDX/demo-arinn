@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d86a4b4a-8e08-4aae-9e92-ed8bbf909831
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: modern-sectional-sofa-olive-green-velvet.jpg
+    file:
+      type: file
+      value: 289b8c6e-de1b-4e5f-aac3-0ba9fe235080
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/uWLDMyOQRGy_AJWKNl2ZqA-modern-sectional-sofa-olive-green-velvet.jpg
+      type: text
+    size:
+      value: 92518
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:26.7634+00:00'
+modified: '2025-11-25T12:06:26.7634+00:00'

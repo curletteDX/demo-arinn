@@ -1,0 +1,55 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: testimonialCard
+name: Testimonial Card
+icon: screen
+parameters:
+  - id: quote
+    name: Quote
+    type: text
+    guidance: >-
+      Customer testimonial quote, e.g., 'We spent 3 months searching for the
+      perfect sofa...'
+    typeConfig:
+      required: true
+    localizable: true
+  - id: author
+    name: Author
+    type: text
+    guidance: Customer name, e.g., 'Sarah & Michael T.'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: location
+    name: Location
+    type: text
+    guidance: Customer location, e.g., 'Portland, OR'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: product
+    name: Product
+    type: text
+    guidance: >-
+      Product name referenced in testimonial, e.g., 'Lewis Sectional in Moss
+      Velvet'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: rating
+    name: Rating
+    type: number
+    guidance: Star rating from 1 to 5
+    typeConfig:
+      max: 5
+      min: 1
+      required: false
+description: >-
+  Individual customer testimonial card with star rating, quote, author info, and
+  product reference.
+useTeamPermissions: true
+slots: []
+titleParameter: quote
+canBeComposition: false
+created: '2025-11-25T13:09:41.644966+00:00'
+updated: '2025-11-25T13:09:41.644966+00:00'

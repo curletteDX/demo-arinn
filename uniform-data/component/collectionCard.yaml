@@ -1,0 +1,52 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: collectionCard
+name: Collection Card
+icon: screen
+parameters:
+  - id: name
+    name: Name
+    type: text
+    guidance: Collection name, e.g., 'Sofas', 'Chairs', 'Tables'
+    typeConfig:
+      required: true
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Short tagline, e.g., 'Sink into comfort'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: productCount
+    name: Product Count
+    type: text
+    guidance: Number of products in collection, e.g., '45'
+    typeConfig:
+      required: false
+  - id: collectionLink
+    name: Collection Link
+    type: link
+    guidance: Link to the collection page
+    typeConfig:
+      required: false
+  - id: collectionImage
+    name: Collection Image
+    type: asset
+    guidance: >-
+      Lifestyle image for the collection. Recommended: 800x1000px portrait
+      orientation.
+    typeConfig:
+      required: false
+      allowedTypes:
+        - image
+description: >-
+  A visually striking card showcasing a furniture collection with full-bleed
+  image, gradient overlay, and hover effects.
+useTeamPermissions: true
+slots: []
+titleParameter: name
+thumbnailParameter: collectionImage
+canBeComposition: false
+created: '2025-11-25T11:53:46.991917+00:00'
+updated: '2025-11-25T11:53:46.991917+00:00'

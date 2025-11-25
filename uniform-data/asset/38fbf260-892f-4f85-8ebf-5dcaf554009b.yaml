@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 38fbf260-892f-4f85-8ebf-5dcaf554009b
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: apartment-sectional-sofa-brown-velvet-compact-mode.jpg
+    file:
+      type: file
+      value: 735f2086-082e-4663-89b5-86e9b4dd2a67
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/ExjJdeWpSTe2ZWxk7EMBFA-apartment-sectional-sofa-brown-velvet-compact-mode.jpg
+      type: text
+    size:
+      value: 57522
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:04:48.56833+00:00'
+modified: '2025-11-25T12:04:48.56833+00:00'

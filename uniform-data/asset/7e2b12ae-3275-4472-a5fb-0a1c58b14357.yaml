@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 7e2b12ae-3275-4472-a5fb-0a1c58b14357
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: wooden-coffee-table-silhouette.jpg
+    file:
+      type: file
+      value: 6bc7568f-3b93-470b-a171-ee639b8dd55f
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/VlOOPutLSpCWLkb6qWxeGg-wooden-coffee-table-silhouette.jpg
+      type: text
+    size:
+      value: 36309
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:07:07.061539+00:00'
+modified: '2025-11-25T12:07:07.061539+00:00'

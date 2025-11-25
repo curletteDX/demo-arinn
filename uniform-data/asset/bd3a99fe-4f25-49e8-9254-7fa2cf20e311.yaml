@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: bd3a99fe-4f25-49e8-9254-7fa2cf20e311
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: modular-sectional-sofa-warm-brown-mocha-mousse-vel.jpg
+    file:
+      type: file
+      value: e6b22582-d874-4a71-be66-dfdfb2a26013
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/Jw_81BOGQPy1zLGAcC5iPg-modular-sectional-sofa-warm-brown-mocha-mousse-vel.jpg
+      type: text
+    size:
+      value: 99117
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:26.7634+00:00'
+modified: '2025-11-25T12:06:26.7634+00:00'

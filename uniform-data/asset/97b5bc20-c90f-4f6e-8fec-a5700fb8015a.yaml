@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 97b5bc20-c90f-4f6e-8fec-a5700fb8015a
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: decorative-rug-and-pillows-silhouette.jpg
+    file:
+      type: file
+      value: 0a3ee277-e1b0-4aaa-b112-20796ae4ecbd
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/sxtdK3DHRRqBU0jYAdw3Pg-decorative-rug-and-pillows-silhouette.jpg
+      type: text
+    size:
+      value: 106259
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:04.704266+00:00'
+modified: '2025-11-25T12:05:04.704266+00:00'

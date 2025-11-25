@@ -1,0 +1,37 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: featuredCollections
+name: Featured Collections
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Section heading, e.g., 'Find Your Perfect Piece'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Supporting text describing the collections
+    typeConfig:
+      required: false
+    localizable: true
+description: >-
+  A section showcasing furniture collections in a responsive grid. Add
+  Collection Card components to the collections slot.
+useTeamPermissions: true
+slots:
+  - id: collections
+    name: Collections
+    maxComponents: 6
+    minComponents: 1
+    allowedComponents:
+      - collectionCard
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-11-25T11:53:49.529132+00:00'
+updated: '2025-11-25T11:53:49.529132+00:00'

@@ -1,12 +1,12 @@
-created: '2025-09-18T13:20:35.592917+00:00'
-modified: '2025-09-18T15:15:34.419931+00:00'
+created: '2025-11-25T11:16:26.729775+00:00'
+modified: '2025-11-25T11:16:26.729775+00:00'
 pattern: false
 entry:
   _id: 57e9718c-dad8-4412-b5cb-dd2095e14b5b
   _name: 'CSS Grid vs Flexbox: The Complete Layout Guide'
   _slug: css-grid-flexbox-layout-guide
   _thumbnail: >-
-    https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/HxyGQLMaQnS_YdaHktiXGw-Image-Nine.png
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/CEbp4bgHT921O7CrHvVgQg-Image-Nine.png
   type: article
   fields:
     tags:
@@ -1415,7 +1415,7 @@ entry:
               value: a73fd4ef-3b3f-4812-bed4-e4fb630a95ce
             url:
               value: >-
-                https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/HxyGQLMaQnS_YdaHktiXGw-Image-Nine.png
+                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/CEbp4bgHT921O7CrHvVgQg-Image-Nine.png
               type: text
             file:
               type: file

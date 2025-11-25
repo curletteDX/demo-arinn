@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 01aae852-9590-47a5-8721-7b1c6210a41f
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: mid-century-modern-oval-coffee-table-natural-oak-b.jpg
+    file:
+      type: file
+      value: aacc3c6d-42fc-4479-8ec7-424698929ffd
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/y4GU4Mi0QMqP2AbQSDNVZw-mid-century-modern-oval-coffee-table-natural-oak-b.jpg
+      type: text
+    size:
+      value: 37837
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:13.841189+00:00'
+modified: '2025-11-25T12:06:13.841189+00:00'

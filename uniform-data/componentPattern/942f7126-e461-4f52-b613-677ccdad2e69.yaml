@@ -1,0 +1,40 @@
+composition:
+  _name: CTA Banner Pattern
+  _id: 942f7126-e461-4f52-b613-677ccdad2e69
+  type: ctaBanner
+  parameters:
+    eyebrow:
+      type: text
+      value: The Arinn Promise
+    headline:
+      type: text
+      value: Furniture worthy of your family's story
+    description:
+      type: text
+      value: >-
+        Like the Viking arinn that warmed homes for generations, our furniture
+        is built to become part of your family's legacy. 365-day trial. Lifetime
+        frame warranty. Free white-glove delivery.
+    overlayOpacity:
+      type: number
+      value: 0.7
+    primaryButtonText:
+      type: text
+      value: Begin Your Story
+    secondaryButtonText:
+      type: text
+      value: Our Heritage
+  _overridability:
+    parameters:
+      eyebrow: 'yes'
+      headline: 'yes'
+      description: 'yes'
+      overlayOpacity: 'yes'
+      primaryButtonText: 'yes'
+      secondaryButtonText: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-11-25T13:22:48.508075+00:00'
+modified: '2025-11-25T13:22:48.508075+00:00'
+pattern: true

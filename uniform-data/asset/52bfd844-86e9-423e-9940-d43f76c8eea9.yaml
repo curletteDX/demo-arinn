@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 52bfd844-86e9-423e-9940-d43f76c8eea9
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: luxurious-living-room-mocha-brown-velvet-sofa-warm.jpg
+    file:
+      type: file
+      value: 25f8440f-31ac-42b9-8bc2-b714ac63c2fa
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/I_dMqh2fSa63-sNe2TyPdA-luxurious-living-room-mocha-brown-velvet-sofa-warm.jpg
+      type: text
+    size:
+      value: 114021
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:58.412835+00:00'
+modified: '2025-11-25T12:05:58.412835+00:00'

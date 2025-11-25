@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 9f150c5e-5823-4886-b6e7-e67a4d27c792
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: cozy-reading-nook-with-accent-chair-warm-lighting.jpg
+    file:
+      type: file
+      value: 15965cf1-3e4b-4893-9dd5-2b869910d44a
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/2Yf4TVUWTMms-Mg8ko4Uwg-cozy-reading-nook-with-accent-chair-warm-lighting.jpg
+      type: text
+    size:
+      value: 171830
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:04.704266+00:00'
+modified: '2025-11-25T12:05:04.704266+00:00'

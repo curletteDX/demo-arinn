@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 5ccc4dbf-2044-4cf8-9f0f-14d70a103805
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: scandinavian-dining-table-natural-oak-black-steel-.jpg
+    file:
+      type: file
+      value: 742a5900-503b-4322-80b2-5fbcfdd80290
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/eMCFZ0hHS36x5sMqAe0ZIA-scandinavian-dining-table-natural-oak-black-steel-.jpg
+      type: text
+    size:
+      value: 129096
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:44.822637+00:00'
+modified: '2025-11-25T12:06:44.822637+00:00'

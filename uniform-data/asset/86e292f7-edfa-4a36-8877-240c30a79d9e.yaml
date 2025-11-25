@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 86e292f7-edfa-4a36-8877-240c30a79d9e
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: living-room-with-wooden-coffee-table-warm-decor.jpg
+    file:
+      type: file
+      value: 9a606157-7647-4d45-ab42-cf0226636ac4
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/Ucn4kSZ2R0GVR5H3i-u3Yw-living-room-with-wooden-coffee-table-warm-decor.jpg
+      type: text
+    size:
+      value: 109643
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:58.412835+00:00'
+modified: '2025-11-25T12:05:58.412835+00:00'

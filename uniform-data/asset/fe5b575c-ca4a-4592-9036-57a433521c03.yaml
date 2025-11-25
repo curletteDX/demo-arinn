@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: fe5b575c-ca4a-4592-9036-57a433521c03
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+    file:
+      type: file
+      value: a9bc1cf7-3454-4913-ab06-6677902fc500
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/XuXglDVJQb25UJgvcM0YFA-warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+      type: text
+    size:
+      value: 148148
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:07:07.061539+00:00'
+modified: '2025-11-25T12:07:07.061539+00:00'

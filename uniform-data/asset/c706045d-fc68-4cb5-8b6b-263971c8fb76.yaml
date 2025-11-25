@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: c706045d-fc68-4cb5-8b6b-263971c8fb76
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: cozy-living-room-blush-pink-sectional-sofa-golden-.jpg
+    file:
+      type: file
+      value: 21b48407-6004-4252-b834-e23acb6732ad
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/hMrRqcJoSYWkn-rHgicfVA-cozy-living-room-blush-pink-sectional-sofa-golden-.jpg
+      type: text
+    size:
+      value: 144458
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:04.704266+00:00'
+modified: '2025-11-25T12:05:04.704266+00:00'

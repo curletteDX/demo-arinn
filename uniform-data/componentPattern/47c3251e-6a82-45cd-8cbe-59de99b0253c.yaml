@@ -3,11 +3,246 @@ composition:
   _id: 47c3251e-6a82-45cd-8cbe-59de99b0253c
   type: footer
   parameters:
+    tagline:
+      type: text
+      value: From the Old Norse word for "hearth"
     copyrightText:
       type: text
       locales:
-        en-US: Copyright 2025
+        en-US: © 2025 Arinn. All rights reserved.
+    termsLinkText:
+      type: text
+      value: Terms of Service
+    privacyLinkText:
+      type: text
+      value: Privacy Policy
+    subscribeButtonText:
+      type: text
+      value: Subscribe
+    newsletterDescription:
+      type: text
+      value: >-
+        Join our gathering. Get early access to new collections, styling
+        inspiration, and member-only offers delivered to your hearth.
   slots:
+    linkGroups:
+      - _id: 15c2f65a-6886-4a82-b1da-1088459c2da5
+        type: footerLinkGroup
+        slots:
+          links:
+            - _id: 2984f71d-7400-4c1e-8fee-a6a6555fa43f
+              type: footerNavLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /products?category=sofas
+                    type: url
+                text:
+                  type: text
+                  locales:
+                    en-US: Sofas
+              _overridability:
+                parameters:
+                  link: 'yes'
+                  text: 'yes'
+            - _id: 07adb655-2c15-4baa-a52d-2767522daaaf
+              type: footerNavLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /products?category=chairs
+                    type: url
+                text:
+                  type: text
+                  locales:
+                    en-US: Chairs
+              _overridability:
+                parameters:
+                  link: 'yes'
+                  text: 'yes'
+            - _id: 123aabc0-b88d-40e1-9285-46512ddd7707
+              type: footerNavLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /products?category=tables
+                    type: url
+                text:
+                  type: text
+                  locales:
+                    en-US: Tables
+              _overridability:
+                parameters:
+                  link: 'yes'
+                  text: 'yes'
+            - _id: f2fa2df5-6020-46d5-a4b5-76be428e0d04
+              type: footerNavLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /products?category=bedroom
+                    type: url
+                text:
+                  type: text
+                  locales:
+                    en-US: Bedroom
+              _overridability:
+                parameters:
+                  link: 'yes'
+                  text: 'yes'
+            - _id: 3d9d9ec2-90d5-4eb9-a801-b65490832e55
+              type: footerNavLink
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: All Products
+              _overridability:
+                parameters:
+                  text: 'yes'
+        parameters:
+          title:
+            type: text
+            value: Shop
+        _overridability:
+          parameters:
+            title: 'yes'
+      - _id: bcca790a-b3a5-4a42-9eda-e250993ea29e
+        type: footerLinkGroup
+        slots:
+          links:
+            - _id: b4716684-e687-42e7-9821-d46abf2acfab
+              type: footerNavLink
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: Our Story
+              _overridability:
+                parameters:
+                  text: 'yes'
+            - _id: 98acdcef-0825-40be-af74-56dd4dc4de2a
+              type: footerNavLink
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: Sustainability
+              _overridability:
+                parameters:
+                  text: 'yes'
+            - _id: 9622b9f1-bf79-420f-96eb-c7272ca54eed
+              type: footerNavLink
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: Careers
+              _overridability:
+                parameters:
+                  text: 'yes'
+            - _id: 3ff8fbf8-07c6-4293-9607-8d29245e0c22
+              type: footerNavLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /press
+                    type: url
+                text:
+                  type: text
+                  locales:
+                    en-US: Press
+              _overridability:
+                parameters:
+                  link: 'yes'
+                  text: 'yes'
+        parameters:
+          title:
+            type: text
+            value: Company
+        _overridability:
+          parameters:
+            title: 'yes'
+      - _id: d9b26f96-3f59-44e6-a8d7-b9a4e4156cf5
+        type: footerLinkGroup
+        slots:
+          links:
+            - _id: 1f70e0dd-091e-46ca-8006-583a78baeaa7
+              type: footerNavLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /contact
+                    type: url
+                text:
+                  type: text
+                  locales:
+                    en-US: Contact Us
+              _overridability:
+                parameters:
+                  link: 'yes'
+                  text: 'yes'
+            - _id: ec4c3bad-f138-435e-9f73-a64817c7c3ff
+              type: footerNavLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /faqs
+                    type: projectMapNode
+                text:
+                  type: text
+                  locales:
+                    en-US: FAQs
+              _overridability:
+                parameters:
+                  link: 'yes'
+                  text: 'yes'
+            - _id: 9d688dc9-0b35-4a75-b6f9-7a6de2f5f05f
+              type: footerNavLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /shipping
+                    type: projectMapNode
+                text:
+                  type: text
+                  locales:
+                    en-US: Shipping & Returns
+              _overridability:
+                parameters:
+                  link: 'yes'
+                  text: 'yes'
+            - _id: dfa9a759-7eed-4d41-a60c-a098d6ebfd83
+              type: footerNavLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /warranty
+                    type: url
+                text:
+                  type: text
+                  locales:
+                    en-US: Warranty
+              _overridability:
+                parameters:
+                  link: 'yes'
+                  text: 'yes'
+        parameters:
+          title:
+            type: text
+            value: Support
+        _overridability:
+          parameters:
+            title: 'yes'
     footerLinks:
       - _id: 77f7ca69-dec4-4d8e-976a-cfc287767a7c
         type: footerNavLink
@@ -64,9 +299,16 @@ composition:
         _overridability:
           hideLockedParameters: true
   _overridability:
+    parameters:
+      tagline: 'yes'
+      copyrightText: 'yes'
+      termsLinkText: 'yes'
+      privacyLinkText: 'yes'
+      subscribeButtonText: 'yes'
+      newsletterDescription: 'yes'
     hideLockedParameters: true
   _locales:
     - en-US
-created: '2025-09-18T10:42:09.154678+00:00'
-modified: '2025-09-18T15:10:40.797027+00:00'
+created: '2025-11-25T11:16:16.868953+00:00'
+modified: '2025-11-25T13:54:43.636893+00:00'
 pattern: true

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: b119e7b5-bbd3-4db0-9f90-d82a20cd56f2
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: cozy-bedroom-with-wooden-bed-frame-and-warm-textil.jpg
+    file:
+      type: file
+      value: 78e505ab-f697-448f-a181-e56c3371b1eb
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/-K5g2quCRpCiwc_OO-M_HQ-cozy-bedroom-with-wooden-bed-frame-and-warm-textil.jpg
+      type: text
+    size:
+      value: 128699
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:04.704266+00:00'
+modified: '2025-11-25T12:05:04.704266+00:00'

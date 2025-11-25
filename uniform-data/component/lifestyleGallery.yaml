@@ -1,0 +1,49 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: lifestyleGallery
+name: Lifestyle Gallery
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Section heading, e.g., 'Your Hearth, Your Story'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: >-
+      Supporting text, e.g., "Real homes where families gather. Share yours with
+      #MyArinn"
+    typeConfig:
+      required: false
+    localizable: true
+  - id: ctaText
+    name: CTA Text
+    type: text
+    guidance: Button text, e.g., 'View All Inspiration'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: ctaLink
+    name: CTA Link
+    type: link
+    guidance: Link destination for the CTA button
+    typeConfig:
+      required: false
+description: Masonry-style gallery showcasing lifestyle images of furniture in real homes.
+useTeamPermissions: true
+slots:
+  - id: items
+    name: Items
+    minComponents: 1
+    allowedComponents:
+      - lifestyleGalleryItem
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-11-25T13:05:32.953838+00:00'
+updated: '2025-11-25T13:05:32.953838+00:00'

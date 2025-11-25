@@ -1,12 +1,12 @@
-created: '2025-09-18T13:20:33.105934+00:00'
-modified: '2025-09-18T13:35:25.230141+00:00'
+created: '2025-11-25T11:16:26.374987+00:00'
+modified: '2025-11-25T11:16:26.374987+00:00'
 pattern: false
 entry:
   _id: 01dfaf2e-ca36-4152-9fdf-03b3768c9c36
   _name: Emma Rodriguez
   _slug: emma-rodriguez
   _thumbnail: >-
-    https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/FlDQMeVERg2zEmaXudOVCQ-Avatar-One.png
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/py80l6F7S06jTmeBJAu2Zw-Avatar-One.png
   type: author
   fields:
     bio:
@@ -54,7 +54,7 @@ entry:
               value: c32fdd5a-493f-4419-9bbf-038313efaf6b
             url:
               value: >-
-                https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/FlDQMeVERg2zEmaXudOVCQ-Avatar-One.png
+                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/py80l6F7S06jTmeBJAu2Zw-Avatar-One.png
               type: text
             file:
               type: file

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 940945e5-7157-486a-959a-ae85e51b8e18
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: elegant-accent-chair-in-styled-room-corner-lifest.jpg
+    file:
+      type: file
+      value: 0b9d2fa4-4692-47ff-a527-bd46967bdbc2
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/tOZucbtWRQi2y5N2jdfcTw-elegant-accent-chair-in-styled-room-corner-lifest.jpg
+      type: text
+    size:
+      value: 98671
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:04.704266+00:00'
+modified: '2025-11-25T12:05:04.704266+00:00'

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 7ef6cf39-2f8d-4a58-bafe-529d5c145c1f
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: mid-century-modern-sectional-sofa-different-angle.jpg
+    file:
+      type: file
+      value: 93a6ecf0-6df2-4396-9f00-4b57daf0f1ed
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/XIsRAXeFR4i6mQe_DA0x-g-mid-century-modern-sectional-sofa-different-angle.jpg
+      type: text
+    size:
+      value: 98986
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:13.841189+00:00'
+modified: '2025-11-25T12:06:13.841189+00:00'

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 72f1cce1-3802-4029-b036-3812854ff7f1
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: placeholder-logo.png
+    file:
+      type: file
+      value: daef9089-74ab-4752-8ffa-2380e2909320
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/eFSN4EayTXSk1QXhy-Rhlw-placeholder-logo.png
+      type: text
+    size:
+      value: 568
+      type: number
+    width:
+      value: 256
+      type: number
+    height:
+      value: 144
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:44.822637+00:00'
+modified: '2025-11-25T12:06:44.822637+00:00'

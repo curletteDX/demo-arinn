@@ -1,0 +1,42 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: lifestyleGalleryItem
+name: Lifestyle Gallery Item
+icon: screen
+parameters:
+  - id: image
+    name: Image
+    type: asset
+    guidance: >-
+      Lifestyle image showing furniture in a real home setting. Recommended:
+      800x800px or larger.
+    typeConfig:
+      required: false
+      allowedTypes:
+        - image
+  - id: gridSpan
+    name: Grid Span
+    type: select
+    guidance: >-
+      Grid positioning for masonry layout. Choose based on image orientation and
+      desired layout.
+    typeConfig:
+      options:
+        - text: 1x1 (Standard)
+          value: col-span-1 row-span-1
+        - text: 1x2 (Tall)
+          value: col-span-1 row-span-2
+        - text: 2x1 (Wide)
+          value: col-span-2 row-span-1
+        - text: 2x2 (Large)
+          value: col-span-2 row-span-2
+      required: false
+description: >-
+  Individual image item in the lifestyle gallery with configurable grid
+  positioning.
+useTeamPermissions: true
+slots: []
+thumbnailParameter: image
+canBeComposition: false
+created: '2025-11-25T13:05:26.912358+00:00'
+updated: '2025-11-25T13:05:26.912358+00:00'

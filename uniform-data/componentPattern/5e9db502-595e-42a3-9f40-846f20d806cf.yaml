@@ -1,0 +1,60 @@
+composition:
+  _name: Hero Banner Pattern
+  _id: 5e9db502-595e-42a3-9f40-846f20d806cf
+  type: heroBanner
+  parameters:
+    eyebrow:
+      type: text
+      value: The Modern Hearth
+    headline:
+      type: text
+      value: Where families gather, stories begin
+    description:
+      type: text
+      value: >-
+        Inspired by the ancient Viking arinn—the sacred hearth at the center of
+        every home. We craft furniture that brings people together, built to
+        witness generations of memories.
+    feature1Title:
+      type: text
+      value: 365-Day Home Trial
+    feature2Title:
+      type: text
+      value: Heirloom Warranty
+    feature3Title:
+      type: text
+      value: White-Glove Delivery
+    primaryButtonText:
+      type: text
+      value: Explore the Collection
+    feature1Description:
+      type: text
+      value: Live with it, love it
+    feature2Description:
+      type: text
+      value: Built for generations
+    feature3Description:
+      type: text
+      value: Placed with care
+    secondaryButtonText:
+      type: text
+      value: Find Inspiration
+  _overridability:
+    parameters:
+      eyebrow: 'yes'
+      headline: 'yes'
+      description: 'yes'
+      feature1Title: 'yes'
+      feature2Title: 'yes'
+      feature3Title: 'yes'
+      primaryButtonText: 'yes'
+      feature1Description: 'yes'
+      feature2Description: 'yes'
+      feature3Description: 'yes'
+      secondaryButtonText: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-11-25T11:32:36.552431+00:00'
+modified: '2025-11-25T11:32:36.552431+00:00'
+pattern: true

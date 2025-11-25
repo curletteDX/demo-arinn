@@ -1,0 +1,120 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: heroBanner
+name: Hero Banner
+icon: screen
+parameters:
+  - id: eyebrow
+    name: Eyebrow
+    type: text
+    guidance: Short uppercase text above the headline, e.g., 'The Modern Hearth'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: headline
+    name: Headline
+    type: text
+    guidance: >-
+      Main headline text, should be inspiring and memorable, e.g., 'Where
+      families gather, stories begin'
+    typeConfig:
+      required: true
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: >-
+      Supporting description text that expands on the headline. 2-3 sentences
+      about the brand story.
+    typeConfig:
+      required: false
+    localizable: true
+  - id: primaryButtonText
+    name: Primary Button Text
+    type: text
+    guidance: Text for the main CTA button, e.g., 'Explore the Collection'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: primaryButtonLink
+    name: Primary Button Link
+    type: link
+    guidance: Link destination for the primary CTA button
+    typeConfig:
+      required: false
+  - id: secondaryButtonText
+    name: Secondary Button Text
+    type: text
+    guidance: Text for the secondary CTA button, e.g., 'Find Inspiration'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: secondaryButtonLink
+    name: Secondary Button Link
+    type: link
+    guidance: Link destination for the secondary CTA button
+    typeConfig:
+      required: false
+  - id: heroImage
+    name: Hero Image
+    type: asset
+    guidance: >-
+      Large lifestyle image showing furniture in a beautiful room setting.
+      Recommended: 1200x1200px or larger.
+    typeConfig:
+      required: false
+      allowedTypes:
+        - image
+  - id: feature1Title
+    name: Feature 1 Title
+    type: text
+    guidance: Title for the first trust feature, e.g., '365-Day Home Trial'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: feature1Description
+    name: Feature 1 Description
+    type: text
+    guidance: Short description for the first feature, e.g., 'Live with it, love it'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: feature2Title
+    name: Feature 2 Title
+    type: text
+    guidance: Title for the second trust feature, e.g., 'Heirloom Warranty'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: feature2Description
+    name: Feature 2 Description
+    type: text
+    guidance: Short description for the second feature, e.g., 'Built for generations'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: feature3Title
+    name: Feature 3 Title
+    type: text
+    guidance: Title for the third trust feature, e.g., 'White-Glove Delivery'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: feature3Description
+    name: Feature 3 Description
+    type: text
+    guidance: Short description for the third feature, e.g., 'Placed with care'
+    typeConfig:
+      required: false
+    localizable: true
+description: >-
+  Main hero section for the homepage featuring a two-column layout with
+  compelling copy and a lifestyle image. Inspired by the Arinn furniture brand's
+  Viking hearth theme.
+useTeamPermissions: true
+slots: []
+titleParameter: eyebrow
+thumbnailParameter: heroImage
+canBeComposition: false
+created: '2025-11-25T11:32:14.879954+00:00'
+updated: '2025-11-25T11:32:14.879954+00:00'

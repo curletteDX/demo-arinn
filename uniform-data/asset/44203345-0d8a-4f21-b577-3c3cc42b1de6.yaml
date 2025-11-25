@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 44203345-0d8a-4f21-b577-3c3cc42b1de6
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: reading-nook-with-comfortable-armchair-and-bookshe.jpg
+    file:
+      type: file
+      value: 3fd28619-d2a2-418a-91b2-42ca495706f2
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/vI1IGNR3SpmTn8lyLVy9pw-reading-nook-with-comfortable-armchair-and-bookshe.jpg
+      type: text
+    size:
+      value: 127835
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:44.822637+00:00'
+modified: '2025-11-25T12:06:44.822637+00:00'

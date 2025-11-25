@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: e49c0375-a424-427c-ac7f-5a238ed8158c
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: luxurious-master-bedroom-mocha-brown-velvet-headbo.jpg
+    file:
+      type: file
+      value: fff431e4-cfd5-4404-a188-10c21a793cd6
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/nyABeE--SsaJhquaSXO6RA-luxurious-master-bedroom-mocha-brown-velvet-headbo.jpg
+      type: text
+    size:
+      value: 116348
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:58.412835+00:00'
+modified: '2025-11-25T12:05:58.412835+00:00'

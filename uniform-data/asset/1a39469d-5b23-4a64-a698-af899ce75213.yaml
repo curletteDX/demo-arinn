@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 1a39469d-5b23-4a64-a698-af899ce75213
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: mid-century-modern-sectional-sofa-in-charcoal-velv.jpg
+    file:
+      type: file
+      value: 827b8b99-9afe-43c0-93f2-6f9bd25483dc
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/lLNCCcYiRb240LRum14DYw-mid-century-modern-sectional-sofa-in-charcoal-velv.jpg
+      type: text
+    size:
+      value: 199269
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:13.841189+00:00'
+modified: '2025-11-25T12:06:13.841189+00:00'

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: b44961c7-210d-47d7-aace-33f461c67bb2
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: mid-century-modern-sofa-in-warm-living-room-lifes.jpg
+    file:
+      type: file
+      value: 4e135d45-1410-4c33-a62a-a84a1af52cd4
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/JBZvAhzoRlCW6ppia3ylOA-mid-century-modern-sofa-in-warm-living-room-lifes.jpg
+      type: text
+    size:
+      value: 164359
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:13.841189+00:00'
+modified: '2025-11-25T12:06:13.841189+00:00'

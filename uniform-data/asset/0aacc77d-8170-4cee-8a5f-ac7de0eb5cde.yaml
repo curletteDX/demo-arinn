@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 0aacc77d-8170-4cee-8a5f-ac7de0eb5cde
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: compact-modular-sectional-sofa-brown-checker-velve.jpg
+    file:
+      type: file
+      value: b49f86aa-133a-4143-9deb-383156b92345
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/HmVKN8IsR2CchgF9bdiRRA-compact-modular-sectional-sofa-brown-checker-velve.jpg
+      type: text
+    size:
+      value: 135838
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:04.704266+00:00'
+modified: '2025-11-25T12:05:04.704266+00:00'

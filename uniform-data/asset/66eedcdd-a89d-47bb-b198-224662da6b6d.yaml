@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 66eedcdd-a89d-47bb-b198-224662da6b6d
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: sleeper-sofa-deep-blue-velvet-mid-century-modern-c.jpg
+    file:
+      type: file
+      value: 356852e1-f817-464d-beb2-0d13d340bf28
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/6zCWW6SjS1Ksdaj51mTYPA-sleeper-sofa-deep-blue-velvet-mid-century-modern-c.jpg
+      type: text
+    size:
+      value: 73651
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:55.585834+00:00'
+modified: '2025-11-25T12:06:55.585834+00:00'

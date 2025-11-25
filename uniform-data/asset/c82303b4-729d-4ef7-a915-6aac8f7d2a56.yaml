@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: c82303b4-729d-4ef7-a915-6aac8f7d2a56
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: placeholder-user.jpg
+    file:
+      type: file
+      value: a1181a2b-0a44-44a0-96ee-c056510311da
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/9Jj1naitSvKwncGNJzNUGw-placeholder-user.jpg
+      type: text
+    size:
+      value: 1635
+      type: number
+    width:
+      value: 200
+      type: number
+    height:
+      value: 200
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:44.822637+00:00'
+modified: '2025-11-25T12:06:44.822637+00:00'

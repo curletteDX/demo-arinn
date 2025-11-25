@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: testimonialSection
+name: Testimonial Section
+icon: screen
+parameters:
+  - id: averageRating
+    name: Average Rating
+    type: text
+    guidance: Overall average rating, e.g., '4.9'
+    typeConfig:
+      required: false
+  - id: reviewCount
+    name: Review Count
+    type: text
+    guidance: Total number of reviews, e.g., '12,847'
+    typeConfig:
+      required: false
+  - id: title
+    name: Title
+    type: text
+    guidance: Section heading, e.g., 'Loved by Thousands of Happy Homes'
+    typeConfig:
+      required: false
+    localizable: true
+description: >-
+  A section showcasing customer testimonials with overall rating display and
+  grid of testimonial cards.
+useTeamPermissions: true
+slots:
+  - id: testimonials
+    name: Testimonials
+    minComponents: 1
+    allowedComponents:
+      - testimonialCard
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: averageRating
+canBeComposition: false
+created: '2025-11-25T13:09:43.800581+00:00'
+updated: '2025-11-25T13:09:43.800581+00:00'

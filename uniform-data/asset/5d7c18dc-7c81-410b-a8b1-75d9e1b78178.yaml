@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 5d7c18dc-7c81-410b-a8b1-75d9e1b78178
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: modern-bedroom-with-deep-blue-velvet-headboard-min.jpg
+    file:
+      type: file
+      value: 2e479f29-fc0b-4560-ab15-b0ab2560d7bc
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/nSgVT7rpQQO9p64xRBgJpg-modern-bedroom-with-deep-blue-velvet-headboard-min.jpg
+      type: text
+    size:
+      value: 88323
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:26.7634+00:00'
+modified: '2025-11-25T12:06:26.7634+00:00'

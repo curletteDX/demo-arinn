@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 9e5c2b42-4551-4bdc-8ba2-a81b0039c4fd
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: elegant-living-room-interior-with-sunlight-lifest.jpg
+    file:
+      type: file
+      value: 295dd39d-7d67-4ffa-8925-5551edb6a1e3
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/DH4PVtOxSDCMKox9U1tcOQ-elegant-living-room-interior-with-sunlight-lifest.jpg
+      type: text
+    size:
+      value: 179854
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:45.831328+00:00'
+modified: '2025-11-25T12:05:45.831328+00:00'

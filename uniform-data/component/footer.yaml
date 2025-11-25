@@ -1,5 +1,5 @@
-# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
-$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: footer
 name: Footer
 icon: border-bottom
@@ -9,18 +9,59 @@ parameters:
     type: text
     guidance: Copyright notice or footer text
     localizable: true
+  - id: tagline
+    name: Tagline
+    type: text
+    guidance: Brand tagline, e.g., 'From the Old Norse word for "hearth"'
+    localizable: true
+  - id: newsletterDescription
+    name: Newsletter Description
+    type: text
+    guidance: Description text for the newsletter signup section
+    localizable: true
+  - id: subscribeButtonText
+    name: Subscribe Button Text
+    type: text
+    guidance: Text for the subscribe button, e.g., 'Subscribe'
+    localizable: true
+  - id: privacyLinkText
+    name: Privacy Link Text
+    type: text
+    guidance: Text for privacy policy link, e.g., 'Privacy Policy'
+    localizable: true
+  - id: termsLinkText
+    name: Terms Link Text
+    type: text
+    guidance: Text for terms of service link, e.g., 'Terms of Service'
+    localizable: true
+  - id: newsletterPlaceholder
+    name: Newsletter Placeholder
+    type: text
+    guidance: Placeholder text for email input, e.g., 'Enter your email'
+    localizable: true
+  - id: privacyLink
+    name: Privacy Link
+    type: link
+    guidance: Link destination for privacy policy
+  - id: termsLink
+    name: Terms Link
+    type: link
+    guidance: Link destination for terms of service
 categoryId: 71244a75-2906-47dc-bf08-ecb810656b7a
-description: Clean footer component with links and copyright text
+description: >-
+  Comprehensive footer with newsletter signup, organized link groups, and legal
+  links
 previewImageUrl: https://i.imgur.com/uwSDYgC.png
 useTeamPermissions: true
 slots:
-  - id: footerLinks
-    name: Footer Links
+  - id: linkGroups
+    name: Link Groups
+    minComponents: 0
     allowedComponents:
-      - footerNavLink
+      - footerLinkGroup
     inheritAllowedComponents: false
-    patternsInAllowedComponents: true
+    patternsInAllowedComponents: false
 titleParameter: copyrightText
 canBeComposition: false
-created: '2025-09-18T09:21:53.305475+00:00'
-updated: '2025-09-18T12:30:01.423411+00:00'
+created: '2025-11-25T11:16:13.78732+00:00'
+updated: '2025-11-25T13:51:30.626952+00:00'

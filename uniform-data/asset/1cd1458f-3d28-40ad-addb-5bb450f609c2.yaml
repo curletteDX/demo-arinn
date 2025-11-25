@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 1cd1458f-3d28-40ad-addb-5bb450f609c2
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: elegant-living-room-mocha-brown-sofa-natural-light.jpg
+    file:
+      type: file
+      value: 5c543324-907f-4233-b43f-170420448da6
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/Q1e5CaXQR2OwBR73I-wD7A-elegant-living-room-mocha-brown-sofa-natural-light.jpg
+      type: text
+    size:
+      value: 140490
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:45.831328+00:00'
+modified: '2025-11-25T12:05:45.831328+00:00'

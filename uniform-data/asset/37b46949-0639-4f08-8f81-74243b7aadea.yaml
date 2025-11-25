@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 37b46949-0639-4f08-8f81-74243b7aadea
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: elegant-living-room-with-mocha-brown-velvet-sofa-n.jpg
+    file:
+      type: file
+      value: b63feb83-258d-40b0-ad8e-dba45412b8ef
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/WETdjfabRX2LlZGQniIyew-elegant-living-room-with-mocha-brown-velvet-sofa-n.jpg
+      type: text
+    size:
+      value: 164551
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:45.831328+00:00'
+modified: '2025-11-25T12:05:45.831328+00:00'

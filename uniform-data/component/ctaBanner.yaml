@@ -1,0 +1,85 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: ctaBanner
+name: CTA Banner
+icon: screen
+parameters:
+  - id: eyebrow
+    name: Eyebrow
+    type: text
+    guidance: Short uppercase text above headline, e.g., 'The Arinn Promise'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: headline
+    name: Headline
+    type: text
+    guidance: >-
+      Main headline text, should be compelling and memorable, e.g., 'Furniture
+      worthy of your family's story'
+    typeConfig:
+      required: true
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Supporting description text. 2-3 sentences about the value proposition.
+    typeConfig:
+      required: false
+    localizable: true
+  - id: primaryButtonText
+    name: Primary Button Text
+    type: text
+    guidance: Text for the main CTA button, e.g., 'Begin Your Story'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: primaryButtonLink
+    name: Primary Button Link
+    type: link
+    guidance: Link destination for the primary CTA button
+    typeConfig:
+      required: false
+  - id: secondaryButtonText
+    name: Secondary Button Text
+    type: text
+    guidance: Text for the secondary CTA button, e.g., 'Our Heritage'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: secondaryButtonLink
+    name: Secondary Button Link
+    type: link
+    guidance: Link destination for the secondary CTA button
+    typeConfig:
+      required: false
+  - id: backgroundImage
+    name: Background Image
+    type: asset
+    guidance: >-
+      Full-width background image. Recommended: 1920x800px or larger landscape
+      orientation.
+    typeConfig:
+      required: false
+      allowedTypes:
+        - image
+  - id: overlayOpacity
+    name: Overlay Opacity
+    type: number
+    guidance: >-
+      Dark overlay opacity (0-1). Default: 0.7. Lower = lighter overlay, Higher
+      = darker overlay.
+    typeConfig:
+      max: 1
+      min: 0
+      required: false
+description: >-
+  Full-width call-to-action banner with background image, overlay, and prominent
+  CTA buttons. Perfect for conversion-focused sections.
+useTeamPermissions: true
+slots: []
+titleParameter: eyebrow
+thumbnailParameter: backgroundImage
+canBeComposition: false
+created: '2025-11-25T13:22:28.303453+00:00'
+updated: '2025-11-25T13:22:28.303453+00:00'

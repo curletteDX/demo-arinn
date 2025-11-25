@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: b71ec768-2b4c-4db7-8dc7-a93543880e51
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: moody-dark-green-velvet-sofa-home-library-dark-wal.jpg
+    file:
+      type: file
+      value: 7c3abb15-ad35-436d-b93e-80f0040c1b5c
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/nutHylkeTZ6AYHseBPqjfA-moody-dark-green-velvet-sofa-home-library-dark-wal.jpg
+      type: text
+    size:
+      value: 146547
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:26.7634+00:00'
+modified: '2025-11-25T12:06:26.7634+00:00'

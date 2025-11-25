@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: f00e361f-1914-44e1-8484-b61863f345c7
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: bright-scandinavian-dining-room-navy-blue-upholste.jpg
+    file:
+      type: file
+      value: 23453f64-772c-4a2c-abf6-8483a4343119
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/-LOLNk2hReqcGgG7PkZcSg-bright-scandinavian-dining-room-navy-blue-upholste.jpg
+      type: text
+    size:
+      value: 94634
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:04:48.56833+00:00'
+modified: '2025-11-25T12:04:48.56833+00:00'

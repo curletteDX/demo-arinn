@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 6af1ac8f-7d54-4b17-b32f-035c536e0067
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: reading-nook-dusty-rose-armchair-bookshelf-warm-am.jpg
+    file:
+      type: file
+      value: fb9132d0-1490-4a28-9bc7-8aa682efa649
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/50-MycmTT-C4Ff40pCZB4Q-reading-nook-dusty-rose-armchair-bookshelf-warm-am.jpg
+      type: text
+    size:
+      value: 116020
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:44.822637+00:00'
+modified: '2025-11-25T12:06:44.822637+00:00'

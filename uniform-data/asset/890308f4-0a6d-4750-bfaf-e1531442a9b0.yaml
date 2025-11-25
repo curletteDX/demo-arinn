@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 890308f4-0a6d-4750-bfaf-e1531442a9b0
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: sophisticated-home-office-charcoal-leather-executi.jpg
+    file:
+      type: file
+      value: b2be0ae6-ef6d-4f33-b051-e5af19c9601a
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/aq1jN1HlQEWRydA2qUbcXg-sophisticated-home-office-charcoal-leather-executi.jpg
+      type: text
+    size:
+      value: 128142
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:55.585834+00:00'
+modified: '2025-11-25T12:06:55.585834+00:00'

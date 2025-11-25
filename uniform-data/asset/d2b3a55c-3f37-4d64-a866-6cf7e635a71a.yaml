@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d2b3a55c-3f37-4d64-a866-6cf7e635a71a
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: modern-dining-room-with-elegant-table-setting-lif.jpg
+    file:
+      type: file
+      value: 7f91f6cb-1a4d-44f4-a4d2-40758105e28d
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/GvUf8-mURsOl7qDFzx8q3A-modern-dining-room-with-elegant-table-setting-lif.jpg
+      type: text
+    size:
+      value: 113869
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:26.7634+00:00'
+modified: '2025-11-25T12:06:26.7634+00:00'

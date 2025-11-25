@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 00e1350c-e3da-4615-a09e-a88f0b0a70bf
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: modern-sectional-sofa-peacock-blue-velvet.jpg
+    file:
+      type: file
+      value: 5ca5dd58-89e2-4510-8f35-060a656c3fed
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/XMG82TH-Rdi75zlmFN7USw-modern-sectional-sofa-peacock-blue-velvet.jpg
+      type: text
+    size:
+      value: 94451
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:26.7634+00:00'
+modified: '2025-11-25T12:06:26.7634+00:00'

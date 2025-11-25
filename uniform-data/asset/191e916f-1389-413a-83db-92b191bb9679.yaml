@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 191e916f-1389-413a-83db-92b191bb9679
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: modern-living-room-with-mid-century-sofa-in-warm-e.jpg
+    file:
+      type: file
+      value: 03ada1e7-bfb6-4124-9d11-c367edf4d911
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/debEjPZ4TqeFHojye9RXjg-modern-living-room-with-mid-century-sofa-in-warm-e.jpg
+      type: text
+    size:
+      value: 149257
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:02:49.879057+00:00'
+modified: '2025-11-25T12:02:49.879057+00:00'

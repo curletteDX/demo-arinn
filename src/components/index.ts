@@ -1,8 +1,9 @@
 // === LAYOUT COMPONENTS ===
 export { default as Header, type HeaderProps } from './layout/header/Header';
 export { default as NavigationLink, type NavigationLinkProps } from './layout/header/NavigationLink';
-export { default as Footer } from './layout/footer/Footer';
-export { default as FooterNavLink } from './layout/footer/FooterNavLink';
+export { default as Footer, type FooterProps } from './layout/footer/Footer';
+export { default as FooterNavLink, type FooterNavLinkProps } from './layout/footer/FooterNavLink';
+export { default as FooterLinkGroup, type FooterLinkGroupProps } from './layout/footer/FooterLinkGroup';
 
 // === CONTENT COMPONENTS ===
 export { default as Section, type SectionProps } from './content/Section';
@@ -25,3 +26,13 @@ export { default as Image, type ImageProps } from './media/Image';
 export { default as ImageFeature, type ImageFeatureProps } from './media/ImageFeature';
 export { default as ImageHero, type ImageHeroProps } from './media/ImageHero';
 export { default as Video, type VideoProps } from './media/Video';
+
+// === HOME COMPONENTS ===
+export { default as HeroBanner, type HeroBannerProps } from './home/HeroBanner';
+export { default as FeaturedCollections, type FeaturedCollectionsProps } from './home/FeaturedCollections';
+export { default as CollectionCard, type CollectionCardProps } from './home/CollectionCard';
+export { default as LifestyleGallery, type LifestyleGalleryProps } from './home/LifestyleGallery';
+export { default as LifestyleGalleryItem, type LifestyleGalleryItemProps } from './home/LifestyleGalleryItem';
+export { default as TestimonialSection, type TestimonialSectionProps } from './home/TestimonialSection';
+export { default as TestimonialCard, type TestimonialCardProps } from './home/TestimonialCard';
+export { default as CtaBanner, type CtaBannerProps } from './home/CtaBanner';

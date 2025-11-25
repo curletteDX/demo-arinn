@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: e61265dc-afb6-4faa-9292-fbd7c2779a9e
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: mid-century-modern-teak-sideboard-brass-handles-li.jpg
+    file:
+      type: file
+      value: af192774-b511-43cb-956f-a4588c5be6f9
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/obMygfjlTvWWFoD03Gz2kQ-mid-century-modern-teak-sideboard-brass-handles-li.jpg
+      type: text
+    size:
+      value: 134505
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:13.841189+00:00'
+modified: '2025-11-25T12:06:13.841189+00:00'

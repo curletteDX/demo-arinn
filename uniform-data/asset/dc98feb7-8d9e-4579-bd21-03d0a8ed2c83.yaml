@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: dc98feb7-8d9e-4579-bd21-03d0a8ed2c83
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: living-room-with-olive-sectional-sofa-warm-lightin.jpg
+    file:
+      type: file
+      value: 7d9fcf47-c882-4ed3-bca5-7cea617a9a57
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/6Bzt9dkTRVupvkIu68sV3A-living-room-with-olive-sectional-sofa-warm-lightin.jpg
+      type: text
+    size:
+      value: 147194
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:45.831328+00:00'
+modified: '2025-11-25T12:05:45.831328+00:00'

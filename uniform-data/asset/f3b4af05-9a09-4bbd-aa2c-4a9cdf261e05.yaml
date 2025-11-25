@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: f3b4af05-9a09-4bbd-aa2c-4a9cdf261e05
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: bright-breakfast-nook-yellow-upholstered-bench-rou.jpg
+    file:
+      type: file
+      value: da5c24fc-ed58-491f-8d37-462fc77da671
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/YpXCOcTZS6muTqkqNeXtVA-bright-breakfast-nook-yellow-upholstered-bench-rou.jpg
+      type: text
+    size:
+      value: 129391
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:04:48.56833+00:00'
+modified: '2025-11-25T12:04:48.56833+00:00'

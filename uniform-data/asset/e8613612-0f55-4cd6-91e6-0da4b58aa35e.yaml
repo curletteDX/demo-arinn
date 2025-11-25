@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: e8613612-0f55-4cd6-91e6-0da4b58aa35e
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: accent-chair-deep-blue-checker-pattern-velvet-mid-.jpg
+    file:
+      type: file
+      value: c7b98f80-015e-4400-900a-d02cc452f68d
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/ZHXcoss4Qh6vtDigW41brA-accent-chair-deep-blue-checker-pattern-velvet-mid-.jpg
+      type: text
+    size:
+      value: 59927
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:04:48.56833+00:00'
+modified: '2025-11-25T12:04:48.56833+00:00'

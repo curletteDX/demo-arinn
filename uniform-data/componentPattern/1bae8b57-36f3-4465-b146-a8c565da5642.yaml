@@ -1,0 +1,76 @@
+composition:
+  _name: Featured Collections Pattern
+  _id: 1bae8b57-36f3-4465-b146-a8c565da5642
+  type: featuredCollections
+  parameters:
+    title:
+      type: text
+      value: Find Your Perfect Piece
+    description:
+      type: text
+      value: >-
+        From statement sofas to accent chairs, discover furniture designed to
+        transform any room into your sanctuary.
+  slots:
+    collections:
+      - _id: 915aa11c-65f0-4d27-a88a-e913b4726d1a
+        type: collectionCard
+        parameters:
+          name:
+            type: text
+            value: Sofas
+          description:
+            type: text
+            value: Sink into comfort
+          productCount:
+            type: text
+            value: '45'
+        _overridability:
+          parameters:
+            name: 'yes'
+            description: 'yes'
+            productCount: 'yes'
+      - _id: 4acb7d96-a51e-4706-8d55-8ad60f3f8533
+        type: collectionCard
+        parameters:
+          name:
+            type: text
+            value: Chairs
+          description:
+            type: text
+            value: Your favorite seat awaits
+          productCount:
+            type: text
+            value: '62'
+        _overridability:
+          parameters:
+            name: 'yes'
+            description: 'yes'
+            productCount: 'yes'
+      - _id: bafbe535-251d-4d63-bf42-1faca0c2023c
+        type: collectionCard
+        parameters:
+          name:
+            type: text
+            value: Tables
+          description:
+            type: text
+            value: Where memories gather
+          productCount:
+            type: text
+            value: '38'
+        _overridability:
+          parameters:
+            name: 'yes'
+            description: 'yes'
+            productCount: 'yes'
+  _overridability:
+    parameters:
+      title: 'yes'
+      description: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-11-25T11:54:30.299908+00:00'
+modified: '2025-11-25T11:54:44.122158+00:00'
+pattern: true

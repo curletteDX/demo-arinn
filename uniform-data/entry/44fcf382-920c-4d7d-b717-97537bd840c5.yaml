@@ -1,12 +1,12 @@
-created: '2025-09-18T13:20:35.951848+00:00'
-modified: '2025-09-18T13:55:07.990851+00:00'
+created: '2025-11-25T11:16:26.730935+00:00'
+modified: '2025-11-25T11:16:26.730935+00:00'
 pattern: false
 entry:
   _id: 44fcf382-920c-4d7d-b717-97537bd840c5
   _name: 'Customer Journey Mapping: Guide to Better User Experience'
   _slug: customer-journey-mapping
   _thumbnail: >-
-    https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/9ov9io9gTGWkWhr7zzv2WQ-Image-Four.png
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/buzzLQUKQi6j3AzZOs2Jvg-Image-Four.png
   type: article
   fields:
     tags:
@@ -760,7 +760,7 @@ entry:
               value: 9029d3aa-40be-41e6-bb3d-a357e8714f05
             url:
               value: >-
-                https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/9ov9io9gTGWkWhr7zzv2WQ-Image-Four.png
+                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/buzzLQUKQi6j3AzZOs2Jvg-Image-Four.png
               type: text
             file:
               type: file

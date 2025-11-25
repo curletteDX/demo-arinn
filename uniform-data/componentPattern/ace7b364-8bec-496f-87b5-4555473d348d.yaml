@@ -1,0 +1,63 @@
+composition:
+  _name: Lifestyle Gallery Pattern
+  _id: ace7b364-8bec-496f-87b5-4555473d348d
+  type: lifestyleGallery
+  parameters:
+    title:
+      type: text
+      value: Your Hearth, Your Story
+    ctaText:
+      type: text
+      value: View All Inspiration
+    description:
+      type: text
+      value: 'Real homes where families gather. Share yours with #MyArinn'
+  slots:
+    items:
+      - _id: a97e3ada-c7b8-47cc-8017-1e0942c078e7
+        type: lifestyleGalleryItem
+        parameters:
+          gridSpan:
+            type: select
+            value: col-span-1 row-span-2
+        _overridability:
+          parameters:
+            gridSpan: 'yes'
+      - _id: c1f3d10d-4ee9-474b-9dd0-20b1921cd9c8
+        type: lifestyleGalleryItem
+        parameters:
+          gridSpan:
+            type: select
+            value: col-span-1 row-span-1
+        _overridability:
+          parameters:
+            gridSpan: 'yes'
+      - _id: 872d11b5-a039-473b-8ced-d52aec43fb51
+        type: lifestyleGalleryItem
+        parameters:
+          gridSpan:
+            type: select
+            value: col-span-1 row-span-1
+        _overridability:
+          parameters:
+            gridSpan: 'yes'
+      - _id: 03638447-4b22-4b11-8b6d-82a39ed76c30
+        type: lifestyleGalleryItem
+        parameters:
+          gridSpan:
+            type: select
+            value: col-span-1 row-span-2
+        _overridability:
+          parameters:
+            gridSpan: 'yes'
+  _overridability:
+    parameters:
+      title: 'yes'
+      ctaText: 'yes'
+      description: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-11-25T13:06:02.351013+00:00'
+modified: '2025-11-25T13:06:22.967994+00:00'
+pattern: true

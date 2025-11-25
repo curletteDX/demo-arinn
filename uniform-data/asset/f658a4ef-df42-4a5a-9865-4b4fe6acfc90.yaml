@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: f658a4ef-df42-4a5a-9865-4b4fe6acfc90
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: modern-bedroom-deep-blue-velvet-headboard-warm-lig.jpg
+    file:
+      type: file
+      value: 93d9b894-b82a-4f7c-ba15-49c31de6571a
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/0MwsQ9lnRI6gYmrTTAeQWA-modern-bedroom-deep-blue-velvet-headboard-warm-lig.jpg
+      type: text
+    size:
+      value: 73924
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:13.841189+00:00'
+modified: '2025-11-25T12:06:13.841189+00:00'

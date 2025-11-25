@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d17167d8-622c-44eb-a6ec-ff8d6ffccdee
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: boucle-accent-chair-mustard-yellow-oak-legs-cozy.jpg
+    file:
+      type: file
+      value: b592ad37-b9db-435d-b27e-1fae3d38d01a
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/ad1b-btgSMWC1T_cEWsu5Q-boucle-accent-chair-mustard-yellow-oak-legs-cozy.jpg
+      type: text
+    size:
+      value: 135015
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:04:48.56833+00:00'
+modified: '2025-11-25T12:04:48.56833+00:00'

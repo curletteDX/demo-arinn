@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 48a84ced-c733-4eec-b67c-61aa46ffe54c
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: living-room-with-modern-sofa-warm-tones.jpg
+    file:
+      type: file
+      value: 68be87d9-3573-488e-b14a-0e1074f7b492
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/wybF6ATZSNqMHyRqJD_SMg-living-room-with-modern-sofa-warm-tones.jpg
+      type: text
+    size:
+      value: 109266
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:45.831328+00:00'
+modified: '2025-11-25T12:05:45.831328+00:00'

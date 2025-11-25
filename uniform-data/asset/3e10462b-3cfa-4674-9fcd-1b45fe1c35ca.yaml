@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 3e10462b-3cfa-4674-9fcd-1b45fe1c35ca
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: upholstered-bed-silhouette.jpg
+    file:
+      type: file
+      value: 4364c3fe-37b0-44d9-9d25-e9b49433846f
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/6GSQU2vMRaOkSbaaMCsKkA-upholstered-bed-silhouette.jpg
+      type: text
+    size:
+      value: 44338
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:55.585834+00:00'
+modified: '2025-11-25T12:06:55.585834+00:00'

@@ -1,12 +1,12 @@
-created: '2025-09-18T13:20:35.598264+00:00'
-modified: '2025-09-18T13:35:35.935437+00:00'
+created: '2025-11-25T11:16:26.690917+00:00'
+modified: '2025-11-25T11:16:26.690917+00:00'
 pattern: false
 entry:
   _id: 168c2f5a-cddb-411b-864c-47ea0de22c55
   _name: Jennifer Martinez
   _slug: sarah-johnson
   _thumbnail: >-
-    https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/8snid6jqS9m6ZTu0G2BLAA-Avatar-Two.png
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/dymy8G35RKad1RFuDJH9DA-Avatar-Two.png
   type: author
   fields:
     bio:
@@ -55,7 +55,7 @@ entry:
               value: 2e411a3c-ebbc-40ea-a805-90f27fc11309
             url:
               value: >-
-                https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/8snid6jqS9m6ZTu0G2BLAA-Avatar-Two.png
+                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/dymy8G35RKad1RFuDJH9DA-Avatar-Two.png
               type: text
             file:
               type: file

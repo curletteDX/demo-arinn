@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: aef3709b-d175-4221-9f5b-3ddf06af48ae
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: grand-accent-chair-dusty-rose-pink-velvet-tufted-e.jpg
+    file:
+      type: file
+      value: 10325894-2852-4265-b933-487c3979b529
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/QSTubjRDQcaESFoeVAWLYw-grand-accent-chair-dusty-rose-pink-velvet-tufted-e.jpg
+      type: text
+    size:
+      value: 70787
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:45.831328+00:00'
+modified: '2025-11-25T12:05:45.831328+00:00'

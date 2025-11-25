@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 7f21d701-9938-4bd5-9c84-2691d3f8304b
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: oversized-accent-chair-dusty-rose-pink-velvet-cozy.jpg
+    file:
+      type: file
+      value: fb04890f-e627-4a8a-9ae8-ceaaabf3d3ca
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/dxckMR-mTYOqrxOjTnvSoA-oversized-accent-chair-dusty-rose-pink-velvet-cozy.jpg
+      type: text
+    size:
+      value: 109011
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:44.822637+00:00'
+modified: '2025-11-25T12:06:44.822637+00:00'

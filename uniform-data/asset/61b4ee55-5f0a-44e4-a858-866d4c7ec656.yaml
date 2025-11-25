@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 61b4ee55-5f0a-44e4-a858-866d4c7ec656
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: modular-sofa-deep-blue-velvet-sectional-modern-liv.jpg
+    file:
+      type: file
+      value: ae0d8984-e73a-4cd8-9268-ab124211cac1
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/P7gxDK9XTnulAhHxX8qEIw-modular-sofa-deep-blue-velvet-sectional-modern-liv.jpg
+      type: text
+    size:
+      value: 44697
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:26.7634+00:00'
+modified: '2025-11-25T12:06:26.7634+00:00'

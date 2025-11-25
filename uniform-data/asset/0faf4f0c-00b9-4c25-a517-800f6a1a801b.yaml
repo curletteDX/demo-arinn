@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 0faf4f0c-00b9-4c25-a517-800f6a1a801b
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: a-frame-cabin-living-room-olive-green-velvet-sofa-.jpg
+    file:
+      type: file
+      value: 5618756c-0332-4b2c-b82c-852b37602f22
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/4aTLJJqPR9yOG0Sb1O9LDQ-a-frame-cabin-living-room-olive-green-velvet-sofa-.jpg
+      type: text
+    size:
+      value: 167256
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:04:48.56833+00:00'
+modified: '2025-11-25T12:04:48.56833+00:00'

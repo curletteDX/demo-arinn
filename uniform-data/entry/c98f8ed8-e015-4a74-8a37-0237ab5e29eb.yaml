@@ -1,12 +1,12 @@
-created: '2025-09-18T13:36:17.055038+00:00'
-modified: '2025-09-18T13:52:04.247932+00:00'
+created: '2025-11-25T11:16:27.386965+00:00'
+modified: '2025-11-25T11:16:27.386965+00:00'
 pattern: false
 entry:
   _id: c98f8ed8-e015-4a74-8a37-0237ab5e29eb
   _name: 'Next.js 13 App Directory: Complete Migration Guide'
   _slug: nextjs-13-app-directory-guide
   _thumbnail: >-
-    https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/dmFoxWEcRyWdW8PI72Z5ZA-Image-Eight.png
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/QaGBUQRxTZ2AAkoK8XEeWg-Image-Eight.png
   type: article
   fields:
     tags:
@@ -313,7 +313,7 @@ entry:
               value: da260fce-5f33-412f-af03-d89726d9b241
             url:
               value: >-
-                https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/dmFoxWEcRyWdW8PI72Z5ZA-Image-Eight.png
+                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/QaGBUQRxTZ2AAkoK8XEeWg-Image-Eight.png
               type: text
             file:
               type: file

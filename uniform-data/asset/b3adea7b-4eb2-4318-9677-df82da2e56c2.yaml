@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: b3adea7b-4eb2-4318-9677-df82da2e56c2
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: mid-century-modern-sofa-silhouette.jpg
+    file:
+      type: file
+      value: 1c53962e-97ad-4758-a16c-3f2b2a1f39a1
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/fZVL07qQQjShvyzcO1lx7g-mid-century-modern-sofa-silhouette.jpg
+      type: text
+    size:
+      value: 41169
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:06:13.841189+00:00'
+modified: '2025-11-25T12:06:13.841189+00:00'

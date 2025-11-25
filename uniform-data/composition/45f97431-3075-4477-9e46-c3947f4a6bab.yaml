@@ -9,7 +9,7 @@ composition:
         pageTitle:
           type: text
           locales:
-            en-US: Homepage
+            en-US: Arinn | Furniture for the Modern Hearth
     45f97431-3075-4477-9e46-c3947f4a6bab|bea24f96-81cb-4cd0-ba68-f82bcf404627:
       slots:
         $slotSectionItems:
@@ -54,63 +54,367 @@ composition:
                           textStyle: ''
                           textFormat: 0
                       direction: ltr
-          - _id: cd31abee-21b4-460c-96be-1dd4c22a2883
-            type: cardGrid
+          - _id: 9e18054e-0731-468e-ba15-6ed8d3557166
+            type: heroBanner
+            parameters:
+              eyebrow:
+                type: text
+                locales:
+                  en-US: The Modern Hearth
+              headline:
+                type: text
+                locales:
+                  en-US: Where families gather, stories begin
+              heroImage:
+                type: asset
+                value:
+                  - _id: e4acd83d-82fe-4789-8ee5-81ac41a35a02
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: a9e6661c-5181-4127-947e-0d28ea03cf48
+                      url:
+                        value: >-
+                          https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/JMd0og3aQZqRAH8YQd2vvA-modern-living-room-with-mid-century-sofa-in-warm-e.jpg
+                        type: text
+                      file:
+                        type: file
+                        value: d17e31e1-ccab-4aa3-ab08-d78a27b76314
+                      size:
+                        value: 149257
+                        type: number
+                      title:
+                        type: text
+                        value: modern-living-room-with-mid-century-sofa-in-warm-e.jpg
+                      width:
+                        value: 1024
+                        type: number
+                      height:
+                        value: 1024
+                        type: number
+                      mediaType:
+                        value: image/jpeg
+                        type: text
+                    _source: uniform-assets
+              description:
+                type: text
+                locales:
+                  en-US: >-
+                    Inspired by the ancient Viking arinn—the sacred hearth at
+                    the center of every home. We craft furniture that brings
+                    people together, built to witness generations of memories.
+              primaryButtonText:
+                type: text
+                locales:
+                  en-US: Explore the Collection
+              secondaryButtonText:
+                type: text
+                locales:
+                  en-US: Find Inspiration
+          - _id: 1e2fb075-dc8b-4872-b415-880fd2d9e537
+            type: featuredCollections
             slots:
-              cards:
-                - _id: d77ac2a8-48fc-4cbd-a88e-f0a7dc7d2369
-                  type: card
+              collections:
+                - _id: 92ce9fc3-017d-4ea7-94aa-f15472575aaf
+                  type: collectionCard
                   parameters:
-                    title:
-                      type: text
-                      value: ✨ Visual Editing
-                    content:
-                      type: text
-                      value: >-
-                        Edit content directly in the browser with real-time
-                        preview. No technical skills required!
-                - _id: 976dc430-d6b5-47bc-8d11-c2574a059c98
-                  type: card
-                  parameters:
-                    title:
-                      type: text
-                      value: Add Components
-                    content:
-                      type: text
-                      value: >-
-                        Look for the '+' buttons around the page to add new
-                        sections, cards, or content blocks.
-                - _id: 1325b426-01fe-406c-b864-dacd4dccaee5
-                  type: card
-                  parameters:
-                    title:
-                      type: text
-                      value: 🔄 Drag & Drop
-                    content:
+                    name:
                       type: text
                       locales:
-                        en-US: >
-                          Use the structure panel to drag and drop components
-                          and create the perfect layout.
+                        en-US: Sofas
+                    description:
+                      type: text
+                      locales:
+                        en-US: Sink into Comfort
+                    productCount:
+                      type: text
+                      value: '46'
+                    collectionImage:
+                      type: asset
+                      value:
+                        - _id: a509c7ad-7c0d-43ba-a460-b636361b7509
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: b44961c7-210d-47d7-aace-33f461c67bb2
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/JBZvAhzoRlCW6ppia3ylOA-mid-century-modern-sofa-in-warm-living-room-lifes.jpg
+                              type: text
+                            file:
+                              type: file
+                              value: 4e135d45-1410-4c33-a62a-a84a1af52cd4
+                            size:
+                              value: 164359
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                mid-century-modern-sofa-in-warm-living-room-lifes.jpg
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                          _source: uniform-assets
+                - _id: 714cfb91-13d7-4de6-8ed1-1a09db1f1fd3
+                  type: collectionCard
+                  parameters:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Chairs
+                    description:
+                      type: text
+                      locales:
+                        en-US: Your favorite seat awaits
+                    productCount:
+                      type: text
+                      value: '30'
+                    collectionImage:
+                      type: asset
+                      value:
+                        - _id: 9cdd01b1-4518-4d16-9cac-f862f081c666
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 940945e5-7157-486a-959a-ae85e51b8e18
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/tOZucbtWRQi2y5N2jdfcTw-elegant-accent-chair-in-styled-room-corner-lifest.jpg
+                              type: text
+                            file:
+                              type: file
+                              value: 0b9d2fa4-4692-47ff-a527-bd46967bdbc2
+                            size:
+                              value: 98671
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                elegant-accent-chair-in-styled-room-corner-lifest.jpg
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                          _source: uniform-assets
+                - _id: 89fd5d00-8b43-4848-ba15-e248b26c8eab
+                  type: collectionCard
+                  parameters:
+                    name:
+                      type: text
+                      locales:
+                        en-US: Tables
+                    description:
+                      type: text
+                      locales:
+                        en-US: Where memories gather
+                    productCount:
+                      type: text
+                      value: '15'
+                    collectionImage:
+                      type: asset
+                      value:
+                        - _id: b4e496d0-874d-49c3-aa5a-0112c3cd80e1
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: d28e4bab-670e-4197-b62a-28b944493aff
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/zW5hDUWmSLSkJws3zt_4UA-wooden-coffee-table-in-cozy-living-space-lifestyl.jpg
+                              type: text
+                            file:
+                              type: file
+                              value: 8891a40e-d275-4ac2-9a0b-dfb54650c3be
+                            size:
+                              value: 144461
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                wooden-coffee-table-in-cozy-living-space-lifestyl.jpg
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                          _source: uniform-assets
             parameters:
               title:
                 type: text
-                value: Try These Actions
-          - _id: ede311f9-b6b9-4724-8bfe-52abe4404087
-            type: text
+                locales:
+                  en-US: Find your Perfect Piece
+          - _id: d198da61-0df6-4631-9b54-50928dbaf26f
+            type: testimonialSection
+            slots:
+              testimonials:
+                - _id: de704475-d0f0-48ab-be32-e339356ee399
+                  type: testimonialCard
+                  parameters:
+                    quote:
+                      type: text
+                      locales:
+                        en-US: >-
+                          "We spent 3 months searching for the perfect sofa. The
+                          Lewis sectional was worth every day of the wait—it's
+                          been 2 years and it still looks brand new."
+                    author:
+                      type: text
+                      locales:
+                        en-US: Sarah & Michael T.
+                    rating:
+                      type: number
+                      value: '5'
+                    product:
+                      type: text
+                      locales:
+                        en-US: Lewis Sectional in Moss Velvet
+                    location:
+                      type: text
+                      locales:
+                        en-US: Portland, OR
+                - _id: 23d041c3-7a0f-4023-86c7-018d456e1ef6
+                  type: testimonialCard
+                  parameters:
+                    quote:
+                      type: text
+                      locales:
+                        en-US: >-
+                          "The quality is unreal. I've had my Soto chair for 5
+                          years through two moves and a toddler. Still my
+                          favorite spot in the house."
+                    author:
+                      type: text
+                      locales:
+                        en-US: Jennifer R.
+                    rating:
+                      type: number
+                      value: '5'
+                    product:
+                      type: text
+                      locales:
+                        en-US: Soto Chair in Cognac Leather
+                    location:
+                      type: text
+                      locales:
+                        en-US: Austin, TX
+                - _id: 375ebb0b-5f18-47aa-9fd8-30819380589e
+                  type: testimonialCard
+                  parameters:
+                    quote:
+                      type: text
+                      locales:
+                        en-US: >-
+                          "Free design consultation was a game-changer. They
+                          helped me pick fabrics that work with my kids and
+                          dogs. Finally, a beautiful home I can actually live
+                          in."
+                    author:
+                      type: text
+                      locales:
+                        en-US: David & Lisa K.
+                    rating:
+                      type: number
+                      value: '5'
+                    product:
+                      type: text
+                      locales:
+                        en-US: Custom Living Room Set
+                    location:
+                      type: text
+                      locales:
+                        en-US: Brooklyn, NY
             parameters:
-              content:
+              title:
                 type: text
-                value: >-
-                  🎯 Try it now! Click on this text or any other text on the
-                  page to edit it directly. This sandbox demonstrates how
-                  Uniform empowers content teams to manage websites
-                  independently, while developers focus on building great
-                  components. Questions? Ask your Uniform representative about
-                  setting up your own project.
+                locales:
+                  en-US: Loved by Thousands of Happy Homes
+              reviewCount:
+                type: text
+                value: 12,487
+              averageRating:
+                type: text
+                value: '4.9'
+          - _id: dce5b816-7fdd-4296-a94c-4666ce14b96a
+            type: ctaBanner
+            parameters:
+              eyebrow:
+                type: text
+                locales:
+                  en-US: The Arinn Promise
+              headline:
+                type: text
+                locales:
+                  en-US: Furniture worthy of your family's story
+              description:
+                type: text
+                locales:
+                  en-US: >-
+                    Like the Viking arinn that warmed homes for generations, our
+                    furniture is built to become part of your family's legacy.
+                    365-day trial. Lifetime frame warranty. Free white-glove
+                    delivery.
+              backgroundImage:
+                type: asset
+                value:
+                  - _id: 644d0c4f-46ee-42c3-a516-0bef01709caa
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: 9e5c2b42-4551-4bdc-8ba2-a81b0039c4fd
+                      url:
+                        value: >-
+                          https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/DH4PVtOxSDCMKox9U1tcOQ-elegant-living-room-interior-with-sunlight-lifest.jpg
+                        type: text
+                      file:
+                        type: file
+                        value: 295dd39d-7d67-4ffa-8925-5551edb6a1e3
+                      size:
+                        value: 179854
+                        type: number
+                      title:
+                        type: text
+                        value: elegant-living-room-interior-with-sunlight-lifest.jpg
+                      width:
+                        value: 1024
+                        type: number
+                      height:
+                        value: 1024
+                        type: number
+                      mediaType:
+                        value: image/jpeg
+                        type: text
+                    _source: uniform-assets
+              primaryButtonText:
+                type: text
+                locales:
+                  en-US: Begin Your Story
+              secondaryButtonText:
+                type: text
+                locales:
+                  en-US: Our Heritage
   _locales:
     - en-US
   _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
-created: '2025-09-18T10:16:39.551463+00:00'
-modified: '2025-09-18T15:07:37.159848+00:00'
+created: '2025-11-25T11:16:18.798525+00:00'
+modified: '2025-11-25T13:32:40.03181+00:00'
 pattern: false
