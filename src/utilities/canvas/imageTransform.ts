@@ -1,6 +1,9 @@
 import { imageFrom } from "@uniformdev/assets";
 import type { Asset } from "@uniformdev/assets";
 
+// Type that imageFrom accepts (first parameter)
+type ImageFromAsset = Parameters<typeof imageFrom>[0];
+
 /**
  * Image transformation options
  */
@@ -39,7 +42,7 @@ export interface TransformOptions {
  * ```
  */
 export function getTransformedImageUrl(
-  asset: Asset | any | undefined,
+  asset: Asset | ImageFromAsset | undefined,
   options: TransformOptions
 ): string | undefined {
   if (!asset) return undefined;
