@@ -170,13 +170,16 @@ function transformUnsplashUrl(url: string, options: TransformOptions): string {
 /**
  * Get the alt text from an asset's metadata
  */
-export function getAssetAltText(asset: Asset | undefined, fallback = "Image"): string {
-  if (!asset) return fallback;
+export function getAssetAltText(asset: Asset | ImageFromAsset | undefined, fallback = "Image"): string {
+  if (!asset || typeof asset === "string") return fallback;
+
+  const assetObj = asset as Record<string, unknown>;
+  const fields = assetObj?.fields as Record<string, { value?: string }> | undefined;
 
   return (
-    asset.fields?.description?.value ||
-    asset.fields?.title?.value ||
-    asset.title ||
+    fields?.description?.value ||
+    fields?.title?.value ||
+    (assetObj?.title as string | undefined) ||
     fallback
   );
 }
@@ -185,11 +188,14 @@ export function getAssetAltText(asset: Asset | undefined, fallback = "Image"): s
  * Get the focal point from an asset's metadata
  */
 export function getAssetFocalPoint(
-  asset: Asset | undefined
+  asset: Asset | ImageFromAsset | undefined
 ): { x: number; y: number } | undefined {
-  if (!asset) return undefined;
+  if (!asset || typeof asset === "string") return undefined;
 
-  const focalPoint = asset.fields?.focalPoint?.value;
+  const assetObj = asset as Record<string, unknown>;
+  const fields = assetObj?.fields as Record<string, { value?: unknown }> | undefined;
+  const focalPoint = fields?.focalPoint?.value;
+  
   if (focalPoint && typeof focalPoint === "object" && "x" in focalPoint && "y" in focalPoint) {
     return focalPoint as { x: number; y: number };
   }
