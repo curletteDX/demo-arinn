@@ -54,13 +54,13 @@ export function getTransformedImageUrl(
 
   const { width, height, fit = "cover", focal = "center" } = options;
 
-  // Get the source URL
-  const sourceUrl = (asset as Asset).url || (asset as Asset).fields?.url?.value;
-  if (!sourceUrl) return undefined;
-
-  // Check if this is a Uniform asset (use native transformation)
-  if (sourceUrl.includes("uniform.global") || sourceUrl.includes("uniformcdn")) {
-    try {
+  // Try to use imageFrom for Uniform assets first
+  try {
+    const assetObj = asset as Asset;
+    // Check if this looks like a Uniform asset by trying imageFrom
+    const baseUrl = imageFrom(asset).url();
+    
+    if (baseUrl && (baseUrl.includes("uniform.global") || baseUrl.includes("uniformcdn"))) {
       let transform = imageFrom(asset).transform({ width });
 
       if (height) {
@@ -68,11 +68,15 @@ export function getTransformedImageUrl(
       }
 
       return transform.url();
-    } catch {
-      // Fallback to raw URL if transformation fails
-      return sourceUrl;
     }
+  } catch {
+    // Not a Uniform asset or imageFrom failed, continue to other methods
   }
+
+  // Get the source URL from asset properties
+  const assetObj = asset as Record<string, any>;
+  const sourceUrl = assetObj?.url || assetObj?.fields?.url?.value || assetObj?.fields?.file?.value?.url;
+  if (!sourceUrl || typeof sourceUrl !== "string") return undefined;
 
   // Check if this is a Cloudinary URL
   if (sourceUrl.includes("res.cloudinary.com")) {
