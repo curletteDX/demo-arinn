@@ -47,10 +47,15 @@ export function getTransformedImageUrl(
 ): string | undefined {
   if (!asset) return undefined;
 
+  // Handle string URLs
+  if (typeof asset === "string") {
+    return asset;
+  }
+
   const { width, height, fit = "cover", focal = "center" } = options;
 
   // Get the source URL
-  const sourceUrl = asset.url || asset.fields?.url?.value;
+  const sourceUrl = (asset as Asset).url || (asset as Asset).fields?.url?.value;
   if (!sourceUrl) return undefined;
 
   // Check if this is a Uniform asset (use native transformation)
