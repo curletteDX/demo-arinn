@@ -1,7 +1,6 @@
 import React from "react";
 import NextImage from "next/image";
 import {
-  UniformText,
   registerUniformComponent,
 } from "@uniformdev/canvas-react";
 import type { AssetParamValue } from "@uniformdev/assets";

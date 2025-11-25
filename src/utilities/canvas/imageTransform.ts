@@ -39,12 +39,12 @@ export interface TransformOptions {
  * ```
  */
 export function getTransformedImageUrl(
-  asset: Asset | undefined,
+  asset: Asset | any | undefined,
   options: TransformOptions
 ): string | undefined {
   if (!asset) return undefined;
 
-  const { width, height, fit = "cover", focal = "center", quality = 85 } = options;
+  const { width, height, fit = "cover", focal = "center" } = options;
 
   // Get the source URL
   const sourceUrl = asset.url || asset.fields?.url?.value;
