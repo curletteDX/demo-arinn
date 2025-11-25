@@ -56,7 +56,6 @@ export function getTransformedImageUrl(
 
   // Try to use imageFrom for Uniform assets first
   try {
-    const assetObj = asset as Asset;
     // Check if this looks like a Uniform asset by trying imageFrom
     const baseUrl = imageFrom(asset).url();
     
@@ -74,8 +73,10 @@ export function getTransformedImageUrl(
   }
 
   // Get the source URL from asset properties
-  const assetObj = asset as Record<string, any>;
-  const sourceUrl = assetObj?.url || assetObj?.fields?.url?.value || assetObj?.fields?.file?.value?.url;
+  const assetObj = asset as Record<string, unknown>;
+  const sourceUrl = (assetObj?.url as string | undefined) || 
+                   ((assetObj?.fields as Record<string, unknown>)?.url as { value?: string } | undefined)?.value ||
+                   ((assetObj?.fields as Record<string, unknown>)?.file as { value?: { url?: string } } | undefined)?.value?.url;
   if (!sourceUrl || typeof sourceUrl !== "string") return undefined;
 
   // Check if this is a Cloudinary URL
