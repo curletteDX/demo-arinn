@@ -27,32 +27,6 @@ parameters:
     typeConfig:
       required: false
     localizable: true
-  - id: primaryButtonText
-    name: Primary Button Text
-    type: text
-    guidance: Text for the main CTA button, e.g., 'Begin Your Story'
-    typeConfig:
-      required: false
-    localizable: true
-  - id: primaryButtonLink
-    name: Primary Button Link
-    type: link
-    guidance: Link destination for the primary CTA button
-    typeConfig:
-      required: false
-  - id: secondaryButtonText
-    name: Secondary Button Text
-    type: text
-    guidance: Text for the secondary CTA button, e.g., 'Our Heritage'
-    typeConfig:
-      required: false
-    localizable: true
-  - id: secondaryButtonLink
-    name: Secondary Button Link
-    type: link
-    guidance: Link destination for the secondary CTA button
-    typeConfig:
-      required: false
   - id: backgroundImage
     name: Background Image
     type: asset
@@ -77,9 +51,18 @@ description: >-
   Full-width call-to-action banner with background image, overlay, and prominent
   CTA buttons. Perfect for conversion-focused sections.
 useTeamPermissions: true
-slots: []
+slots:
+  - id: buttons
+    name: Buttons
+    maxComponents: 2
+    minComponents: 0
+    allowedComponents:
+      - cta
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
 titleParameter: eyebrow
 thumbnailParameter: backgroundImage
 canBeComposition: false
 created: '2025-11-25T13:22:28.303453+00:00'
-updated: '2025-11-25T13:22:28.303453+00:00'
+updated: '2025-11-26T14:10:31.257579+00:00'

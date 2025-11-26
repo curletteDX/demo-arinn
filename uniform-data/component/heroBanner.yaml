@@ -107,6 +107,204 @@ parameters:
     typeConfig:
       required: false
     localizable: true
+  - id: designOptions
+    name: Design Options
+    type: group
+    guidance: Advanced design and layout options for the hero banner
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - imagePosition
+        - imageAspectRatio
+        - showTrustBadges
+        - showSecondaryCta
+        - backgroundStyle
+        - textAlignment
+        - contentWidth
+        - spacing
+        - imageBorderRadius
+        - ctaButtonStyle
+        - typographyScale
+        - imageOverlay
+        - trustBadgesLayout
+        - eyebrowStyle
+        - sectionPadding
+  - id: imagePosition
+    name: Image Position
+    type: select
+    guidance: Position of the hero image relative to content
+    typeConfig:
+      options:
+        - text: Right
+          value: right
+        - text: Left
+          value: left
+      required: false
+  - id: imageAspectRatio
+    name: Image Aspect Ratio
+    type: select
+    guidance: Aspect ratio for the hero image
+    typeConfig:
+      options:
+        - text: Square
+          value: square
+        - text: '4:3'
+          value: '4:3'
+        - text: '16:9'
+          value: '16:9'
+      required: false
+  - id: showTrustBadges
+    name: Show Trust Badges
+    type: checkbox
+    guidance: Display the trust badges section below the CTAs
+    typeConfig:
+      required: false
+  - id: showSecondaryCta
+    name: Show Secondary CTA
+    type: checkbox
+    guidance: Display the secondary CTA button
+    typeConfig:
+      required: false
+  - id: backgroundStyle
+    name: Background Style
+    type: select
+    guidance: Background color/style for the hero section
+    typeConfig:
+      options:
+        - text: Default
+          value: default
+        - text: Warm
+          value: warm
+        - text: Muted
+          value: muted
+      required: false
+  - id: textAlignment
+    name: Text Alignment
+    type: select
+    guidance: Alignment of headline and description text
+    typeConfig:
+      options:
+        - text: Left
+          value: left
+        - text: Center
+          value: center
+        - text: Right
+          value: right
+      required: false
+  - id: contentWidth
+    name: Content Width
+    type: select
+    guidance: Maximum width of the content column
+    typeConfig:
+      options:
+        - text: Narrow
+          value: narrow
+        - text: Standard
+          value: standard
+        - text: Wide
+          value: wide
+      required: false
+  - id: spacing
+    name: Spacing
+    type: select
+    guidance: Vertical spacing/padding of the section
+    typeConfig:
+      options:
+        - text: Compact
+          value: compact
+        - text: Standard
+          value: standard
+        - text: Spacious
+          value: spacious
+      required: false
+  - id: imageBorderRadius
+    name: Image Border Radius
+    type: select
+    guidance: Border radius of the hero image
+    typeConfig:
+      options:
+        - text: None
+          value: none
+        - text: Small
+          value: small
+        - text: Medium
+          value: medium
+        - text: Large
+          value: large
+      required: false
+  - id: ctaButtonStyle
+    name: CTA Button Style
+    type: select
+    guidance: Visual style of the primary CTA button
+    typeConfig:
+      options:
+        - text: Default
+          value: default
+        - text: Outline
+          value: outline
+        - text: Ghost
+          value: ghost
+      required: false
+  - id: typographyScale
+    name: Typography Scale
+    type: select
+    guidance: Size scale for the headline typography
+    typeConfig:
+      options:
+        - text: Small
+          value: small
+        - text: Medium
+          value: medium
+        - text: Large
+          value: large
+      required: false
+  - id: imageOverlay
+    name: Image Overlay
+    type: checkbox
+    guidance: Add a gradient overlay effect to the hero image
+    typeConfig:
+      required: false
+  - id: trustBadgesLayout
+    name: Trust Badges Layout
+    type: select
+    guidance: Layout arrangement for trust badges
+    typeConfig:
+      options:
+        - text: Horizontal
+          value: horizontal
+        - text: Vertical
+          value: vertical
+        - text: Grid
+          value: grid
+      required: false
+  - id: eyebrowStyle
+    name: Eyebrow Style
+    type: select
+    guidance: Visual style of the eyebrow text
+    typeConfig:
+      options:
+        - text: Default
+          value: default
+        - text: Accent
+          value: accent
+        - text: Subtle
+          value: subtle
+      required: false
+  - id: sectionPadding
+    name: Section Padding
+    type: select
+    guidance: Horizontal padding of the section container
+    typeConfig:
+      options:
+        - text: None
+          value: none
+        - text: Small
+          value: small
+        - text: Medium
+          value: medium
+        - text: Large
+          value: large
+      required: false
 description: >-
   Main hero section for the homepage featuring a two-column layout with
   compelling copy and a lifestyle image. Inspired by the Arinn furniture brand's
@@ -117,4 +315,4 @@ titleParameter: eyebrow
 thumbnailParameter: heroImage
 canBeComposition: false
 created: '2025-11-25T11:32:14.879954+00:00'
-updated: '2025-11-25T11:32:14.879954+00:00'
+updated: '2025-11-26T11:04:13.009146+00:00'

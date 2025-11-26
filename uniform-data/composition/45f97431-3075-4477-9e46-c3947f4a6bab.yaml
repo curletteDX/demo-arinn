@@ -13,47 +13,92 @@ composition:
     45f97431-3075-4477-9e46-c3947f4a6bab|bea24f96-81cb-4cd0-ba68-f82bcf404627:
       slots:
         $slotSectionItems:
-          - _id: 86f36267-d257-4420-a4c3-e7e4c001a12d
-            type: section
+          - _id: 4ff729b6-6bac-4c3a-8b33-32df407c72a5
+            type: ctaBanner
+            slots:
+              buttons:
+                - _id: 911d2db8-5462-402d-bc91-1ddd61dd7abb
+                  type: cta
+                  parameters:
+                    link:
+                      type: link
+                      value:
+                        path: /products
+                        type: projectMapNode
+                        nodeId: b4aa95ed-0acb-468f-b941-0dc83d48c046
+                    text:
+                      type: text
+                      locales:
+                        en-US: Shop Black Friday
+                - _id: 0f041b79-9e0d-4607-bfdf-3048ccb03d82
+                  type: cta
+                  parameters:
+                    link:
+                      type: link
+                      value:
+                        path: /products
+                        type: url
+                    text:
+                      type: text
+                      locales:
+                        en-US: See All Deals
             parameters:
-              title:
+              eyebrow:
                 type: text
                 locales:
-                  en-US: Welcome to Your Sandbox
-              variant:
-                type: select
-                value: hero
-              description:
-                type: richText
+                  en-US: BLACK FRIDAY EXCLUSIVE
+              headline:
+                type: text
                 locales:
-                  en-US:
-                    root:
-                      type: root
-                      format: ''
-                      indent: 0
-                      version: 1
-                      children:
-                        - type: paragraph
-                          format: ''
-                          indent: 0
-                          version: 1
-                          children:
-                            - mode: normal
-                              text: >-
-                                Click directly on any text to edit it inline.
-                                Use the '+' buttons to add new components
-                                anywhere on the page. Drag components to
-                                rearrange them. Everything is editable right
-                                here in the visual interface.
-                              type: text
-                              style: ''
-                              detail: 0
-                              format: 0
-                              version: 1
-                          direction: ltr
-                          textStyle: ''
-                          textFormat: 0
-                      direction: ltr
+                  en-US: 'Black Friday Mega Sale: Up to 50% Off Sitewide!'
+              description:
+                type: text
+                locales:
+                  en-US: >-
+                    This weekend only, enjoy huge savings on our bestsellers and
+                    get free shipping on every order. Take advantage of these
+                    exclusive deals before they're gone. Don’t miss out—shop
+                    now!
+              backgroundImage:
+                type: asset
+                value:
+                  - _id: fff79375-8593-4d80-8b9b-5558d392e5da
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: fe5b575c-ca4a-4592-9036-57a433521c03
+                      url:
+                        value: >-
+                          https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/XuXglDVJQb25UJgvcM0YFA-warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+                        type: text
+                      file:
+                        type: file
+                        value: a9bc1cf7-3454-4913-ab06-6677902fc500
+                      size:
+                        value: 148148
+                        type: number
+                      title:
+                        type: text
+                        value: warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+                      width:
+                        value: 1024
+                        type: number
+                      height:
+                        value: 1024
+                        type: number
+                      mediaType:
+                        value: image/jpeg
+                        type: text
+                    _source: uniform-assets
+              primaryButtonText:
+                type: text
+                locales:
+                  en-US: Shop Black Friday
+              secondaryButtonText:
+                type: text
+                locales:
+                  en-US: See All Deals
           - _id: 9e18054e-0731-468e-ba15-6ed8d3557166
             type: heroBanner
             parameters:
@@ -64,7 +109,7 @@ composition:
               headline:
                 type: text
                 locales:
-                  en-US: Where families gather, stories begin
+                  en-US: Where families gather, stories begin!
               heroImage:
                 type: asset
                 value:
@@ -103,7 +148,7 @@ composition:
                   en-US: >-
                     Inspired by the ancient Viking arinn—the sacred hearth at
                     the center of every home. We craft furniture that brings
-                    people together, built to witness generations of memories.
+                    people together, built to witness generations of memories!!
               primaryButtonText:
                 type: text
                 locales:
@@ -355,6 +400,33 @@ composition:
                 value: '4.9'
           - _id: dce5b816-7fdd-4296-a94c-4666ce14b96a
             type: ctaBanner
+            slots:
+              buttons:
+                - _id: 902ef87f-e8fb-4c22-a08f-49004752a811
+                  type: cta
+                  parameters:
+                    link:
+                      type: link
+                      value:
+                        path: /products
+                        type: projectMapNode
+                        nodeId: products
+                    text:
+                      type: text
+                      locales:
+                        en-US: Begin Your Story
+                - _id: 7c9da671-1ec5-4485-befd-1ef59622c525
+                  type: cta
+                  parameters:
+                    link:
+                      type: link
+                      value:
+                        path: /about
+                        type: url
+                    text:
+                      type: text
+                      locales:
+                        en-US: Our Heritage
             parameters:
               eyebrow:
                 type: text
@@ -416,5 +488,5 @@ composition:
     - en-US
   _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
 created: '2025-11-25T11:16:18.798525+00:00'
-modified: '2025-11-25T13:32:40.03181+00:00'
+modified: '2025-11-26T14:13:52.630664+00:00'
 pattern: false

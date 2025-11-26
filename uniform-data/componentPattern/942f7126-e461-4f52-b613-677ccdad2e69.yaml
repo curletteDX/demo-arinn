@@ -24,6 +24,35 @@ composition:
     secondaryButtonText:
       type: text
       value: Our Heritage
+  slots:
+    buttons:
+      - _id: 4161f1df-739a-4b82-b358-5f5ca6672fd6
+        type: cta
+        parameters:
+          link:
+            type: link
+            value:
+              path: /products
+              type: projectMapNode
+              nodeId: products
+          text:
+            type: text
+            locales:
+              en-US: Begin Your Story
+        _overridability:
+          parameters:
+            link: 'yes'
+            text: 'yes'
+      - _id: df42a3ce-8d7a-4323-9527-06782d9f87d9
+        type: cta
+        parameters:
+          text:
+            type: text
+            locales:
+              en-US: Our Heritage
+        _overridability:
+          parameters:
+            text: 'yes'
   _overridability:
     parameters:
       eyebrow: 'yes'
@@ -36,5 +65,5 @@ composition:
   _locales:
     - en-US
 created: '2025-11-25T13:22:48.508075+00:00'
-modified: '2025-11-25T13:22:48.508075+00:00'
+modified: '2025-11-26T14:11:19.59002+00:00'
 pattern: true

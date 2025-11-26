@@ -1,24 +1,13 @@
 import React from "react";
-import Link from "next/link";
 import NextImage from "next/image";
 import {
   UniformText,
+  UniformSlot,
   registerUniformComponent,
 } from "@uniformdev/canvas-react";
 import type { AssetParamValue } from "@uniformdev/assets";
 import { getTransformedImageUrl } from "@/utilities/canvas/imageTransform";
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
-
-/**
- * Link parameter type from Uniform
- */
-interface UniformLink {
-  type: string;
-  path?: string;
-  url?: string;
-}
 
 export interface CtaBannerProps {
   className?: string;
@@ -28,14 +17,6 @@ export interface CtaBannerProps {
   headline?: string;
   /** Supporting description text */
   description?: string;
-  /** Primary CTA button text */
-  primaryButtonText?: string;
-  /** Primary CTA button link */
-  primaryButtonLink?: UniformLink;
-  /** Secondary CTA button text */
-  secondaryButtonText?: string;
-  /** Secondary CTA button link */
-  secondaryButtonLink?: UniformLink;
   /** Background image */
   backgroundImage?: AssetParamValue;
   /** Overlay opacity (0-1) */
@@ -66,8 +47,6 @@ export interface CtaBannerProps {
  */
 export const CtaBanner: React.FC<CtaBannerProps> = ({
   className = "",
-  primaryButtonLink,
-  secondaryButtonLink,
   backgroundImage,
   overlayOpacity = 0.7,
 }) => {
@@ -87,10 +66,6 @@ export const CtaBanner: React.FC<CtaBannerProps> = ({
   const imageAlt = firstAsset?.fields?.description?.value ||
                   firstAsset?.fields?.title?.value ||
                   'Background image';
-
-  // Extract link paths
-  const primaryHref = primaryButtonLink?.path || primaryButtonLink?.url || "/products";
-  const secondaryHref = secondaryButtonLink?.path || secondaryButtonLink?.url || "/about";
 
   // Calculate overlay opacity
   const safeOpacity = Math.max(0, Math.min(1, overlayOpacity || 0.7));
@@ -147,35 +122,8 @@ export const CtaBanner: React.FC<CtaBannerProps> = ({
         </p>
 
         {/* CTA Buttons */}
-        <div className="flex flex-wrap gap-4 justify-center">
-          <Button
-            size="lg"
-            className="bg-white text-foreground hover:bg-white/90"
-            asChild
-          >
-            <Link href={primaryHref}>
-              <UniformText
-                parameterId="primaryButtonText"
-                placeholder="Begin Your Story"
-                as="span"
-              />
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
-          </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            className="border-white text-white hover:bg-white/10 bg-transparent"
-            asChild
-          >
-            <Link href={secondaryHref}>
-              <UniformText
-                parameterId="secondaryButtonText"
-                placeholder="Our Heritage"
-                as="span"
-              />
-            </Link>
-          </Button>
+        <div className="flex flex-wrap gap-4 justify-center cta-banner-buttons">
+          <UniformSlot name="buttons" />
         </div>
       </div>
     </section>

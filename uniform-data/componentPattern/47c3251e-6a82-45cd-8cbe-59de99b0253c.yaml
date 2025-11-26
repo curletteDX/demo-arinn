@@ -243,61 +243,6 @@ composition:
         _overridability:
           parameters:
             title: 'yes'
-    footerLinks:
-      - _id: 77f7ca69-dec4-4d8e-976a-cfc287767a7c
-        type: footerNavLink
-        parameters:
-          link:
-            type: link
-            value:
-              path: /${locale}
-              type: projectMapNode
-              nodeId: 6fd43f82-6a0e-42f3-bd05-566c6415ed9c
-              projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
-              dynamicInputValues:
-                locale: ${locale}
-          text:
-            type: text
-            locales:
-              en-US: Home
-        _overridability:
-          hideLockedParameters: true
-      - _id: 86addfa8-5273-42ff-bc9c-8d26d519dc2c
-        type: footerNavLink
-        parameters:
-          link:
-            type: link
-            value:
-              path: /${locale}/images
-              type: projectMapNode
-              nodeId: 86925a2f-efdb-484f-a1a2-cb5c9f49126f
-              projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
-              dynamicInputValues:
-                locale: ${locale}
-          text:
-            type: text
-            locales:
-              en-US: Images
-        _overridability:
-          hideLockedParameters: true
-      - _id: 4b7d9d1c-338b-4118-8246-31d364707a9a
-        type: footerNavLink
-        parameters:
-          link:
-            type: link
-            value:
-              path: /${locale}/articles
-              type: projectMapNode
-              nodeId: dfee8dab-fa34-42cc-bd1d-0363ea233c44
-              projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
-              dynamicInputValues:
-                locale: ${locale}
-          text:
-            type: text
-            locales:
-              en-US: Articles
-        _overridability:
-          hideLockedParameters: true
   _overridability:
     parameters:
       tagline: 'yes'
@@ -310,5 +255,5 @@ composition:
   _locales:
     - en-US
 created: '2025-11-25T11:16:16.868953+00:00'
-modified: '2025-11-25T13:54:43.636893+00:00'
+modified: '2025-11-25T14:08:24.406933+00:00'
 pattern: true

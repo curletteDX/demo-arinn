@@ -47,6 +47,7 @@ slots:
     minComponents: 0
     allowedComponents:
       - header
+      - productHero
     inheritAllowedComponents: false
   - id: body
     name: Body
@@ -89,6 +90,7 @@ slots:
       - lifestyleGallery
       - testimonialSection
       - ctaBanner
+      - productHero
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
@@ -98,5 +100,5 @@ slots:
       - footer
     inheritAllowedComponents: false
 canBeComposition: true
-created: '2025-11-25T11:16:14.048532+00:00'
-updated: '2025-11-25T13:22:36.081152+00:00'
+created: "2025-11-25T11:16:14.048532+00:00"
+updated: "2025-11-26T08:48:28.895444+00:00"

@@ -1,0 +1,24 @@
+composition:
+  _name: Page composition
+  _id: 4a2da58b-cc7a-40c0-998f-7e472fd473c9
+  type: page
+  slots:
+    body:
+      - _id: 6423c1e1-bfaf-4d25-a5e6-05709951bf09
+        type: productHero
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Shop All Furniture
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Discover our complete collection of handcrafted furniture
+                designed for modern living.
+  _locales:
+    - en-US
+created: '2025-11-26T09:00:23.88981+00:00'
+modified: '2025-11-26T09:01:01.851257+00:00'
+pattern: false

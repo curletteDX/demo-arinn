@@ -2,7 +2,7 @@ export { Alert, AlertTitle, AlertDescription } from './alert';
 export { Badge, badgeVariants } from './badge';
 export { Button, buttonVariants } from './button';
 export { Card, CardHeader, CardFooter, CardTitle, CardAction, CardDescription, CardContent } from './card';
-export { 
+export {
   DropdownMenu,
   DropdownMenuPortal,
   DropdownMenuTrigger,
@@ -34,3 +34,4 @@ export {
   SelectValue,
 } from './select';
 export { Separator } from './separator';
+export { Sheet, SheetTrigger, SheetClose, SheetContent, SheetPortal, SheetOverlay } from './sheet';

@@ -58,10 +58,11 @@ export const LifestyleGalleryItem: React.FC<LifestyleGalleryItemProps> = ({
   return (
     <div
       className={cn(
-        "relative overflow-hidden rounded-xl group cursor-pointer",
+        "relative overflow-hidden rounded-xl group cursor-pointer w-full h-full",
         gridSpan,
         className
       )}
+      style={{ minHeight: '200px' }}
     >
       {imageUrl ? (
         <>
@@ -69,13 +70,13 @@ export const LifestyleGalleryItem: React.FC<LifestyleGalleryItemProps> = ({
             src={imageUrl}
             alt={imageAlt}
             fill
-            className="object-cover w-full h-full min-h-[200px] transition-transform duration-500 group-hover:scale-105"
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
             sizes="(max-width: 1024px) 50vw, 33vw"
           />
           <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/20 transition-colors duration-300" />
         </>
       ) : (
-        <div className="w-full h-full min-h-[200px] bg-secondary flex items-center justify-center">
+        <div className="absolute inset-0 bg-secondary flex items-center justify-center">
           <p className="text-muted-foreground">Select an image →</p>
         </div>
       )}

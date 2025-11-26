@@ -58,7 +58,7 @@ export function getTransformedImageUrl(
   try {
     // Check if this looks like a Uniform asset by trying imageFrom
     const baseUrl = imageFrom(asset).url();
-    
+
     if (baseUrl && (baseUrl.includes("uniform.global") || baseUrl.includes("uniformcdn"))) {
       let transform = imageFrom(asset).transform({ width });
 
@@ -74,7 +74,7 @@ export function getTransformedImageUrl(
 
   // Get the source URL from asset properties
   const assetObj = asset as Record<string, unknown>;
-  const sourceUrl = (assetObj?.url as string | undefined) || 
+  const sourceUrl = (assetObj?.url as string | undefined) ||
                    ((assetObj?.fields as Record<string, unknown>)?.url as { value?: string } | undefined)?.value ||
                    ((assetObj?.fields as Record<string, unknown>)?.file as { value?: { url?: string } } | undefined)?.value?.url;
   if (!sourceUrl || typeof sourceUrl !== "string") return undefined;
@@ -195,7 +195,7 @@ export function getAssetFocalPoint(
   const assetObj = asset as Record<string, unknown>;
   const fields = assetObj?.fields as Record<string, { value?: unknown }> | undefined;
   const focalPoint = fields?.focalPoint?.value;
-  
+
   if (focalPoint && typeof focalPoint === "object" && "x" in focalPoint && "y" in focalPoint) {
     return focalPoint as { x: number; y: number };
   }

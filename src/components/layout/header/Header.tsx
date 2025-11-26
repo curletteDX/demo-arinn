@@ -1,84 +1,133 @@
-import React from 'react';
-import { Button } from '../../ui/button';
-import { useMobileMenu } from '../../../contexts/MobileMenuContext';
-import { Menu, X } from 'lucide-react';
-// Uniform imports for creating editable components
-import { UniformSlot, registerUniformComponent } from '@uniformdev/canvas-react';
+"use client"
+
+import { useState } from "react"
+import Link from "next/link"
+import { Search, ShoppingBag, User, Menu, X } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet"
+import { UniformSlot, registerUniformComponent } from "@uniformdev/canvas-react"
+import { cn } from "@/lib/utils"
 
 export interface HeaderProps {
   className?: string;
+  cartCount?: number;
+  searchPlaceholder?: string;
+  logoText?: string;
 }
 
 /**
- * Header Component - Website Navigation
- * 
- * This is a responsive header that works with Uniform CMS:
- * - Contains UniformSlot for navigation links (editable in Uniform)
- * - Responsive: hamburger menu on mobile, horizontal nav on desktop
- * - Sticky header that stays at top when scrolling
- * 
- * Key Uniform Concepts:
- * - UniformSlot: Creates editable areas where content authors can add components
- * - registerUniformComponent: Makes this React component available in Uniform editor
+ * Header Component - E-commerce Navigation Header
+ *
+ * A modern, responsive header component with:
+ * - Editable navigation links via Uniform
+ * - Mobile menu using Sheet component
+ * - Search functionality
+ * - Shopping cart with count badge
+ * - User account icon
+ * - Sticky positioning with backdrop blur
+ *
+ * Features:
+ * - Responsive design (mobile sheet menu, desktop horizontal nav)
+ * - Search bar toggle
+ * - Cart count badge
+ * - Editable navigation items via UniformSlot
+ * - Highlight badges for featured links
  */
-export function Header({ className = '' }: HeaderProps) {
-  // Mobile menu state management
-  const { isOpen: isMobileMenuOpen, toggle: toggleMobileMenu } = useMobileMenu();
+export function Header({
+  className = "",
+  cartCount = 0,
+  searchPlaceholder = "Search for sofas, chairs, tables...",
+  logoText = "Arinn",
+}: HeaderProps) {
+  const [isSearchOpen, setIsSearchOpen] = useState(false)
 
   return (
-    <>
-      <header className={`sticky top-0 z-50 w-full bg-white border-b border-gray-200 ${className}`}>
-        <div className="container mx-auto px-6">
+    <header className={cn("sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60", className)}>
+      <div className="border-b border-border">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
-            
-            {/* Mobile Menu Button */}
-            <Button
-              variant="ghost"
-              size="sm"
-              className="lg:hidden p-2 hover:bg-gray-50 rounded-lg transition-colors"
-              onClick={toggleMobileMenu}
-              aria-label="Toggle menu"
-            >
-              {isMobileMenuOpen ? 
-                <X className="h-5 w-5 text-gray-900" /> : 
-                <Menu className="h-5 w-5 text-gray-900" />
-              }
-            </Button>
+            {/* Mobile menu */}
+            <div className="flex lg:hidden">
+              <Sheet>
+                <SheetTrigger asChild>
+                  <Button variant="ghost" size="icon" className="lg:hidden">
+                    <Menu className="h-5 w-5" />
+                    <span className="sr-only">Open menu</span>
+                  </Button>
+                </SheetTrigger>
+                <SheetContent side="left" className="w-[300px] bg-background">
+                  <nav className="mt-8 flex flex-col gap-4 mobile-navigation-context">
+                    <UniformSlot name="navigationLinks" />
+                  </nav>
+                </SheetContent>
+              </Sheet>
+            </div>
 
-            {/* Desktop Navigation - Hidden on mobile, shown on large screens */}
-            <nav className="hidden lg:flex items-center space-x-1">
-              {/* UNIFORM SLOT: This creates an editable area in Uniform where 
-                  content authors can add NavigationLink components */}
+            {/* Logo */}
+            <Link href="/" className="flex items-center">
+              <span className="font-serif text-2xl font-bold tracking-tight text-foreground">
+                {logoText || "Arinn"}
+              </span>
+            </Link>
+
+            {/* Desktop navigation */}
+            <nav className="hidden lg:flex lg:gap-8">
               <UniformSlot name="navigationLinks" />
             </nav>
 
-            {/* Mobile menu spacer - keeps layout balanced on mobile */}
-            <div className="lg:hidden w-10"></div>
-          </div>
-
-          {/* Mobile Navigation - Collapsible menu for mobile devices */}
-          <div className={`lg:hidden transition-all duration-300 ease-in-out ${
-            isMobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
-          }`}>
-            <div className="border-t border-gray-200 bg-white">
-              <nav className="py-4 space-y-1">
-                <div className="flex flex-col space-y-1 mobile-navigation-context">
-                  {/* UNIFORM SLOT: Same navigation links as desktop, but in mobile layout */}
-                  <UniformSlot name="navigationLinks" />
-                </div>
-              </nav>
+            {/* Right actions */}
+            <div className="flex items-center gap-2">
+              <Button variant="ghost" size="icon" onClick={() => setIsSearchOpen(!isSearchOpen)}>
+                <Search className="h-5 w-5" />
+                <span className="sr-only">Search</span>
+              </Button>
+              <Button variant="ghost" size="icon" className="hidden sm:flex">
+                <User className="h-5 w-5" />
+                <span className="sr-only">Account</span>
+              </Button>
+              <Button variant="ghost" size="icon" className="relative">
+                <ShoppingBag className="h-5 w-5" />
+                {(cartCount ?? 0) > 0 && (
+                  <span className="absolute -top-1 -right-1 h-4 w-4 rounded-full bg-primary text-[10px] font-medium text-primary-foreground flex items-center justify-center">
+                    {cartCount ?? 0}
+                  </span>
+                )}
+                <span className="sr-only">Cart</span>
+              </Button>
             </div>
           </div>
         </div>
-      </header>
-    </>
-  );
+
+        {/* Search bar */}
+        {isSearchOpen && (
+          <div className="border-t border-border py-4 px-4 sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-2xl">
+              <div className="relative">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+                <input
+                  type="search"
+                  placeholder={searchPlaceholder}
+                  className="w-full rounded-md border border-input bg-background py-2 pl-10 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-ring"
+                  autoFocus
+                />
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="absolute right-1 top-1/2 -translate-y-1/2 h-7 w-7"
+                  onClick={() => setIsSearchOpen(false)}
+                >
+                  <X className="h-4 w-4" />
+                </Button>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    </header>
+  )
 }
 
-// UNIFORM REGISTRATION: This registers the component with Uniform CMS
-// - "type": The ID used in Uniform (must match component definition in Uniform)
-// - "component": The React component to render
-// After registering, this component becomes available in Uniform's visual editor
+// UNIFORM REGISTRATION
 registerUniformComponent({
   type: "header",
   component: Header,

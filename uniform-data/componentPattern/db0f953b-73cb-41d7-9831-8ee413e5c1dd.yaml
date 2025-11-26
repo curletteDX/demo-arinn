@@ -2,66 +2,128 @@ composition:
   _name: Header Pattern
   _id: db0f953b-73cb-41d7-9831-8ee413e5c1dd
   type: header
+  parameters:
+    logoText:
+      type: text
+      locales:
+        en-US: Arinn
+    cartCount:
+      type: text
+      value: '2'
+    searchPlaceholder:
+      type: text
+      locales:
+        en-US: Search for sofas, chairs, tables...
   slots:
     navigationLinks:
-      - _id: 00689b02-545e-4922-89cb-fafbbba06a60
+      - _id: 091fde52-b055-489c-9ae7-d5698fdc6009
         type: navigationLink
         parameters:
           linkUrl:
             type: link
             value:
-              path: /${locale}
-              type: projectMapNode
-              nodeId: 6fd43f82-6a0e-42f3-bd05-566c6415ed9c
-              projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
-              dynamicInputValues:
-                locale: ${locale}
+              path: /products?category=sofas
+              type: url
           linkText:
             type: text
             locales:
-              en-US: Home
+              en-US: Sofas
         _overridability:
-          hideLockedParameters: true
-      - _id: 3f97c16c-0d25-4c8c-90d9-d42c6632b2ef
+          parameters:
+            linkUrl: 'yes'
+            linkText: 'yes'
+      - _id: f7474b1d-2b85-4bad-abb9-a42260bfdc8d
         type: navigationLink
         parameters:
           linkUrl:
             type: link
             value:
-              path: /${locale}/images
-              type: projectMapNode
-              nodeId: 86925a2f-efdb-484f-a1a2-cb5c9f49126f
-              projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
-              dynamicInputValues:
-                locale: ${locale}
+              path: /products?category=chairs
+              type: url
           linkText:
             type: text
             locales:
-              en-US: Images
+              en-US: Chairs
         _overridability:
-          hideLockedParameters: true
-      - _id: d605f580-d4ba-4191-9191-422db879ec28
+          parameters:
+            linkUrl: 'yes'
+            linkText: 'yes'
+      - _id: ff242dd6-dc19-48ff-89ec-6ada5cd6d8a7
         type: navigationLink
         parameters:
           linkUrl:
             type: link
             value:
-              path: /${locale}/articles
-              type: projectMapNode
-              nodeId: dfee8dab-fa34-42cc-bd1d-0363ea233c44
-              projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
-              dynamicInputValues:
-                locale: ${locale}
+              path: /products?category=tables
+              type: url
           linkText:
             type: text
             locales:
-              en-US: Articles
+              en-US: Tables
         _overridability:
-          hideLockedParameters: true
+          parameters:
+            linkUrl: 'yes'
+            linkText: 'yes'
+      - _id: 4b39d9e1-82fc-4732-95e8-ca50cc64c134
+        type: navigationLink
+        parameters:
+          linkUrl:
+            type: link
+            value:
+              path: /products?category=bedroom
+              type: url
+          linkText:
+            type: text
+            locales:
+              en-US: Bedroom
+        _overridability:
+          parameters:
+            linkUrl: 'yes'
+            linkText: 'yes'
+      - _id: 8aee8e1f-fa38-446d-ba12-18c2b396332b
+        type: navigationLink
+        parameters:
+          linkUrl:
+            type: link
+            value:
+              path: /inspiration
+              type: url
+          linkText:
+            type: text
+            locales:
+              en-US: Inspiration
+        _overridability:
+          parameters:
+            linkUrl: 'yes'
+            linkText: 'yes'
+      - _id: dfb9a438-f2a5-4b90-9003-942b49768b05
+        type: navigationLink
+        parameters:
+          linkUrl:
+            type: link
+            value:
+              path: /collaborations/pantone
+              type: url
+          linkText:
+            type: text
+            locales:
+              en-US: Pantone
+          highlight:
+            type: checkbox
+            value: 'true'
+        _overridability:
+          parameters:
+            linkUrl: 'yes'
+            linkText: 'yes'
+            highlight: 'yes'
   _overridability:
+    parameters:
+      logoText: 'yes'
+      cartCount: 'yes'
+      searchPlaceholder: 'yes'
     hideLockedParameters: true
   _locales:
     - en-US
-created: '2025-09-18T10:42:04.115359+00:00'
-modified: '2025-09-18T15:10:26.310849+00:00'
+created: '2025-11-25T11:16:17.375192+00:00'
+modified: '2025-11-26T09:07:21.072131+00:00'
 pattern: true

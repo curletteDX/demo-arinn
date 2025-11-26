@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: productHero
+name: Product Hero
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: >-
+      Main heading for the products page (e.g., "Shop All Furniture", "Sofas &
+      Sectionals")
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Supporting description text that appears below the title
+    localizable: true
+description: Hero section for product listing pages with title and description
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2025-11-26T08:47:45.161704+00:00'
+updated: '2025-11-26T08:47:45.161704+00:00'

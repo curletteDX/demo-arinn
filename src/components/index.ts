@@ -36,3 +36,6 @@ export { default as LifestyleGalleryItem, type LifestyleGalleryItemProps } from 
 export { default as TestimonialSection, type TestimonialSectionProps } from './home/TestimonialSection';
 export { default as TestimonialCard, type TestimonialCardProps } from './home/TestimonialCard';
 export { default as CtaBanner, type CtaBannerProps } from './home/CtaBanner';
+
+// === PRODUCT COMPONENTS ===
+export { default as ProductHero, type ProductHeroProps } from './products/ProductHero';

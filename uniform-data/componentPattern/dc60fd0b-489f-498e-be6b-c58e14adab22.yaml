@@ -1,0 +1,21 @@
+composition:
+  _name: Product Hero Pattern
+  _id: dc60fd0b-489f-498e-be6b-c58e14adab22
+  type: productHero
+  parameters:
+    title:
+      type: text
+      value: Shop All Furniture
+    description:
+      type: text
+      value: >-
+        Discover our complete collection of handcrafted furniture designed for
+        modern living.
+  _overridability:
+    parameters:
+      title: 'yes'
+      description: 'yes'
+    hideLockedParameters: true
+created: '2025-11-26T08:47:55.392797+00:00'
+modified: '2025-11-26T08:47:55.392797+00:00'
+pattern: true

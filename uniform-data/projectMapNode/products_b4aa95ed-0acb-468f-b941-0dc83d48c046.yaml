@@ -1,0 +1,12 @@
+id: b4aa95ed-0acb-468f-b941-0dc83d48c046
+name: Products
+order: 0
+path: /products
+type: placeholder
+pathSegment: products
+data: {}
+locales:
+  en-US:
+    name: products
+    pathSegment: products
+projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
