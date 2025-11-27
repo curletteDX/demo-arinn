@@ -1,0 +1,64 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: pageHero
+name: Page Hero
+icon: toggle-square
+parameters:
+  - id: headline
+    name: Headline
+    type: text
+    guidance: Main headline text, e.g., 'What's new at Arinn?'
+    typeConfig:
+      required: true
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    guidance: >-
+      Hero background image. Recommended: 1920x800px or larger landscape
+      orientation.
+    typeConfig:
+      required: false
+      allowedTypes:
+        - image
+  - id: ctaText
+    name: CTA Text
+    type: text
+    guidance: Text for the CTA button, e.g., 'Learn More'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: ctaLink
+    name: CTA Link
+    type: link
+    guidance: Link destination for the CTA button
+    typeConfig:
+      required: false
+  - id: overlayOpacity
+    name: Overlay Opacity
+    type: select
+    guidance: Dark overlay opacity level for text readability
+    typeConfig:
+      options:
+        - text: None
+          value: none
+        - text: Light
+          value: light
+        - text: Medium
+          value: medium
+        - text: Dark
+          value: dark
+      required: false
+categoryId: 67b4f854-b38d-4600-a6e6-275a15fe7545
+description: >-
+  Full-width hero section for page headers with background image, overlay, and
+  prominent headline
+previewImageUrl: >-
+  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/A9qrwSEjRWSRdWvVkrfRrQ-Screenshot-2025-11-26-at-7.23.58-PM.png
+useTeamPermissions: true
+slots: []
+titleParameter: headline
+thumbnailParameter: image
+canBeComposition: false
+created: '2025-11-26T17:18:04.190522+00:00'
+updated: '2025-11-26T17:25:34.342815+00:00'

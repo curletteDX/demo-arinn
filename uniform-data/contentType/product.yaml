@@ -1,0 +1,75 @@
+id: product
+name: Product
+created: '2025-11-27T12:29:15.024238+00:00'
+updated: '2025-11-27T12:45:04.710313+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    typeConfig:
+      required: true
+    localizable: true
+  - id: description
+    name: Description
+    type: richText
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: true
+  - id: price
+    name: Price
+    type: number
+    typeConfig: null
+  - id: sku
+    name: Sku
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: category
+    name: Category
+    type: text
+    typeConfig: null
+    localizable: true
+entryName: name
+thumbnailField: image
+icon: file-document
+type: contentType
+permissions: []
+previewConfigurations: []

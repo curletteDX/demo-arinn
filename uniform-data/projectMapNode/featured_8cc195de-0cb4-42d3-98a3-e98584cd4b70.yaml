@@ -1,0 +1,9 @@
+id: 8cc195de-0cb4-42d3-98a3-e98584cd4b70
+name: Featured
+order: 400
+path: /:locale/featured
+type: composition
+pathSegment: featured
+data: {}
+compositionId: a9549171-625f-461b-b2f3-56e4fc9ca6b0
+projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a

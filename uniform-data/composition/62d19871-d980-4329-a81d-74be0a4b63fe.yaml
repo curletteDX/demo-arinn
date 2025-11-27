@@ -1,0 +1,13 @@
+composition:
+  _name: Featured
+  _id: 62d19871-d980-4329-a81d-74be0a4b63fe
+  type: page
+  slots:
+    body:
+      - _id: a5ef28ad-d1f5-4630-ad59-42a620eacbb3
+        type: contentBlock
+  _overridability:
+    hideLockedParameters: true
+created: '2025-11-26T17:04:55.413026+00:00'
+modified: '2025-11-26T17:05:14.07269+00:00'
+pattern: false

@@ -2,7 +2,7 @@
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: ctaBanner
 name: CTA Banner
-icon: screen
+icon: transcript
 parameters:
   - id: eyebrow
     name: Eyebrow
@@ -46,10 +46,14 @@ parameters:
     typeConfig:
       max: 1
       min: 0
+      decimal: true
       required: false
+categoryId: 67b4f854-b38d-4600-a6e6-275a15fe7545
 description: >-
   Full-width call-to-action banner with background image, overlay, and prominent
   CTA buttons. Perfect for conversion-focused sections.
+previewImageUrl: >-
+  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/11PouFj1QQiAS3XlQy7QsQ-Screenshot-2025-11-26-at-7.02.49-PM.png
 useTeamPermissions: true
 slots:
   - id: buttons
@@ -65,4 +69,4 @@ titleParameter: eyebrow
 thumbnailParameter: backgroundImage
 canBeComposition: false
 created: '2025-11-25T13:22:28.303453+00:00'
-updated: '2025-11-26T14:10:31.257579+00:00'
+updated: '2025-11-26T17:06:05.112549+00:00'

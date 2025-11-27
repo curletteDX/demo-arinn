@@ -1,0 +1,33 @@
+composition:
+  _name: Products
+  _id: bb9a3483-9490-40ff-811d-b48326618c0e
+  _slug: products
+  type: page
+  slots:
+    body:
+      - _id: f7e2324b-44ca-4f15-9b80-722d9fd06fb9
+        type: productHero
+        parameters:
+          title:
+            type: text
+            value: Shop All Products
+          description:
+            type: text
+            value: >-
+              Discover our complete collection of handcrafted furniture designed
+              for modern living.
+      - _id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
+        type: productGrid
+        _pattern: 06ed4868-81b5-4002-8fc4-8b485d4f0d31
+    footer:
+      - _id: 1ef975ce-af4d-4b80-a56f-5178a9375604
+        type: footer
+    header:
+      - _id: 28f7bea0-5ecd-4d7a-82f8-b9062128ef9e
+        type: header
+        _pattern: db0f953b-73cb-41d7-9831-8ee413e5c1dd
+  _locales:
+    - en-US
+created: '2025-11-26T15:03:40.507908+00:00'
+modified: '2025-11-27T13:48:15.609365+00:00'
+pattern: false

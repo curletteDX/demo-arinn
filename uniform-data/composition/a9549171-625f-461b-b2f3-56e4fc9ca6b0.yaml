@@ -1,0 +1,11 @@
+composition:
+  _name: Featured
+  _id: a9549171-625f-461b-b2f3-56e4fc9ca6b0
+  _slug: featured
+  type: page
+  _locales:
+    - en-US
+  _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
+created: '2025-11-26T17:23:24.935716+00:00'
+modified: '2025-11-26T17:23:24.935716+00:00'
+pattern: false

@@ -2,7 +2,7 @@
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: heroBanner
 name: Hero Banner
-icon: screen
+icon: card
 parameters:
   - id: eyebrow
     name: Eyebrow
@@ -305,14 +305,17 @@ parameters:
         - text: Large
           value: large
       required: false
+categoryId: 67b4f854-b38d-4600-a6e6-275a15fe7545
 description: >-
   Main hero section for the homepage featuring a two-column layout with
   compelling copy and a lifestyle image. Inspired by the Arinn furniture brand's
   Viking hearth theme.
+previewImageUrl: >-
+  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/SXFQNPmyR76f6_yJbN0a1w-Screenshot-2025-11-26-at-7.06.23-PM.png
 useTeamPermissions: true
 slots: []
 titleParameter: eyebrow
 thumbnailParameter: heroImage
 canBeComposition: false
 created: '2025-11-25T11:32:14.879954+00:00'
-updated: '2025-11-26T11:04:13.009146+00:00'
+updated: '2025-11-26T17:07:10.00468+00:00'

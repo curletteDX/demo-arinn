@@ -1,0 +1,69 @@
+composition:
+  _name: Products Grid Pattern
+  _id: 06ed4868-81b5-4002-8fc4-8b485d4f0d31
+  type: productGrid
+  slots:
+    products:
+      - _id: dc1c3f77-7ea0-497b-b103-7e82df92410f
+        type: $loop
+        slots:
+          body:
+            - _id: fddc450e-b50b-43cf-b1c2-f1927d228aca
+              type: productCard
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /products/:product
+                    type: projectMapNode
+                    dynamicInputValues:
+                      product: >-
+                        ${#jptr:/Uniform Products Query Content entries Loop
+                        Item/entry/_slug}
+                name:
+                  type: text
+                  value: >-
+                    ${#jptr:/Uniform Products Query Content entries Loop
+                    Item/entry/fields/name/value}
+                image:
+                  type: asset
+                  value: >-
+                    ${#jptr:/Uniform Products Query Content entries Loop
+                    Item/entry/fields/image/value}
+                price:
+                  type: number
+                  value: 0
+                description:
+                  type: richText
+                  value: >-
+                    ${#jptr:/Uniform Products Query Content entries Loop
+                    Item/entry/fields/description/value}
+              _overridability:
+                hideLockedParameters: true
+        _dataResources:
+          Uniform Products Query Content entries Loop Item:
+            type: sys-reserved-loop
+            variables:
+              connectedData: '#jptr:/Uniform Products Query Content/entries:fa=c'
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Uniform Products Query Content:
+      type: uniformProductsQuery
+      variables:
+        limit: '12'
+        locale: ${locale}
+        search: ''
+        filters: '{"type[eq]":"product"}'
+        orderBy: fields.name_ASC
+        uiFilters: '[{"field":"type","operator":"eq","value":"product"}]'
+        contentTypes: product
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-11-27T12:35:43.091823+00:00'
+modified: '2025-11-27T12:36:37.845361+00:00'
+pattern: true

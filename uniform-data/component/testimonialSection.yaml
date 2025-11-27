@@ -2,7 +2,7 @@
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: testimonialSection
 name: Testimonial Section
-icon: screen
+icon: view-month
 parameters:
   - id: averageRating
     name: Average Rating
@@ -23,9 +23,12 @@ parameters:
     typeConfig:
       required: false
     localizable: true
+categoryId: 67b4f854-b38d-4600-a6e6-275a15fe7545
 description: >-
   A section showcasing customer testimonials with overall rating display and
   grid of testimonial cards.
+previewImageUrl: >-
+  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/LHFfdXKST9O7ki3wbP5pUQ-Screenshot-2025-11-26-at-7.07.29-PM.png
 useTeamPermissions: true
 slots:
   - id: testimonials
@@ -38,4 +41,4 @@ slots:
 titleParameter: averageRating
 canBeComposition: false
 created: '2025-11-25T13:09:43.800581+00:00'
-updated: '2025-11-25T13:09:43.800581+00:00'
+updated: '2025-11-26T17:09:10.553487+00:00'

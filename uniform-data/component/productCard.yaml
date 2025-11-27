@@ -1,0 +1,91 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: productCard
+name: Product Card
+icon: screen
+parameters:
+  - id: name
+    name: Name
+    type: text
+    guidance: Product name
+    typeConfig:
+      required: true
+    localizable: true
+  - id: price
+    name: Price
+    type: number
+    guidance: Product price
+    typeConfig:
+      required: true
+  - id: image
+    name: Image
+    type: asset
+    guidance: Product image
+    typeConfig:
+      required: true
+      allowedTypes:
+        - image
+  - id: description
+    name: Description
+    type: richText
+    guidance: Product description or excerpt
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: link
+    name: Link
+    type: link
+    guidance: Link to product detail page
+    typeConfig:
+      required: false
+  - id: sku
+    name: SKU
+    type: text
+    guidance: Product SKU
+    typeConfig:
+      required: false
+  - id: category
+    name: Category
+    type: text
+    guidance: Product category
+    typeConfig:
+      required: false
+description: >-
+  A card component for displaying individual product information with image,
+  name, price, and description
+useTeamPermissions: true
+slots: []
+titleParameter: name
+thumbnailParameter: image
+canBeComposition: false
+created: '2025-11-27T12:34:46.67291+00:00'
+updated: '2025-11-27T12:47:53.272511+00:00'

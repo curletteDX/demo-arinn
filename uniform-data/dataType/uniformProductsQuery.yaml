@@ -1,0 +1,38 @@
+id: uniformProductsQuery
+displayName: Uniform Products Query
+ttl: 30
+path: /query
+custom:
+  maxDepth: 3
+  proposedName: Query Product
+  allowedOrderBy:
+    - name_ASC
+    - name_DESC
+    - updated_at_DESC
+    - updated_at_ASC
+    - created_at_DESC
+    - created_at_ASC
+  includeTotalCount: true
+  allowedContentTypes:
+    - product
+method: GET
+purgeKey: 17e87356-dd08-4c47-8631-a6079a286732
+archetype: queryEntries
+variables:
+  limit:
+    type: text
+    default: '20'
+  offset:
+    type: text
+    default: '0'
+  filters:
+    type: text
+    default: '{}'
+  orderBy:
+    type: text
+    default: ''
+  contentTypes:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

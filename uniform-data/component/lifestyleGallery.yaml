@@ -2,7 +2,7 @@
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: lifestyleGallery
 name: Lifestyle Gallery
-icon: screen
+icon: display-grid
 parameters:
   - id: title
     name: Title
@@ -33,7 +33,10 @@ parameters:
     guidance: Link destination for the CTA button
     typeConfig:
       required: false
+categoryId: 67b4f854-b38d-4600-a6e6-275a15fe7545
 description: Masonry-style gallery showcasing lifestyle images of furniture in real homes.
+previewImageUrl: >-
+  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/RsR13xzmS9-RjD4C5WfiCQ-Screenshot-2025-11-26-at-7.09.51-PM.png
 useTeamPermissions: true
 slots:
   - id: items
@@ -46,4 +49,4 @@ slots:
 titleParameter: title
 canBeComposition: false
 created: '2025-11-25T13:05:32.953838+00:00'
-updated: '2025-11-25T13:05:32.953838+00:00'
+updated: '2025-11-26T17:10:34.245436+00:00'

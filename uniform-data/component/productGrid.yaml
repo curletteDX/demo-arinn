@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: productGrid
+name: Product Grid
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Optional title for the product grid
+    typeConfig:
+      required: false
+    localizable: true
+description: A responsive grid layout for displaying product cards
+useTeamPermissions: true
+slots:
+  - id: products
+    name: Products
+    allowedComponents:
+      - productCard
+      - $loop
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-11-27T12:34:52.499495+00:00'
+updated: '2025-11-27T12:34:52.499495+00:00'

@@ -30,6 +30,9 @@ composition:
                       type: text
                       locales:
                         en-US: Shop Black Friday
+                    style:
+                      type: select
+                      value: primary
                 - _id: 0f041b79-9e0d-4607-bfdf-3048ccb03d82
                   type: cta
                   parameters:
@@ -42,6 +45,9 @@ composition:
                       type: text
                       locales:
                         en-US: See All Deals
+                    style:
+                      type: select
+                      value: primary
             parameters:
               eyebrow:
                 type: text
@@ -91,14 +97,6 @@ composition:
                         value: image/jpeg
                         type: text
                     _source: uniform-assets
-              primaryButtonText:
-                type: text
-                locales:
-                  en-US: Shop Black Friday
-              secondaryButtonText:
-                type: text
-                locales:
-                  en-US: See All Deals
           - _id: 9e18054e-0731-468e-ba15-6ed8d3557166
             type: heroBanner
             parameters:
@@ -476,17 +474,306 @@ composition:
                         value: image/jpeg
                         type: text
                     _source: uniform-assets
-              primaryButtonText:
+          - _id: d7693dbd-89fd-4cc4-b456-4ad13d9573f6
+            type: lifestyleGallery
+            slots:
+              items:
+                - _id: cee60265-213b-4418-94e3-98d343b04570
+                  type: lifestyleGalleryItem
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: 79f3f6a0-b8e7-4d6e-944a-2600b992b72e
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: d28e4bab-670e-4197-b62a-28b944493aff
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/zW5hDUWmSLSkJws3zt_4UA-wooden-coffee-table-in-cozy-living-space-lifestyl.jpg
+                              type: text
+                            size:
+                              value: 144461
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                wooden-coffee-table-in-cozy-living-space-lifestyl.jpg
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                            focalPoint:
+                              type: focalPoint
+                            description:
+                              type: text
+                              value: ''
+                          _source: uniform-assets
+                          _overrides:
+                            fields: {}
+                - _id: b759df9f-c9e2-452e-ba36-cbd444cc5ad4
+                  type: lifestyleGalleryItem
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: 2428a10f-273b-4fab-a73b-3b0a121d8ea9
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 7c6c7e9b-323f-45a1-9da3-775d33be7ce4
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/BbwZORlfTcyDD7UtzPFZtQ-swivel-chair-brown-checker-pattern-velvet-mid-cent.jpg
+                              type: text
+                            size:
+                              value: 98348
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                swivel-chair-brown-checker-pattern-velvet-mid-cent.jpg
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                            focalPoint:
+                              type: focalPoint
+                            description:
+                              type: text
+                              value: ''
+                          _source: uniform-assets
+                          _overrides:
+                            fields: {}
+                - _id: 1f842a80-4860-4d54-8232-e358b1458a4e
+                  type: lifestyleGalleryItem
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: 934f11b5-4c39-4281-b4eb-7ef88f85070a
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 5ccc4dbf-2044-4cf8-9f0f-14d70a103805
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/eMCFZ0hHS36x5sMqAe0ZIA-scandinavian-dining-table-natural-oak-black-steel-.jpg
+                              type: text
+                            size:
+                              value: 129096
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                scandinavian-dining-table-natural-oak-black-steel-.jpg
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                            focalPoint:
+                              type: focalPoint
+                            description:
+                              type: text
+                              value: ''
+                          _source: uniform-assets
+                          _overrides:
+                            fields: {}
+                - _id: c96b2372-2c93-4e09-9a37-034e7a24f9b8
+                  type: lifestyleGalleryItem
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: bb771671-6ec8-40a1-8858-3c6e74bdc6bc
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: ed01ffa3-c6f2-4f8f-bc0a-049d12677069
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/djxBWmZbSTKhj_9AqFbAHA-mid-century-modern-lounge-chair-rust-leather-walnu.jpg
+                              type: text
+                            size:
+                              value: 68785
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                mid-century-modern-lounge-chair-rust-leather-walnu.jpg
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                            focalPoint:
+                              type: focalPoint
+                            description:
+                              type: text
+                              value: ''
+                          _source: uniform-assets
+                          _overrides:
+                            fields: {}
+                - _id: 788f3137-64ae-4fc7-ad94-b88c0b2bb8a2
+                  type: lifestyleGalleryItem
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: 3b2c8df5-49bb-45f5-a6ae-43a9da31d437
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: ecd01264-2d0d-4bb0-95b7-cad80b62246f
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/XhqoUIPyTL2AKmsYiWWnAg-family-friendly-living-room-beige-performance-fabr.jpg
+                              type: text
+                            size:
+                              value: 156615
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                family-friendly-living-room-beige-performance-fabr.jpg
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                            focalPoint:
+                              type: focalPoint
+                            description:
+                              type: text
+                              value: ''
+                          _source: uniform-assets
+                          _overrides:
+                            fields: {}
+                - _id: 7658df39-5884-44b2-9ac8-18f4f56803f0
+                  type: lifestyleGalleryItem
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: ecc6e98b-fafe-4988-9711-5fdbbcf3f94d
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 44203345-0d8a-4f21-b577-3c3cc42b1de6
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/vI1IGNR3SpmTn8lyLVy9pw-reading-nook-with-comfortable-armchair-and-bookshe.jpg
+                              type: text
+                            size:
+                              value: 127835
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                reading-nook-with-comfortable-armchair-and-bookshe.jpg
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                            focalPoint:
+                              type: focalPoint
+                            description:
+                              type: text
+                              value: ''
+                          _source: uniform-assets
+                          _overrides:
+                            fields: {}
+                - _id: 8199b802-08b4-44b9-9a6b-9857dd183c82
+                  type: lifestyleGalleryItem
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: 2619288e-3c29-4c07-a1cf-6ecc1e421ed0
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 01aae852-9590-47a5-8721-7b1c6210a41f
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/y4GU4Mi0QMqP2AbQSDNVZw-mid-century-modern-oval-coffee-table-natural-oak-b.jpg
+                              type: text
+                            size:
+                              value: 37837
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                mid-century-modern-oval-coffee-table-natural-oak-b.jpg
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                            focalPoint:
+                              type: focalPoint
+                            description:
+                              type: text
+                              value: ''
+                          _source: uniform-assets
+                          _overrides:
+                            fields: {}
+            parameters:
+              title:
                 type: text
                 locales:
-                  en-US: Begin Your Story
-              secondaryButtonText:
+                  en-US: Your Hearth, Your Story
+              ctaText:
                 type: text
                 locales:
-                  en-US: Our Heritage
+                  en-US: View All
+              description:
+                type: text
+                locales:
+                  en-US: Real homes are where families gather.
   _locales:
     - en-US
   _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
 created: '2025-11-25T11:16:18.798525+00:00'
-modified: '2025-11-26T14:13:52.630664+00:00'
+modified: '2025-11-26T17:09:25.291209+00:00'
 pattern: false

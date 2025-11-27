@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: de374665-283a-4481-9888-2bf93c5e13dc
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Screenshot-2025-11-26-at-7.08.32-PM.png
+    file:
+      type: file
+      value: decaa559-ba86-46e2-9d3d-6e0cbd1d8d21
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/szTkL_DvS9KaFD0u4m3tpw-Screenshot-2025-11-26-at-7.08.32-PM.png
+      type: text
+    size:
+      value: 273198
+      type: number
+    width:
+      value: 1916
+      type: number
+    height:
+      value: 1088
+      type: number
+    custom: {}
+created: '2025-11-26T17:08:52.475974+00:00'
+modified: '2025-11-26T17:08:52.475974+00:00'
