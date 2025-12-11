@@ -1,5 +1,5 @@
 created: '2025-11-27T14:21:27.555404+00:00'
-modified: '2025-11-27T14:21:27.555404+00:00'
+modified: '2025-12-11T11:37:56.240789+00:00'
 pattern: false
 entry:
   _id: 57529878-87f5-495f-97fb-8210d7e1c5f7
@@ -10,15 +10,38 @@ entry:
     sku:
       type: text
       value: CHAIR-BERG-002
+    care:
+      type: text
+      value: >-
+        Condition leather every 6-12 months. Wipe with a soft, dry cloth. Avoid
+        direct sunlight to prevent fading.
     name:
       type: text
       value: Bergen Lounge Chair
+    badge:
+      type: select
+      value: New
     price:
       type: number
       value: 899
+    colors:
+      type: text
+      value: Rust,Navy,Olive
+    rating:
+      type: number
+      value: 4
     category:
       type: text
       value: chairs
+    shipping:
+      type: text
+      value: Free shipping on orders over $500. Delivery within 1-2 weeks.
+    materials:
+      type: text
+      value: Leather,Walnut
+    dimensions:
+      type: text
+      value: 32" W × 34" D × 30" H
     description:
       type: richText
       value:
@@ -51,6 +74,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    reviewCount:
+      type: number
+      value: 89
+    productcategory:
+      type: select
+      value: Chairs
   _locales:
     - en-US
   _overridability:

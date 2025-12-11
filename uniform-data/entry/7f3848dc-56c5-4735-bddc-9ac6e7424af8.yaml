@@ -1,5 +1,5 @@
 created: '2025-11-27T14:21:34.135263+00:00'
-modified: '2025-11-27T14:21:34.135263+00:00'
+modified: '2025-12-11T11:38:13.172387+00:00'
 pattern: false
 entry:
   _id: 7f3848dc-56c5-4735-bddc-9ac6e7424af8
@@ -10,15 +10,37 @@ entry:
     sku:
       type: text
       value: BED-STOCK-004
+    care:
+      type: text
+      value: >-
+        Dust regularly with a soft cloth. Avoid placing in direct sunlight.
+        Tighten hardware annually.
     name:
       type: text
       value: Stockholm Platform Bed
+    badge:
+      type: select
+      value: Best Seller
     price:
       type: number
       value: 1899
+    colors:
+      type: text
+      value: Walnut,Natural Oak,Ebony
     category:
       type: text
       value: bedroom
+    shipping:
+      type: text
+      value: >-
+        Free white-glove delivery included. Assembly required. Delivery within
+        3-4 weeks.
+    materials:
+      type: text
+      value: Solid Wood,Steel
+    dimensions:
+      type: text
+      value: 86" L × 62" W × 14" H (Queen)
     description:
       type: richText
       value:
@@ -51,6 +73,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    reviewCount:
+      type: number
+      value: 78
+    productcategory:
+      type: select
+      value: Beds
   _locales:
     - en-US
   _overridability:

@@ -1,5 +1,5 @@
 created: '2025-11-27T14:21:57.816407+00:00'
-modified: '2025-11-27T14:21:57.816407+00:00'
+modified: '2025-12-11T11:38:43.930781+00:00'
 pattern: false
 entry:
   _id: e1c62ac3-6f78-41d2-a562-ae1fa76e8c3a
@@ -10,15 +10,34 @@ entry:
     sku:
       type: text
       value: TABLE-TRO-010
+    care:
+      type: text
+      value: >-
+        Wipe with a soft, dry cloth. Use placemats and coasters. Avoid hot items
+        directly on surface.
     name:
       type: text
       value: Trondheim Dining Table
     price:
       type: number
       value: 1599
+    colors:
+      type: text
+      value: Natural Oak,Walnut,Ebony
     category:
       type: text
       value: tables
+    shipping:
+      type: text
+      value: >-
+        Free shipping. Delivery within 3-4 weeks. Professional assembly
+        included.
+    materials:
+      type: text
+      value: Solid Oak,Steel
+    dimensions:
+      type: text
+      value: 72" L × 36" W × 30" H
     description:
       type: richText
       value:
@@ -73,6 +92,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    reviewCount:
+      type: number
+      value: 52
+    productcategory:
+      type: select
+      value: Tables
   _locales:
     - en-US
   _overridability:

@@ -1,11 +1,32 @@
 created: '2025-11-27T14:17:24.421711+00:00'
-modified: '2025-11-27T14:17:24.421711+00:00'
+modified: '2025-12-11T11:39:20.950464+00:00'
 pattern: false
 entry:
   _id: f3bd2b61-acb8-49c1-8e18-804304517bd4
-  _name: 'New entry: Product'
+  _name: Untitled
   _slug: new-entry-product
   type: product
-  fields: {}
+  fields:
+    care:
+      type: text
+      value: Dust regularly. Handle with care.
+    colors:
+      type: text
+      value: Natural,White,Black
+    shipping:
+      type: text
+      value: Free shipping on orders over $50. Ships within 3-5 business days.
+    materials:
+      type: text
+      value: Ceramic,Wood
+    dimensions:
+      type: text
+      value: Various sizes available
+    reviewCount:
+      type: number
+      value: 15
+    productcategory:
+      type: select
+      value: Decor
   _locales:
     - en-US

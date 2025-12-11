@@ -1,0 +1,327 @@
+composition:
+  _name: Oslo Sectional Sofa - PDP
+  _id: 30e40e88-5350-4eb3-afe4-110b42d6a72e
+  type: productDetailPage
+  parameters:
+    pageTitle:
+      type: text
+      value: Oslo Sectional Sofa | Arinn Furniture
+    metaDescription:
+      type: text
+      value: >-
+        Experience the perfect blend of mid-century modern design and
+        contemporary comfort. The Oslo Sectional Sofa is handcrafted with
+        premium materials and built to last for generations.
+  slots:
+    footer:
+      - _id: dde3ea65-b4e2-4791-8a20-903a643ff180
+        type: footer
+        _pattern: 47c3251e-6a82-45cd-8cbe-59de99b0253c
+    header:
+      - _id: 7ce98cbc-2c2d-4cb0-924d-4d1f11163424
+        type: header
+        _pattern: db0f953b-73cb-41d7-9831-8ee413e5c1dd
+    productInfo:
+      - _id: 61385bd1-0d19-490c-9ef5-ea77423382f0
+        type: productInfo
+        parameters:
+          care:
+            type: richText
+            value:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Clean with a soft, damp cloth.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Avoid harsh chemicals and direct sunlight.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              For upholstered pieces, vacuum regularly using the
+                              soft brush attachment.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Blot spills immediately with a clean cloth.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 5
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Professional cleaning recommended annually.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                direction: null
+          name:
+            type: text
+            value: Oslo Sectional Sofa
+          badge:
+            type: select
+            value: Sale
+          price:
+            type: number
+            value: 2499
+          colors:
+            type: text
+            value: Charcoal,Cream,Sage
+          shipping:
+            type: richText
+            value:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Free standard shipping
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' on all orders over $999. Your piece will be delivered within 2-4 weeks.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: White-glove delivery service
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' is available for $199, which includes room placement and packaging removal. Assembly is included with white-glove delivery.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+          materials:
+            type: text
+            value: Velvet,Wood
+          dimensions:
+            type: text
+            value: 84" W × 36" D × 32" H
+          description:
+            type: richText
+            value:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Experience the perfect blend of mid-century modern
+                          design and contemporary comfort. Handcrafted by
+                          skilled artisans using premium materials, this piece
+                          is built to last for generations. The thoughtful
+                          design features clean lines, tapered legs, and
+                          carefully selected upholstery that brings warmth and
+                          sophistication to any space.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+          reviewCount:
+            type: number
+            value: 124
+          originalPrice:
+            type: number
+            value: 2899
+    productGallery:
+      - _id: 69210c0b-6e54-42b6-9ce4-eea6692b8019
+        type: productImageGallery
+        parameters:
+          productName:
+            type: text
+            value: Oslo Sectional Sofa
+    relatedProducts:
+      - _id: 833327ce-c029-4c8e-873f-a434022b2dfa
+        type: relatedProducts
+        slots:
+          products:
+            - _id: 3a0d33c6-6b09-4c9c-a9d6-0d9e13bcd8f3
+              type: productCard
+              parameters:
+                name:
+                  type: text
+                  value: Olive Velvet Sofa
+                price:
+                  type: number
+                  value: 1899
+                description:
+                  type: richText
+                  value:
+                    root:
+                      type: root
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Make a statement with our stunning Olive Velvet
+                                Sofa. The rich green hue brings nature indoors.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+            - _id: 6d8594bd-0cde-4737-865b-49a03abbf98f
+              type: productCard
+              parameters:
+                name:
+                  type: text
+                  value: Copenhagen Lounge Chair
+                price:
+                  type: number
+                  value: 899
+                description:
+                  type: richText
+                  value:
+                    root:
+                      type: root
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                The Copenhagen Lounge Chair combines
+                                Scandinavian simplicity with exceptional
+                                comfort.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+        parameters:
+          title:
+            type: text
+            value: You May Also Like
+          viewAllText:
+            type: text
+            value: View All
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-11T11:16:44.536715+00:00'
+modified: '2025-12-11T11:19:39.613349+00:00'
+pattern: false

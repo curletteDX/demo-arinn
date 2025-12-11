@@ -1,5 +1,5 @@
 created: '2025-11-27T14:22:05.426459+00:00'
-modified: '2025-12-10T18:15:20.343449+00:00'
+modified: '2025-12-11T11:39:08.931109+00:00'
 pattern: false
 entry:
   _id: 63c9b2b7-f942-420e-a2e3-f5ddc6bb14cb
@@ -10,15 +10,35 @@ entry:
     sku:
       type: text
       value: SOFA-TAM-012
+    care:
+      type: text
+      value: >-
+        Vacuum regularly. Spot clean with mild soap. Rotate cushions for even
+        wear.
     name:
       type: text
       value: Tampere Loveseat
+    badge:
+      type: select
+      value: New
     price:
       type: number
       value: 1299
+    colors:
+      type: text
+      value: Cream,Charcoal,Blush
     category:
       type: text
       value: sofas
+    shipping:
+      type: text
+      value: Free shipping. Delivery within 2-3 weeks.
+    materials:
+      type: text
+      value: Linen,Oak
+    dimensions:
+      type: text
+      value: 60" W × 34" D × 32" H
     description:
       type: richText
       value:
@@ -52,6 +72,9 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    reviewCount:
+      type: number
+      value: 38
     productcategory:
       type: select
       value: Sofas

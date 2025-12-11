@@ -1,5 +1,5 @@
 created: '2025-11-27T14:21:46.609094+00:00'
-modified: '2025-11-27T14:30:21.649619+00:00'
+modified: '2025-12-11T11:38:54.940261+00:00'
 pattern: false
 entry:
   _id: b7bfc2b0-8d40-4ccf-b3c2-e9154260753d
@@ -12,9 +12,15 @@ entry:
     sku:
       type: text
       value: CHAIR-AAR-007
+    care:
+      type: text
+      value: Professional cleaning recommended for velvet. Avoid direct sunlight.
     name:
       type: text
       value: Aarhus Accent Chair
+    badge:
+      type: select
+      value: Sale
     image:
       type: asset
       locales:
@@ -51,9 +57,21 @@ entry:
     price:
       type: number
       value: 599
+    colors:
+      type: text
+      value: Dusty Rose,Sage,Navy
     category:
       type: text
       value: chairs
+    shipping:
+      type: text
+      value: Free shipping on orders over $500. Delivery within 1-2 weeks.
+    materials:
+      type: text
+      value: Velvet,Walnut
+    dimensions:
+      type: text
+      value: 28" W × 30" D × 32" H
     description:
       type: richText
       value:
@@ -86,6 +104,15 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    reviewCount:
+      type: number
+      value: 63
+    originalPrice:
+      type: number
+      value: 749
+    productcategory:
+      type: select
+      value: Chairs
   _locales:
     - en-US
   _overridability:

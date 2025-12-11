@@ -1,5 +1,5 @@
 created: '2025-11-27T14:21:38.330469+00:00'
-modified: '2025-11-27T14:21:38.330469+00:00'
+modified: '2025-12-11T11:38:17.627427+00:00'
 pattern: false
 entry:
   _id: f385d0e3-4320-4fc4-bad2-de6bc2b597a2
@@ -10,15 +10,30 @@ entry:
     sku:
       type: text
       value: CHAIR-HEL-005
+    care:
+      type: text
+      value: Wipe clean with a damp cloth. Avoid abrasive cleaners.
     name:
       type: text
       value: Helsinki Dining Chair
     price:
       type: number
       value: 349
+    colors:
+      type: text
+      value: Black,White,Natural
     category:
       type: text
       value: chairs
+    shipping:
+      type: text
+      value: Free shipping. Ships within 3-5 business days. Set of 2 chairs.
+    materials:
+      type: text
+      value: Molded Plastic,Beech Wood
+    dimensions:
+      type: text
+      value: 18" W × 21" D × 32" H
     description:
       type: richText
       value:
@@ -51,6 +66,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    reviewCount:
+      type: number
+      value: 42
+    productcategory:
+      type: select
+      value: Chairs
   _locales:
     - en-US
   _overridability:

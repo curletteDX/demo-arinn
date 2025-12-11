@@ -53,24 +53,10 @@ slots:
     name: Body
     allowedComponents:
       - section
-      - productShowcase
       - productGrid
-      - featuresSection
-      - newsletterSignup
-      - productDetail
-      - article
-      - articleGrid
-      - relatedArticles
-      - featuredArticle
-      - articleSpotlight
-      - articleTeaser
-      - articleNewsletter
-      - form
       - $test
       - $localization
       - $personalization
-      - focalPointDemo
-      - textContent
       - cardGrid
       - richText
       - card
@@ -78,9 +64,7 @@ slots:
       - image
       - imageFeature
       - imageHero
-      - simpleVideo
       - cta
-      - articlePage
       - articleHeader
       - articleContent
       - articleTags
@@ -92,6 +76,9 @@ slots:
       - ctaBanner
       - productHero
       - contentBlock
+      - productImageGallery
+      - productInfo
+      - relatedProducts
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
@@ -102,4 +89,4 @@ slots:
     inheritAllowedComponents: false
 canBeComposition: true
 created: '2025-11-25T11:16:14.048532+00:00'
-updated: '2025-11-26T17:04:48.718168+00:00'
+updated: '2025-12-11T11:03:47.385024+00:00'

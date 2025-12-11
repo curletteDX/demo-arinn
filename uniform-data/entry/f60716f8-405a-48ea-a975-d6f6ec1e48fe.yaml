@@ -1,5 +1,5 @@
 created: '2025-11-27T14:21:53.949217+00:00'
-modified: '2025-11-27T14:21:53.949217+00:00'
+modified: '2025-12-11T11:38:38.081599+00:00'
 pattern: false
 entry:
   _id: f60716f8-405a-48ea-a975-d6f6ec1e48fe
@@ -10,15 +10,33 @@ entry:
     sku:
       type: text
       value: NIGHT-UPP-009
+    care:
+      type: text
+      value: Dust with a soft cloth. Use coasters to protect surface.
     name:
       type: text
       value: Uppsala Nightstand
+    badge:
+      type: select
+      value: ''
     price:
       type: number
       value: 299
+    colors:
+      type: text
+      value: Walnut,White Oak,Black
     category:
       type: text
       value: bedroom
+    shipping:
+      type: text
+      value: Free shipping. Delivery within 1-2 weeks.
+    materials:
+      type: text
+      value: Solid Wood,Brass
+    dimensions:
+      type: text
+      value: 20" W × 16" D × 22" H
     description:
       type: richText
       value:
@@ -52,6 +70,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    reviewCount:
+      type: number
+      value: 34
+    productcategory:
+      type: select
+      value: Beds
   _locales:
     - en-US
   _overridability:

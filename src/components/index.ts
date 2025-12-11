@@ -1,7 +1,9 @@
 // === LAYOUT COMPONENTS ===
 export { default as Header, type HeaderProps } from './layout/header/Header';
+export { default as HeaderStatic, type HeaderStaticProps } from './layout/header/HeaderStatic';
 export { default as NavigationLink, type NavigationLinkProps } from './layout/header/NavigationLink';
 export { default as Footer, type FooterProps } from './layout/footer/Footer';
+export { default as FooterStatic, type FooterStaticProps } from './layout/footer/FooterStatic';
 export { default as FooterNavLink, type FooterNavLinkProps } from './layout/footer/FooterNavLink';
 export { default as FooterLinkGroup, type FooterLinkGroupProps } from './layout/footer/FooterLinkGroup';
 
@@ -44,6 +46,10 @@ export { default as ProductGrid, type ProductGridProps } from './products/Produc
 export { default as ProductImageGallery, type ProductImageGalleryProps } from './products/ProductImageGallery';
 export { default as ProductInfo, type ProductInfoProps } from './products/ProductInfo';
 export { default as RelatedProducts, type RelatedProductsProps } from './products/RelatedProducts';
+// Static versions (for non-Uniform pages)
+export { default as ProductImageGalleryStatic, type ProductImageGalleryStaticProps } from './products/ProductImageGalleryStatic';
+export { default as ProductInfoStatic, type ProductInfoStaticProps } from './products/ProductInfoStatic';
+export { default as RelatedProductsStatic, type RelatedProductsStaticProps } from './products/RelatedProductsStatic';
 
 // === SHARED COMPONENTS ===
 export { default as PageHero, type PageHeroProps } from './shared/PageHero';

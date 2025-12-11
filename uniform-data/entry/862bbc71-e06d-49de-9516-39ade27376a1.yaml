@@ -1,5 +1,5 @@
 created: '2025-11-27T14:21:30.258417+00:00'
-modified: '2025-11-27T14:21:30.258417+00:00'
+modified: '2025-12-11T11:37:59.846904+00:00'
 pattern: false
 entry:
   _id: 862bbc71-e06d-49de-9516-39ade27376a1
@@ -10,15 +10,32 @@ entry:
     sku:
       type: text
       value: TABLE-COP-003
+    care:
+      type: text
+      value: >-
+        Dust regularly with a soft cloth. Use coasters to prevent rings. Apply
+        wood polish seasonally.
     name:
       type: text
       value: Copenhagen Coffee Table
     price:
       type: number
       value: 649
+    colors:
+      type: text
+      value: Natural Oak,Walnut
     category:
       type: text
       value: Tables
+    shipping:
+      type: text
+      value: Free shipping. Delivery within 1-2 weeks.
+    materials:
+      type: text
+      value: Solid Oak,Brass
+    dimensions:
+      type: text
+      value: 48" L × 24" W × 16" H
     description:
       type: richText
       value:
@@ -51,6 +68,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    reviewCount:
+      type: number
+      value: 56
+    productcategory:
+      type: select
+      value: Tables
   _locales:
     - en-US
   _overridability:

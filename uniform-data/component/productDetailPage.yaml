@@ -1,0 +1,60 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: productDetailPage
+name: Product Detail Page
+icon: screen
+parameters:
+  - id: pageTitle
+    name: Page Title
+    type: text
+    guidance: Product name for the page title (appears in browser tab)
+    localizable: true
+  - id: metaDescription
+    name: Meta Description
+    type: text
+    guidance: SEO meta description for search engines
+    localizable: true
+description: >-
+  A dedicated page layout for product detail pages featuring product gallery,
+  info, and related products
+useTeamPermissions: true
+slots:
+  - id: header
+    name: Header
+    maxComponents: 1
+    allowedComponents:
+      - header
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: productGallery
+    name: Product Gallery
+    maxComponents: 1
+    allowedComponents:
+      - productImageGallery
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+  - id: productInfo
+    name: Product Info
+    maxComponents: 1
+    allowedComponents:
+      - productInfo
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+  - id: relatedProducts
+    name: Related Products
+    maxComponents: 1
+    allowedComponents:
+      - relatedProducts
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+  - id: footer
+    name: Footer
+    maxComponents: 1
+    allowedComponents:
+      - footer
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: pageTitle
+canBeComposition: true
+created: '2025-12-11T11:16:05.683597+00:00'
+updated: '2025-12-11T11:16:53.210612+00:00'

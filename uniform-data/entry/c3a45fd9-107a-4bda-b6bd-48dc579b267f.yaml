@@ -1,5 +1,5 @@
 created: '2025-11-27T14:21:42.474451+00:00'
-modified: '2025-11-27T14:21:42.474451+00:00'
+modified: '2025-12-11T11:38:21.607468+00:00'
 pattern: false
 entry:
   _id: c3a45fd9-107a-4bda-b6bd-48dc579b267f
@@ -10,15 +10,35 @@ entry:
     sku:
       type: text
       value: SIDE-MAL-006
+    care:
+      type: text
+      value: >-
+        Dust regularly. Use felt pads under objects. Polish brass hardware with
+        a soft cloth.
     name:
       type: text
       value: Malmo Sideboard
+    badge:
+      type: select
+      value: New
     price:
       type: number
       value: 1299
+    colors:
+      type: text
+      value: Teak,Walnut,White
     category:
       type: text
       value: tables
+    shipping:
+      type: text
+      value: Free white-glove delivery included. Delivery within 3-4 weeks.
+    materials:
+      type: text
+      value: Teak Wood,Brass Hardware
+    dimensions:
+      type: text
+      value: 60" W × 18" D × 30" H
     description:
       type: richText
       value:
@@ -52,6 +72,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    reviewCount:
+      type: number
+      value: 67
+    productcategory:
+      type: select
+      value: Storage
   _locales:
     - en-US
   _overridability:

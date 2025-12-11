@@ -1,5 +1,5 @@
 created: '2025-11-27T14:18:59.084778+00:00'
-modified: '2025-11-27T14:18:59.084778+00:00'
+modified: '2025-12-11T11:39:12.784971+00:00'
 pattern: false
 entry:
   _id: 536cab9e-bacb-4c2f-a6f0-28994be75e2a
@@ -10,15 +10,30 @@ entry:
     sku:
       type: text
       value: TABLE-WAL-002
+    care:
+      type: text
+      value: Wipe with a soft cloth. Use placemats. Apply wood oil annually.
     name:
       type: text
       value: Walnut Dining Table
     price:
       type: number
       value: 1899
+    colors:
+      type: text
+      value: Walnut,Natural Oak
     category:
       type: text
       value: Tables
+    shipping:
+      type: text
+      value: Free shipping. Custom made to order. Delivery within 4-6 weeks.
+    materials:
+      type: text
+      value: Solid Walnut,Steel
+    dimensions:
+      type: text
+      value: 84" L × 40" W × 30" H
     description:
       type: richText
       value:
@@ -52,6 +67,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    reviewCount:
+      type: number
+      value: 29
+    productcategory:
+      type: select
+      value: Tables
   _locales:
     - en-US
   _overridability:

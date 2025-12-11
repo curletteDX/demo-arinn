@@ -1,5 +1,5 @@
 created: '2025-11-27T14:18:55.585257+00:00'
-modified: '2025-11-27T14:18:55.585257+00:00'
+modified: '2025-12-11T11:39:16.820159+00:00'
 pattern: false
 entry:
   _id: 0506fbab-081f-47f6-abf2-fdb8eec09240
@@ -10,15 +10,37 @@ entry:
     sku:
       type: text
       value: SOFA-MOD-001
+    care:
+      type: text
+      value: >-
+        Vacuum with soft brush. Professional cleaning recommended. Avoid direct
+        sunlight.
     name:
       type: text
       value: Modern Sectional Sofa
+    badge:
+      type: select
+      value: Best Seller
     price:
       type: number
       value: 2499
+    colors:
+      type: text
+      value: Peacock Blue,Olive Green,Charcoal
     category:
       type: text
       value: Sofas
+    shipping:
+      type: text
+      value: >-
+        Free white-glove delivery. Delivery within 3-4 weeks. Room placement
+        included.
+    materials:
+      type: text
+      value: Velvet,Walnut
+    dimensions:
+      type: text
+      value: 110" W × 85" D × 34" H
     description:
       type: richText
       value:
@@ -52,6 +74,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    reviewCount:
+      type: number
+      value: 112
+    productcategory:
+      type: select
+      value: Sofas
   _locales:
     - en-US
   _overridability:

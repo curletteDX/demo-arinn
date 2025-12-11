@@ -1,5 +1,5 @@
 created: '2025-11-27T14:21:49.867642+00:00'
-modified: '2025-11-27T14:21:49.867642+00:00'
+modified: '2025-12-11T11:38:27.040456+00:00'
 pattern: false
 entry:
   _id: d15808f9-7d2a-4b99-99f4-c765b5750631
@@ -10,15 +10,32 @@ entry:
     sku:
       type: text
       value: SOFA-GOT-008
+    care:
+      type: text
+      value: >-
+        Vacuum regularly. Spot clean with mild soap and water. Rotate cushions
+        for even wear.
     name:
       type: text
       value: Gothenburg Three-Seater
     price:
       type: number
       value: 1899
+    colors:
+      type: text
+      value: Light Grey,Mocha Brown,Navy Blue
     category:
       type: text
       value: sofas
+    shipping:
+      type: text
+      value: Free shipping on orders over $999. Delivery within 2-3 weeks.
+    materials:
+      type: text
+      value: Linen,Oak
+    dimensions:
+      type: text
+      value: 84" W × 36" D × 32" H
     description:
       type: richText
       value:
@@ -50,6 +67,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    reviewCount:
+      type: number
+      value: 95
+    productcategory:
+      type: select
+      value: Sofas
   _locales:
     - en-US
   _overridability:

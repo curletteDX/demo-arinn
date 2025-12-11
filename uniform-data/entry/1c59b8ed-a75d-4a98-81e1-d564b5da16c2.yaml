@@ -1,5 +1,5 @@
 created: '2025-11-27T14:21:23.932573+00:00'
-modified: '2025-11-27T14:21:23.932573+00:00'
+modified: '2025-12-11T11:37:54.331163+00:00'
 pattern: false
 entry:
   _id: 1c59b8ed-a75d-4a98-81e1-d564b5da16c2
@@ -10,15 +10,38 @@ entry:
     sku:
       type: text
       value: SOFA-OSLO-001
+    care:
+      type: text
+      value: >-
+        Clean with a soft, damp cloth. Avoid harsh chemicals and direct
+        sunlight. Vacuum regularly using the soft brush attachment. Professional
+        cleaning recommended annually.
     name:
       type: text
       value: Oslo Sectional Sofa
+    badge:
+      type: select
+      value: Sale
     price:
       type: number
       value: 2499
+    colors:
+      type: text
+      value: Charcoal,Cream,Sage
     category:
       type: text
       value: sofas
+    shipping:
+      type: text
+      value: >-
+        Free shipping on orders over $999. Delivery within 2-4 weeks.
+        White-glove delivery available for $199.
+    materials:
+      type: text
+      value: Velvet,Wood
+    dimensions:
+      type: text
+      value: 84" W × 36" D × 32" H
     description:
       type: richText
       value:
@@ -51,6 +74,15 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    reviewCount:
+      type: number
+      value: 124
+    originalPrice:
+      type: number
+      value: 2899
+    productcategory:
+      type: select
+      value: Sofas
   _locales:
     - en-US
   _overridability:
