@@ -1,0 +1,9 @@
+id: 96b10c50-c472-483f-8e14-9c45c4ba6172
+name: Chairs
+order: 300
+path: /:locale/chairs
+type: composition
+pathSegment: chairs
+data: {}
+compositionId: a58f1c30-91de-46b6-8711-78bb2a4648db
+projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a

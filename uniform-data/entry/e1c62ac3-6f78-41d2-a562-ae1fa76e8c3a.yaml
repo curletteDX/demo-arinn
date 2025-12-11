@@ -1,0 +1,79 @@
+created: '2025-11-27T14:21:57.816407+00:00'
+modified: '2025-11-27T14:21:57.816407+00:00'
+pattern: false
+entry:
+  _id: e1c62ac3-6f78-41d2-a562-ae1fa76e8c3a
+  _name: Trondheim Dining Table
+  _slug: trondheim-dining-table
+  type: product
+  fields:
+    sku:
+      type: text
+      value: TABLE-TRO-010
+    name:
+      type: text
+      value: Trondheim Dining Table
+    price:
+      type: number
+      value: 1599
+    category:
+      type: text
+      value: tables
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Experience modern Scandinavian design with this dining
+                    table, expertly crafted from solid oak and supported by a
+                    sleek black steel base. Choose between two elegant finishes:
+                    Natural Oak or Black Oak, both showcasing the beauty and
+                    durability of solid oak. The sturdy steel base adds a
+                    contemporary touch and ensures long-lasting stability.
+                    Materials: Solid Oak, Steel.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Customer Rating:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' 4.9/5 (67 reviews)'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

@@ -1,0 +1,61 @@
+created: '2025-11-27T14:22:05.426459+00:00'
+modified: '2025-12-10T18:15:20.343449+00:00'
+pattern: false
+entry:
+  _id: 63c9b2b7-f942-420e-a2e3-f5ddc6bb14cb
+  _name: Tampere Loveseat
+  _slug: tampere-loveseat
+  type: product
+  fields:
+    sku:
+      type: text
+      value: SOFA-TAM-012
+    name:
+      type: text
+      value: Tampere Loveseat
+    price:
+      type: number
+      value: 1299
+    category:
+      type: text
+      value: sofas
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Experience timeless elegance with this mid-century style
+                    velvet loveseat, featuring sleek brass legs for a touch of
+                    sophistication. Choose from three rich colors: Forest Green,
+                    Terracotta, or Cream, to perfectly complement your space.
+                    Crafted from luxurious velvet and sturdy brass, this
+                    loveseat combines comfort with durability. Highly rated by
+                    customers, it boasts an impressive 4.8 out of 5 stars based
+                    on 112 reviews.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+    productcategory:
+      type: select
+      value: Sofas
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

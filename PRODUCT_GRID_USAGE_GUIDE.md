@@ -173,3 +173,4 @@ If you're still having issues:
 3. Check the browser console for any errors
 4. Verify the DataType `uniformProductsQuery` is correctly configured
 
+

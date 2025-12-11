@@ -1,0 +1,79 @@
+{
+  "updates": [
+    {
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2",
+      "entryName": "Oslo Sectional Sofa",
+      "assetId": "0956a3f9-980a-42cd-928c-b008061914f8",
+      "assetFilename": "elegant-living-room-deep-teal-velvet-sofa-botanica.jpg",
+      "imageFilename": "a-frame-cabin-living-room-olive-green-velvet-sofa-.jpg"
+    },
+    {
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d",
+      "entryName": "Aarhus Accent Chair",
+      "assetId": "66eedcdd-a89d-47bb-b198-224662da6b6d",
+      "assetFilename": "sleeper-sofa-deep-blue-velvet-mid-century-modern-c.jpg",
+      "imageFilename": "accent-chair-deep-blue-checker-pattern-velvet-mid-.jpg"
+    },
+    {
+      "entryId": "7f3848dc-56c5-4735-bddc-9ac6e7424af8",
+      "entryName": "Stockholm Platform Bed",
+      "assetId": "9c662cc6-b526-4c90-abc2-b592f362465e",
+      "assetFilename": "bedroom-tapestry-blue-headboard-white-linens.jpg",
+      "imageFilename": "bedroom-tapestry-blue-headboard-white-linens.jpg"
+    },
+    {
+      "entryId": "e1c62ac3-6f78-41d2-a562-ae1fa76e8c3a",
+      "entryName": "Trondheim Dining Table",
+      "assetId": "f00e361f-1914-44e1-8484-b61863f345c7",
+      "assetFilename": "bright-scandinavian-dining-room-navy-blue-upholste.jpg",
+      "imageFilename": "bright-scandinavian-dining-room-navy-blue-upholste.jpg"
+    },
+    {
+      "entryId": "d15808f9-7d2a-4b99-99f4-c765b5750631",
+      "entryName": "Gothenburg Three-Seater",
+      "assetId": "5bdbd261-f9db-4b77-9289-cccb7d187500",
+      "assetFilename": "cozy-room-with-textured-rug-throw-pillows-plants.jpg",
+      "imageFilename": "cozy-room-with-textured-rug-throw-pillows-plants.jpg"
+    },
+    {
+      "entryId": "5ba66df1-ee00-4c4c-a57b-73a56bbecf13",
+      "entryName": "Reykjavik Bookshelf",
+      "assetId": "649c404f-85db-4c84-bd3c-aaba5d71eb98",
+      "assetFilename": "mid-century-modern-platform-bed-walnut-wood-frame-.jpg",
+      "imageFilename": "mid-century-modern-bookshelf-walnut-open-shelving-.jpg"
+    },
+    {
+      "entryId": "0506fbab-081f-47f6-abf2-fdb8eec09240",
+      "entryName": "Modern Sectional Sofa",
+      "assetId": "467996b1-ec0c-4869-8fcc-2b457020bd69",
+      "assetFilename": "mid-century-modern-chair-silhouette.jpg",
+      "imageFilename": "mid-century-modern-credenza-silhouette.jpg"
+    },
+    {
+      "entryId": "f60716f8-405a-48ea-a975-d6f6ec1e48fe",
+      "entryName": "Uppsala Nightstand",
+      "assetId": "649c404f-85db-4c84-bd3c-aaba5d71eb98",
+      "assetFilename": "mid-century-modern-platform-bed-walnut-wood-frame-.jpg",
+      "imageFilename": "mid-century-modern-nightstand-walnut-two-drawers-b.jpg"
+    },
+    {
+      "entryId": "c3a45fd9-107a-4bda-b6bd-48dc579b267f",
+      "entryName": "Malmo Sideboard",
+      "assetId": "e61265dc-afb6-4faa-9292-fbd7c2779a9e",
+      "assetFilename": "mid-century-modern-teak-sideboard-brass-handles-li.jpg",
+      "imageFilename": "mid-century-modern-teak-sideboard-brass-handles-li.jpg"
+    },
+    {
+      "entryId": "63c9b2b7-f942-420e-a2e3-f5ddc6bb14cb",
+      "entryName": "Tampere Loveseat",
+      "assetId": "20a05b74-6e0b-4de3-84a6-673eccff8b56",
+      "assetFilename": "velvet-loveseat-forest-green-brass-legs-mid-centur.jpg",
+      "imageFilename": "velvet-loveseat-forest-green-brass-legs-mid-centur.jpg"
+    }
+  ],
+  "instructions": [
+    "These updates need to be done via Uniform Management API or UI",
+    "Each entry needs its image field updated with the corresponding asset ID",
+    "Format: { entryId, assetId }"
+  ]
+}

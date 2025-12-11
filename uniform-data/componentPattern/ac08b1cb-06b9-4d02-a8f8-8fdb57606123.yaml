@@ -1,0 +1,236 @@
+composition:
+  _name: Product Info Pattern
+  _id: ac08b1cb-06b9-4d02-a8f8-8fdb57606123
+  type: productInfo
+  parameters:
+    care:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'For leather: Dust regularly with a soft cloth.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Clean spills immediately with a damp cloth.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Condition leather every 6-12 months with a quality
+                        leather conditioner.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Avoid direct sunlight and heat sources.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+              listType: bullet
+              direction: null
+          direction: null
+    name:
+      type: text
+      value: Milano Sectional Sofa
+    badge:
+      type: select
+      value: Sale
+    price:
+      type: number
+      value: 2499
+    colors:
+      type: text
+      value: Natural Oak,Walnut,Charcoal
+    rating:
+      type: number
+      value: 5
+    shipping:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Free white-glove delivery on all orders.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Delivery includes in-home placement and packaging
+                        removal.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Standard delivery takes 3-5 weeks.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Express delivery available for an additional fee.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+              listType: bullet
+              direction: null
+          direction: null
+    materials:
+      type: text
+      value: Italian Leather,Premium Velvet,Performance Linen
+    dimensions:
+      type: text
+      value: 112"W x 84"D x 34"H
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Embrace modern elegance with the Milano Sectional, featuring
+                    clean lines and plush cushioning. Crafted with a solid oak
+                    frame and premium Italian leather, this sectional offers
+                    both style and durability for your living space. The modular
+                    design allows you to configure it to fit your room
+                    perfectly.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+    reviewCount:
+      type: number
+      value: 156
+    originalPrice:
+      type: number
+      value: 2999
+  _overridability:
+    parameters:
+      care: 'yes'
+      name: 'yes'
+      badge: 'yes'
+      price: 'yes'
+      colors: 'yes'
+      rating: 'yes'
+      shipping: 'yes'
+      materials: 'yes'
+      dimensions: 'yes'
+      description: 'yes'
+      reviewCount: 'yes'
+      originalPrice: 'yes'
+    hideLockedParameters: true
+created: '2025-12-11T10:14:16.320168+00:00'
+modified: '2025-12-11T10:14:25.254259+00:00'
+pattern: true

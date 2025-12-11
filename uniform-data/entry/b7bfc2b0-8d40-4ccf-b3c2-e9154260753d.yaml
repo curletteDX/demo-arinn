@@ -1,0 +1,92 @@
+created: '2025-11-27T14:21:46.609094+00:00'
+modified: '2025-11-27T14:30:21.649619+00:00'
+pattern: false
+entry:
+  _id: b7bfc2b0-8d40-4ccf-b3c2-e9154260753d
+  _name: Aarhus Accent Chair
+  _slug: aarhus-accent-chair
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/X6G9QGwmSUCNLfV05LWIlw-Screenshot-2025-11-27-at-2.42.55-PM.png
+  type: product
+  fields:
+    sku:
+      type: text
+      value: CHAIR-AAR-007
+    name:
+      type: text
+      value: Aarhus Accent Chair
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 0afc65fa-93d1-452f-9576-e2d3c23296d8
+            type: image
+            fields:
+              id:
+                type: text
+                value: a892d6a0-b7a6-43c2-bada-e9c8da631bf8
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/X6G9QGwmSUCNLfV05LWIlw-Screenshot-2025-11-27-at-2.42.55-PM.png
+                type: text
+              file:
+                type: file
+                value: 7b65fa25-a2c2-4c6c-ae62-6480bff5e8f7
+              size:
+                value: 1662311
+                type: number
+              title:
+                type: text
+                value: Screenshot-2025-11-27-at-2.42.55-PM.png
+              width:
+                value: 1104
+                type: number
+              height:
+                value: 880
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    price:
+      type: number
+      value: 599
+    category:
+      type: text
+      value: chairs
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Enhance your living space with this cozy accent chair,
+                    featuring soft boucle fabric and sturdy oak legs for a
+                    modern yet inviting look. Choose from three stylish colors:
+                    Mustard, Blush, or Teal, to perfectly complement your decor.
+                    Crafted from high-quality boucle and oak, this chair
+                    combines comfort with durability. Rated 4.7 out of 5 stars
+                    by 78 satisfied customers.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

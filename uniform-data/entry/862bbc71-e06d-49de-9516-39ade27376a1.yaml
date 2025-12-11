@@ -1,0 +1,57 @@
+created: '2025-11-27T14:21:30.258417+00:00'
+modified: '2025-11-27T14:21:30.258417+00:00'
+pattern: false
+entry:
+  _id: 862bbc71-e06d-49de-9516-39ade27376a1
+  _name: Copenhagen Coffee Table
+  _slug: copenhagen-coffee-table
+  type: product
+  fields:
+    sku:
+      type: text
+      value: TABLE-COP-003
+    name:
+      type: text
+      value: Copenhagen Coffee Table
+    price:
+      type: number
+      value: 649
+    category:
+      type: text
+      value: Tables
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Enhance your living space with this beautiful oval coffee
+                    table, expertly crafted from solid oak and accented with
+                    elegant brass details. Choose between a Natural Oak or
+                    Walnut finish to perfectly complement your décor. Made from
+                    premium solid oak and brass, this table combines durability
+                    with timeless style. Customers love it, giving it an
+                    impressive 4.7 out of 5 stars based on 56 reviews.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

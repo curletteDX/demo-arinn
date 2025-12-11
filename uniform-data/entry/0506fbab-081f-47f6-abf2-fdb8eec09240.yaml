@@ -1,0 +1,58 @@
+created: '2025-11-27T14:18:55.585257+00:00'
+modified: '2025-11-27T14:18:55.585257+00:00'
+pattern: false
+entry:
+  _id: 0506fbab-081f-47f6-abf2-fdb8eec09240
+  _name: Modern Sectional Sofa
+  _slug: modern-sectional-sofa
+  type: product
+  fields:
+    sku:
+      type: text
+      value: SOFA-MOD-001
+    name:
+      type: text
+      value: Modern Sectional Sofa
+    price:
+      type: number
+      value: 2499
+    category:
+      type: text
+      value: Sofas
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Experience ultimate comfort and versatility with this
+                    spacious sectional sofa, designed to elevate any modern
+                    living room. Featuring deep, plush cushions and premium
+                    fabric upholstery, this sofa offers exceptional relaxation
+                    for family and guests. Its modular design allows you to
+                    easily adapt the configuration to fit your space and
+                    lifestyle. Choose from a variety of color options to
+                    perfectly match your decor.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

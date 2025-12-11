@@ -22,7 +22,7 @@ parameters:
     type: asset
     guidance: Product image
     typeConfig:
-      required: true
+      required: false
       allowedTypes:
         - image
   - id: description
@@ -88,4 +88,4 @@ titleParameter: name
 thumbnailParameter: image
 canBeComposition: false
 created: '2025-11-27T12:34:46.67291+00:00'
-updated: '2025-11-27T12:47:53.272511+00:00'
+updated: '2025-11-27T14:25:03.798231+00:00'

@@ -1,0 +1,57 @@
+created: '2025-11-27T14:21:38.330469+00:00'
+modified: '2025-11-27T14:21:38.330469+00:00'
+pattern: false
+entry:
+  _id: f385d0e3-4320-4fc4-bad2-de6bc2b597a2
+  _name: Helsinki Dining Chair
+  _slug: helsinki-dining-chair
+  type: product
+  fields:
+    sku:
+      type: text
+      value: CHAIR-HEL-005
+    name:
+      type: text
+      value: Helsinki Dining Chair
+    price:
+      type: number
+      value: 349
+    category:
+      type: text
+      value: chairs
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Experience modern Scandinavian style with this dining chair,
+                    featuring a sleek molded plastic seat and sturdy beech wood
+                    legs. Available in Black, White, or Natural finishes, it
+                    effortlessly complements any dining space. Crafted from
+                    high-quality molded plastic and beech wood, this chair
+                    combines durability with minimalist elegance. Rated 4.6 out
+                    of 5 stars by 167 customers.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

@@ -1,0 +1,58 @@
+created: '2025-11-27T14:18:59.084778+00:00'
+modified: '2025-11-27T14:18:59.084778+00:00'
+pattern: false
+entry:
+  _id: 536cab9e-bacb-4c2f-a6f0-28994be75e2a
+  _name: Walnut Dining Table
+  _slug: walnut-dining-table
+  type: product
+  fields:
+    sku:
+      type: text
+      value: TABLE-WAL-002
+    name:
+      type: text
+      value: Walnut Dining Table
+    price:
+      type: number
+      value: 1899
+    category:
+      type: text
+      value: Tables
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Experience timeless elegance with this handcrafted solid
+                    walnut dining table. Designed to seat up to 8 people
+                    comfortably, it features a stunning natural wood grain
+                    finish that showcases the beauty of walnut. The table's
+                    sturdy construction ensures lasting durability, making it
+                    perfect for family gatherings, dinner parties, and everyday
+                    dining. Elevate your dining space with this exquisite piece
+                    that combines functionality with sophisticated style.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

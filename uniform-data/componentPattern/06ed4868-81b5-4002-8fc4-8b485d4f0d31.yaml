@@ -11,6 +11,11 @@ composition:
             - _id: fddc450e-b50b-43cf-b1c2-f1927d228aca
               type: productCard
               parameters:
+                sku:
+                  type: text
+                  value: >-
+                    ${#jptr:/Uniform Products Query Content entries Loop
+                    Item/entry/fields/sku/value}
                 link:
                   type: link
                   value:
@@ -32,7 +37,14 @@ composition:
                     Item/entry/fields/image/value}
                 price:
                   type: number
-                  value: 0
+                  value: >-
+                    ${#jptr:/Uniform Products Query Content entries Loop
+                    Item/entry/fields/price/value}
+                category:
+                  type: text
+                  value: >-
+                    ${#jptr:/Uniform Products Query Content entries Loop
+                    Item/entry/fields/category/value}
                 description:
                   type: richText
                   value: >-
@@ -65,5 +77,5 @@ composition:
   _locales:
     - en-US
 created: '2025-11-27T12:35:43.091823+00:00'
-modified: '2025-11-27T12:36:37.845361+00:00'
+modified: '2025-11-27T14:25:50.417702+00:00'
 pattern: true

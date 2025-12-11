@@ -41,6 +41,9 @@ export { default as CtaBanner, type CtaBannerProps } from './home/CtaBanner';
 export { default as ProductHero, type ProductHeroProps } from './products/ProductHero';
 export { default as ProductCard, type ProductCardProps } from './products/ProductCard';
 export { default as ProductGrid, type ProductGridProps } from './products/ProductGrid';
+export { default as ProductImageGallery, type ProductImageGalleryProps } from './products/ProductImageGallery';
+export { default as ProductInfo, type ProductInfoProps } from './products/ProductInfo';
+export { default as RelatedProducts, type RelatedProductsProps } from './products/RelatedProducts';
 
 // === SHARED COMPONENTS ===
 export { default as PageHero, type PageHeroProps } from './shared/PageHero';

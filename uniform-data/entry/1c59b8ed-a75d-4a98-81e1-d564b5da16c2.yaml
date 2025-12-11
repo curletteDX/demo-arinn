@@ -1,0 +1,57 @@
+created: '2025-11-27T14:21:23.932573+00:00'
+modified: '2025-11-27T14:21:23.932573+00:00'
+pattern: false
+entry:
+  _id: 1c59b8ed-a75d-4a98-81e1-d564b5da16c2
+  _name: Oslo Sectional Sofa
+  _slug: oslo-sectional-sofa
+  type: product
+  fields:
+    sku:
+      type: text
+      value: SOFA-OSLO-001
+    name:
+      type: text
+      value: Oslo Sectional Sofa
+    price:
+      type: number
+      value: 2499
+    category:
+      type: text
+      value: sofas
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Experience ultimate comfort and style with this luxurious
+                    sectional sofa, crafted with premium velvet upholstery and a
+                    sturdy solid wood frame. Choose from elegant Charcoal,
+                    Cream, or Sage to perfectly complement your living space.
+                    Made from high-quality velvet and wood, this sectional is
+                    designed for both durability and sophistication. Rated 4.8
+                    out of 5 stars by 124 satisfied customers.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

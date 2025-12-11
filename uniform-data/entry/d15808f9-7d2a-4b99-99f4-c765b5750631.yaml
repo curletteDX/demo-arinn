@@ -1,0 +1,56 @@
+created: '2025-11-27T14:21:49.867642+00:00'
+modified: '2025-11-27T14:21:49.867642+00:00'
+pattern: false
+entry:
+  _id: d15808f9-7d2a-4b99-99f4-c765b5750631
+  _name: Gothenburg Three-Seater
+  _slug: gothenburg-three-seater
+  type: product
+  fields:
+    sku:
+      type: text
+      value: SOFA-GOT-008
+    name:
+      type: text
+      value: Gothenburg Three-Seater
+    price:
+      type: number
+      value: 1899
+    category:
+      type: text
+      value: sofas
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Experience comfort and style with this minimalist
+                    three-seater sofa, featuring soft linen upholstery and
+                    sturdy oak legs. Choose from three elegant colors: Light
+                    Grey, Navy, or Camel. Crafted from high-quality linen and
+                    oak, this sofa is designed for both durability and modern
+                    appeal. Rated 4.8 out of 5 by 145 satisfied customers.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

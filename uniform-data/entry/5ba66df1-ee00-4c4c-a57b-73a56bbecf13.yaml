@@ -1,0 +1,57 @@
+created: '2025-11-27T14:22:01.842043+00:00'
+modified: '2025-11-27T14:22:01.842043+00:00'
+pattern: false
+entry:
+  _id: 5ba66df1-ee00-4c4c-a57b-73a56bbecf13
+  _name: Reykjavik Bookshelf
+  _slug: reykjavik-bookshelf
+  type: product
+  fields:
+    sku:
+      type: text
+      value: SHELF-REY-011
+    name:
+      type: text
+      value: Reykjavik Bookshelf
+    price:
+      type: number
+      value: 849
+    category:
+      type: text
+      value: tables
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Discover this mid-century modern bookshelf, featuring open
+                    shelving and a clean, minimalist design that complements any
+                    living space. Crafted from high-quality wood and sturdy
+                    metal, it is available in your choice of Walnut or White Oak
+                    finishes. Perfect for displaying books, decor, and more,
+                    this bookshelf combines style and functionality. Rated 4.6
+                    out of 5 stars by 33 satisfied customers.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

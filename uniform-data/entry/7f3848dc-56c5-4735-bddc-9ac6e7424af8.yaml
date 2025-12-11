@@ -1,0 +1,57 @@
+created: '2025-11-27T14:21:34.135263+00:00'
+modified: '2025-11-27T14:21:34.135263+00:00'
+pattern: false
+entry:
+  _id: 7f3848dc-56c5-4735-bddc-9ac6e7424af8
+  _name: Stockholm Platform Bed
+  _slug: stockholm-platform-bed
+  type: product
+  fields:
+    sku:
+      type: text
+      value: BED-STOCK-004
+    name:
+      type: text
+      value: Stockholm Platform Bed
+    price:
+      type: number
+      value: 1899
+    category:
+      type: text
+      value: bedroom
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Experience contemporary style and durability with this
+                    modern platform bed, featuring clean lines and a sturdy
+                    solid wood construction. Choose between rich Walnut or
+                    elegant White Oak finishes to complement your bedroom decor.
+                    Crafted entirely from solid wood, this bed combines timeless
+                    design with lasting quality. Rated 4.9 out of 5 by 203
+                    satisfied customers.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

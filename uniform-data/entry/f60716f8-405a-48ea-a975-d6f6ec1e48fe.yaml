@@ -1,0 +1,58 @@
+created: '2025-11-27T14:21:53.949217+00:00'
+modified: '2025-11-27T14:21:53.949217+00:00'
+pattern: false
+entry:
+  _id: f60716f8-405a-48ea-a975-d6f6ec1e48fe
+  _name: Uppsala Nightstand
+  _slug: uppsala-nightstand
+  type: product
+  fields:
+    sku:
+      type: text
+      value: NIGHT-UPP-009
+    name:
+      type: text
+      value: Uppsala Nightstand
+    price:
+      type: number
+      value: 299
+    category:
+      type: text
+      value: bedroom
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Elevate your bedroom with this mid-century modern
+                    nightstand, featuring clean lines and elegant brass
+                    hardware. Designed with two spacious drawers for convenient
+                    storage, this piece is crafted from solid wood for lasting
+                    durability. Choose from three stylish finishes: Walnut, Oak,
+                    or White, to complement your décor. Highly rated by
+                    customers, this nightstand boasts a 4.5 out of 5 rating
+                    based on 42 reviews.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

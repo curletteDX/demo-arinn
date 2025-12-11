@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: relatedProducts
+name: Related Products
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Section title, e.g. 'You May Also Like' or 'Related Products'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: viewAllText
+    name: View All Text
+    type: text
+    guidance: Text for the view all link, e.g. 'View All' or 'See More'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: viewAllLink
+    name: View All Link
+    type: link
+    guidance: Link to the full product listing page
+    typeConfig:
+      required: false
+description: >-
+  A section component for displaying related or recommended products with a grid
+  layout
+useTeamPermissions: true
+slots:
+  - id: products
+    name: Products
+    maxComponents: 8
+    minComponents: 1
+    allowedComponents:
+      - productCard
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-12-11T10:12:41.03146+00:00'
+updated: '2025-12-11T10:12:41.03146+00:00'

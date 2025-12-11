@@ -1,0 +1,569 @@
+{
+  "images": [
+    {
+      "filename": "a-frame-cabin-living-room-olive-green-velvet-sofa-.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/a-frame-cabin-living-room-olive-green-velvet-sofa-.jpg",
+      "size": 167256,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "accent-chair-deep-blue-checker-pattern-velvet-mid-.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/accent-chair-deep-blue-checker-pattern-velvet-mid-.jpg",
+      "size": 59927,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "apartment-sectional-sofa-brown-velvet-compact-mode.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/apartment-sectional-sofa-brown-velvet-compact-mode.jpg",
+      "size": 57522,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "bedroom-tapestry-blue-headboard-white-linens.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/bedroom-tapestry-blue-headboard-white-linens.jpg",
+      "size": 120307,
+      "suggestedProduct": "Stockholm Platform Bed",
+      "entryId": "7f3848dc-56c5-4735-bddc-9ac6e7424af8"
+    },
+    {
+      "filename": "boucle-accent-chair-mustard-yellow-oak-legs-cozy.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/boucle-accent-chair-mustard-yellow-oak-legs-cozy.jpg",
+      "size": 135015,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "bright-breakfast-nook-yellow-upholstered-bench-rou.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/bright-breakfast-nook-yellow-upholstered-bench-rou.jpg",
+      "size": 129391,
+      "suggestedProduct": null,
+      "entryId": null
+    },
+    {
+      "filename": "bright-living-room-with-sectional-sofa-and-plants-.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/bright-living-room-with-sectional-sofa-and-plants-.jpg",
+      "size": 138433,
+      "suggestedProduct": "Stockholm Platform Bed",
+      "entryId": "7f3848dc-56c5-4735-bddc-9ac6e7424af8"
+    },
+    {
+      "filename": "bright-scandinavian-dining-room-navy-blue-upholste.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/bright-scandinavian-dining-room-navy-blue-upholste.jpg",
+      "size": 94634,
+      "suggestedProduct": "Trondheim Dining Table",
+      "entryId": "e1c62ac3-6f78-41d2-a562-ae1fa76e8c3a"
+    },
+    {
+      "filename": "bright-sunny-living-room-rust-orange-sectional-sof.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/bright-sunny-living-room-rust-orange-sectional-sof.jpg",
+      "size": 177742,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "coastal-bedroom-light-blue-linen-bedding-white-fur.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/coastal-bedroom-light-blue-linen-bedding-white-fur.jpg",
+      "size": 114874,
+      "suggestedProduct": "Trondheim Dining Table",
+      "entryId": "e1c62ac3-6f78-41d2-a562-ae1fa76e8c3a"
+    },
+    {
+      "filename": "compact-modular-sectional-sofa-brown-checker-velve.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/compact-modular-sectional-sofa-brown-checker-velve.jpg",
+      "size": 135838,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "cozy-bedroom-with-wooden-bed-frame-and-warm-textil.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/cozy-bedroom-with-wooden-bed-frame-and-warm-textil.jpg",
+      "size": 128699,
+      "suggestedProduct": "Stockholm Platform Bed",
+      "entryId": "7f3848dc-56c5-4735-bddc-9ac6e7424af8"
+    },
+    {
+      "filename": "cozy-living-room-blush-pink-sectional-sofa-golden-.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/cozy-living-room-blush-pink-sectional-sofa-golden-.jpg",
+      "size": 144458,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "cozy-living-room-mocha-brown-sofa-warm-lighting-pl.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/cozy-living-room-mocha-brown-sofa-warm-lighting-pl.jpg",
+      "size": 78100,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "cozy-reading-nook-dusty-pink-velvet-armchair-books.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/cozy-reading-nook-dusty-pink-velvet-armchair-books.jpg",
+      "size": 209952,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "cozy-reading-nook-dusty-rose-armchair-bookshelf-wa.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/cozy-reading-nook-dusty-rose-armchair-bookshelf-wa.jpg",
+      "size": 115415,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "cozy-reading-nook-with-accent-chair-warm-lighting.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/cozy-reading-nook-with-accent-chair-warm-lighting.jpg",
+      "size": 171830,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "cozy-room-with-textured-rug-throw-pillows-plants.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/cozy-room-with-textured-rug-throw-pillows-plants.jpg",
+      "size": 240367,
+      "suggestedProduct": "Gothenburg Three-Seater",
+      "entryId": "d15808f9-7d2a-4b99-99f4-c765b5750631"
+    },
+    {
+      "filename": "decorative-rug-and-pillows-silhouette.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/decorative-rug-and-pillows-silhouette.jpg",
+      "size": 106259,
+      "suggestedProduct": null,
+      "entryId": null
+    },
+    {
+      "filename": "elegant-accent-chair-in-styled-room-corner--lifest.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/elegant-accent-chair-in-styled-room-corner--lifest.jpg",
+      "size": 98671,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "elegant-living-room-deep-teal-velvet-sofa-botanica.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/elegant-living-room-deep-teal-velvet-sofa-botanica.jpg",
+      "size": 205453,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "elegant-living-room-interior-with-sunlight--lifest.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/elegant-living-room-interior-with-sunlight--lifest.jpg",
+      "size": 179854,
+      "suggestedProduct": null,
+      "entryId": null
+    },
+    {
+      "filename": "elegant-living-room-mocha-brown-sofa-natural-light.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/elegant-living-room-mocha-brown-sofa-natural-light.jpg",
+      "size": 140490,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "elegant-living-room-mocha-brown-velvet-sofa-warm-l.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/elegant-living-room-mocha-brown-velvet-sofa-warm-l.jpg",
+      "size": 97654,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "elegant-living-room-with-mocha-brown-velvet-sofa-n.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/elegant-living-room-with-mocha-brown-velvet-sofa-n.jpg",
+      "size": 164551,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "family-friendly-living-room-beige-performance-fabr.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/family-friendly-living-room-beige-performance-fabr.jpg",
+      "size": 156615,
+      "suggestedProduct": null,
+      "entryId": null
+    },
+    {
+      "filename": "grand-accent-chair-dusty-rose-pink-velvet-tufted-e.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/grand-accent-chair-dusty-rose-pink-velvet-tufted-e.jpg",
+      "size": 70787,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "living-room-mocha-mousse-sofa-natural-light-plants.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/living-room-mocha-mousse-sofa-natural-light-plants.jpg",
+      "size": 136157,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "living-room-with-modern-sofa-warm-tones.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/living-room-with-modern-sofa-warm-tones.jpg",
+      "size": 109266,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "living-room-with-olive-sectional-sofa-warm-lightin.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/living-room-with-olive-sectional-sofa-warm-lightin.jpg",
+      "size": 147194,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "living-room-with-wooden-coffee-table-warm-decor.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/living-room-with-wooden-coffee-table-warm-decor.jpg",
+      "size": 109643,
+      "suggestedProduct": "Trondheim Dining Table",
+      "entryId": "e1c62ac3-6f78-41d2-a562-ae1fa76e8c3a"
+    },
+    {
+      "filename": "living-room-with-wooden-credenza-plants-warm-tones.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/living-room-with-wooden-credenza-plants-warm-tones.jpg",
+      "size": 148140,
+      "suggestedProduct": "Stockholm Platform Bed",
+      "entryId": "7f3848dc-56c5-4735-bddc-9ac6e7424af8"
+    },
+    {
+      "filename": "luxurious-living-room-mocha-brown-velvet-sofa-warm.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/luxurious-living-room-mocha-brown-velvet-sofa-warm.jpg",
+      "size": 114021,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "luxurious-master-bedroom-mocha-brown-velvet-headbo.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/luxurious-master-bedroom-mocha-brown-velvet-headbo.jpg",
+      "size": 116348,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "mid-century-lounge-chair-side-view.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/mid-century-lounge-chair-side-view.jpg",
+      "size": 102935,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "mid-century-modern-bookshelf-walnut-open-shelving-.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/mid-century-modern-bookshelf-walnut-open-shelving-.jpg",
+      "size": 146820,
+      "suggestedProduct": "Reykjavik Bookshelf",
+      "entryId": "5ba66df1-ee00-4c4c-a57b-73a56bbecf13"
+    },
+    {
+      "filename": "mid-century-modern-chair-silhouette.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/mid-century-modern-chair-silhouette.jpg",
+      "size": 50295,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "mid-century-modern-credenza-silhouette.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/mid-century-modern-credenza-silhouette.jpg",
+      "size": 56845,
+      "suggestedProduct": "Modern Sectional Sofa",
+      "entryId": "0506fbab-081f-47f6-abf2-fdb8eec09240"
+    },
+    {
+      "filename": "mid-century-modern-lounge-chair-rust-leather-walnu.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/mid-century-modern-lounge-chair-rust-leather-walnu.jpg",
+      "size": 68785,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "mid-century-modern-nightstand-walnut-two-drawers-b.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/mid-century-modern-nightstand-walnut-two-drawers-b.jpg",
+      "size": 107954,
+      "suggestedProduct": "Uppsala Nightstand",
+      "entryId": "f60716f8-405a-48ea-a975-d6f6ec1e48fe"
+    },
+    {
+      "filename": "mid-century-modern-oval-coffee-table-natural-oak-b.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/mid-century-modern-oval-coffee-table-natural-oak-b.jpg",
+      "size": 37837,
+      "suggestedProduct": "Trondheim Dining Table",
+      "entryId": "e1c62ac3-6f78-41d2-a562-ae1fa76e8c3a"
+    },
+    {
+      "filename": "mid-century-modern-platform-bed-walnut-wood-frame-.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/mid-century-modern-platform-bed-walnut-wood-frame-.jpg",
+      "size": 65873,
+      "suggestedProduct": "Stockholm Platform Bed",
+      "entryId": "7f3848dc-56c5-4735-bddc-9ac6e7424af8"
+    },
+    {
+      "filename": "mid-century-modern-sectional-sofa-different-angle.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/mid-century-modern-sectional-sofa-different-angle.jpg",
+      "size": 98986,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "mid-century-modern-sectional-sofa-in-charcoal-velv.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/mid-century-modern-sectional-sofa-in-charcoal-velv.jpg",
+      "size": 199269,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "mid-century-modern-sofa-in-warm-living-room--lifes.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/mid-century-modern-sofa-in-warm-living-room--lifes.jpg",
+      "size": 164359,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "mid-century-modern-sofa-silhouette.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/mid-century-modern-sofa-silhouette.jpg",
+      "size": 41169,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "mid-century-modern-teak-sideboard-brass-handles-li.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/mid-century-modern-teak-sideboard-brass-handles-li.jpg",
+      "size": 134505,
+      "suggestedProduct": "Malmo Sideboard",
+      "entryId": "c3a45fd9-107a-4bda-b6bd-48dc579b267f"
+    },
+    {
+      "filename": "mixed-material-sectional-sofa-brown-leather-and-fa.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/mixed-material-sectional-sofa-brown-leather-and-fa.jpg",
+      "size": 57874,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "modern-bedroom-deep-blue-velvet-headboard-warm-lig.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/modern-bedroom-deep-blue-velvet-headboard-warm-lig.jpg",
+      "size": 73924,
+      "suggestedProduct": "Stockholm Platform Bed",
+      "entryId": "7f3848dc-56c5-4735-bddc-9ac6e7424af8"
+    },
+    {
+      "filename": "modern-bedroom-warm-tones-upholstered-bed.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/modern-bedroom-warm-tones-upholstered-bed.jpg",
+      "size": 110148,
+      "suggestedProduct": "Stockholm Platform Bed",
+      "entryId": "7f3848dc-56c5-4735-bddc-9ac6e7424af8"
+    },
+    {
+      "filename": "modern-bedroom-with-deep-blue-velvet-headboard-min.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/modern-bedroom-with-deep-blue-velvet-headboard-min.jpg",
+      "size": 88323,
+      "suggestedProduct": "Stockholm Platform Bed",
+      "entryId": "7f3848dc-56c5-4735-bddc-9ac6e7424af8"
+    },
+    {
+      "filename": "modern-dining-room-with-elegant-table-setting--lif.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/modern-dining-room-with-elegant-table-setting--lif.jpg",
+      "size": 113869,
+      "suggestedProduct": "Trondheim Dining Table",
+      "entryId": "e1c62ac3-6f78-41d2-a562-ae1fa76e8c3a"
+    },
+    {
+      "filename": "modern-living-room-with-mid-century-sofa-in-warm-e.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/modern-living-room-with-mid-century-sofa-in-warm-e.jpg",
+      "size": 149257,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "modern-sectional-sofa-olive-green-velvet.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/modern-sectional-sofa-olive-green-velvet.jpg",
+      "size": 92518,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "modern-sectional-sofa-peacock-blue-velvet.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/modern-sectional-sofa-peacock-blue-velvet.jpg",
+      "size": 94451,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "modular-sectional-sofa-warm-brown-mocha-mousse-vel.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/modular-sectional-sofa-warm-brown-mocha-mousse-vel.jpg",
+      "size": 99117,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "modular-sofa-deep-blue-velvet-sectional-modern-liv.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/modular-sofa-deep-blue-velvet-sectional-modern-liv.jpg",
+      "size": 44697,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "moody-dark-green-velvet-sofa-home-library-dark-wal.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/moody-dark-green-velvet-sofa-home-library-dark-wal.jpg",
+      "size": 146547,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "oversized-accent-chair-dusty-rose-pink-velvet-cozy.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/oversized-accent-chair-dusty-rose-pink-velvet-cozy.jpg",
+      "size": 109011,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "placeholder-logo.png",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/placeholder-logo.png",
+      "size": 568,
+      "suggestedProduct": "Stockholm Platform Bed",
+      "entryId": "7f3848dc-56c5-4735-bddc-9ac6e7424af8"
+    },
+    {
+      "filename": "placeholder-user.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/placeholder-user.jpg",
+      "size": 1635,
+      "suggestedProduct": "Stockholm Platform Bed",
+      "entryId": "7f3848dc-56c5-4735-bddc-9ac6e7424af8"
+    },
+    {
+      "filename": "placeholder.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/placeholder.jpg",
+      "size": 1064,
+      "suggestedProduct": "Stockholm Platform Bed",
+      "entryId": "7f3848dc-56c5-4735-bddc-9ac6e7424af8"
+    },
+    {
+      "filename": "reading-nook-dusty-rose-armchair-bookshelf-warm-am.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/reading-nook-dusty-rose-armchair-bookshelf-warm-am.jpg",
+      "size": 116020,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "reading-nook-with-comfortable-armchair-and-bookshe.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/reading-nook-with-comfortable-armchair-and-bookshe.jpg",
+      "size": 127835,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "scandinavian-dining-chair-black-molded-seat-beech-.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/scandinavian-dining-chair-black-molded-seat-beech-.jpg",
+      "size": 46360,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "scandinavian-dining-table-natural-oak-black-steel-.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/scandinavian-dining-table-natural-oak-black-steel-.jpg",
+      "size": 129096,
+      "suggestedProduct": "Trondheim Dining Table",
+      "entryId": "e1c62ac3-6f78-41d2-a562-ae1fa76e8c3a"
+    },
+    {
+      "filename": "serene-bedroom-deep-blue-velvet-bed-white-linens-n.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/serene-bedroom-deep-blue-velvet-bed-white-linens-n.jpg",
+      "size": 89626,
+      "suggestedProduct": "Stockholm Platform Bed",
+      "entryId": "7f3848dc-56c5-4735-bddc-9ac6e7424af8"
+    },
+    {
+      "filename": "serene-minimalist-bedroom-gray-linen-upholstered-b.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/serene-minimalist-bedroom-gray-linen-upholstered-b.jpg",
+      "size": 82729,
+      "suggestedProduct": "Malmo Sideboard",
+      "entryId": "c3a45fd9-107a-4bda-b6bd-48dc579b267f"
+    },
+    {
+      "filename": "sleeper-sofa-deep-blue-velvet-mid-century-modern-c.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/sleeper-sofa-deep-blue-velvet-mid-century-modern-c.jpg",
+      "size": 73651,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "sophisticated-home-office-charcoal-leather-executi.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/sophisticated-home-office-charcoal-leather-executi.jpg",
+      "size": 128142,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "swivel-chair-brown-checker-pattern-velvet-mid-cent.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/swivel-chair-brown-checker-pattern-velvet-mid-cent.jpg",
+      "size": 98348,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "three-seater-sofa-light-grey-linen-oak-legs-minima.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/three-seater-sofa-light-grey-linen-oak-legs-minima.jpg",
+      "size": 69491,
+      "suggestedProduct": "Reykjavik Bookshelf",
+      "entryId": "5ba66df1-ee00-4c4c-a57b-73a56bbecf13"
+    },
+    {
+      "filename": "three-seater-sofa-mocha-brown-velvet-mid-century-m.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/three-seater-sofa-mocha-brown-velvet-mid-century-m.jpg",
+      "size": 70385,
+      "suggestedProduct": "Aarhus Accent Chair",
+      "entryId": "b7bfc2b0-8d40-4ccf-b3c2-e9154260753d"
+    },
+    {
+      "filename": "upholstered-bed-silhouette.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/upholstered-bed-silhouette.jpg",
+      "size": 44338,
+      "suggestedProduct": "Stockholm Platform Bed",
+      "entryId": "7f3848dc-56c5-4735-bddc-9ac6e7424af8"
+    },
+    {
+      "filename": "upholstered-platform-bed-brown-checker-velvet-head.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/upholstered-platform-bed-brown-checker-velvet-head.jpg",
+      "size": 89942,
+      "suggestedProduct": "Stockholm Platform Bed",
+      "entryId": "7f3848dc-56c5-4735-bddc-9ac6e7424af8"
+    },
+    {
+      "filename": "velvet-loveseat-forest-green-brass-legs-mid-centur.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/velvet-loveseat-forest-green-brass-legs-mid-centur.jpg",
+      "size": 103424,
+      "suggestedProduct": "Tampere Loveseat",
+      "entryId": "63c9b2b7-f942-420e-a2e3-f5ddc6bb14cb"
+    },
+    {
+      "filename": "vintage-inspired-living-room-dusty-rose-velvet-sof.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/vintage-inspired-living-room-dusty-rose-velvet-sof.jpg",
+      "size": 174636,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg",
+      "size": 148148,
+      "suggestedProduct": "Oslo Sectional Sofa",
+      "entryId": "1c59b8ed-a75d-4a98-81e1-d564b5da16c2"
+    },
+    {
+      "filename": "wooden-coffee-table-in-cozy-living-space--lifestyl.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/wooden-coffee-table-in-cozy-living-space--lifestyl.jpg",
+      "size": 144461,
+      "suggestedProduct": "Trondheim Dining Table",
+      "entryId": "e1c62ac3-6f78-41d2-a562-ae1fa76e8c3a"
+    },
+    {
+      "filename": "wooden-coffee-table-silhouette.jpg",
+      "path": "/Users/rcurlette/Dev/Demos/FurnitureDemo-Arinn/demo-b2c-arinn/public/wooden-coffee-table-silhouette.jpg",
+      "size": 36309,
+      "suggestedProduct": "Trondheim Dining Table",
+      "entryId": "e1c62ac3-6f78-41d2-a562-ae1fa76e8c3a"
+    }
+  ],
+  "instructions": [
+    "1. Review the suggested mappings below",
+    "2. Update entryId for each image",
+    "3. Run the upload script (coming soon)"
+  ]
+}

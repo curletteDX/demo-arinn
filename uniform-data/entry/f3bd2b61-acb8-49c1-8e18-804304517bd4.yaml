@@ -1,0 +1,11 @@
+created: '2025-11-27T14:17:24.421711+00:00'
+modified: '2025-11-27T14:17:24.421711+00:00'
+pattern: false
+entry:
+  _id: f3bd2b61-acb8-49c1-8e18-804304517bd4
+  _name: 'New entry: Product'
+  _slug: new-entry-product
+  type: product
+  fields: {}
+  _locales:
+    - en-US

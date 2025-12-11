@@ -1,0 +1,58 @@
+created: '2025-11-27T14:21:42.474451+00:00'
+modified: '2025-11-27T14:21:42.474451+00:00'
+pattern: false
+entry:
+  _id: c3a45fd9-107a-4bda-b6bd-48dc579b267f
+  _name: Malmo Sideboard
+  _slug: malmo-sideboard
+  type: product
+  fields:
+    sku:
+      type: text
+      value: SIDE-MAL-006
+    name:
+      type: text
+      value: Malmo Sideboard
+    price:
+      type: number
+      value: 1299
+    category:
+      type: text
+      value: tables
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Discover this bestselling mid-century modern sideboard,
+                    crafted from premium teak wood and accented with elegant
+                    brass handles. Its clean lines and minimalist design make it
+                    a versatile addition to any contemporary or classic
+                    interior. Available in your choice of Teak or White finish,
+                    this sideboard combines style and functionality with
+                    spacious storage. Materials: Teak Wood, Metal. Rated 4.8 out
+                    of 5 stars by 91 satisfied customers.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

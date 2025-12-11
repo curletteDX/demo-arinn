@@ -1,0 +1,57 @@
+created: '2025-11-27T14:21:27.555404+00:00'
+modified: '2025-11-27T14:21:27.555404+00:00'
+pattern: false
+entry:
+  _id: 57529878-87f5-495f-97fb-8210d7e1c5f7
+  _name: Bergen Lounge Chair
+  _slug: bergen-lounge-chair
+  type: product
+  fields:
+    sku:
+      type: text
+      value: CHAIR-BERG-002
+    name:
+      type: text
+      value: Bergen Lounge Chair
+    price:
+      type: number
+      value: 899
+    category:
+      type: text
+      value: chairs
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Experience refined comfort with this elegant lounge chair,
+                    featuring premium leather upholstery and a sturdy walnut
+                    wood frame. Choose from sophisticated color options: Rust,
+                    Navy, or Olive, to complement your décor. Crafted from
+                    high-quality leather and walnut, this chair combines
+                    durability with timeless style. Rated 4.9 out of 5 by 89
+                    satisfied customers.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

@@ -1,0 +1,185 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: productInfo
+name: Product Info
+icon: screen
+parameters:
+  - id: name
+    name: Name
+    type: text
+    guidance: The product name or title displayed prominently at the top
+    typeConfig:
+      required: true
+    localizable: true
+  - id: price
+    name: Price
+    type: number
+    guidance: Current product price in dollars (e.g., 1299 for $1,299)
+    typeConfig:
+      min: 0
+      required: true
+  - id: originalPrice
+    name: Original Price
+    type: number
+    guidance: Original price before discount (optional, shown with strikethrough)
+    typeConfig:
+      min: 0
+  - id: rating
+    name: Rating
+    type: number
+    guidance: Product rating from 1 to 5 (e.g., 4.8)
+    typeConfig:
+      max: 5
+      min: 1
+  - id: reviewCount
+    name: Review Count
+    type: number
+    guidance: Number of customer reviews
+    typeConfig:
+      min: 0
+  - id: badge
+    name: Badge
+    type: select
+    guidance: Optional promotional badge (Sale, New, or Best Seller)
+    typeConfig:
+      options:
+        - text: None
+          value: ''
+        - text: Sale
+          value: Sale
+        - text: New
+          value: New
+        - text: Best Seller
+          value: Best Seller
+  - id: description
+    name: Description
+    type: richText
+    guidance: Detailed product description highlighting features and benefits
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: colors
+    name: Colors
+    type: text
+    guidance: Available colors as comma-separated list (e.g., Natural Oak,Walnut,Ebony)
+  - id: materials
+    name: Materials
+    type: text
+    guidance: >-
+      Available materials as comma-separated list (e.g., Premium
+      Leather,Linen,Velvet)
+  - id: dimensions
+    name: Dimensions
+    type: text
+    guidance: Product dimensions (e.g., 84"W x 38"D x 32"H)
+  - id: care
+    name: Care Instructions
+    type: richText
+    guidance: Care and maintenance instructions for the product
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: shipping
+    name: Shipping Info
+    type: richText
+    guidance: Shipping and delivery information
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+description: >-
+  Comprehensive product details component for product detail pages with
+  interactive elements like color/material selection, quantity picker, and
+  collapsible accordion sections.
+useTeamPermissions: true
+slots: []
+titleParameter: name
+canBeComposition: false
+created: '2025-12-11T10:12:33.285315+00:00'
+updated: '2025-12-11T10:12:33.285315+00:00'

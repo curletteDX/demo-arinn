@@ -1,9 +1,0 @@
-id: a9056e9e-4f83-480f-a268-f97102337310
-name: Products
-order: 300
-path: /:locale/products
-type: composition
-pathSegment: products
-data: {}
-compositionId: 2c6efc63-c434-42d0-939e-fa1d317f2cc5
-projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a

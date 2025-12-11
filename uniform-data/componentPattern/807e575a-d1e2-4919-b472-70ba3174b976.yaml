@@ -1,0 +1,15 @@
+composition:
+  _name: Product Image Gallery Pattern
+  _id: 807e575a-d1e2-4919-b472-70ba3174b976
+  type: productImageGallery
+  parameters:
+    productName:
+      type: text
+      value: Modern Lounge Chair
+  _overridability:
+    parameters:
+      productName: 'yes'
+    hideLockedParameters: true
+created: '2025-12-11T10:21:32.925212+00:00'
+modified: '2025-12-11T10:21:32.925212+00:00'
+pattern: true

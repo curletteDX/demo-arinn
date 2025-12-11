@@ -1,0 +1,34 @@
+id: queryProduct
+displayName: Query Product
+ttl: 30
+path: /query
+custom:
+  proposedName: Query Product
+  allowedOrderBy:
+    - created_at_DESC
+  allowedContentTypes:
+    - product
+method: GET
+purgeKey: 60f88b58-e1a7-4d1b-8be8-d0e7d8b07192
+archetype: queryEntries
+variables:
+  limit:
+    type: text
+    default: '20'
+  offset:
+    type: text
+    default: '0'
+  search:
+    type: text
+    default: ''
+  filters:
+    type: text
+    default: '{}'
+  orderBy:
+    type: text
+    default: ''
+  contentTypes:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

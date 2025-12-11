@@ -1,0 +1,41 @@
+composition:
+  _name: Chairs
+  _id: a58f1c30-91de-46b6-8711-78bb2a4648db
+  _slug: chairs
+  type: page
+  _overrides:
+    b767b4f5-4dd6-41b7-90b0-18ef2edf6af1:
+      dataResources:
+        Uniform Products Query Content:
+          type: uniformProductsQuery
+          variables:
+            locale: ${locale}
+            search: ''
+            filters: '{"type[eq]":"product","fields.category[eq]":"chairs"}'
+            uiFilters: >-
+              [{"field":"type","operator":"eq","value":"product"},{"field":"fields.category","operator":"eq","value":"chairs"}]
+            contentTypes: product
+    a58f1c30-91de-46b6-8711-78bb2a4648db|bea24f96-81cb-4cd0-ba68-f82bcf404627:
+      slots:
+        $slotSectionItems:
+          - _id: b767b4f5-4dd6-41b7-90b0-18ef2edf6af1
+            type: productGrid
+            _pattern: 06ed4868-81b5-4002-8fc4-8b485d4f0d31
+            _dataResources:
+              Uniform Products Query Content:
+                type: uniformProductsQuery
+                variables:
+                  locale: ${locale}
+                  search: ''
+                  filters: '{"type[eq]":"product","fields.category[eq]":"chairs"}'
+                  uiFilters: >-
+                    [{"field":"type","operator":"eq","value":"product"},{"field":"fields.category","operator":"eq","value":"chairs"}]
+                  contentTypes: product
+            _overridability:
+              hideLockedParameters: true
+  _locales:
+    - en-US
+  _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
+created: '2025-11-27T14:21:40.360641+00:00'
+modified: '2025-11-28T13:29:18.855667+00:00'
+pattern: false
