@@ -1,0 +1,14 @@
+id: pc
+name: Product Category
+cap: 100
+values:
+  - id: beds
+    value: Beds
+  - id: chairs
+    value: Chairs
+  - id: sofas
+    value: Sofas
+  - id: storage
+    value: Storage
+  - id: tables
+    value: Tables

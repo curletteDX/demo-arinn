@@ -1,6 +1,34 @@
 {
   "project": {
-    "pz": {},
+    "pz": {
+      "enr": {
+        "pc": {
+          "cap": 100
+        }
+      },
+      "sig": {
+        "utmCampaignSocial": {
+          "str": 1,
+          "cap": 1,
+          "dur": "t",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "type": "QS",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "social_winter"
+                },
+                "queryName": "utm_campaign"
+              }
+            ]
+          }
+        }
+      }
+    },
     "test": {}
   }
 }

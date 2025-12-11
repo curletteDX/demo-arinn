@@ -2,7 +2,7 @@
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: productDetailPage
 name: Product Detail Page
-icon: screen
+icon: card
 parameters:
   - id: pageTitle
     name: Page Title
@@ -14,9 +14,12 @@ parameters:
     type: text
     guidance: SEO meta description for search engines
     localizable: true
+categoryId: 67b4f854-b38d-4600-a6e6-275a15fe7545
 description: >-
   A dedicated page layout for product detail pages featuring product gallery,
   info, and related products
+previewImageUrl: >-
+  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/ht5aLpjHRL-j780lp_ji-Q-Screenshot-2025-12-11-at-3.25.29-PM.png
 useTeamPermissions: true
 slots:
   - id: header
@@ -45,6 +48,9 @@ slots:
     maxComponents: 1
     allowedComponents:
       - relatedProducts
+      - $p:374e5eb0-68c4-48ba-8d47-4c378046b456
+      - $p:41f1c414-98ea-48b6-bb83-e1d0dd6d8acd
+    allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: true
   - id: footer
@@ -57,4 +63,4 @@ slots:
 titleParameter: pageTitle
 canBeComposition: true
 created: '2025-12-11T11:16:05.683597+00:00'
-updated: '2025-12-11T11:16:53.210612+00:00'
+updated: '2025-12-11T15:34:45.041321+00:00'

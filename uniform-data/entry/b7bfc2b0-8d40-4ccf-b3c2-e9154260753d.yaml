@@ -1,5 +1,5 @@
 created: '2025-11-27T14:21:46.609094+00:00'
-modified: '2025-12-11T11:38:54.940261+00:00'
+modified: '2025-12-11T17:10:25.483695+00:00'
 pattern: false
 entry:
   _id: b7bfc2b0-8d40-4ccf-b3c2-e9154260753d
@@ -60,9 +60,41 @@ entry:
     colors:
       type: text
       value: Dusty Rose,Sage,Navy
-    category:
-      type: text
-      value: chairs
+    images:
+      type: asset
+      value:
+        - _id: c606c871-dcbb-49ac-8049-02be5f6a412f
+          type: image
+          fields:
+            id:
+              type: text
+              value: a892d6a0-b7a6-43c2-bada-e9c8da631bf8
+            url:
+              value: >-
+                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/X6G9QGwmSUCNLfV05LWIlw-Screenshot-2025-11-27-at-2.42.55-PM.png
+              type: text
+            file:
+              type: file
+              value: 7b65fa25-a2c2-4c6c-ae62-6480bff5e8f7
+            size:
+              value: 1662311
+              type: number
+            title:
+              type: text
+              value: Screenshot-2025-11-27-at-2.42.55-PM.png
+            width:
+              value: 1104
+              type: number
+            height:
+              value: 880
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    rating:
+      type: number
+      value: '5'
     shipping:
       type: text
       value: Free shipping on orders over $500. Delivery within 1-2 weeks.
@@ -104,6 +136,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    enrichments:
+      type: $enr
+      value:
+        - cat: pc
+          key: chairs
+          str: 3
     reviewCount:
       type: number
       value: 63

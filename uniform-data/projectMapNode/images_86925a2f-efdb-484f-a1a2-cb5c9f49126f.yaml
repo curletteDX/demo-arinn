@@ -1,9 +1,0 @@
-id: 86925a2f-efdb-484f-a1a2-cb5c9f49126f
-name: Images
-order: 500
-path: /:locale/images
-type: composition
-pathSegment: images
-data: {}
-compositionId: eff7bb10-7ea6-4498-af67-c7ff794ead8d
-projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a

@@ -2,12 +2,12 @@
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: productImageGallery
 name: Product Image Gallery
-icon: screen
+icon: image
 parameters:
-  - id: images
-    name: Images
+  - id: image
+    name: Image
     type: asset
-    guidance: Upload multiple product images. The first image will be shown initially.
+    guidance: Product image. Can be bound to Product entry's image field.
     typeConfig:
       allowedTypes:
         - image
@@ -16,13 +16,16 @@ parameters:
     type: text
     guidance: Product name used for image alt text accessibility.
     localizable: true
+categoryId: 67b4f854-b38d-4600-a6e6-275a15fe7545
 description: >-
   Interactive product image carousel with thumbnails, navigation arrows, and
   image counter for product detail pages.
+previewImageUrl: >-
+  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/eHowiHTtTFm-tSgOEIpBjQ-Screenshot-2025-12-11-at-3.26.53-PM.png
 useTeamPermissions: true
 slots: []
 titleParameter: productName
-thumbnailParameter: images
+thumbnailParameter: image
 canBeComposition: false
 created: '2025-12-11T10:21:17.84351+00:00'
-updated: '2025-12-11T10:21:17.84351+00:00'
+updated: '2025-12-11T16:05:31.832028+00:00'

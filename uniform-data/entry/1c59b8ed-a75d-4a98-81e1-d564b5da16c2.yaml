@@ -1,10 +1,12 @@
 created: '2025-11-27T14:21:23.932573+00:00'
-modified: '2025-12-11T11:37:54.331163+00:00'
+modified: '2025-12-11T17:09:57.225445+00:00'
 pattern: false
 entry:
   _id: 1c59b8ed-a75d-4a98-81e1-d564b5da16c2
   _name: Oslo Sectional Sofa
   _slug: oslo-sectional-sofa
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/XMG82TH-Rdi75zlmFN7USw-modern-sectional-sofa-peacock-blue-velvet.jpg
   type: product
   fields:
     sku:
@@ -22,15 +24,45 @@ entry:
     badge:
       type: select
       value: Sale
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 7f7933c3-4d75-43e1-bdd4-28bdfb09948d
+            type: image
+            fields:
+              id:
+                type: text
+                value: 00e1350c-e3da-4615-a09e-a88f0b0a70bf
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/XMG82TH-Rdi75zlmFN7USw-modern-sectional-sofa-peacock-blue-velvet.jpg
+                type: text
+              file:
+                type: file
+                value: 5ca5dd58-89e2-4510-8f35-060a656c3fed
+              size:
+                value: 94451
+                type: number
+              title:
+                type: text
+                value: modern-sectional-sofa-peacock-blue-velvet.jpg
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
     price:
       type: number
       value: 2499
     colors:
       type: text
       value: Charcoal,Cream,Sage
-    category:
-      type: text
-      value: sofas
     shipping:
       type: text
       value: >-
@@ -74,6 +106,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    enrichments:
+      type: $enr
+      value:
+        - cat: pc
+          key: sofas
+          str: 3
     reviewCount:
       type: number
       value: 124

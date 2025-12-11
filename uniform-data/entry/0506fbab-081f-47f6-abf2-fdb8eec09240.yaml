@@ -1,10 +1,12 @@
 created: '2025-11-27T14:18:55.585257+00:00'
-modified: '2025-12-11T11:39:16.820159+00:00'
+modified: '2025-12-11T17:10:47.683716+00:00'
 pattern: false
 entry:
   _id: 0506fbab-081f-47f6-abf2-fdb8eec09240
   _name: Modern Sectional Sofa
   _slug: modern-sectional-sofa
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/uWLDMyOQRGy_AJWKNl2ZqA-modern-sectional-sofa-olive-green-velvet.jpg
   type: product
   fields:
     sku:
@@ -21,15 +23,45 @@ entry:
     badge:
       type: select
       value: Best Seller
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 8f0deb50-7004-4d79-88c1-1d95a37cc74d
+            type: image
+            fields:
+              id:
+                type: text
+                value: d86a4b4a-8e08-4aae-9e92-ed8bbf909831
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/uWLDMyOQRGy_AJWKNl2ZqA-modern-sectional-sofa-olive-green-velvet.jpg
+                type: text
+              file:
+                type: file
+                value: 289b8c6e-de1b-4e5f-aac3-0ba9fe235080
+              size:
+                value: 92518
+                type: number
+              title:
+                type: text
+                value: modern-sectional-sofa-olive-green-velvet.jpg
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
     price:
       type: number
       value: 2499
     colors:
       type: text
       value: Peacock Blue,Olive Green,Charcoal
-    category:
-      type: text
-      value: Sofas
     shipping:
       type: text
       value: >-
@@ -74,6 +106,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    enrichments:
+      type: $enr
+      value:
+        - cat: pc
+          key: sofas
+          str: 3
     reviewCount:
       type: number
       value: 112

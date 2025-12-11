@@ -2,7 +2,7 @@
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: page
 name: Page
-icon: file-document
+icon: card
 parameters:
   - id: 3169bf67-8227-40ca-af99-68961f63658c
     name: Page Information
@@ -89,4 +89,4 @@ slots:
     inheritAllowedComponents: false
 canBeComposition: true
 created: '2025-11-25T11:16:14.048532+00:00'
-updated: '2025-12-11T11:03:47.385024+00:00'
+updated: '2025-12-11T13:23:33.000447+00:00'

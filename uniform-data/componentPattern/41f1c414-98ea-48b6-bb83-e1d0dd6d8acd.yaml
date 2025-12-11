@@ -1,20 +1,25 @@
 composition:
-  _name: Products Grid Pattern
-  _id: 06ed4868-81b5-4002-8fc4-8b485d4f0d31
-  type: productGrid
+  _name: Related Products (Dynamic)
+  _id: 41f1c414-98ea-48b6-bb83-e1d0dd6d8acd
+  type: relatedProducts
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: You May Also Like
   slots:
     products:
-      - _id: dc1c3f77-7ea0-497b-b103-7e82df92410f
+      - _id: 97437d84-760c-43c7-9c94-06a911d98992
         type: $loop
         slots:
           body:
-            - _id: fddc450e-b50b-43cf-b1c2-f1927d228aca
+            - _id: df5a16e4-1315-42d9-9c1d-35ba9b1ac923
               type: productCard
               parameters:
                 sku:
                   type: text
                   value: >-
-                    ${#jptr:/Uniform Products Query Content entries Loop
+                    ${#jptr:/Product List Content entries Loop
                     Item/entry/fields/sku/value}
                 link:
                   type: link
@@ -27,60 +32,59 @@ composition:
                       locale: ${locale}
                 name:
                   type: text
-                  value: >-
-                    ${#jptr:/Uniform Products Query Content entries Loop
-                    Item/entry/fields/name/value}
+                  locales:
+                    en-US: >-
+                      ${#jptr:/Product List Content entries Loop
+                      Item/entry/fields/name/value}
                 image:
                   type: asset
                   value: >-
-                    ${#jptr:/Uniform Products Query Content entries Loop
-                    Item/entry/fields/image/value}
+                    ${#jptr:/Product List Content entries Loop
+                    Item/entry/fields/images/value}
                 price:
                   type: number
                   value: >-
-                    ${#jptr:/Uniform Products Query Content entries Loop
+                    ${#jptr:/Product List Content entries Loop
                     Item/entry/fields/price/value}
                 category:
                   type: text
                   value: >-
-                    ${#jptr:/Uniform Products Query Content entries Loop
+                    ${#jptr:/Product List Content entries Loop
                     Item/entry/fields/productcategory/value}
                 description:
                   type: richText
-                  value: >-
-                    ${#jptr:/Uniform Products Query Content entries Loop
-                    Item/entry/fields/description/value}
+                  locales:
+                    en-US: >-
+                      ${#jptr:/Product List Content entries Loop
+                      Item/entry/fields/description/value}
               _overridability:
                 parameters:
                   name: 'yes'
+                  image: 'yes'
                   description: 'yes'
-                hideLockedParameters: true
         _dataResources:
-          Uniform Products Query Content entries Loop Item:
+          Product List Content entries Loop Item:
             type: sys-reserved-loop
             variables:
-              connectedData: '#jptr:/Uniform Products Query Content/entries:fa=c'
+              limit: '4'
+              connectedData: '#jptr:/Product List Content/entries:fa=c'
         _overridability:
           hideLockedParameters: true
   _dataResources:
-    Uniform Products Query Content:
-      type: uniformProductsQuery
+    Product List Content:
+      type: productList
       variables:
-        limit: '12'
         locale: ${locale}
         search: ''
         filters: '{"type[eq]":"product"}'
-        orderBy: fields.name_ASC
-        uiFilters: '[{"field":"type","operator":"eq","value":"product"}]'
         contentTypes: product
       isPatternParameter: true
-      ignorePatternParameterDefault: true
+      ignorePatternParameterDefault: false
   _overridability:
     parameters:
       title: 'yes'
-    hideLockedParameters: true
   _locales:
     - en-US
-created: '2025-11-27T12:35:43.091823+00:00'
-modified: '2025-12-11T15:41:19.755771+00:00'
+created: '2025-12-11T15:25:07.079693+00:00'
+modified: '2025-12-11T15:56:11.367217+00:00'
 pattern: true

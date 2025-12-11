@@ -3,6 +3,8 @@ import { UniformComposition } from "@uniformdev/canvas-react";
 import {
   RootComponentInstance,
 } from "@uniformdev/canvas";
+// Import all component registrations (this ensures registerUniformComponent calls execute)
+import "@/components";
 // Import the page component registrations
 import "@/components/page/page";
 import "@/components/page/product-detail-page";

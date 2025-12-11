@@ -2,7 +2,7 @@
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: relatedProducts
 name: Related Products
-icon: screen
+icon: view-cols
 parameters:
   - id: title
     name: Title
@@ -24,9 +24,12 @@ parameters:
     guidance: Link to the full product listing page
     typeConfig:
       required: false
+categoryId: 67b4f854-b38d-4600-a6e6-275a15fe7545
 description: >-
   A section component for displaying related or recommended products with a grid
   layout
+previewImageUrl: >-
+  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/hii0GWeCRUGcHbb9WTVRQQ-Screenshot-2025-12-11-at-3.26.53-PM.png
 useTeamPermissions: true
 slots:
   - id: products
@@ -35,9 +38,10 @@ slots:
     minComponents: 1
     allowedComponents:
       - productCard
+      - $loop
     inheritAllowedComponents: false
     patternsInAllowedComponents: true
 titleParameter: title
 canBeComposition: false
 created: '2025-12-11T10:12:41.03146+00:00'
-updated: '2025-12-11T10:12:41.03146+00:00'
+updated: '2025-12-11T15:25:46.712457+00:00'

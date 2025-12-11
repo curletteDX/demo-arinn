@@ -13,148 +13,688 @@ composition:
     45f97431-3075-4477-9e46-c3947f4a6bab|bea24f96-81cb-4cd0-ba68-f82bcf404627:
       slots:
         $slotSectionItems:
-          - _id: 4ff729b6-6bac-4c3a-8b33-32df407c72a5
-            type: ctaBanner
+          - _id: 75737c5a-4069-4242-aeca-0c9aa1b31721
+            type: $personalization
             slots:
-              buttons:
-                - _id: 911d2db8-5462-402d-bc91-1ddd61dd7abb
-                  type: cta
+              pz:
+                - _id: 4ff729b6-6bac-4c3a-8b33-32df407c72a5
+                  type: ctaBanner
+                  slots:
+                    buttons:
+                      - _id: 911d2db8-5462-402d-bc91-1ddd61dd7abb
+                        type: cta
+                        parameters:
+                          link:
+                            type: link
+                            value:
+                              path: /products
+                              type: projectMapNode
+                              nodeId: b4aa95ed-0acb-468f-b941-0dc83d48c046
+                          text:
+                            type: text
+                            locales:
+                              en-US: Shop Black Friday
+                          style:
+                            type: select
+                            value: primary
+                      - _id: 0f041b79-9e0d-4607-bfdf-3048ccb03d82
+                        type: cta
+                        parameters:
+                          link:
+                            type: link
+                            value:
+                              path: /products
+                              type: url
+                          text:
+                            type: text
+                            locales:
+                              en-US: See All Deals
+                          style:
+                            type: select
+                            value: primary
                   parameters:
-                    link:
-                      type: link
+                    $pzCrit:
+                      type: $pzCrit
                       value:
-                        path: /products
-                        type: projectMapNode
-                        nodeId: b4aa95ed-0acb-468f-b941-0dc83d48c046
-                    text:
+                        dim: pc_sofas
+                        name: sofas
+                    eyebrow:
                       type: text
                       locales:
-                        en-US: Shop Black Friday
-                    style:
-                      type: select
-                      value: primary
-                - _id: 0f041b79-9e0d-4607-bfdf-3048ccb03d82
-                  type: cta
-                  parameters:
-                    link:
-                      type: link
-                      value:
-                        path: /products
-                        type: url
-                    text:
+                        en-US: 'BLACK FRIDAY: SOFAS'
+                    headline:
                       type: text
                       locales:
-                        en-US: See All Deals
-                    style:
-                      type: select
-                      value: primary
+                        en-US: 'Sofa Spectacular: Up to 50% Off!'
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          Snag your dream sofa for less during our Black Friday
+                          event. Limited time, limited stock—shop sofas now!
+                    backgroundImage:
+                      type: asset
+                      value:
+                        - _id: fff79375-8593-4d80-8b9b-5558d392e5da
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: fe5b575c-ca4a-4592-9036-57a433521c03
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/XuXglDVJQb25UJgvcM0YFA-warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+                              type: text
+                            file:
+                              type: file
+                              value: a9bc1cf7-3454-4913-ab06-6677902fc500
+                            size:
+                              value: 148148
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                          _source: uniform-assets
+                - _id: 39eb834c-70c8-4e11-bf3a-8d463ed59b4a
+                  type: ctaBanner
+                  slots:
+                    buttons:
+                      - _id: d972e9f6-1fae-41af-8b4f-bd23fafdbdc1
+                        type: cta
+                        parameters:
+                          link:
+                            type: link
+                            value:
+                              path: /products
+                              type: projectMapNode
+                              nodeId: b4aa95ed-0acb-468f-b941-0dc83d48c046
+                          text:
+                            type: text
+                            locales:
+                              en-US: Shop Black Friday
+                          style:
+                            type: select
+                            value: primary
+                      - _id: c1920f6d-a589-4f4a-9e4b-2909daaee7ae
+                        type: cta
+                        parameters:
+                          link:
+                            type: link
+                            value:
+                              path: /products
+                              type: url
+                          text:
+                            type: text
+                            locales:
+                              en-US: See All Deals
+                          style:
+                            type: select
+                            value: primary
+                  parameters:
+                    $pzCrit:
+                      type: $pzCrit
+                      value:
+                        dim: pc_chairs
+                        name: chairs
+                    eyebrow:
+                      type: text
+                      locales:
+                        en-US: 'BLACK FRIDAY: CHAIRS'
+                    headline:
+                      type: text
+                      locales:
+                        en-US: 'Sit in Style: Up to 50% Off All Chairs!'
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          Upgrade your favorite seat with exclusive Black Friday
+                          deals on every chair. Shop now for comfort and
+                          savings!
+                    backgroundImage:
+                      type: asset
+                      value:
+                        - _id: fff79375-8593-4d80-8b9b-5558d392e5da
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: fe5b575c-ca4a-4592-9036-57a433521c03
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/XuXglDVJQb25UJgvcM0YFA-warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+                              type: text
+                            file:
+                              type: file
+                              value: a9bc1cf7-3454-4913-ab06-6677902fc500
+                            size:
+                              value: 148148
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                          _source: uniform-assets
+                - _id: 17c3b6df-394b-44c2-bff4-90ca0adc7b00
+                  type: ctaBanner
+                  slots:
+                    buttons:
+                      - _id: 62eeb3a2-6115-4c81-b61e-2dfbf8a91710
+                        type: cta
+                        parameters:
+                          link:
+                            type: link
+                            value:
+                              path: /products
+                              type: projectMapNode
+                              nodeId: b4aa95ed-0acb-468f-b941-0dc83d48c046
+                          text:
+                            type: text
+                            locales:
+                              en-US: Shop Black Friday
+                          style:
+                            type: select
+                            value: primary
+                      - _id: 5bcf145b-9e44-45e2-8524-342d9c620e8a
+                        type: cta
+                        parameters:
+                          link:
+                            type: link
+                            value:
+                              path: /products
+                              type: url
+                          text:
+                            type: text
+                            locales:
+                              en-US: See All Deals
+                          style:
+                            type: select
+                            value: primary
+                  parameters:
+                    $pzCrit:
+                      type: $pzCrit
+                      value:
+                        dim: pc_tables
+                        name: tables
+                    eyebrow:
+                      type: text
+                      locales:
+                        en-US: 'BLACK FRIDAY: TABLES'
+                    headline:
+                      type: text
+                      locales:
+                        en-US: 'Gather & Save: Tables Up to 50% Off!'
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          Find the perfect table for your home at a fraction of
+                          the price. Black Friday savings on all styles—shop
+                          now!
+                    backgroundImage:
+                      type: asset
+                      value:
+                        - _id: fff79375-8593-4d80-8b9b-5558d392e5da
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: fe5b575c-ca4a-4592-9036-57a433521c03
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/XuXglDVJQb25UJgvcM0YFA-warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+                              type: text
+                            file:
+                              type: file
+                              value: a9bc1cf7-3454-4913-ab06-6677902fc500
+                            size:
+                              value: 148148
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                          _source: uniform-assets
+                - _id: d930dda2-f700-493e-8730-f998a8da2d82
+                  type: ctaBanner
+                  slots:
+                    buttons:
+                      - _id: ded7008d-65c4-4eb0-a3b1-7ed47ceb6dfa
+                        type: cta
+                        parameters:
+                          link:
+                            type: link
+                            value:
+                              path: /products
+                              type: projectMapNode
+                              nodeId: b4aa95ed-0acb-468f-b941-0dc83d48c046
+                          text:
+                            type: text
+                            locales:
+                              en-US: Shop Black Friday
+                          style:
+                            type: select
+                            value: primary
+                      - _id: a5317533-caa4-4a8f-9a9c-ca1369003407
+                        type: cta
+                        parameters:
+                          link:
+                            type: link
+                            value:
+                              path: /products
+                              type: url
+                          text:
+                            type: text
+                            locales:
+                              en-US: See All Deals
+                          style:
+                            type: select
+                            value: primary
+                  parameters:
+                    $pzCrit:
+                      type: $pzCrit
+                      value:
+                        dim: pc_beds
+                        name: beds
+                    eyebrow:
+                      type: text
+                      locales:
+                        en-US: 'BLACK FRIDAY: BEDS'
+                    headline:
+                      type: text
+                      locales:
+                        en-US: 'Dream Deals: Up to 50% Off Beds!'
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          Rest easy with Black Friday discounts on every bed.
+                          Shop now and transform your bedroom for less!
+                    backgroundImage:
+                      type: asset
+                      value:
+                        - _id: fff79375-8593-4d80-8b9b-5558d392e5da
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: fe5b575c-ca4a-4592-9036-57a433521c03
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/XuXglDVJQb25UJgvcM0YFA-warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+                              type: text
+                            file:
+                              type: file
+                              value: a9bc1cf7-3454-4913-ab06-6677902fc500
+                            size:
+                              value: 148148
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                          _source: uniform-assets
+                - _id: d581d5f7-b439-4304-8679-3c042b994767
+                  type: ctaBanner
+                  slots:
+                    buttons:
+                      - _id: d910599a-f529-48a2-9451-d974096bb959
+                        type: cta
+                        parameters:
+                          link:
+                            type: link
+                            value:
+                              path: /products
+                              type: projectMapNode
+                              nodeId: b4aa95ed-0acb-468f-b941-0dc83d48c046
+                          text:
+                            type: text
+                            locales:
+                              en-US: Shop Black Friday
+                          style:
+                            type: select
+                            value: primary
+                      - _id: 0692a01c-e917-470d-be20-e9557127c575
+                        type: cta
+                        parameters:
+                          link:
+                            type: link
+                            value:
+                              path: /products
+                              type: url
+                          text:
+                            type: text
+                            locales:
+                              en-US: See All Deals
+                          style:
+                            type: select
+                            value: primary
+                  parameters:
+                    $pzCrit:
+                      type: $pzCrit
+                      value:
+                        dim: pc_storage
+                        name: storage
+                    eyebrow:
+                      type: text
+                      locales:
+                        en-US: 'BLACK FRIDAY: STORAGE'
+                    headline:
+                      type: text
+                      locales:
+                        en-US: 'Store More, Spend Less: Storage Up to 50% Off!'
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          Organize your space with stylish storage solutions—now
+                          at Black Friday prices. Shop and save today!
+                    backgroundImage:
+                      type: asset
+                      value:
+                        - _id: fff79375-8593-4d80-8b9b-5558d392e5da
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: fe5b575c-ca4a-4592-9036-57a433521c03
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/XuXglDVJQb25UJgvcM0YFA-warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+                              type: text
+                            file:
+                              type: file
+                              value: a9bc1cf7-3454-4913-ab06-6677902fc500
+                            size:
+                              value: 148148
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                          _source: uniform-assets
+                - _id: 570d567c-75f0-4b8b-b08e-bef56f070d73
+                  type: ctaBanner
+                  slots:
+                    buttons:
+                      - _id: 41e527ab-7155-4503-8edb-7de29956902b
+                        type: cta
+                        parameters:
+                          link:
+                            type: link
+                            value:
+                              path: /products
+                              type: projectMapNode
+                              nodeId: b4aa95ed-0acb-468f-b941-0dc83d48c046
+                          text:
+                            type: text
+                            locales:
+                              en-US: Shop Black Friday
+                          style:
+                            type: select
+                            value: primary
+                      - _id: dde40348-cb00-4134-a18c-b3ec3b83872b
+                        type: cta
+                        parameters:
+                          link:
+                            type: link
+                            value:
+                              path: /products
+                              type: url
+                          text:
+                            type: text
+                            locales:
+                              en-US: See All Deals
+                          style:
+                            type: select
+                            value: primary
+                  parameters:
+                    $pzCrit:
+                      type: $pzCrit
+                      value:
+                        name: default
+                    eyebrow:
+                      type: text
+                      locales:
+                        en-US: BLACK FRIDAY EXCLUSIVE
+                    headline:
+                      type: text
+                      locales:
+                        en-US: 'Black Friday Mega Sale: Up to 50% Off Sitewide!'
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          This weekend only, enjoy huge savings on our
+                          bestsellers and get free shipping on every order. Take
+                          advantage of these exclusive deals before they're
+                          gone. Don’t miss out—shop now!
+                    backgroundImage:
+                      type: asset
+                      value:
+                        - _id: fff79375-8593-4d80-8b9b-5558d392e5da
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: fe5b575c-ca4a-4592-9036-57a433521c03
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/XuXglDVJQb25UJgvcM0YFA-warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+                              type: text
+                            file:
+                              type: file
+                              value: a9bc1cf7-3454-4913-ab06-6677902fc500
+                            size:
+                              value: 148148
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                          _source: uniform-assets
             parameters:
-              eyebrow:
+              algorithm:
+                type: pzAlgorithm
+                value: ssc
+              trackingEventName:
                 type: text
-                locales:
-                  en-US: BLACK FRIDAY EXCLUSIVE
-              headline:
-                type: text
-                locales:
-                  en-US: 'Black Friday Mega Sale: Up to 50% Off Sitewide!'
-              description:
-                type: text
-                locales:
-                  en-US: >-
-                    This weekend only, enjoy huge savings on our bestsellers and
-                    get free shipping on every order. Take advantage of these
-                    exclusive deals before they're gone. Don’t miss out—shop
-                    now!
-              backgroundImage:
-                type: asset
-                value:
-                  - _id: fff79375-8593-4d80-8b9b-5558d392e5da
-                    type: image
-                    fields:
-                      id:
-                        type: text
-                        value: fe5b575c-ca4a-4592-9036-57a433521c03
-                      url:
-                        value: >-
-                          https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/XuXglDVJQb25UJgvcM0YFA-warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
-                        type: text
-                      file:
-                        type: file
-                        value: a9bc1cf7-3454-4913-ab06-6677902fc500
-                      size:
-                        value: 148148
-                        type: number
-                      title:
-                        type: text
-                        value: warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
-                      width:
-                        value: 1024
-                        type: number
-                      height:
-                        value: 1024
-                        type: number
-                      mediaType:
-                        value: image/jpeg
-                        type: text
-                    _source: uniform-assets
-          - _id: 9e18054e-0731-468e-ba15-6ed8d3557166
-            type: heroBanner
+                value: pz-product-category
+          - _id: 37ea8c53-009f-4530-a021-a3ffbf152023
+            type: $personalization
+            slots:
+              pz:
+                - _id: 36fcdd8f-6eec-44b2-a1fb-291ad7aa4760
+                  type: heroBanner
+                  parameters:
+                    $pzCrit:
+                      type: $pzCrit
+                      value:
+                        crit:
+                          - l: utmCampaignSocial
+                            r: 0
+                            op: '>'
+                        name: heroBanner-36fc
+                    eyebrow:
+                      type: text
+                      locales:
+                        en-US: WINTER CAMPAIGN
+                    headline:
+                      type: text
+                      locales:
+                        en-US: Warm Up Your Home This Winter
+                    heroImage:
+                      type: asset
+                      value:
+                        - _id: e4acd83d-82fe-4789-8ee5-81ac41a35a02
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: a9e6661c-5181-4127-947e-0d28ea03cf48
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/JMd0og3aQZqRAH8YQd2vvA-modern-living-room-with-mid-century-sofa-in-warm-e.jpg
+                              type: text
+                            file:
+                              type: file
+                              value: d17e31e1-ccab-4aa3-ab08-d78a27b76314
+                            size:
+                              value: 149257
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                modern-living-room-with-mid-century-sofa-in-warm-e.jpg
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                          _source: uniform-assets
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          Discover cozy, modern furniture perfect for the
+                          season. Special offers for our winter campaign—make
+                          your space inviting and comfortable all winter long!
+                    primaryButtonText:
+                      type: text
+                      locales:
+                        en-US: Shop Winter Collection
+                    secondaryButtonText:
+                      type: text
+                      locales:
+                        en-US: See Seasonal Inspiration
+                - _id: 9e18054e-0731-468e-ba15-6ed8d3557166
+                  type: heroBanner
+                  parameters:
+                    $pzCrit:
+                      type: $pzCrit
+                      value:
+                        crit: []
+                        name: heroBanner-9e18
+                    eyebrow:
+                      type: text
+                      locales:
+                        en-US: The Modern Hearth
+                    headline:
+                      type: text
+                      locales:
+                        en-US: Where families gather, stories begin!
+                    heroImage:
+                      type: asset
+                      value:
+                        - _id: e4acd83d-82fe-4789-8ee5-81ac41a35a02
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: a9e6661c-5181-4127-947e-0d28ea03cf48
+                            url:
+                              value: >-
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/JMd0og3aQZqRAH8YQd2vvA-modern-living-room-with-mid-century-sofa-in-warm-e.jpg
+                              type: text
+                            file:
+                              type: file
+                              value: d17e31e1-ccab-4aa3-ab08-d78a27b76314
+                            size:
+                              value: 149257
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                modern-living-room-with-mid-century-sofa-in-warm-e.jpg
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/jpeg
+                              type: text
+                          _source: uniform-assets
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          Inspired by the ancient Viking arinn—the sacred hearth
+                          at the center of every home. We craft furniture that
+                          brings people together, built to witness generations
+                          of memories!!
+                    primaryButtonText:
+                      type: text
+                      locales:
+                        en-US: Explore the Collection
+                    secondaryButtonText:
+                      type: text
+                      locales:
+                        en-US: Find Inspiration
             parameters:
-              eyebrow:
+              trackingEventName:
                 type: text
-                locales:
-                  en-US: The Modern Hearth
-              headline:
-                type: text
-                locales:
-                  en-US: Where families gather, stories begin!
-              heroImage:
-                type: asset
-                value:
-                  - _id: e4acd83d-82fe-4789-8ee5-81ac41a35a02
-                    type: image
-                    fields:
-                      id:
-                        type: text
-                        value: a9e6661c-5181-4127-947e-0d28ea03cf48
-                      url:
-                        value: >-
-                          https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/JMd0og3aQZqRAH8YQd2vvA-modern-living-room-with-mid-century-sofa-in-warm-e.jpg
-                        type: text
-                      file:
-                        type: file
-                        value: d17e31e1-ccab-4aa3-ab08-d78a27b76314
-                      size:
-                        value: 149257
-                        type: number
-                      title:
-                        type: text
-                        value: modern-living-room-with-mid-century-sofa-in-warm-e.jpg
-                      width:
-                        value: 1024
-                        type: number
-                      height:
-                        value: 1024
-                        type: number
-                      mediaType:
-                        value: image/jpeg
-                        type: text
-                    _source: uniform-assets
-              description:
-                type: text
-                locales:
-                  en-US: >-
-                    Inspired by the ancient Viking arinn—the sacred hearth at
-                    the center of every home. We craft furniture that brings
-                    people together, built to witness generations of memories!!
-              primaryButtonText:
-                type: text
-                locales:
-                  en-US: Explore the Collection
-              secondaryButtonText:
-                type: text
-                locales:
-                  en-US: Find Inspiration
+                value: pz-Home-Hero Banner
           - _id: 1e2fb075-dc8b-4872-b415-880fd2d9e537
             type: featuredCollections
             slots:
@@ -775,5 +1315,5 @@ composition:
     - en-US
   _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
 created: '2025-11-25T11:16:18.798525+00:00'
-modified: '2025-11-26T17:09:25.291209+00:00'
+modified: '2025-12-11T17:07:04.010726+00:00'
 pattern: false

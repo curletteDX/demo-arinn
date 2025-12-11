@@ -1,10 +1,12 @@
 created: '2025-11-27T14:21:27.555404+00:00'
-modified: '2025-12-11T11:37:56.240789+00:00'
+modified: '2025-12-11T17:09:48.920671+00:00'
 pattern: false
 entry:
   _id: 57529878-87f5-495f-97fb-8210d7e1c5f7
   _name: Bergen Lounge Chair
   _slug: bergen-lounge-chair
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/m6W63rTJSbGm1Xu-baFHjA-mid-century-lounge-chair-side-view.jpg
   type: product
   fields:
     sku:
@@ -21,6 +23,39 @@ entry:
     badge:
       type: select
       value: New
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 91ed8fa3-6424-48e1-b304-2f72428fa10b
+            type: image
+            fields:
+              id:
+                type: text
+                value: c154dfd9-e35c-4233-b454-6863276e7b4e
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/m6W63rTJSbGm1Xu-baFHjA-mid-century-lounge-chair-side-view.jpg
+                type: text
+              file:
+                type: file
+                value: 59e040d1-c12e-4b25-9831-a493eb67ee03
+              size:
+                value: 102935
+                type: number
+              title:
+                type: text
+                value: mid-century-lounge-chair-side-view.jpg
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
     price:
       type: number
       value: 899
@@ -30,9 +65,6 @@ entry:
     rating:
       type: number
       value: 4
-    category:
-      type: text
-      value: chairs
     shipping:
       type: text
       value: Free shipping on orders over $500. Delivery within 1-2 weeks.
@@ -74,6 +106,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    enrichments:
+      type: $enr
+      value:
+        - cat: pc
+          key: chairs
+          str: 3
     reviewCount:
       type: number
       value: 89

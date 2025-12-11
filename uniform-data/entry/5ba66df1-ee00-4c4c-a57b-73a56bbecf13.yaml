@@ -1,10 +1,12 @@
 created: '2025-11-27T14:22:01.842043+00:00'
-modified: '2025-12-11T11:38:47.463039+00:00'
+modified: '2025-12-11T17:12:33.290525+00:00'
 pattern: false
 entry:
   _id: 5ba66df1-ee00-4c4c-a57b-73a56bbecf13
   _name: Reykjavik Bookshelf
   _slug: reykjavik-bookshelf
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/50-MycmTT-C4Ff40pCZB4Q-reading-nook-dusty-rose-armchair-bookshelf-warm-am.jpg
   type: product
   fields:
     sku:
@@ -19,15 +21,45 @@ entry:
     badge:
       type: select
       value: Best Seller
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 1094385b-517f-4e10-a792-d332fd0eb9fe
+            type: image
+            fields:
+              id:
+                type: text
+                value: 6af1ac8f-7d54-4b17-b32f-035c536e0067
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/50-MycmTT-C4Ff40pCZB4Q-reading-nook-dusty-rose-armchair-bookshelf-warm-am.jpg
+                type: text
+              file:
+                type: file
+                value: fb9132d0-1490-4a28-9bc7-8aa682efa649
+              size:
+                value: 116020
+                type: number
+              title:
+                type: text
+                value: reading-nook-dusty-rose-armchair-bookshelf-warm-am.jpg
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
     price:
       type: number
       value: 849
     colors:
       type: text
       value: White,Natural Oak,Black
-    category:
-      type: text
-      value: tables
     shipping:
       type: text
       value: Free shipping. Assembly required. Delivery within 2-3 weeks.
@@ -69,6 +101,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    enrichments:
+      type: $enr
+      value:
+        - cat: pc
+          key: storage
+          str: 3
     reviewCount:
       type: number
       value: 45

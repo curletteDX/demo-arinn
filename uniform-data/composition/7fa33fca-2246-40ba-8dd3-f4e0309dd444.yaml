@@ -1,0 +1,119 @@
+composition:
+  _name: Product Detail Page
+  _id: 7fa33fca-2246-40ba-8dd3-f4e0309dd444
+  _slug: ':slug'
+  type: productDetailPage
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: Products
+    metaDescription:
+      type: text
+      locales:
+        en-US: Arinn Luxury Furniture Products
+  slots:
+    footer:
+      - _id: 0774a1ac-4a41-41dd-a477-ea1f69c5c32a
+        type: footer
+        _pattern: 47c3251e-6a82-45cd-8cbe-59de99b0253c
+    header:
+      - _id: fb365cde-25c3-4157-865c-0af636e0b5f2
+        type: header
+        _pattern: db0f953b-73cb-41d7-9831-8ee413e5c1dd
+    productInfo:
+      - _id: 42b5d176-88e0-4ff0-a1e0-c9b4cc55e5f5
+        type: productInfo
+        parameters:
+          care:
+            type: text
+            locales:
+              en-US: ${#jptr:/Product by Slug Content/entry/fields/care/value}
+          name:
+            type: text
+            locales:
+              en-US: ${#jptr:/Product by Slug Content/entry/fields/name/value}
+          badge:
+            type: select
+            value: ${#jptr:/Product by Slug Content/entry/fields/badge/value}
+          price:
+            type: number
+            value: ${#jptr:/Product by Slug Content/entry/fields/price/value}
+          colors:
+            type: text
+            value: ${#jptr:/Product by Slug Content/entry/fields/colors/value}
+          rating:
+            type: number
+            value: ${#jptr:/Product by Slug Content/entry/fields/rating/value}
+          shipping:
+            type: text
+            locales:
+              en-US: ${#jptr:/Product by Slug Content/entry/fields/shipping/value}
+          materials:
+            type: text
+            value: ${#jptr:/Product by Slug Content/entry/fields/materials/value}
+          dimensions:
+            type: text
+            value: ${#jptr:/Product by Slug Content/entry/fields/dimensions/value}
+          description:
+            type: richText
+            locales:
+              en-US: ${#jptr:/Product by Slug Content/entry/fields/description/value}
+          reviewCount:
+            type: number
+            value: ${#jptr:/Product by Slug Content/entry/fields/reviewCount/value}
+          originalPrice:
+            type: number
+            value: ${#jptr:/Product by Slug Content/entry/fields/price/value}
+    productGallery:
+      - _id: a5ce56be-9a6f-406e-a235-ddac6fa54faa
+        type: productImageGallery
+        parameters:
+          $enr:
+            type: $enr
+            value: ${#jptr:/Product by Slug Content/entry/fields/enrichments/value}
+          image:
+            type: asset
+            value: ${#jptr:/Product by Slug Content/entry/fields/image/value}
+          productName:
+            type: text
+            locales:
+              en-US: ${#jptr:/Product List Content/entries/1/entry/fields/name/value}
+    relatedProducts:
+      - _id: b6a392b5-13bb-4333-8406-c5033725e98a
+        type: relatedProducts
+        _pattern: 41f1c414-98ea-48b6-bb83-e1d0dd6d8acd
+  _dataResources:
+    Product List Content:
+      type: productList
+      variables:
+        limit: '3'
+        locale: ${locale}
+        search: ''
+        filters: '{"type[eq]":"product"}'
+        uiFilters: '[{"field":"type","operator":"eq","value":"product"}]'
+        contentTypes: product
+    Product by Slug Content:
+      type: productBySlug
+      variables:
+        slug: ${slug}
+        locale: ${locale}
+  _overrides:
+    b6a392b5-13bb-4333-8406-c5033725e98a|df5a16e4-1315-42d9-9c1d-35ba9b1ac923:
+      parameters:
+        name:
+          type: text
+          locales:
+            en-US: >-
+              ${#jptr:/Product List Content entries Loop
+              Item/entry/fields/name/value}
+        image:
+          type: asset
+          value: >-
+            ${#jptr:/Product List Content entries Loop
+            Item/entry/fields/image/value}
+  _locales:
+    - en-US
+created: '2025-12-11T13:34:06.985789+00:00'
+modified: '2025-12-11T17:15:28.880763+00:00'
+pattern: false

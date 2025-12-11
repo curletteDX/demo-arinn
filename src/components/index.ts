@@ -1,3 +1,54 @@
+// =============================================================================
+// SIDE-EFFECT IMPORTS - These ensure registerUniformComponent() calls execute
+// =============================================================================
+// Layout
+import './layout/header/Header';
+import './layout/header/NavigationLink';
+import './layout/footer/Footer';
+import './layout/footer/FooterNavLink';
+import './layout/footer/FooterLinkGroup';
+// Content
+import './content/Section';
+import './content/CTA';
+import './content/RichText';
+import './content/Text';
+// Article
+import './article/ArticleHeader';
+import './article/ArticleContent';
+import './article/ArticleTags';
+import './article/ArticleAuthor';
+// Cards
+import './cards/Card';
+import './cards/CardGrid';
+// Media
+import './media/Image';
+import './media/ImageFeature';
+import './media/ImageHero';
+import './media/Video';
+// Home
+import './home/HeroBanner';
+import './home/FeaturedCollections';
+import './home/CollectionCard';
+import './home/LifestyleGallery';
+import './home/LifestyleGalleryItem';
+import './home/TestimonialSection';
+import './home/TestimonialCard';
+import './home/CtaBanner';
+// Products
+import './products/ProductHero';
+import './products/ProductCard';
+import './products/ProductGrid';
+import './products/ProductImageGallery';
+import './products/ProductInfo';
+import './products/RelatedProducts';
+// Shared
+import './shared/PageHero';
+import './shared/ContentBlock';
+
+// =============================================================================
+// TYPE EXPORTS - For external use
+// =============================================================================
+
 // === LAYOUT COMPONENTS ===
 export { default as Header, type HeaderProps } from './layout/header/Header';
 export { default as HeaderStatic, type HeaderStaticProps } from './layout/header/HeaderStatic';

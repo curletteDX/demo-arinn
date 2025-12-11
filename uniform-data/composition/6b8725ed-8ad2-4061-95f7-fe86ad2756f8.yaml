@@ -1,0 +1,87 @@
+composition:
+  _name: Products
+  _id: 6b8725ed-8ad2-4061-95f7-fe86ad2756f8
+  _slug: products
+  type: page
+  _overrides:
+    511c3e58-e4c0-4491-9cde-a2acb14f9c2b:
+      dataResources:
+        Uniform Products Query Content:
+          type: uniformProductsQuery
+          variables:
+            locale: ${locale}
+            search: ''
+            filters: '{"type[eq]":"product"}'
+            contentTypes: product
+    6b8725ed-8ad2-4061-95f7-fe86ad2756f8|bea24f96-81cb-4cd0-ba68-f82bcf404627:
+      slots:
+        $slotSectionItems:
+          - _id: f1b705b9-e7ba-47c3-8f4a-2b2d58a2b83b
+            type: ctaBanner
+            parameters:
+              headline:
+                type: text
+                locales:
+                  en-US: Products
+              description:
+                type: text
+                locales:
+                  en-US: >-
+                    Discover timeless elegance and modern comfort with Arinn’s
+                    luxury furniture collection. Each piece is thoughtfully
+                    designed and expertly crafted from premium materials,
+                    blending Scandinavian-inspired aesthetics with enduring
+                    quality. Elevate your living spaces with furniture that
+                    brings sophistication, warmth, and lasting value to your
+                    home.
+              backgroundImage:
+                type: asset
+                value:
+                  - _id: 709836f1-cc5d-4459-8347-e29be828b18c
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: b71ec768-2b4c-4db7-8dc7-a93543880e51
+                      url:
+                        value: >-
+                          https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/nutHylkeTZ6AYHseBPqjfA-moody-dark-green-velvet-sofa-home-library-dark-wal.jpg
+                        type: text
+                      file:
+                        type: file
+                        value: 7c3abb15-ad35-436d-b93e-80f0040c1b5c
+                      size:
+                        value: 146547
+                        type: number
+                      title:
+                        type: text
+                        value: moody-dark-green-velvet-sofa-home-library-dark-wal.jpg
+                      width:
+                        value: 1024
+                        type: number
+                      height:
+                        value: 1024
+                        type: number
+                      mediaType:
+                        value: image/jpeg
+                        type: text
+                    _source: uniform-assets
+          - _id: 511c3e58-e4c0-4491-9cde-a2acb14f9c2b
+            type: productGrid
+            _pattern: 06ed4868-81b5-4002-8fc4-8b485d4f0d31
+            _dataResources:
+              Uniform Products Query Content:
+                type: uniformProductsQuery
+                variables:
+                  locale: ${locale}
+                  search: ''
+                  filters: '{"type[eq]":"product"}'
+                  contentTypes: product
+            _overridability:
+              hideLockedParameters: true
+  _locales:
+    - en-US
+  _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
+created: '2025-12-11T13:21:50.768184+00:00'
+modified: '2025-12-11T15:39:30.446388+00:00'
+pattern: false

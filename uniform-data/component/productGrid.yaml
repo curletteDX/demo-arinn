@@ -11,7 +11,10 @@ parameters:
     typeConfig:
       required: false
     localizable: true
+categoryId: 67b4f854-b38d-4600-a6e6-275a15fe7545
 description: A responsive grid layout for displaying product cards
+previewImageUrl: >-
+  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/TxyAFWAxQFC-zfjmRZz_gA-Screenshot-2025-12-11-at-5.58.35-PM.png
 useTeamPermissions: true
 slots:
   - id: products
@@ -24,4 +27,4 @@ slots:
 titleParameter: title
 canBeComposition: false
 created: '2025-11-27T12:34:52.499495+00:00'
-updated: '2025-11-27T12:34:52.499495+00:00'
+updated: '2025-12-11T15:59:07.240255+00:00'

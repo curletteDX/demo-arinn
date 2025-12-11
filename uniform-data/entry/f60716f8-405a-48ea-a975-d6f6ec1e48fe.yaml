@@ -1,10 +1,12 @@
 created: '2025-11-27T14:21:53.949217+00:00'
-modified: '2025-12-11T11:38:38.081599+00:00'
+modified: '2025-12-11T17:12:08.765244+00:00'
 pattern: false
 entry:
   _id: f60716f8-405a-48ea-a975-d6f6ec1e48fe
   _name: Uppsala Nightstand
   _slug: uppsala-nightstand
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/UYebziF3SMebaJx3C5q9ww-mid-century-modern-nightstand-walnut-two-drawers-b.jpg
   type: product
   fields:
     sku:
@@ -16,18 +18,45 @@ entry:
     name:
       type: text
       value: Uppsala Nightstand
-    badge:
-      type: select
-      value: ''
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 059f087e-9170-4eed-8fb7-007495bca518
+            type: image
+            fields:
+              id:
+                type: text
+                value: a1bef001-262a-45c6-872e-07084b2211ff
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/UYebziF3SMebaJx3C5q9ww-mid-century-modern-nightstand-walnut-two-drawers-b.jpg
+                type: text
+              file:
+                type: file
+                value: 79cb3c5b-677c-43b9-b512-c7ef4cd3a6a2
+              size:
+                value: 107954
+                type: number
+              title:
+                type: text
+                value: mid-century-modern-nightstand-walnut-two-drawers-b.jpg
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
     price:
       type: number
       value: 299
     colors:
       type: text
       value: Walnut,White Oak,Black
-    category:
-      type: text
-      value: bedroom
     shipping:
       type: text
       value: Free shipping. Delivery within 1-2 weeks.
@@ -70,12 +99,18 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    enrichments:
+      type: $enr
+      value:
+        - cat: pc
+          key: storage
+          str: 3
     reviewCount:
       type: number
       value: 34
     productcategory:
       type: select
-      value: Beds
+      value: Storage
   _locales:
     - en-US
   _overridability:

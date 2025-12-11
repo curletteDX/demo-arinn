@@ -1,10 +1,12 @@
 created: '2025-11-27T14:21:34.135263+00:00'
-modified: '2025-12-11T11:38:13.172387+00:00'
+modified: '2025-12-11T17:10:07.299469+00:00'
 pattern: false
 entry:
   _id: 7f3848dc-56c5-4735-bddc-9ac6e7424af8
   _name: Stockholm Platform Bed
   _slug: stockholm-platform-bed
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/BWHkeGwqTi-6-vCkFubevA-upholstered-platform-bed-brown-checker-velvet-head.jpg
   type: product
   fields:
     sku:
@@ -21,15 +23,45 @@ entry:
     badge:
       type: select
       value: Best Seller
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: bce2f49f-d0a5-40e5-96a9-42aef3e5ee37
+            type: image
+            fields:
+              id:
+                type: text
+                value: 8f1be4ea-6c5a-440a-8c71-7d5fb3dfe481
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/BWHkeGwqTi-6-vCkFubevA-upholstered-platform-bed-brown-checker-velvet-head.jpg
+                type: text
+              file:
+                type: file
+                value: 4798a2ea-1cf3-4ff7-a3a9-f84d20f9a09e
+              size:
+                value: 89942
+                type: number
+              title:
+                type: text
+                value: upholstered-platform-bed-brown-checker-velvet-head.jpg
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
     price:
       type: number
       value: 1899
     colors:
       type: text
       value: Walnut,Natural Oak,Ebony
-    category:
-      type: text
-      value: bedroom
     shipping:
       type: text
       value: >-
@@ -73,6 +105,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    enrichments:
+      type: $enr
+      value:
+        - cat: pc
+          key: beds
+          str: 3
     reviewCount:
       type: number
       value: 78

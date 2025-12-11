@@ -2,7 +2,7 @@
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: productInfo
 name: Product Info
-icon: screen
+icon: shopping-cart
 parameters:
   - id: name
     name: Name
@@ -103,83 +103,26 @@ parameters:
     guidance: Product dimensions (e.g., 84"W x 38"D x 32"H)
   - id: care
     name: Care Instructions
-    type: richText
-    guidance: Care and maintenance instructions for the product
-    typeConfig:
-      elements:
-        builtIn:
-          - h1
-          - h2
-          - h3
-          - h4
-          - h5
-          - h6
-          - unorderedList
-          - orderedList
-          - link
-          - quote
-          - code
-          - table
-          - asset
-          - variable
-      required: false
-      formatting:
-        builtIn:
-          - bold
-          - italic
-          - underline
-          - strikethrough
-          - code
-          - superscript
-          - subscript
-      elementsConfig:
-        asset:
-          allowedTypes:
-            - image
+    type: text
+    guidance: >-
+      Care and maintenance instructions for the product. Can be bound to Product
+      entry field.
     localizable: true
   - id: shipping
     name: Shipping Info
-    type: richText
-    guidance: Shipping and delivery information
-    typeConfig:
-      elements:
-        builtIn:
-          - h1
-          - h2
-          - h3
-          - h4
-          - h5
-          - h6
-          - unorderedList
-          - orderedList
-          - link
-          - quote
-          - code
-          - table
-          - asset
-          - variable
-      required: false
-      formatting:
-        builtIn:
-          - bold
-          - italic
-          - underline
-          - strikethrough
-          - code
-          - superscript
-          - subscript
-      elementsConfig:
-        asset:
-          allowedTypes:
-            - image
+    type: text
+    guidance: Shipping and delivery information. Can be bound to Product entry field.
     localizable: true
+categoryId: 67b4f854-b38d-4600-a6e6-275a15fe7545
 description: >-
   Comprehensive product details component for product detail pages with
   interactive elements like color/material selection, quantity picker, and
   collapsible accordion sections.
+previewImageUrl: >-
+  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/ht5aLpjHRL-j780lp_ji-Q-Screenshot-2025-12-11-at-3.25.29-PM.png
 useTeamPermissions: true
 slots: []
 titleParameter: name
 canBeComposition: false
 created: '2025-12-11T10:12:33.285315+00:00'
-updated: '2025-12-11T10:12:33.285315+00:00'
+updated: '2025-12-11T15:59:35.999646+00:00'

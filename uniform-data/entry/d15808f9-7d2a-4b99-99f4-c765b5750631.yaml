@@ -1,10 +1,12 @@
 created: '2025-11-27T14:21:49.867642+00:00'
-modified: '2025-12-11T11:38:27.040456+00:00'
+modified: '2025-12-11T17:11:34.903024+00:00'
 pattern: false
 entry:
   _id: d15808f9-7d2a-4b99-99f4-c765b5750631
   _name: Gothenburg Three-Seater
   _slug: gothenburg-three-seater
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/Tz6lvxc1SXiu2a1xvERnRw-three-seater-sofa-light-grey-linen-oak-legs-minima.jpg
   type: product
   fields:
     sku:
@@ -18,15 +20,45 @@ entry:
     name:
       type: text
       value: Gothenburg Three-Seater
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 141c7471-08a4-4ea7-992f-2500ddf2d778
+            type: image
+            fields:
+              id:
+                type: text
+                value: 2098507c-97b4-4884-b9e9-0b0d5c6cd9a2
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/Tz6lvxc1SXiu2a1xvERnRw-three-seater-sofa-light-grey-linen-oak-legs-minima.jpg
+                type: text
+              file:
+                type: file
+                value: d7e4f322-a1c0-4bb0-ac55-bae6e1a096df
+              size:
+                value: 69491
+                type: number
+              title:
+                type: text
+                value: three-seater-sofa-light-grey-linen-oak-legs-minima.jpg
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
     price:
       type: number
       value: 1899
     colors:
       type: text
       value: Light Grey,Mocha Brown,Navy Blue
-    category:
-      type: text
-      value: sofas
     shipping:
       type: text
       value: Free shipping on orders over $999. Delivery within 2-3 weeks.
@@ -67,6 +99,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    enrichments:
+      type: $enr
+      value:
+        - cat: pc
+          key: sofas
+          str: 3
     reviewCount:
       type: number
       value: 95

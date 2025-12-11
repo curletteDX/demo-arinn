@@ -1,10 +1,12 @@
 created: '2025-11-27T14:22:05.426459+00:00'
-modified: '2025-12-11T11:39:08.931109+00:00'
+modified: '2025-12-11T17:11:08.428422+00:00'
 pattern: false
 entry:
   _id: 63c9b2b7-f942-420e-a2e3-f5ddc6bb14cb
   _name: Tampere Loveseat
   _slug: tampere-loveseat
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/rCixp5C8Sdmxerz3VGbHgw-velvet-loveseat-forest-green-brass-legs-mid-centur.jpg
   type: product
   fields:
     sku:
@@ -21,15 +23,45 @@ entry:
     badge:
       type: select
       value: New
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 91cc0348-73e8-4e4a-8be3-47cbab51bfcb
+            type: image
+            fields:
+              id:
+                type: text
+                value: 20a05b74-6e0b-4de3-84a6-673eccff8b56
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/rCixp5C8Sdmxerz3VGbHgw-velvet-loveseat-forest-green-brass-legs-mid-centur.jpg
+                type: text
+              file:
+                type: file
+                value: 765e0b1d-56ce-4a7c-b882-6fd467c6f7dc
+              size:
+                value: 103424
+                type: number
+              title:
+                type: text
+                value: velvet-loveseat-forest-green-brass-legs-mid-centur.jpg
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
     price:
       type: number
       value: 1299
     colors:
       type: text
       value: Cream,Charcoal,Blush
-    category:
-      type: text
-      value: sofas
     shipping:
       type: text
       value: Free shipping. Delivery within 2-3 weeks.
@@ -72,6 +104,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    enrichments:
+      type: $enr
+      value:
+        - cat: pc
+          key: sofas
+          str: 3
     reviewCount:
       type: number
       value: 38

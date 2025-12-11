@@ -1,10 +1,12 @@
 created: '2025-11-27T14:21:38.330469+00:00'
-modified: '2025-12-11T11:38:17.627427+00:00'
+modified: '2025-12-11T17:10:37.233783+00:00'
 pattern: false
 entry:
   _id: f385d0e3-4320-4fc4-bad2-de6bc2b597a2
   _name: Helsinki Dining Chair
   _slug: helsinki-dining-chair
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/7VRd1Vi3Qe6rSqq6SvsMkQ-scandinavian-dining-chair-black-molded-seat-beech-.jpg
   type: product
   fields:
     sku:
@@ -16,15 +18,45 @@ entry:
     name:
       type: text
       value: Helsinki Dining Chair
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 9dbc8f4e-82f4-4a09-afda-ce5fb58f2ffc
+            type: image
+            fields:
+              id:
+                type: text
+                value: 3482a9bf-6e67-4005-91ef-b1d28f52e670
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/7VRd1Vi3Qe6rSqq6SvsMkQ-scandinavian-dining-chair-black-molded-seat-beech-.jpg
+                type: text
+              file:
+                type: file
+                value: 3c1e9107-a373-4c22-bd34-f2365a0f07cb
+              size:
+                value: 46360
+                type: number
+              title:
+                type: text
+                value: scandinavian-dining-chair-black-molded-seat-beech-.jpg
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
     price:
       type: number
       value: 349
     colors:
       type: text
       value: Black,White,Natural
-    category:
-      type: text
-      value: chairs
     shipping:
       type: text
       value: Free shipping. Ships within 3-5 business days. Set of 2 chairs.
@@ -66,6 +98,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    enrichments:
+      type: $enr
+      value:
+        - cat: pc
+          key: chairs
+          str: 3
     reviewCount:
       type: number
       value: 42

@@ -1,10 +1,12 @@
 created: '2025-11-27T14:18:59.084778+00:00'
-modified: '2025-12-11T11:39:12.784971+00:00'
+modified: '2025-12-11T17:10:57.530652+00:00'
 pattern: false
 entry:
   _id: 536cab9e-bacb-4c2f-a6f0-28994be75e2a
   _name: Walnut Dining Table
   _slug: walnut-dining-table
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/eMCFZ0hHS36x5sMqAe0ZIA-scandinavian-dining-table-natural-oak-black-steel-.jpg
   type: product
   fields:
     sku:
@@ -16,15 +18,45 @@ entry:
     name:
       type: text
       value: Walnut Dining Table
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: d2d0a96d-67c2-4386-ab5f-952807373e5b
+            type: image
+            fields:
+              id:
+                type: text
+                value: 5ccc4dbf-2044-4cf8-9f0f-14d70a103805
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/eMCFZ0hHS36x5sMqAe0ZIA-scandinavian-dining-table-natural-oak-black-steel-.jpg
+                type: text
+              file:
+                type: file
+                value: 742a5900-503b-4322-80b2-5fbcfdd80290
+              size:
+                value: 129096
+                type: number
+              title:
+                type: text
+                value: scandinavian-dining-table-natural-oak-black-steel-.jpg
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
     price:
       type: number
       value: 1899
     colors:
       type: text
       value: Walnut,Natural Oak
-    category:
-      type: text
-      value: Tables
     shipping:
       type: text
       value: Free shipping. Custom made to order. Delivery within 4-6 weeks.
@@ -67,6 +99,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    enrichments:
+      type: $enr
+      value:
+        - cat: pc
+          key: tables
+          str: 3
     reviewCount:
       type: number
       value: 29

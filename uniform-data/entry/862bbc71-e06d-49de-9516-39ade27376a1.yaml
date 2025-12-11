@@ -1,10 +1,12 @@
 created: '2025-11-27T14:21:30.258417+00:00'
-modified: '2025-12-11T11:37:59.846904+00:00'
+modified: '2025-12-11T17:09:40.236679+00:00'
 pattern: false
 entry:
   _id: 862bbc71-e06d-49de-9516-39ade27376a1
   _name: Copenhagen Coffee Table
   _slug: copenhagen-coffee-table
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/y4GU4Mi0QMqP2AbQSDNVZw-mid-century-modern-oval-coffee-table-natural-oak-b.jpg
   type: product
   fields:
     sku:
@@ -18,15 +20,45 @@ entry:
     name:
       type: text
       value: Copenhagen Coffee Table
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: fac8781b-096c-4d4f-8fba-5eb9800595c0
+            type: image
+            fields:
+              id:
+                type: text
+                value: 01aae852-9590-47a5-8721-7b1c6210a41f
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/y4GU4Mi0QMqP2AbQSDNVZw-mid-century-modern-oval-coffee-table-natural-oak-b.jpg
+                type: text
+              file:
+                type: file
+                value: aacc3c6d-42fc-4479-8ec7-424698929ffd
+              size:
+                value: 37837
+                type: number
+              title:
+                type: text
+                value: mid-century-modern-oval-coffee-table-natural-oak-b.jpg
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
     price:
       type: number
       value: 649
     colors:
       type: text
       value: Natural Oak,Walnut
-    category:
-      type: text
-      value: Tables
     shipping:
       type: text
       value: Free shipping. Delivery within 1-2 weeks.
@@ -68,6 +100,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    enrichments:
+      type: $enr
+      value:
+        - cat: pc
+          key: tables
+          str: 3
     reviewCount:
       type: number
       value: 56

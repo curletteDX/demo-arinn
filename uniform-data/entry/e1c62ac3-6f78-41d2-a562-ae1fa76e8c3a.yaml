@@ -1,10 +1,12 @@
 created: '2025-11-27T14:21:57.816407+00:00'
-modified: '2025-12-11T11:38:43.930781+00:00'
+modified: '2025-12-11T17:12:22.101754+00:00'
 pattern: false
 entry:
   _id: e1c62ac3-6f78-41d2-a562-ae1fa76e8c3a
   _name: Trondheim Dining Table
   _slug: trondheim-dining-table
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/-LOLNk2hReqcGgG7PkZcSg-bright-scandinavian-dining-room-navy-blue-upholste.jpg
   type: product
   fields:
     sku:
@@ -18,15 +20,45 @@ entry:
     name:
       type: text
       value: Trondheim Dining Table
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 6d7eedc9-57db-4654-8182-100c5e00c24a
+            type: image
+            fields:
+              id:
+                type: text
+                value: f00e361f-1914-44e1-8484-b61863f345c7
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/-LOLNk2hReqcGgG7PkZcSg-bright-scandinavian-dining-room-navy-blue-upholste.jpg
+                type: text
+              file:
+                type: file
+                value: 23453f64-772c-4a2c-abf6-8483a4343119
+              size:
+                value: 94634
+                type: number
+              title:
+                type: text
+                value: bright-scandinavian-dining-room-navy-blue-upholste.jpg
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
     price:
       type: number
       value: 1599
     colors:
       type: text
       value: Natural Oak,Walnut,Ebony
-    category:
-      type: text
-      value: tables
     shipping:
       type: text
       value: >-
@@ -92,6 +124,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    enrichments:
+      type: $enr
+      value:
+        - cat: pc
+          key: tables
+          str: 3
     reviewCount:
       type: number
       value: 52

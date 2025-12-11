@@ -1,10 +1,12 @@
 created: '2025-11-27T14:21:42.474451+00:00'
-modified: '2025-12-11T11:38:21.607468+00:00'
+modified: '2025-12-11T17:11:19.434751+00:00'
 pattern: false
 entry:
   _id: c3a45fd9-107a-4bda-b6bd-48dc579b267f
   _name: Malmo Sideboard
   _slug: malmo-sideboard
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/obMygfjlTvWWFoD03Gz2kQ-mid-century-modern-teak-sideboard-brass-handles-li.jpg
   type: product
   fields:
     sku:
@@ -21,15 +23,45 @@ entry:
     badge:
       type: select
       value: New
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: f8a7fbda-b4a2-4318-9908-593208b0a30b
+            type: image
+            fields:
+              id:
+                type: text
+                value: e61265dc-afb6-4faa-9292-fbd7c2779a9e
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/obMygfjlTvWWFoD03Gz2kQ-mid-century-modern-teak-sideboard-brass-handles-li.jpg
+                type: text
+              file:
+                type: file
+                value: af192774-b511-43cb-956f-a4588c5be6f9
+              size:
+                value: 134505
+                type: number
+              title:
+                type: text
+                value: mid-century-modern-teak-sideboard-brass-handles-li.jpg
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
     price:
       type: number
       value: 1299
     colors:
       type: text
       value: Teak,Walnut,White
-    category:
-      type: text
-      value: tables
     shipping:
       type: text
       value: Free white-glove delivery included. Delivery within 3-4 weeks.
@@ -72,6 +104,12 @@ entry:
               textStyle: ''
               textFormat: 0
           direction: null
+    enrichments:
+      type: $enr
+      value:
+        - cat: pc
+          key: storage
+          str: 3
     reviewCount:
       type: number
       value: 67
