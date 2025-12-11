@@ -85,8 +85,6 @@ export const ProductInfo: React.FC<ProductInfoProps> = ({
   colors = "Natural Oak,Walnut,Ebony",
   materials = "Premium Leather,Linen,Velvet",
   dimensions,
-  care,
-  shipping,
 }) => {
   // Parse colors and materials from comma-separated strings
   const colorOptions = colors
@@ -314,39 +312,28 @@ export const ProductInfo: React.FC<ProductInfoProps> = ({
         <AccordionItem value="care">
           <AccordionTrigger>Care Instructions</AccordionTrigger>
           <AccordionContent>
-            <div className="space-y-2 text-sm text-muted-foreground prose prose-sm max-w-none">
-              {care ? (
-                <UniformRichText
+            <div className="space-y-2 text-sm text-muted-foreground">
+              <p>
+                <UniformText
                   parameterId="care"
                   placeholder="Add care instructions..."
-                  resolveRichTextRenderer={resolveRichTextRenderer}
+                  as="span"
                 />
-              ) : (
-                <p>
-                  Clean with a soft, damp cloth. Avoid harsh chemicals. For
-                  upholstered pieces, vacuum regularly and spot clean stains
-                  immediately.
-                </p>
-              )}
+              </p>
             </div>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="shipping">
           <AccordionTrigger>Shipping & Delivery</AccordionTrigger>
           <AccordionContent>
-            <div className="space-y-2 text-sm text-muted-foreground prose prose-sm max-w-none">
-              {shipping ? (
-                <UniformRichText
+            <div className="space-y-2 text-sm text-muted-foreground">
+              <p>
+                <UniformText
                   parameterId="shipping"
                   placeholder="Add shipping information..."
-                  resolveRichTextRenderer={resolveRichTextRenderer}
+                  as="span"
                 />
-              ) : (
-                <p>
-                  Free shipping on orders over $999. Standard delivery takes 2-4
-                  weeks. White-glove delivery available for an additional fee.
-                </p>
-              )}
+              </p>
             </div>
           </AccordionContent>
         </AccordionItem>

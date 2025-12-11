@@ -1,0 +1,17 @@
+id: productsSelector
+displayName: Products Selector
+ttl: 30
+path: /multiple
+custom:
+  proposedName: Multiple Product
+  allowedContentTypes:
+    - product
+method: GET
+purgeKey: e16ee62c-78e1-4a5d-9d57-3f982194713b
+archetype: multipleEntries
+variables:
+  entryIds:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []
