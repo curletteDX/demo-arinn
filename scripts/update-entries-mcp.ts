@@ -72,10 +72,10 @@ async function findAssetByFilename(filename: string): Promise<AssetInfo | null> 
         }
 
         // Partial match
-        const filenameParts = filenameBase.split('-').filter(p => p.length > 2);
-        const assetParts = assetTitleLower.split('-').filter(p => p.length > 2);
-        const matchingParts = filenameParts.filter(fp =>
-          assetParts.some(ap => ap.includes(fp) || fp.includes(ap))
+        const filenameParts = filenameBase.split('-').filter((p: string) => p.length > 2);
+        const assetParts = assetTitleLower.split('-').filter((p: string) => p.length > 2);
+        const matchingParts = filenameParts.filter((fp: string) =>
+          assetParts.some((ap: string) => ap.includes(fp) || fp.includes(ap))
         ).length;
 
         if (matchingParts > 0 && matchingParts / Math.max(filenameParts.length, assetParts.length) >= 0.5) {

@@ -1,4 +1,4 @@
-import type { NextApiRequest, NextApiResponse } from "next";
+import { createPreviewHandler } from "@uniformdev/canvas-next";
 
 /**
  * Uniform Preview API Route - /api/preview
@@ -10,12 +10,15 @@ import type { NextApiRequest, NextApiResponse } from "next";
  * More info: https://nextjs.org/docs/advanced-features/preview-mode
  */
 
-// Use require to avoid ESM/CommonJS interop issues
-const { createPreviewHandler } = require("@uniformdev/canvas-next");
+interface PreviewOptions {
+  path?: string;
+  slug?: string;
+  id?: string;
+}
 
 export default createPreviewHandler({
   // Determine which page to preview based on Uniform parameters
-  resolveFullPath: (options: any) => {
+  resolveFullPath: (options: PreviewOptions) => {
     let result: string | undefined;
 
     // Try different path resolution strategies

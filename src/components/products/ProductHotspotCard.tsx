@@ -74,8 +74,6 @@ export const ProductHotspotCard: React.FC<ProductHotspotCardProps> = ({
   price,
   originalPrice,
   productLink,
-  viewDetailsText = "View Product Detail",
-  addToBagText = "Add to Bag",
 }) => {
   // Extract image
   const imageAssets = image ?? [];

@@ -4,7 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { Search, ShoppingBag, User, Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet"
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { UniformSlot, registerUniformComponent } from "@uniformdev/canvas-react"
 import { cn } from "@/lib/utils"
 

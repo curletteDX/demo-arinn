@@ -108,12 +108,12 @@ class UniformEntryUpdater {
             }
 
             // Try partial match - check if key parts match
-            const filenameParts = filenameBase.split('-').filter(p => p.length > 2);
-            const assetParts = assetTitleLower.split('-').filter(p => p.length > 2);
+            const filenameParts = filenameBase.split('-').filter((p: string) => p.length > 2);
+            const assetParts = assetTitleLower.split('-').filter((p: string) => p.length > 2);
 
             // Count matching parts
-            const matchingParts = filenameParts.filter(fp =>
-              assetParts.some(ap => ap.includes(fp) || fp.includes(ap))
+            const matchingParts = filenameParts.filter((fp: string) =>
+              assetParts.some((ap: string) => ap.includes(fp) || fp.includes(ap))
             ).length;
 
             // If at least 50% of parts match
