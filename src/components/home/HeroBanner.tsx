@@ -70,6 +70,8 @@ export interface HeroBannerProps {
   imageBorderRadius?: "none" | "small" | "medium" | "large";
   /** CTA button style */
   ctaButtonStyle?: "default" | "outline" | "ghost";
+  /** CTA button color theme */
+  ctaButtonColor?: "dark" | "white";
   /** Typography scale */
   typographyScale?: "small" | "medium" | "large";
   /** Image overlay */
@@ -127,6 +129,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
   spacing = "standard",
   imageBorderRadius = "large",
   ctaButtonStyle = "default",
+  ctaButtonColor = "dark",
   typographyScale = "medium",
   imageOverlay = false,
   trustBadgesLayout = "horizontal",
@@ -232,7 +235,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
 
   return (
     <section className={cn("relative", backgroundClasses[backgroundStyle], spacingClasses[spacing], className)}>
-      <div className={cn("mx-auto max-w-7xl", sectionPaddingClasses[sectionPadding])}>
+      <div className={cn("mx-auto max-w-7xl", sectionPaddingClasses[sectionPadding as keyof typeof sectionPaddingClasses] || sectionPaddingClasses.medium)}>
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           {/* Content */}
           <div className={cn(contentOrder, textAlignmentClasses[textAlignment])}>
@@ -268,7 +271,11 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
               <Button
                 size="lg"
                 variant={ctaButtonStyle === "outline" ? "outline" : ctaButtonStyle === "ghost" ? "ghost" : "default"}
-                className={ctaButtonStyle === "default" ? "bg-primary hover:bg-primary/90 text-primary-foreground" : ""}
+                className={cn(
+                  ctaButtonColor === "white" && ctaButtonStyle === "default" && "bg-white text-foreground hover:bg-white/90 border-white",
+                  ctaButtonColor === "white" && ctaButtonStyle === "outline" && "border-white text-white hover:bg-white hover:text-foreground bg-transparent",
+                  ctaButtonColor === "dark" && ctaButtonStyle === "default" && "bg-foreground text-background hover:bg-foreground/90 border-foreground"
+                )}
                 asChild
               >
                 <Link href={primaryHref}>
@@ -283,8 +290,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
               {showSecondaryCta && (
                 <Button
                   size="lg"
-                  variant="outline"
-                  className="border-primary text-primary hover:bg-primary/10 bg-transparent"
+                  variant="secondary"
                   asChild
                 >
                   <Link href={secondaryHref}>
@@ -357,7 +363,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
           <div className={imageOrder}>
             <div
               className={cn(
-                "relative aspect-[4/3] overflow-hidden bg-secondary",
+                "relative aspect-4/3 overflow-hidden bg-secondary",
                 aspectClasses[imageAspectRatio],
                 imageBorderRadiusClasses[imageBorderRadius]
               )}
@@ -373,7 +379,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
                     priority
                   />
                   {imageOverlay && (
-                    <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent" />
+                    <div className="absolute inset-0 bg-linear-to-t from-foreground/20 to-transparent" />
                   )}
                 </>
               ) : (

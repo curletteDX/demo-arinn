@@ -25,6 +25,9 @@ import './media/Image';
 import './media/ImageFeature';
 import './media/ImageHero';
 import './media/Video';
+// Interactive
+import './interactive/InteractiveImage';
+import './interactive/Hotspot';
 // Home
 import './home/HeroBanner';
 import './home/FeaturedCollections';
@@ -41,6 +44,7 @@ import './products/ProductGrid';
 import './products/ProductImageGallery';
 import './products/ProductInfo';
 import './products/RelatedProducts';
+import './products/ProductHotspotCard';
 // Shared
 import './shared/PageHero';
 import './shared/ContentBlock';
@@ -80,6 +84,10 @@ export { default as ImageFeature, type ImageFeatureProps } from './media/ImageFe
 export { default as ImageHero, type ImageHeroProps } from './media/ImageHero';
 export { default as Video, type VideoProps } from './media/Video';
 
+// === INTERACTIVE COMPONENTS ===
+export { default as InteractiveImage, type InteractiveImageProps } from './interactive/InteractiveImage';
+export { default as Hotspot, type HotspotProps } from './interactive/Hotspot';
+
 // === HOME COMPONENTS ===
 export { default as HeroBanner, type HeroBannerProps } from './home/HeroBanner';
 export { default as FeaturedCollections, type FeaturedCollectionsProps } from './home/FeaturedCollections';
@@ -94,6 +102,7 @@ export { default as CtaBanner, type CtaBannerProps } from './home/CtaBanner';
 export { default as ProductHero, type ProductHeroProps } from './products/ProductHero';
 export { default as ProductCard, type ProductCardProps } from './products/ProductCard';
 export { default as ProductGrid, type ProductGridProps } from './products/ProductGrid';
+export { default as ProductHotspotCard, type ProductHotspotCardProps } from './products/ProductHotspotCard';
 export { default as ProductImageGallery, type ProductImageGalleryProps } from './products/ProductImageGallery';
 export { default as ProductInfo, type ProductInfoProps } from './products/ProductInfo';
 export { default as RelatedProducts, type RelatedProductsProps } from './products/RelatedProducts';

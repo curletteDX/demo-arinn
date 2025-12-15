@@ -153,7 +153,7 @@ composition:
                     headline:
                       type: text
                       locales:
-                        en-US: 'Sit in Style: Up to 50% Off All Chairs!'
+                        en-US: 'Sit in Style: Up to 70% Off All Chairs!'
                     description:
                       type: text
                       locales:
@@ -581,26 +581,26 @@ composition:
                     heroImage:
                       type: asset
                       value:
-                        - _id: e4acd83d-82fe-4789-8ee5-81ac41a35a02
+                        - _id: 0fde45d3-8e49-4962-97da-c31efc4b04d7
                           type: image
                           fields:
                             id:
                               type: text
-                              value: a9e6661c-5181-4127-947e-0d28ea03cf48
+                              value: 6af1ac8f-7d54-4b17-b32f-035c536e0067
                             url:
                               value: >-
-                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/JMd0og3aQZqRAH8YQd2vvA-modern-living-room-with-mid-century-sofa-in-warm-e.jpg
+                                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/50-MycmTT-C4Ff40pCZB4Q-reading-nook-dusty-rose-armchair-bookshelf-warm-am.jpg
                               type: text
                             file:
                               type: file
-                              value: d17e31e1-ccab-4aa3-ab08-d78a27b76314
+                              value: fb9132d0-1490-4a28-9bc7-8aa682efa649
                             size:
-                              value: 149257
+                              value: 116020
                               type: number
                             title:
                               type: text
                               value: >-
-                                modern-living-room-with-mid-century-sofa-in-warm-e.jpg
+                                reading-nook-dusty-rose-armchair-bookshelf-warm-am.jpg
                             width:
                               value: 1024
                               type: number
@@ -1311,9 +1311,18 @@ composition:
                 type: text
                 locales:
                   en-US: Real homes are where families gather.
+          - _id: 27249632-41ab-4cf9-9a2e-31324cfa879d
+            type: interactiveImage
+            _pattern: d4e5f6a7-b8c9-4d0e-9f2a-3b4c5d6e7f8a
+            _overridability:
+              parameters:
+                title: 'yes'
+                aspectRatio: 'yes'
+                description: 'yes'
+              hideLockedParameters: true
   _locales:
     - en-US
   _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
 created: '2025-11-25T11:16:18.798525+00:00'
-modified: '2025-12-11T17:07:04.010726+00:00'
+modified: '2025-12-15T12:43:21.770114+00:00'
 pattern: false

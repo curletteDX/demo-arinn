@@ -1,0 +1,58 @@
+composition:
+  _name: Chairs
+  _id: cfff3868-35b3-45ab-b621-bbc3668bfbe9
+  _slug: chairs
+  type: page
+  _dataResources:
+    Uniform Products Query Content:
+      type: uniformProductsQuery
+      variables:
+        locale: ${locale}
+        search: ''
+        filters: '{"type[eq]":"product","fields.productcategory[eq]":"Chairs"}'
+        uiFilters: >-
+          [{"field":"type","operator":"eq","value":"product"},{"field":"fields.productcategory","operator":"eq","value":"Chairs"}]
+        contentTypes: product
+  _overrides:
+    f5026de7-56ef-4bee-b589-a508fbff0c1e:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Chairs
+      dataResources:
+        Uniform Products Query Content:
+          type: uniformProductsQuery
+          variables:
+            locale: ${locale}
+            search: ''
+            filters: '{"type[eq]":"product","fields.productcategory[eq]":"Chairs"}'
+            uiFilters: >-
+              [{"field":"type","operator":"eq","value":["product"]},{"field":"fields.productcategory","operator":"eq","value":"Chairs"}]
+            contentTypes: product
+    cfff3868-35b3-45ab-b621-bbc3668bfbe9|bea24f96-81cb-4cd0-ba68-f82bcf404627:
+      slots:
+        $slotSectionItems:
+          - _id: f5026de7-56ef-4bee-b589-a508fbff0c1e
+            type: productGrid
+            _pattern: 06ed4868-81b5-4002-8fc4-8b485d4f0d31
+            _dataResources:
+              Uniform Products Query Content:
+                type: uniformProductsQuery
+                variables:
+                  locale: ${locale}
+                  search: ''
+                  filters: '{"type[eq]":"product","fields.productcategory[eq]":"Chairs"}'
+                  uiFilters: >-
+                    [{"field":"type","operator":"eq","value":["product"]},{"field":"fields.productcategory","operator":"eq","value":"Chairs"}]
+                  contentTypes: product
+            _overridability:
+              parameters:
+                title: 'yes'
+              hideLockedParameters: true
+  _locales:
+    - en-US
+  _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
+created: '2025-12-11T20:58:13.15768+00:00'
+modified: '2025-12-11T21:00:06.868544+00:00'
+pattern: false

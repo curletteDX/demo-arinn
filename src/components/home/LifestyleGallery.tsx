@@ -81,7 +81,6 @@ export const LifestyleGallery: React.FC<LifestyleGalleryProps> = ({
           </div>
           <Button
             variant="outline"
-            className="border-primary text-primary hover:bg-primary/10 bg-transparent"
             asChild
           >
             <Link href={href}>

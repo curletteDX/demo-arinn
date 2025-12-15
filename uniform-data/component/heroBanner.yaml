@@ -124,6 +124,7 @@ parameters:
         - spacing
         - imageBorderRadius
         - ctaButtonStyle
+        - ctaButtonColor
         - typographyScale
         - imageOverlay
         - trustBadgesLayout
@@ -245,6 +246,16 @@ parameters:
         - text: Ghost
           value: ghost
       required: false
+  - id: ctaButtonColor
+    name: CTA Button Color
+    type: select
+    guidance: Color theme for the CTA buttons (dark or white)
+    typeConfig:
+      options:
+        - text: Dark
+          value: dark
+        - text: White
+          value: white
   - id: typographyScale
     name: Typography Scale
     type: select
@@ -318,4 +329,4 @@ titleParameter: eyebrow
 thumbnailParameter: heroImage
 canBeComposition: false
 created: '2025-11-25T11:32:14.879954+00:00'
-updated: '2025-11-26T17:07:10.00468+00:00'
+updated: '2025-12-15T15:30:02.648967+00:00'

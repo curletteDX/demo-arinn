@@ -1,0 +1,48 @@
+composition:
+  _name: Sofas
+  _id: b6f37f60-1704-4a16-babe-031115b1e217
+  _slug: sofas
+  type: page
+  _overrides:
+    8ce52f56-f0c8-4a7d-83bc-d1e92344ca91:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Sofas
+      dataResources:
+        Uniform Products Query Content:
+          type: uniformProductsQuery
+          variables:
+            locale: ${locale}
+            search: ''
+            filters: '{"type[eq]":"product","fields.productcategory[eq]":"Sofas"}'
+            uiFilters: >-
+              [{"field":"type","operator":"eq","value":"product"},{"field":"fields.productcategory","operator":"eq","value":"Sofas"}]
+            contentTypes: product
+    b6f37f60-1704-4a16-babe-031115b1e217|bea24f96-81cb-4cd0-ba68-f82bcf404627:
+      slots:
+        $slotSectionItems:
+          - _id: 8ce52f56-f0c8-4a7d-83bc-d1e92344ca91
+            type: productGrid
+            _pattern: 06ed4868-81b5-4002-8fc4-8b485d4f0d31
+            _dataResources:
+              Uniform Products Query Content:
+                type: uniformProductsQuery
+                variables:
+                  locale: ${locale}
+                  search: ''
+                  filters: '{"type[eq]":"product","fields.productcategory[eq]":"Sofas"}'
+                  uiFilters: >-
+                    [{"field":"type","operator":"eq","value":"product"},{"field":"fields.productcategory","operator":"eq","value":"Sofas"}]
+                  contentTypes: product
+            _overridability:
+              parameters:
+                title: 'yes'
+              hideLockedParameters: true
+  _locales:
+    - en-US
+  _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
+created: '2025-12-11T21:01:10.01409+00:00'
+modified: '2025-12-11T21:01:39.713843+00:00'
+pattern: false

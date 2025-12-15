@@ -1,7 +1,7 @@
 id: product
 name: Product
 created: '2025-11-27T12:29:15.024238+00:00'
-updated: '2025-11-27T12:45:04.710313+00:00'
+updated: '2025-12-11T17:08:51.131354+00:00'
 slugSettings: {}
 useTeamPermissions: true
 fields:
@@ -62,11 +62,102 @@ fields:
     type: text
     typeConfig: null
     localizable: true
-  - id: category
-    name: Category
+  - id: productcategory
+    name: ProductCategory
+    type: select
+    typeConfig:
+      editor: select
+      options:
+        - text: Chairs
+          value: Chairs
+        - text: Sofas
+          value: Sofas
+        - text: Tables
+          value: Tables
+        - text: Beds
+          value: Beds
+        - text: Storage
+          value: Storage
+        - text: Lighting
+          value: Lighting
+        - text: Outdoor
+          value: Outdoor
+        - text: Decor
+          value: Decor
+  - id: images
+    name: Images
+    type: asset
+    guidance: Multiple product images for the gallery. First image is shown initially.
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: false
+  - id: originalPrice
+    name: Original Price
+    type: number
+    guidance: Original price before discount (for sale items)
+    typeConfig:
+      min: 0
+    localizable: false
+  - id: rating
+    name: Rating
+    type: number
+    guidance: Product rating from 1 to 5 (e.g., 4.8)
+    typeConfig:
+      max: 5
+      min: 1
+    localizable: false
+  - id: reviewCount
+    name: Review Count
+    type: number
+    guidance: Number of customer reviews
+    typeConfig:
+      min: 0
+    localizable: false
+  - id: badge
+    name: Badge
+    type: select
+    guidance: Optional promotional badge
+    typeConfig:
+      options:
+        - text: None
+          value: ''
+        - text: Sale
+          value: Sale
+        - text: New
+          value: New
+        - text: Best Seller
+          value: Best Seller
+    localizable: false
+  - id: colors
+    name: Colors
     type: text
-    typeConfig: null
+    guidance: Available colors as comma-separated list (e.g., Charcoal,Cream,Sage)
+    localizable: false
+  - id: materials
+    name: Materials
+    type: text
+    guidance: Available materials as comma-separated list (e.g., Velvet,Wood,Leather)
+    localizable: false
+  - id: dimensions
+    name: Dimensions
+    type: text
+    guidance: Product dimensions (e.g., 84" W × 36" D × 32" H)
+    localizable: false
+  - id: care
+    name: Care Instructions
+    type: text
+    guidance: Care and maintenance instructions for the product
     localizable: true
+  - id: shipping
+    name: Shipping Info
+    type: text
+    guidance: Shipping and delivery information
+    localizable: true
+  - id: enrichments
+    name: Enrichments
+    type: $enr
+    typeConfig: null
 entryName: name
 thumbnailField: image
 icon: file-document

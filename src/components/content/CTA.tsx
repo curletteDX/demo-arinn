@@ -11,7 +11,9 @@ export interface CTAProps {
   link?: {
     path?: string; // URL destination for the button
   };
-  style?: string; // Visual style variant
+  style?: string; // Visual style variant: 'primary' (filled) or 'secondary' (outline)
+  /** Button color theme: 'dark' (default) or 'white' */
+  buttonColor?: "dark" | "white";
   /** Context for styling - 'ctaBanner' applies white bg/outline styles */
   context?: string;
   /** Whether this is the primary button (for CtaBanner context) */
@@ -45,7 +47,8 @@ export interface CTAProps {
 export const CTA: React.FC<CTAProps> = ({
   className = '',
   link,
-  style = 'primary', // Default to primary button styling
+  style = 'primary', // Default to primary (filled) button styling
+  buttonColor = 'dark', // Default to dark theme
   context,
   isPrimary = false,
   showArrow = false,
@@ -53,21 +56,35 @@ export const CTA: React.FC<CTAProps> = ({
   // Use provided link or fallback to placeholder
   const href = link?.path || "#";
 
-  // Determine button styling based on context and style prop
-  let buttonVariant: "default" | "outline" | "ghost" = style === 'secondary' ? 'outline' : 'default';
+  // Determine button styling based on context, style prop, and color theme
+  let buttonVariant: "default" | "outline" | "ghost" | "secondary" = style === 'secondary' ? 'secondary' : 'default';
   let buttonClassName = "px-8 py-3";
 
   // Apply CtaBanner-specific styling
   if (context === 'ctaBanner') {
     if (isPrimary) {
       // Primary button: white background
-      buttonClassName = cn("px-8 py-3 bg-white text-foreground hover:bg-white/90");
-      buttonVariant = "default";
+      buttonClassName = cn("px-8 py-3 bg-white text-foreground hover:bg-white/90 border-white");
       showArrow = true; // Always show arrow for primary in CtaBanner
     } else {
-      // Secondary button: white outline
-      buttonClassName = cn("px-8 py-3 border-white text-white hover:bg-white/10 bg-transparent");
-      buttonVariant = "outline";
+      // Secondary button: uses secondary variant (white outline)
+      buttonClassName = cn("px-8 py-3");
+      buttonVariant = 'secondary';
+    }
+  } else {
+    // Apply color theme based on buttonColor prop
+    if (style === 'primary') {
+      if (buttonColor === 'white') {
+        // Primary white: filled white button with dark text
+        buttonClassName = cn("px-8 py-3 bg-white text-foreground hover:bg-white/90 border-white");
+      } else {
+        // Primary dark: filled dark button
+        buttonClassName = cn("px-8 py-3 bg-foreground text-background hover:bg-foreground/90 border-foreground");
+      }
+    } else {
+      // Secondary: always uses secondary variant (white border/text)
+      buttonClassName = cn("px-8 py-3");
+      buttonVariant = 'secondary';
     }
   }
 
