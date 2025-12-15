@@ -1,0 +1,11 @@
+composition:
+  _name: sofa
+  _id: 07b27861-961f-45ca-8751-338730dfe3cb
+  _slug: sofa
+  type: productDetailPage
+  parameters: {}
+  _locales:
+    - en-US
+created: '2025-12-11T21:14:09.595209+00:00'
+modified: '2025-12-11T21:14:09.595209+00:00'
+pattern: false

@@ -177,8 +177,8 @@ export const ProductInfo: React.FC<ProductInfoProps> = ({
                 className={cn(
                   "px-4 py-2 rounded-md border transition-all",
                   selectedColor === color
-                    ? "border-primary bg-primary/10 text-primary font-medium"
-                    : "border-border bg-background text-muted-foreground hover:border-primary/50"
+                    ? "border-foreground bg-foreground/10 text-foreground font-medium"
+                    : "border-border bg-background text-muted-foreground hover:border-foreground/50"
                 )}
               >
                 {color}
@@ -202,8 +202,8 @@ export const ProductInfo: React.FC<ProductInfoProps> = ({
                 className={cn(
                   "px-4 py-2 rounded-md border transition-all",
                   selectedMaterial === material
-                    ? "border-primary bg-primary/10 text-primary font-medium"
-                    : "border-border bg-background text-muted-foreground hover:border-primary/50"
+                    ? "border-foreground bg-foreground/10 text-foreground font-medium"
+                    : "border-border bg-background text-muted-foreground hover:border-foreground/50"
                 )}
               >
                 {material}

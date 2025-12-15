@@ -19,11 +19,16 @@ composition:
                 link:
                   type: link
                   value:
-                    path: /${locale}/products/:slug
+                    path: >-
+                      /${locale}/products/${#jptr:/Uniform Products Query
+                      Content entries Loop Item/entry/_slug}
                     type: projectMapNode
                     nodeId: 3ef3e8c1-a206-448c-af22-671338eac518
                     projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
                     dynamicInputValues:
+                      slug: >-
+                        ${#jptr:/Uniform Products Query Content entries Loop
+                        Item/entry/_slug}
                       locale: ${locale}
                 name:
                   type: text
@@ -82,5 +87,5 @@ composition:
   _locales:
     - en-US
 created: '2025-11-27T12:35:43.091823+00:00'
-modified: '2025-12-11T15:41:19.755771+00:00'
+modified: '2025-12-11T20:38:08.585639+00:00'
 pattern: true

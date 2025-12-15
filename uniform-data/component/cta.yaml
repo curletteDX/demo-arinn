@@ -1,5 +1,5 @@
-# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
-$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: cta
 name: CTA
 icon: rectangle-rounded
@@ -28,6 +28,16 @@ parameters:
         - text: Secondary
           value: secondary
       required: false
+  - id: buttonColor
+    name: Button Color
+    type: select
+    guidance: Color theme for the button (dark or white)
+    typeConfig:
+      options:
+        - text: Dark
+          value: dark
+        - text: White
+          value: white
 categoryId: f131d88f-05d5-4b45-ac10-22456aebedb2
 description: A call-to-action button with customizable text and link
 previewImageUrl: https://i.imgur.com/IAYStP0.png
@@ -35,5 +45,5 @@ useTeamPermissions: true
 slots: []
 titleParameter: text
 canBeComposition: false
-created: '2025-09-18T10:59:57.82236+00:00'
-updated: '2025-09-18T12:31:33.906141+00:00'
+created: '2025-11-25T11:16:15.560998+00:00'
+updated: '2025-12-15T15:29:00.148439+00:00'

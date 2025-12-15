@@ -26,7 +26,12 @@ type ComponentType =
   // Media Components
   | "image"
   | "imageHero"
-  | "video";
+  | "video"
+  // Interactive Components
+  | "interactiveImage"
+  | "hotspot"
+  // Product Components
+  | "productHotspotCard";
 
 /**
  * Responsive breakpoint sizes based on Tailwind CSS
@@ -70,6 +75,13 @@ const defaultSizes: Record<ComponentType, keyof typeof sizes> = {
   image: "LG",                 // Images need good display size
   imageHero: "Full Width",     // Hero images are full width
   video: "LG",                 // Videos need good display size
+  
+  // Interactive Components
+  interactiveImage: "Full Width",  // Interactive images with hotspots need full width
+  hotspot: "SM",                   // Individual hotspots are small markers
+  
+  // Product Components
+  productHotspotCard: "LG",        // Product cards in hotspots need good visibility
 };
 
 /**

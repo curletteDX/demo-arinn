@@ -231,12 +231,7 @@ export const ContentBlock: React.FC<ContentBlockProps> = ({
                 <Button
                   size="lg"
                   variant={ctaVariant}
-                  className={cn(
-                    "mt-8",
-                    ctaButtonStyle === "primary" && "bg-primary hover:bg-primary/90 text-primary-foreground",
-                    ctaButtonStyle === "secondary" && "bg-secondary hover:bg-secondary/90 text-secondary-foreground",
-                    ctaButtonStyle === "outline" && "border-primary text-primary hover:bg-primary/10"
-                  )}
+                  className="mt-8"
                   asChild
                 >
                   <Link href={href}>

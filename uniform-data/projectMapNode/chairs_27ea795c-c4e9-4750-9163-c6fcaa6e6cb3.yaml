@@ -1,0 +1,9 @@
+id: 27ea795c-c4e9-4750-9163-c6fcaa6e6cb3
+name: Chairs
+order: 500
+path: /:locale/products/chairs
+type: composition
+pathSegment: chairs
+data: {}
+compositionId: cfff3868-35b3-45ab-b621-bbc3668bfbe9
+projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a

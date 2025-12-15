@@ -1,0 +1,71 @@
+composition:
+  _name: Product Hotspot Example
+  _id: b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e
+  type: hotspot
+  parameters:
+    x:
+      type: number
+      value: 50
+    'y':
+      type: number
+      value: 50
+    icon:
+      type: asset
+      value:
+        - _id: e90ef260-42f0-42e6-a089-f266aa72ce81
+          type: image
+          fields:
+            id:
+              type: text
+              value: a0b0f62a-9157-47bd-9fd9-43d259bd7717
+            url:
+              value: >-
+                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/csFIguNRRkS4kwcHSHJWpA-plus.svg
+              type: text
+            file:
+              type: file
+              value: b7173b0c-0965-4fa7-adcc-e6cd39b6ed3d
+            size:
+              value: 1279
+              type: number
+            title:
+              type: text
+              value: plus.svg
+            width:
+              value: 20
+              type: number
+            height:
+              value: 20
+              type: number
+            mediaType:
+              value: image/svg+xml
+              type: text
+          _source: uniform-assets
+    tooltipWidth:
+      type: select
+      value: md
+    tooltipPosition:
+      type: select
+      value: top
+    initialTransparency:
+      type: select
+      value: 0%
+  slots:
+    content:
+      - _id: c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f
+        type: productHotspotCard
+        _pattern: a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d
+  _overridability:
+    parameters:
+      x: 'yes'
+      'y': 'yes'
+      description: 'yes'
+      tooltipWidth: 'yes'
+      tooltipPosition: 'yes'
+      initialTransparency: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-15T12:10:51.675628+00:00'
+modified: '2025-12-15T12:45:08.851492+00:00'
+pattern: true

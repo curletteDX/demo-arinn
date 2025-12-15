@@ -1,0 +1,109 @@
+composition:
+  _name: Oslo Sectional Hotspot Card
+  _id: a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d
+  type: productHotspotCard
+  parameters:
+    name:
+      type: text
+      locales:
+        en-US: Oslo Sectional Sofa
+    image:
+      type: asset
+      value:
+        - _id: a4072254-9275-4e2c-ac1b-d79d780d00da
+          type: image
+          fields:
+            id:
+              type: text
+              value: fe5b575c-ca4a-4592-9036-57a433521c03
+            url:
+              value: >-
+                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/XuXglDVJQb25UJgvcM0YFA-warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+              type: text
+            file:
+              type: file
+              value: a9bc1cf7-3454-4913-ab06-6677902fc500
+            size:
+              value: 148148
+              type: number
+            title:
+              type: text
+              value: warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+            width:
+              value: 1024
+              type: number
+            height:
+              value: 1024
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    price:
+      type: number
+      value: 2499
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Experience the perfect blend of mid-century modern design
+                      and contemporary comfort. Handcrafted with premium
+                      materials for lasting quality.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    productLink:
+      type: link
+      value:
+        path: /${locale}/products/:slug
+        type: projectMapNode
+        nodeId: 3ef3e8c1-a206-448c-af22-671338eac518
+        projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
+        dynamicInputValues:
+          locale: ${locale}
+    addToBagText:
+      type: text
+      locales:
+        en-US: Add to Bag
+    originalPrice:
+      type: number
+      value: 2899
+    viewDetailsText:
+      type: text
+      locales:
+        en-US: View Product Detail
+  _overridability:
+    parameters:
+      name: 'yes'
+      image: 'yes'
+      price: 'yes'
+      description: 'yes'
+      productLink: 'yes'
+      addToBagText: 'yes'
+      originalPrice: 'yes'
+      viewDetailsText: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-12-15T12:10:41.281645+00:00'
+modified: '2025-12-15T12:36:27.32345+00:00'
+pattern: true

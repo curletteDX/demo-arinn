@@ -1,0 +1,9 @@
+id: 83b219c4-3697-4a0f-a086-3efcbc4879f5
+name: Sofas
+order: 500
+path: /:locale/products/sofas
+type: composition
+pathSegment: sofas
+data: {}
+compositionId: b6f37f60-1704-4a16-babe-031115b1e217
+projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a

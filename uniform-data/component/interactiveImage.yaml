@@ -1,0 +1,59 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: interactiveImage
+name: Interactive Image
+icon: screen
+parameters:
+  - id: image
+    name: Image
+    type: asset
+    guidance: >-
+      Background image for the hotspots (recommended: 1920x1080px or larger for
+      high quality)
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: title
+    name: Title
+    type: text
+    guidance: Optional title displayed above the image
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Optional description displayed below the title
+    localizable: true
+  - id: aspectRatio
+    name: Aspect Ratio
+    type: select
+    guidance: 'Image aspect ratio (default: 16/9)'
+    typeConfig:
+      options:
+        - text: 16:9 (Widescreen)
+          value: 16/9
+        - text: 4:3 (Standard)
+          value: 4/3
+        - text: 3:2 (Classic)
+          value: 3/2
+        - text: 1:1 (Square)
+          value: 1/1
+        - text: 21:9 (Ultra Wide)
+          value: 21/9
+description: >-
+  Container component that displays an image with interactive hotspots placed on
+  top. Perfect for shoppable lifestyle images and room scene product showcases.
+useTeamPermissions: true
+slots:
+  - id: hotspots
+    name: Hotspots
+    maxComponents: 20
+    allowedComponents:
+      - hotspot
+      - $p:b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+thumbnailParameter: image
+canBeComposition: false
+created: '2025-12-15T12:10:17.795789+00:00'
+updated: '2025-12-15T12:11:34.209328+00:00'

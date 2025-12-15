@@ -1,5 +1,5 @@
 composition:
-  _name: Related Products (Dynamic)
+  _name: Related Products (Dynamic) pattern
   _id: 41f1c414-98ea-48b6-bb83-e1d0dd6d8acd
   type: relatedProducts
   parameters:
@@ -86,5 +86,5 @@ composition:
   _locales:
     - en-US
 created: '2025-12-11T15:25:07.079693+00:00'
-modified: '2025-12-11T15:56:11.367217+00:00'
+modified: '2025-12-11T20:19:00.059322+00:00'
 pattern: true

@@ -1,0 +1,86 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: productHotspotCard
+name: Product Hotspot Card
+icon: screen
+parameters:
+  - id: image
+    name: Product Image
+    type: asset
+    guidance: 'Product image (recommended: 300x300px minimum)'
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: name
+    name: Product Name
+    type: text
+    guidance: Name of the product (e.g., 'Oslo Sectional Sofa')
+    localizable: true
+  - id: price
+    name: Price
+    type: number
+    guidance: Current price in USD (e.g., 1299)
+  - id: originalPrice
+    name: Original Price
+    type: number
+    guidance: Original price before discount (optional, for showing sale pricing)
+  - id: description
+    name: Description
+    type: richText
+    guidance: Brief product description (1-2 sentences, displayed as 2-line clamp)
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: productLink
+    name: Product Link
+    type: link
+    guidance: Link to the full product detail page
+  - id: viewDetailsText
+    name: View Details Text
+    type: text
+    guidance: 'Text for the product detail link (default: ''View Product Detail'')'
+    localizable: true
+  - id: addToBagText
+    name: Add to Bag Text
+    type: text
+    guidance: 'Text for the add to cart button (default: ''Add to Bag'')'
+    localizable: true
+description: >-
+  Compact product card optimized for display in hotspot tooltips. Shows product
+  image, name, price, and add to bag button in a horizontal layout.
+useTeamPermissions: true
+slots: []
+titleParameter: name
+thumbnailParameter: image
+canBeComposition: false
+created: '2025-12-15T12:10:02.1638+00:00'
+updated: '2025-12-15T12:10:02.1638+00:00'
