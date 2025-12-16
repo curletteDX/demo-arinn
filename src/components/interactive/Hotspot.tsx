@@ -55,14 +55,24 @@ export type TooltipWidth =
   | "xl"   // ~576px
   | "2xl"; // ~672px
 
+/**
+ * Position object with x and y coordinates
+ */
+export interface Position {
+  x?: number;
+  y?: number;
+}
+
 export interface HotspotProps extends ComponentProps {
   className?: string;
   /** Icon to display at hotspot location */
   icon?: AssetParamValue;
-  /** Horizontal position (0-100 percentage) */
+  /** Horizontal position (0-100 percentage) - takes priority over position.x */
   x?: number;
-  /** Vertical position (0-100 percentage) */
+  /** Vertical position (0-100 percentage) - takes priority over position.y */
   y?: number;
+  /** Position object containing x and y - used as fallback if x or y props not provided */
+  position?: Position;
   /** Position of tooltip relative to hotspot */
   tooltipPosition?: TooltipPosition;
   /** Width of the tooltip container */
@@ -183,7 +193,7 @@ const getTooltipWidth = (width?: TooltipWidth): string => {
  * on an image and shows a tooltip with content when clicked or selected.
  *
  * Features:
- * - Configurable position (x, y coordinates as percentages)
+ * - Configurable position (x, y coordinates as percentages or position object)
  * - Custom icon support
  * - Multiple tooltip position options (12 positions)
  * - Adjustable tooltip width (sm to 2xl)
@@ -202,7 +212,11 @@ const getTooltipWidth = (width?: TooltipWidth): string => {
  * - Educational content markers
  *
  * Design Notes:
- * - Position is specified as numeric percentage (0-100, e.g., 50 for center)
+ * - Position can be specified in two ways:
+ *   1. Individual x and y props (takes priority)
+ *   2. position object with x and y properties (used as fallback)
+ * - Position values are numeric percentages (0-100, supports decimals like 45.7)
+ * - Default position is center (50, 50)
  * - Tooltip width can be sm (384px), md (448px), lg (512px), xl (576px), or 2xl (672px)
  * - Default icon is 24x24px, scales to 30x30px on hover/active
  * - Tooltip automatically positions to avoid viewport edges
@@ -212,8 +226,9 @@ const getTooltipWidth = (width?: TooltipWidth): string => {
 export const Hotspot: FC<HotspotProps> = ({
   className = "",
   icon,
-  x = 50,
-  y = 50,
+  x,
+  y,
+  position,
   tooltipPosition = "top",
   tooltipWidth = "lg",
   initialTransparency = "0%",
@@ -227,9 +242,13 @@ export const Hotspot: FC<HotspotProps> = ({
   const { previewMode, selectedComponentReference } = useUniformContextualEditingState({ global: true });
   const isContextualEditing = previewMode === "editor";
 
+  // Resolve x and y with fallback logic: use x/y props first, then position.x/y, then default to 50
+  const resolvedX = x ?? position?.x ?? 50;
+  const resolvedY = y ?? position?.y ?? 50;
+
   // Convert numeric values to percentage strings for CSS
-  const normalizedX = `${x}%`;
-  const normalizedY = `${y}%`;
+  const normalizedX = `${resolvedX}%`;
+  const normalizedY = `${resolvedY}%`;
 
   // Get all child component IDs for selection detection
   const allComponentChildrenIds = useMemo(
@@ -334,6 +353,12 @@ export const Hotspot: FC<HotspotProps> = ({
 // UNIFORM REGISTRATION
 registerUniformComponent({
   type: "hotspot",
+  component: Hotspot,
+});
+
+// UNIFORM REGISTRATION FOR THE NEW HOTSPOT COMPONENT
+registerUniformComponent({
+  type: "hotspotWithPicker",
   component: Hotspot,
 });
 
