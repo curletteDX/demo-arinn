@@ -50,10 +50,12 @@ slots:
     allowedComponents:
       - hotspot
       - $p:b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e
+      - hotspotWithPicker
+    allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: true
 titleParameter: title
 thumbnailParameter: image
 canBeComposition: false
 created: '2025-12-15T12:10:17.795789+00:00'
-updated: '2025-12-15T12:11:34.209328+00:00'
+updated: '2025-12-15T17:33:37.617328+00:00'

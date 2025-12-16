@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
-id: hotspot
-name: Hotspot
+id: hotspotWithPicker
+name: Hotspot with Picker
 icon: screen
 parameters:
   - id: description
@@ -9,36 +9,10 @@ parameters:
     type: text
     typeConfig: null
     localizable: true
-  - id: x
-    name: X Position
-    type: number
-    guidance: >-
-      Horizontal position as percentage (0-100). Example: 50 for center, 80 for
-      right side
-    typeConfig:
-      max: '100'
-      min: '0'
-      steps: 1
-      editor: slider-number-field
-      useSteps: false
-  - id: 'y'
-    name: Y Position
-    type: number
-    guidance: >-
-      Vertical position as percentage (0-100). Example: 50 for center, 30 for
-      upper third
-    typeConfig:
-      max: '100'
-      min: '0'
-      editor: slider-number-field
   - id: position
-    name: Position (Alternative)
-    type: json
-    guidance: >-
-      Alternative way to set position using JSON object with x and y properties
-      (e.g., {"x": 50, "y": 30}). If x/y parameters above are set, they take
-      precedence.
-    typeConfig: {}
+    name: Position
+    type: position-picker
+    typeConfig: null
   - id: tooltipPosition
     name: Tooltip Position
     type: select
@@ -71,6 +45,13 @@ parameters:
           value: left-bottom
         - text: Center
           value: center
+  - id: icon
+    name: Icon
+    type: asset
+    guidance: 'Icon to display at the hotspot location (recommended: 24x24px or 48x48px)'
+    typeConfig:
+      allowedTypes:
+        - image
   - id: tooltipWidth
     name: Tooltip Width
     type: select
@@ -87,13 +68,6 @@ parameters:
           value: xl
         - text: 2X Large (672px)
           value: 2xl
-  - id: icon
-    name: Icon
-    type: asset
-    guidance: 'Icon to display at the hotspot location (recommended: 24x24px or 48x48px)'
-    typeConfig:
-      allowedTypes:
-        - image
   - id: initialTransparency
     name: Initial Transparency
     type: select
@@ -143,5 +117,5 @@ slots:
 titleParameter: description
 thumbnailParameter: icon
 canBeComposition: false
-created: '2025-12-15T12:10:12.359326+00:00'
-updated: '2025-12-15T22:01:38.643162+00:00'
+created: '2025-12-15T17:32:18.403276+00:00'
+updated: '2025-12-15T17:32:53.439294+00:00'

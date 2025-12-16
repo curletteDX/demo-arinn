@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: f06f07e3-ec57-4814-95ed-6d7519ea7787
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: romi.avif
+    file:
+      type: file
+      value: 811af89c-8175-43b5-a7ca-339a169236f0
+    mediaType:
+      value: image/avif
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/VmGSpDRLSeqdxdx61fhOig-romi.avif
+      type: text
+    size:
+      value: 21594
+      type: number
+    width:
+      value: 1946
+      type: number
+    height:
+      value: 1324
+      type: number
+    custom: {}
+created: '2025-12-16T19:31:47.369837+00:00'
+modified: '2025-12-16T19:31:47.369837+00:00'

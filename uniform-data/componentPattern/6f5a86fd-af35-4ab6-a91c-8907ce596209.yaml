@@ -1,0 +1,118 @@
+composition:
+  _name: Collaboration Hero - Pantone 2025
+  _id: 6f5a86fd-af35-4ab6-a91c-8907ce596209
+  type: collaborationHero
+  parameters:
+    ctaText:
+      type: text
+      value: Shop the Collection
+    eyebrow:
+      type: text
+      value: Exclusive Collaboration
+    headline:
+      type: text
+      value: Arinn × Pantone
+    mediaType:
+      type: select
+      value: image
+    minHeight:
+      type: select
+      value: 90vh
+    description:
+      type: text
+      value: >-
+        Introducing our curated collection featuring the 2025 Color of the Year.
+        Embrace warmth, comfort, and sophisticated style.
+    headlineAccent:
+      type: text
+      value: 2025 Collection
+    showColorChips:
+      type: checkbox
+      value: 'true'
+    featuredColorHex:
+      type: text
+      value: '#A47148'
+    secondaryCtaText:
+      type: text
+      value: Explore Colors
+    featuredColorCode:
+      type: text
+      value: 17-1230
+    featuredColorName:
+      type: text
+      value: Mocha Mousse
+  slots:
+    colorChips:
+      - _id: 149d86a0-241d-4f9e-8215-77738e9ade37
+        type: colorChip
+        parameters:
+          colorHex:
+            type: text
+            value: '#A47148'
+          colorCode:
+            type: text
+            value: 17-1230
+          colorName:
+            type: text
+            value: Mocha Mousse
+        _overridability:
+          parameters:
+            colorHex: 'yes'
+            colorCode: 'yes'
+            colorName: 'yes'
+      - _id: 1c135a30-e828-4c83-9794-762259c834a7
+        type: colorChip
+        parameters:
+          colorHex:
+            type: text
+            value: '#3D5A73'
+          colorCode:
+            type: text
+            value: 18-4417
+          colorName:
+            type: text
+            value: Tapestry
+        _overridability:
+          parameters:
+            colorHex: 'yes'
+            colorCode: 'yes'
+            colorName: 'yes'
+      - _id: 8dbf44ab-9947-4ba4-b5fd-e7ae0bdf007d
+        type: colorChip
+        parameters:
+          colorHex:
+            type: text
+            value: '#B4838D'
+          colorCode:
+            type: text
+            value: 17-1608
+          colorName:
+            type: text
+            value: Heather Rose
+        _overridability:
+          parameters:
+            colorHex: 'yes'
+            colorCode: 'yes'
+            colorName: 'yes'
+  _overridability:
+    parameters:
+      ctaLink: 'yes'
+      ctaText: 'yes'
+      eyebrow: 'yes'
+      headline: 'yes'
+      videoUrl: 'yes'
+      mediaType: 'yes'
+      minHeight: 'yes'
+      description: 'yes'
+      headlineAccent: 'yes'
+      showColorChips: 'yes'
+      backgroundImage: 'yes'
+      featuredColorHex: 'yes'
+      secondaryCtaLink: 'yes'
+      secondaryCtaText: 'yes'
+      featuredColorCode: 'yes'
+      featuredColorName: 'yes'
+    hideLockedParameters: true
+created: '2025-12-16T19:56:17.766003+00:00'
+modified: '2025-12-16T20:00:07.558263+00:00'
+pattern: true

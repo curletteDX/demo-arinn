@@ -1,0 +1,139 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: collaborationHero
+name: Collaboration Hero
+icon: screen
+parameters:
+  - id: mediaType
+    name: Media Type
+    type: select
+    guidance: Choose between image or video background
+    typeConfig:
+      options:
+        - text: Image
+          value: image
+        - text: Video
+          value: video
+  - id: backgroundImage
+    name: Background Image
+    type: asset
+    guidance: >-
+      Full-screen background image (recommended: 1920x1080px minimum). Also used
+      as video poster.
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: videoUrl
+    name: Video URL
+    type: text
+    guidance: URL to video file for video media type (MP4 recommended)
+    typeConfig:
+      required: false
+  - id: eyebrow
+    name: Eyebrow
+    type: text
+    guidance: Small text above headline, e.g., 'Exclusive Collaboration'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: headline
+    name: Headline
+    type: text
+    guidance: Main headline text, e.g., 'Arinn × Pantone'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: headlineAccent
+    name: Headline Accent
+    type: text
+    guidance: Accent text below headline in brand color, e.g., '2025 Collection'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Supporting description text about the collaboration
+    typeConfig:
+      required: false
+    localizable: true
+  - id: ctaText
+    name: CTA Text
+    type: text
+    guidance: Primary call-to-action button text
+    typeConfig:
+      required: false
+    localizable: true
+  - id: ctaLink
+    name: CTA Link
+    type: link
+    guidance: Primary CTA button destination
+    typeConfig:
+      required: false
+  - id: secondaryCtaText
+    name: Secondary CTA Text
+    type: text
+    guidance: Secondary call-to-action button text
+    typeConfig:
+      required: false
+    localizable: true
+  - id: secondaryCtaLink
+    name: Secondary CTA Link
+    type: link
+    guidance: Secondary CTA button destination
+    typeConfig:
+      required: false
+  - id: featuredColorCode
+    name: Featured Color Code
+    type: text
+    guidance: Pantone code for featured badge, e.g., '17-1230'
+    typeConfig:
+      required: false
+  - id: featuredColorName
+    name: Featured Color Name
+    type: text
+    guidance: Name of featured color, e.g., 'Mocha Mousse'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: featuredColorHex
+    name: Featured Color Hex
+    type: text
+    guidance: Hex value of featured color, e.g., '#A47148'
+    typeConfig:
+      required: false
+  - id: showColorChips
+    name: Show Color Chips
+    type: checkbox
+    guidance: Toggle visibility of floating color chips on the right side
+    typeConfig:
+      required: false
+  - id: minHeight
+    name: Minimum Height
+    type: select
+    guidance: Minimum height of the hero section
+    typeConfig:
+      options:
+        - text: 80vh
+          value: 80vh
+        - text: 90vh
+          value: 90vh
+        - text: 100vh (Full Screen)
+          value: 100vh
+description: >-
+  Full-bleed video/image hero banner with brand collaboration theme. Supports
+  video backgrounds that fade content during playback and Pantone color chips.
+useTeamPermissions: true
+slots:
+  - id: colorChips
+    name: Color Chips
+    maxComponents: 6
+    allowedComponents:
+      - colorChip
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: videoUrl
+thumbnailParameter: backgroundImage
+canBeComposition: false
+created: '2025-12-16T19:55:37.38552+00:00'
+updated: '2025-12-16T19:55:37.38552+00:00'

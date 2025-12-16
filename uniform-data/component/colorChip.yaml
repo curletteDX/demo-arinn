@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: colorChip
+name: Color Chip
+icon: screen
+parameters:
+  - id: colorCode
+    name: Color Code
+    type: text
+    guidance: Pantone color code format, e.g., '17-1230'
+    typeConfig:
+      required: false
+  - id: colorName
+    name: Color Name
+    type: text
+    guidance: Human-readable color name, e.g., 'Mocha Mousse'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: colorHex
+    name: Color Hex
+    type: text
+    guidance: Hex color value with hash, e.g., '#A47148'
+    typeConfig:
+      required: false
+description: >-
+  Pantone-style color swatch card showing a color sample with its code and name.
+  Used within CollaborationHero for brand collaboration showcases.
+useTeamPermissions: true
+slots: []
+titleParameter: colorCode
+canBeComposition: false
+created: '2025-12-16T19:55:25.073962+00:00'
+updated: '2025-12-16T19:55:25.073962+00:00'

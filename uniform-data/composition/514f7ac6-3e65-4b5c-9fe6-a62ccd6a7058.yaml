@@ -1,0 +1,241 @@
+composition:
+  _name: Pantone
+  _id: 514f7ac6-3e65-4b5c-9fe6-a62ccd6a7058
+  _slug: pantone
+  type: page
+  _overrides:
+    514f7ac6-3e65-4b5c-9fe6-a62ccd6a7058|bea24f96-81cb-4cd0-ba68-f82bcf404627:
+      slots:
+        $slotSectionItems:
+          - _id: be9f2942-7cfe-4a0d-8d30-41a9e57db10c
+            type: collaborationHero
+            _pattern: 6f5a86fd-af35-4ab6-a91c-8907ce596209
+            _overridability:
+              parameters:
+                ctaText: 'yes'
+                eyebrow: 'yes'
+                headline: 'yes'
+                mediaType: 'yes'
+                minHeight: 'yes'
+                description: 'yes'
+                headlineAccent: 'yes'
+                showColorChips: 'yes'
+                featuredColorHex: 'yes'
+                secondaryCtaText: 'yes'
+                featuredColorCode: 'yes'
+                featuredColorName: 'yes'
+              hideLockedParameters: true
+          - _id: 6658eacf-a2a7-4b82-9cc1-c642ad092171
+            type: interactiveImage
+            _pattern: 29f17604-9d4a-4c5e-b622-f920b3cc9d54
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                image: 'yes'
+                title: 'yes'
+                aspectRatio: 'yes'
+                description: 'yes'
+              hideLockedParameters: true
+    6658eacf-a2a7-4b82-9cc1-c642ad092171|05101f89-75f0-40ba-98bc-9422d38979e1:
+      parameters:
+        x:
+          type: number
+          value: 44
+        'y':
+          type: number
+          value: 63
+    6658eacf-a2a7-4b82-9cc1-c642ad092171|4ac50cf5-bb7e-40c9-8303-1f27edfda627:
+      parameters:
+        position:
+          type: position-picker
+          value:
+            x: 25.1
+            'y': 61.3
+    6658eacf-a2a7-4b82-9cc1-c642ad092171|9aa16592-a66b-45ad-a3fb-1cace62d1719:
+      parameters:
+        name:
+          type: text
+          locales:
+            en-US: Carin Modular U-Sofa Bumper Sectional
+        image:
+          type: asset
+          value:
+            - _id: 495ee9dc-4a06-44fa-9c6f-6869ef1b515d
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 06f2b8a9-5950-488a-8344-ce6a79ff210a
+                url:
+                  value: >-
+                    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/KPb10uVATN-Mfdzez8xosg-sofa.webp
+                  type: text
+                file:
+                  type: file
+                  value: 0764754b-7aea-432d-a9e1-cd260c025c34
+                size:
+                  value: 41708
+                  type: number
+                title:
+                  type: text
+                  value: sofa.webp
+                width:
+                  value: 1024
+                  type: number
+                height:
+                  value: 768
+                  type: number
+                mediaType:
+                  value: image/webp
+                  type: text
+              _source: uniform-assets
+        price:
+          type: number
+          value: '4381'
+        description:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          A king size sectional made for ultimate friends and
+                          family hosts, the Carin’s overstuffed and low slung
+                          frame combines form and function into one chic
+                          package.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 122.5"w x 79.5"d x 29"h
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+        originalPrice:
+          type: number
+          value: '6258'
+    6658eacf-a2a7-4b82-9cc1-c642ad092171|e5f6a7b8-c9d0-4e1f-8a3b-4c5d6e7f8a9b:
+      parameters:
+        x:
+          type: number
+          value: 57
+    6658eacf-a2a7-4b82-9cc1-c642ad092171|05101f89-75f0-40ba-98bc-9422d38979e1|c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f:
+      parameters:
+        name:
+          type: text
+          locales:
+            en-US: Azura Ottoman
+        image:
+          type: asset
+          value:
+            - _id: 701e8778-f972-4e7a-a1df-f23e0cc40726
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: d5bf277f-1c3c-4390-a583-bd01b22be903
+                url:
+                  value: >-
+                    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/9mJLuwOBSX-6zD_oZoNjhQ-azura.webp
+                  type: text
+                file:
+                  type: file
+                  value: a3d9c1bb-f55c-4c12-89c7-a0d64b9745b2
+                size:
+                  value: 197570
+                  type: number
+                title:
+                  type: text
+                  value: azura.webp
+                width:
+                  value: 1024
+                  type: number
+                height:
+                  value: 768
+                  type: number
+                mediaType:
+                  value: image/webp
+                  type: text
+              _source: uniform-assets
+        price:
+          type: number
+          value: '535'
+        description:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Kick up your heels or use as a spare seat! The Azura
+                          Ottoman brings a modern, stacked look to your space,
+                          perfect for living rooms, offices and dressing rooms.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 19"w x 19"d x 18"h
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+        originalPrice:
+          type: number
+          value: '713'
+  _locales:
+    - en-US
+  _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
+created: '2025-12-16T19:33:23.193842+00:00'
+modified: '2025-12-16T19:56:40.430352+00:00'
+pattern: false

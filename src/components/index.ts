@@ -37,6 +37,8 @@ import './home/LifestyleGalleryItem';
 import './home/TestimonialSection';
 import './home/TestimonialCard';
 import './home/CtaBanner';
+import './home/CollaborationHero';
+import './home/ColorChip';
 // Products
 import './products/ProductHero';
 import './products/ProductCard';
@@ -97,6 +99,8 @@ export { default as LifestyleGalleryItem, type LifestyleGalleryItemProps } from 
 export { default as TestimonialSection, type TestimonialSectionProps } from './home/TestimonialSection';
 export { default as TestimonialCard, type TestimonialCardProps } from './home/TestimonialCard';
 export { default as CtaBanner, type CtaBannerProps } from './home/CtaBanner';
+export { default as CollaborationHero, type CollaborationHeroProps } from './home/CollaborationHero';
+export { default as ColorChip, type ColorChipProps } from './home/ColorChip';
 
 // === PRODUCT COMPONENTS ===
 export { default as ProductHero, type ProductHeroProps } from './products/ProductHero';

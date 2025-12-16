@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d5bf277f-1c3c-4390-a583-bd01b22be903
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: azura.webp
+    file:
+      type: file
+      value: a3d9c1bb-f55c-4c12-89c7-a0d64b9745b2
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/9mJLuwOBSX-6zD_oZoNjhQ-azura.webp
+      type: text
+    size:
+      value: 197570
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 768
+      type: number
+    custom: {}
+created: '2025-12-16T19:35:14.770875+00:00'
+modified: '2025-12-16T19:35:14.770875+00:00'

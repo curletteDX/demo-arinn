@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 6bdb947b-91f0-4496-8a15-db3162f39b65
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: pantone-room.webp
+    file:
+      type: file
+      value: afde7e71-c13c-4d6b-8d71-f023d55c589a
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/IKLqCUCQTAi9sAzXKRfcyA-pantone-room.webp
+      type: text
+    size:
+      value: 244938
+      type: number
+    width:
+      value: 1920
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2025-12-16T19:28:45.818502+00:00'
+modified: '2025-12-16T19:28:45.818502+00:00'

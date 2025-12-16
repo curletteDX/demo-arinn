@@ -1,0 +1,9 @@
+id: d014c198-f9be-43de-92ed-4fc26111c9f3
+name: Pantone
+order: 0
+path: /:locale/pantone
+type: composition
+pathSegment: pantone
+data: {}
+compositionId: 514f7ac6-3e65-4b5c-9fe6-a62ccd6a7058
+projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a

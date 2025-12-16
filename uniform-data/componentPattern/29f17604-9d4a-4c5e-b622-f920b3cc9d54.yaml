@@ -1,51 +1,47 @@
 composition:
-  _name: Shoppable Room Scene
-  _id: d4e5f6a7-b8c9-4d0e-9f2a-3b4c5d6e7f8a
+  _name: 'Pantone Room Scene '
+  _id: 29f17604-9d4a-4c5e-b622-f920b3cc9d54
   type: interactiveImage
   parameters:
     image:
       type: asset
       value:
-        - _id: 990a42b5-ed22-422a-aaa7-4c6c3fffaddd
+        - _id: 4f000bf3-6482-4cd2-8bc3-b2f37a9f3775
           type: image
           fields:
             id:
               type: text
-              value: fe5b575c-ca4a-4592-9036-57a433521c03
+              value: 6bdb947b-91f0-4496-8a15-db3162f39b65
             url:
               value: >-
-                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/XuXglDVJQb25UJgvcM0YFA-warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/IKLqCUCQTAi9sAzXKRfcyA-pantone-room.webp
               type: text
             file:
               type: file
-              value: a9bc1cf7-3454-4913-ab06-6677902fc500
+              value: afde7e71-c13c-4d6b-8d71-f023d55c589a
             size:
-              value: 148148
+              value: 244938
               type: number
             title:
               type: text
-              value: warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
+              value: pantone-room.webp
             width:
-              value: 1024
+              value: 1920
               type: number
             height:
-              value: 1024
+              value: 1280
               type: number
             mediaType:
-              value: image/jpeg
+              value: image/webp
               type: text
           _source: uniform-assets
     title:
       type: text
       locales:
-        en-US: Shop the Look
+        en-US: Seats Made to Sink Into
     aspectRatio:
       type: select
       value: 16/9
-    description:
-      type: text
-      locales:
-        en-US: Click the hotspots to explore our carefully curated furniture pieces.
   slots:
     hotspots:
       - _id: e5f6a7b8-c9d0-4e1f-8a3b-4c5d6e7f8a9b
@@ -163,20 +159,125 @@ composition:
       parameters:
         x:
           type: text
-          value: 28
+          value: 58
         'y':
           type: text
-          value: 48
+          value: 26
         description:
           type: text
           locales:
-            en-US: Hotspot Lamp
+            en-US: Romi Media Console
         tooltipPosition:
           type: select
-          value: top
+          value: null
         initialTransparency:
           type: select
           value: 50%
+    e5f6a7b8-c9d0-4e1f-8a3b-4c5d6e7f8a9b|c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f:
+      parameters:
+        name:
+          type: text
+          locales:
+            en-US: Romi Media Console
+        image:
+          type: asset
+          value:
+            - _id: 09a752b9-7ca0-4330-a50f-221f43acc7bc
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: f06f07e3-ec57-4814-95ed-6d7519ea7787
+                url:
+                  value: >-
+                    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/VmGSpDRLSeqdxdx61fhOig-romi.avif
+                  type: text
+                file:
+                  type: file
+                  value: 811af89c-8175-43b5-a7ca-339a169236f0
+                size:
+                  value: 21594
+                  type: number
+                title:
+                  type: text
+                  value: romi.avif
+                width:
+                  value: 1946
+                  type: number
+                height:
+                  value: 1324
+                  type: number
+                mediaType:
+                  value: image/avif
+                  type: text
+              _source: uniform-assets
+        price:
+          type: number
+          value: '1522'
+        description:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Clean and modern, this media console showcases
+                          white-washed mango wood with an intricate carved
+                          mermaid scale pattromi
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          ern throughout, with spacious shelving for all your
+                          entertainment needs.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 82"w x 18"d x 28"h
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+        originalPrice:
+          type: number
+          value: '2537'
   _overridability:
     parameters:
       $viz: 'yes'
@@ -187,6 +288,6 @@ composition:
     hideLockedParameters: true
   _locales:
     - en-US
-created: '2025-12-15T12:11:28.178359+00:00'
-modified: '2025-12-16T17:10:28.0247+00:00'
+created: '2025-12-16T19:28:14.576878+00:00'
+modified: '2025-12-16T19:32:12.539549+00:00'
 pattern: true

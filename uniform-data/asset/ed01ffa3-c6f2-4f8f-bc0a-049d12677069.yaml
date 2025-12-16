@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: ed01ffa3-c6f2-4f8f-bc0a-049d12677069
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: mid-century-modern-lounge-chair-rust-leather-walnu.jpg
+    file:
+      type: file
+      value: 4e56732e-23e2-4091-b22b-a50d50e2cf71
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/djxBWmZbSTKhj_9AqFbAHA-mid-century-modern-lounge-chair-rust-leather-walnu.jpg
+      type: text
+    size:
+      value: 68785
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-11-25T12:05:58.412835+00:00'
+modified: '2025-11-25T12:05:58.412835+00:00'

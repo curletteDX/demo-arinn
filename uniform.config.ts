@@ -3,7 +3,7 @@ import type { CLIConfiguration } from "@uniformdev/cli";
 const config: CLIConfiguration = {
   serialization: {
     format: "yaml",
-    mode: "mirror",
+    mode: "createOrUpdate",
     directory: "./uniform-data",
     entitiesConfig: {
       aggregate: {},
@@ -28,9 +28,9 @@ const config: CLIConfiguration = {
       entryPattern: {
         publish: true,
       },
-      locale: {},          
+      locale: {},
       previewUrl: {},
-      previewViewport: {},      
+      previewViewport: {},
       projectMapDefinition: {},
       projectMapNode: {},
       prompt: {},
@@ -38,7 +38,7 @@ const config: CLIConfiguration = {
       redirect: {},
       signal: {},
       test: {},
-      workflow: {},      
+      workflow: {},
     },
   },
 };
