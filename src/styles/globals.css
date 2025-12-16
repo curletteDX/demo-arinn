@@ -1,6 +1,23 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@custom-variant dark (&:is(.dark *));
+
+/* ========================================
+   ARINN DESIGN SYSTEM - SKINNABLE TOKENS
+   ========================================
+
+   To re-skin this site, modify the values below.
+   All components reference these tokens.
+
+   Color naming convention:
+   - brand-*: Primary brand colors
+   - surface-*: Background colors
+   - text-*: Text colors
+   - border-*: Border colors
+   - accent-*: Accent/highlight colors
+*/
+
 /* Accordion animation keyframes */
 @keyframes accordion-down {
   from {
@@ -20,15 +37,69 @@
   }
 }
 
-@theme inline {
-  --animate-accordion-down: accordion-down 0.2s ease-out;
-  --animate-accordion-up: accordion-up 0.2s ease-out;
-}
-
-@custom-variant dark (&:is(.dark *));
-
-/* Warm furniture e-commerce theme with mid-century modern vibes */
 :root {
+  /* ===== BRAND COLORS ===== */
+  --brand-primary: #a47148; /* Main brand color - warm brown */
+  --brand-primary-hover: #8b5e3c; /* Darker hover state */
+  --brand-primary-light: #a47148 / 10; /* Light tint for backgrounds */
+
+  /* ===== SURFACE COLORS ===== */
+  --surface-background: #ffffff; /* Main page background */
+  --surface-warm: #faf7f2; /* Warm cream sections */
+  --surface-muted: #f5f0ea; /* Slightly darker warm */
+  --surface-card: #ffffff; /* Card backgrounds */
+  --surface-overlay-light: rgba(250, 247, 242, 0.95); /* Light overlays */
+  --surface-overlay-dark: rgba(61, 52, 39, 0.7); /* Dark overlays */
+
+  /* ===== TEXT COLORS ===== */
+  --text-primary: #424242; /* Main text - dark gray */
+  --text-secondary: #737373; /* Secondary text - medium gray */
+  --text-muted: #6b6b6b; /* Muted text */
+  --text-inverse: #ffffff; /* Text on dark backgrounds */
+
+  /* ===== BORDER COLORS ===== */
+  --border-default: #e5e5e5; /* Default borders */
+  --border-warm: #d4c4b5; /* Warm-toned borders */
+  --border-brand: var(--brand-primary);
+
+  /* ===== ACCENT COLORS ===== */
+  --accent-success: #22c55e;
+  --accent-error: #ef4444;
+  --accent-warning: #f59e0b;
+  --accent-info: #3b82f6;
+
+  /* ===== SPECIAL COLORS (Pantone Collection) ===== */
+  --pantone-mocha: #a47148;
+  --pantone-tapestry: #4a6b8a;
+  --pantone-heather: #c4a4a4;
+
+  /* ===== TYPOGRAPHY ===== */
+  --font-heading: "Libre Baskerville", "Georgia", serif;
+  --font-body: "Inter", "Geist", sans-serif;
+  --font-mono: "Geist Mono", monospace;
+
+  /* ===== SPACING SCALE ===== */
+  --space-section-sm: 4rem; /* py-16 */
+  --space-section-lg: 6rem; /* py-24 */
+
+  /* ===== BORDER RADIUS ===== */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+
+  /* ===== SHADOWS ===== */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+  /* ===== TRANSITIONS ===== */
+  --transition-fast: 150ms ease;
+  --transition-normal: 300ms ease;
+  --transition-slow: 500ms ease;
+
+  /* ===== SHADCN TOKENS (mapped to design system) ===== */
   --background: oklch(0.98 0.005 75);
   --foreground: oklch(0.22 0.02 60);
   --card: oklch(1 0 0);
@@ -65,6 +136,31 @@
 }
 
 .dark {
+  /* ===== BRAND COLORS (DARK) ===== */
+  --brand-primary: #c4956a;
+  --brand-primary-hover: #a47148;
+  --brand-primary-light: rgba(196, 149, 106, 0.15);
+
+  /* ===== SURFACE COLORS (DARK) ===== */
+  --surface-background: #1a1714;
+  --surface-warm: #252118;
+  --surface-muted: #2d2820;
+  --surface-card: #1f1c17;
+  --surface-overlay-light: rgba(37, 33, 24, 0.95);
+  --surface-overlay-dark: rgba(0, 0, 0, 0.7);
+
+  /* ===== TEXT COLORS (DARK) ===== */
+  --text-primary: #f5f0ea;
+  --text-secondary: #b8b0a5;
+  --text-muted: #8a8278;
+  --text-inverse: #1a1714;
+
+  /* ===== BORDER COLORS (DARK) ===== */
+  --border-default: #3d3830;
+  --border-warm: #4a4238;
+  --border-brand: var(--brand-primary);
+
+  /* ===== SHADCN TOKENS (DARK) ===== */
   --background: oklch(0.22 0.02 60);
   --foreground: oklch(0.98 0.005 75);
   --card: oklch(0.25 0.02 60);
@@ -100,10 +196,26 @@
 }
 
 @theme inline {
-  /* Libre Baskerville serif font for elegant furniture aesthetic */
-  --font-sans: var(--font-inter), "Inter", system-ui, sans-serif;
-  --font-serif: var(--font-libre-baskerville), "Libre Baskerville", "Georgia", serif;
-  --font-mono: var(--font-geist-mono), "Geist Mono", monospace;
+  /* Accordion animations */
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  /* Typography */
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-heading);
+  --font-mono: var(--font-mono);
+
+  /* Design token colors */
+  --color-brand: var(--brand-primary);
+  --color-brand-hover: var(--brand-primary-hover);
+  --color-surface-warm: var(--surface-warm);
+  --color-surface-muted: var(--surface-muted);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-border-warm: var(--border-warm);
+
+  /* Shadcn color mappings */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -266,7 +378,60 @@
   }
 }
 
+/* ========================================
+   UTILITY CLASSES FOR DESIGN TOKENS
+   ======================================== */
+
 @layer utilities {
+  /* Brand colors */
+  .text-brand {
+    color: var(--brand-primary);
+  }
+  .bg-brand {
+    background-color: var(--brand-primary);
+  }
+  .bg-brand-hover {
+    background-color: var(--brand-primary-hover);
+  }
+  .border-brand {
+    border-color: var(--brand-primary);
+  }
+
+  /* Surface colors */
+  .bg-surface-warm {
+    background-color: var(--surface-warm);
+  }
+  .bg-surface-muted {
+    background-color: var(--surface-muted);
+  }
+
+  /* Text colors */
+  .text-primary {
+    color: var(--text-primary);
+  }
+  .text-secondary {
+    color: var(--text-secondary);
+  }
+  .text-muted-custom {
+    color: var(--text-muted);
+  }
+  .text-inverse {
+    color: var(--text-inverse);
+  }
+
+  /* Border colors */
+  .border-warm {
+    border-color: var(--border-warm);
+  }
+  .border-default {
+    border-color: var(--border-default);
+  }
+
+  /* Heading font */
+  .font-heading {
+    font-family: var(--font-heading);
+  }
+
   /* Line clamp utilities */
   .line-clamp-2 {
     display: -webkit-box;

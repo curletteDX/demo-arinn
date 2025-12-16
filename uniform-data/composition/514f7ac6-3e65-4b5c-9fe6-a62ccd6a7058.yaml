@@ -4,6 +4,24 @@ composition:
   _slug: pantone
   type: page
   _overrides:
+    be9f2942-7cfe-4a0d-8d30-41a9e57db10c:
+      parameters:
+        headline:
+          type: text
+          value: Arinn × Pantone
+        mediaType:
+          type: select
+          value: video
+        description:
+          type: text
+          value: >-
+            Cultivating calm and relaxation the exclusive Joybird x Pantone
+            collaboration fulfills our longing for harmony at home with
+            invitingly tactile fabrics that evoke serenity and inspire quiet
+            reflection.
+        headlineAccent:
+          type: text
+          value: 2026 Collection
     514f7ac6-3e65-4b5c-9fe6-a62ccd6a7058|bea24f96-81cb-4cd0-ba68-f82bcf404627:
       slots:
         $slotSectionItems:
@@ -12,15 +30,19 @@ composition:
             _pattern: 6f5a86fd-af35-4ab6-a91c-8907ce596209
             _overridability:
               parameters:
+                ctaLink: 'yes'
                 ctaText: 'yes'
                 eyebrow: 'yes'
                 headline: 'yes'
+                videoUrl: 'yes'
                 mediaType: 'yes'
                 minHeight: 'yes'
                 description: 'yes'
                 headlineAccent: 'yes'
                 showColorChips: 'yes'
+                backgroundImage: 'yes'
                 featuredColorHex: 'yes'
+                secondaryCtaLink: 'yes'
                 secondaryCtaText: 'yes'
                 featuredColorCode: 'yes'
                 featuredColorName: 'yes'
@@ -35,6 +57,25 @@ composition:
                 title: 'yes'
                 aspectRatio: 'yes'
                 description: 'yes'
+              hideLockedParameters: true
+          - _id: da406311-1890-4e30-ad1c-25a4e0145e07
+            type: colorShowcaseBlock
+            _pattern: 51403673-e336-421c-9071-f67b28d999de
+            _overridability:
+              parameters:
+                ctaLink: 'yes'
+                ctaText: 'yes'
+                introText: 'yes'
+                mainImage: 'yes'
+                pantoneCode: 'yes'
+                pantoneName: 'yes'
+                pantoneYear: 'yes'
+                pantoneColor: 'yes'
+                textHeadline: 'yes'
+                imagePosition: 'yes'
+                backgroundColor: 'yes'
+                textDescription: 'yes'
+                showPantoneBadge: 'yes'
               hideLockedParameters: true
     6658eacf-a2a7-4b82-9cc1-c642ad092171|05101f89-75f0-40ba-98bc-9422d38979e1:
       parameters:
@@ -237,5 +278,5 @@ composition:
     - en-US
   _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
 created: '2025-12-16T19:33:23.193842+00:00'
-modified: '2025-12-16T19:56:40.430352+00:00'
+modified: '2025-12-16T20:11:41.11188+00:00'
 pattern: false

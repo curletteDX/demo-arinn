@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: showcaseProductCard
+name: Showcase Product Card
+icon: screen
+parameters:
+  - id: image
+    name: Image
+    type: asset
+    guidance: 'Square product image (recommended: 400x400px)'
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: title
+    name: Title
+    type: text
+    guidance: Product name in uppercase style
+    typeConfig:
+      required: false
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Product category or description
+    typeConfig:
+      required: false
+    localizable: true
+  - id: link
+    name: Link
+    type: link
+    guidance: Link to product detail page
+    typeConfig:
+      required: false
+description: >-
+  Compact product card with square image, title, and subtitle. Used within
+  ColorShowcaseBlock for featuring collection products.
+useTeamPermissions: true
+slots: []
+titleParameter: title
+thumbnailParameter: image
+canBeComposition: false
+created: '2025-12-16T20:09:38.368139+00:00'
+updated: '2025-12-16T20:09:38.368139+00:00'

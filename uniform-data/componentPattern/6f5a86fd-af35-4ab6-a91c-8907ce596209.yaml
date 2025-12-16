@@ -12,9 +12,13 @@ composition:
     headline:
       type: text
       value: Arinn × Pantone
+    videoUrl:
+      type: text
+      value: >-
+        https://assets.syndeca.com/joybird/videos/7287/7287-hero-video-r3-a1661f234198f4ad978e730d0f3037fd-1080.mp4
     mediaType:
       type: select
-      value: image
+      value: video
     minHeight:
       type: select
       value: 90vh
@@ -41,59 +45,6 @@ composition:
     featuredColorName:
       type: text
       value: Mocha Mousse
-  slots:
-    colorChips:
-      - _id: 149d86a0-241d-4f9e-8215-77738e9ade37
-        type: colorChip
-        parameters:
-          colorHex:
-            type: text
-            value: '#A47148'
-          colorCode:
-            type: text
-            value: 17-1230
-          colorName:
-            type: text
-            value: Mocha Mousse
-        _overridability:
-          parameters:
-            colorHex: 'yes'
-            colorCode: 'yes'
-            colorName: 'yes'
-      - _id: 1c135a30-e828-4c83-9794-762259c834a7
-        type: colorChip
-        parameters:
-          colorHex:
-            type: text
-            value: '#3D5A73'
-          colorCode:
-            type: text
-            value: 18-4417
-          colorName:
-            type: text
-            value: Tapestry
-        _overridability:
-          parameters:
-            colorHex: 'yes'
-            colorCode: 'yes'
-            colorName: 'yes'
-      - _id: 8dbf44ab-9947-4ba4-b5fd-e7ae0bdf007d
-        type: colorChip
-        parameters:
-          colorHex:
-            type: text
-            value: '#B4838D'
-          colorCode:
-            type: text
-            value: 17-1608
-          colorName:
-            type: text
-            value: Heather Rose
-        _overridability:
-          parameters:
-            colorHex: 'yes'
-            colorCode: 'yes'
-            colorName: 'yes'
   _overridability:
     parameters:
       ctaLink: 'yes'
@@ -113,6 +64,8 @@ composition:
       featuredColorCode: 'yes'
       featuredColorName: 'yes'
     hideLockedParameters: true
+  _locales:
+    - en-US
 created: '2025-12-16T19:56:17.766003+00:00'
-modified: '2025-12-16T20:00:07.558263+00:00'
+modified: '2025-12-16T20:02:57.563056+00:00'
 pattern: true

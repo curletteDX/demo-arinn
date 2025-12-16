@@ -1,0 +1,117 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: colorShowcaseBlock
+name: Color Showcase Block
+icon: screen
+parameters:
+  - id: introText
+    name: Intro Text
+    type: text
+    guidance: Introductory text displayed centered above the grid
+    typeConfig:
+      required: false
+    localizable: true
+  - id: mainImage
+    name: Main Image
+    type: asset
+    guidance: 'Large feature image (recommended: 800x1000px portrait)'
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: imagePosition
+    name: Image Position
+    type: select
+    guidance: Position of the main image in the layout
+    typeConfig:
+      options:
+        - text: Left
+          value: left
+        - text: Right
+          value: right
+  - id: showPantoneBadge
+    name: Show Pantone Badge
+    type: checkbox
+    guidance: Show/hide the Pantone Color of the Year badge overlay
+    typeConfig:
+      required: false
+  - id: pantoneYear
+    name: Pantone Year
+    type: text
+    guidance: Year for Pantone badge, e.g., '2025'
+    typeConfig:
+      required: false
+  - id: pantoneCode
+    name: Pantone Code
+    type: text
+    guidance: Pantone color code, e.g., '17-1230'
+    typeConfig:
+      required: false
+  - id: pantoneName
+    name: Pantone Name
+    type: text
+    guidance: Pantone color name, e.g., 'Mocha Mousse'
+    typeConfig:
+      required: false
+    localizable: true
+  - id: pantoneColor
+    name: Pantone Color
+    type: text
+    guidance: Hex color for badge swatch, e.g., '#A47148'
+    typeConfig:
+      required: false
+  - id: textHeadline
+    name: Text Headline
+    type: text
+    guidance: Headline for the text card section
+    typeConfig:
+      required: false
+    localizable: true
+  - id: textDescription
+    name: Text Description
+    type: text
+    guidance: Description text for the text card section
+    typeConfig:
+      required: false
+    localizable: true
+  - id: ctaText
+    name: CTA Text
+    type: text
+    guidance: Call-to-action button text
+    typeConfig:
+      required: false
+    localizable: true
+  - id: ctaLink
+    name: CTA Link
+    type: link
+    guidance: Call-to-action button destination
+    typeConfig:
+      required: false
+  - id: backgroundColor
+    name: Background Color
+    type: select
+    guidance: Background color style for the section
+    typeConfig:
+      options:
+        - text: Warm
+          value: warm
+        - text: White
+          value: white
+        - text: Muted
+          value: muted
+description: >-
+  Feature block showcasing products with Pantone collaboration theme. Includes
+  large hero image, product grid, and promotional text.
+useTeamPermissions: true
+slots:
+  - id: productCards
+    name: Product Cards
+    maxComponents: 4
+    allowedComponents:
+      - showcaseProductCard
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: introText
+thumbnailParameter: mainImage
+canBeComposition: false
+created: '2025-12-16T20:09:47.142563+00:00'
+updated: '2025-12-16T20:09:47.142563+00:00'

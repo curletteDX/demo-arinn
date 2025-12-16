@@ -28,6 +28,8 @@ import './media/Video';
 // Interactive
 import './interactive/InteractiveImage';
 import './interactive/Hotspot';
+// UI (system components)
+import './ui/SlotSection';
 // Home
 import './home/HeroBanner';
 import './home/FeaturedCollections';
@@ -39,6 +41,8 @@ import './home/TestimonialCard';
 import './home/CtaBanner';
 import './home/CollaborationHero';
 import './home/ColorChip';
+import './home/ColorShowcaseBlock';
+import './home/ShowcaseProductCard';
 // Products
 import './products/ProductHero';
 import './products/ProductCard';
@@ -101,6 +105,8 @@ export { default as TestimonialCard, type TestimonialCardProps } from './home/Te
 export { default as CtaBanner, type CtaBannerProps } from './home/CtaBanner';
 export { default as CollaborationHero, type CollaborationHeroProps } from './home/CollaborationHero';
 export { default as ColorChip, type ColorChipProps } from './home/ColorChip';
+export { default as ColorShowcaseBlock, type ColorShowcaseBlockProps } from './home/ColorShowcaseBlock';
+export { default as ShowcaseProductCard, type ShowcaseProductCardProps } from './home/ShowcaseProductCard';
 
 // === PRODUCT COMPONENTS ===
 export { default as ProductHero, type ProductHeroProps } from './products/ProductHero';

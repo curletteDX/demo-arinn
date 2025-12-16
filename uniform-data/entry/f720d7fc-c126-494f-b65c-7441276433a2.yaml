@@ -1,0 +1,97 @@
+created: '2025-12-16T20:14:50.670743+00:00'
+modified: '2025-12-16T20:14:50.670743+00:00'
+pattern: false
+entry:
+  _id: f720d7fc-c126-494f-b65c-7441276433a2
+  _name: Carin Modular U-Sofa Bumper Sectional
+  _slug: carin-modular-u-sofa-bumper-sectional
+  type: product
+  fields:
+    sku:
+      type: text
+      value: 13513-CF559
+    care:
+      type: text
+      value: >-
+        Vacuum regularly. Spot clean with mild detergent. Professional cleaning
+        recommended for deep stains.
+    name:
+      type: text
+      value: Carin Modular U-Sofa Bumper Sectional
+    badge:
+      type: select
+      value: Sale
+    price:
+      type: number
+      value: 4381
+    colors:
+      type: text
+      value: Soul in Pantone 11-4201 Cloud Dancer (white/cream)
+    shipping:
+      type: text
+      value: Available for home delivery. Measure for delivery to ensure proper fit.
+    materials:
+      type: text
+      value: Upholstered fabric, Wood legs
+    dimensions:
+      type: text
+      value: '122.5" W × 79.5" D × 29" H (Overall), Seating: 90.5" W × 63" D × 16.5" H'
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    A king size sectional made for ultimate friends and family
+                    hosts, the Carin's overstuffed and low slung frame combines
+                    form and function into one chic package. Featuring plush
+                    cushioning, rounded edges and pillowed backing, and perfect
+                    for those who love to lounge a little lower to the ground,
+                    meet the modern minimalistic sectional of your dreams.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Comprised of two corner chairs, two armless chairs and an
+                    ottoman.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+    reviewCount:
+      type: number
+      value: 0
+    originalPrice:
+      type: number
+      value: 6258
+    productcategory:
+      type: select
+      value: Sofas
+  _overridability:
+    hideLockedParameters: true

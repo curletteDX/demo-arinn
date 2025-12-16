@@ -1,0 +1,123 @@
+composition:
+  _name: Color Showcase Block - Pantone 2025
+  _id: 51403673-e336-421c-9071-f67b28d999de
+  type: colorShowcaseBlock
+  parameters:
+    ctaText:
+      type: text
+      value: SHOP THE COLLECTION
+    introText:
+      type: text
+      value: >-
+        Our exclusive collection featuring the Pantone Color of the Year brings
+        warmth and sophistication to every space.
+    pantoneCode:
+      type: text
+      value: 17-1230
+    pantoneName:
+      type: text
+      value: Mocha Mousse
+    pantoneYear:
+      type: text
+      value: '2025'
+    pantoneColor:
+      type: text
+      value: '#A47148'
+    textHeadline:
+      type: text
+      value: THE COLLECTION
+    imagePosition:
+      type: select
+      value: left
+    backgroundColor:
+      type: select
+      value: warm
+    textDescription:
+      type: text
+      value: >-
+        Discover furniture that embodies the warmth and richness of Mocha
+        Mousse. Each piece is crafted to bring comfort and style to your home.
+    showPantoneBadge:
+      type: checkbox
+      value: 'true'
+  slots:
+    productCards:
+      - _id: 3a21a140-e5f8-45a9-bcc6-eaadcf8d6917
+        type: showcaseProductCard
+        parameters:
+          title:
+            type: text
+            value: MOCHA VELVET SOFA
+          subtitle:
+            type: text
+            value: Living Room
+        _overridability:
+          parameters:
+            link: 'yes'
+            image: 'yes'
+            title: 'yes'
+            subtitle: 'yes'
+      - _id: e367cc84-af05-4eb8-8c6e-18d472115762
+        type: showcaseProductCard
+        parameters:
+          title:
+            type: text
+            value: ACCENT CHAIR
+          subtitle:
+            type: text
+            value: Seating
+        _overridability:
+          parameters:
+            link: 'yes'
+            image: 'yes'
+            title: 'yes'
+            subtitle: 'yes'
+      - _id: fc3681a5-7a86-4d94-9a06-da00d20d3fd5
+        type: showcaseProductCard
+        parameters:
+          title:
+            type: text
+            value: OTTOMAN
+          subtitle:
+            type: text
+            value: Accessories
+        _overridability:
+          parameters:
+            link: 'yes'
+            image: 'yes'
+            title: 'yes'
+            subtitle: 'yes'
+      - _id: 4c622459-8a7a-4e82-a29c-efa39b28fc65
+        type: showcaseProductCard
+        parameters:
+          title:
+            type: text
+            value: THROW PILLOWS
+          subtitle:
+            type: text
+            value: Decor
+        _overridability:
+          parameters:
+            link: 'yes'
+            image: 'yes'
+            title: 'yes'
+            subtitle: 'yes'
+  _overridability:
+    parameters:
+      ctaLink: 'yes'
+      ctaText: 'yes'
+      introText: 'yes'
+      mainImage: 'yes'
+      pantoneCode: 'yes'
+      pantoneName: 'yes'
+      pantoneYear: 'yes'
+      pantoneColor: 'yes'
+      textHeadline: 'yes'
+      imagePosition: 'yes'
+      backgroundColor: 'yes'
+      textDescription: 'yes'
+      showPantoneBadge: 'yes'
+    hideLockedParameters: true
+created: '2025-12-16T20:10:33.377077+00:00'
+modified: '2025-12-16T20:10:33.377077+00:00'
+pattern: true
