@@ -1,25 +1,25 @@
-created: '2025-12-16T20:14:50.670743+00:00'
-modified: '2025-12-16T21:27:33.637689+00:00'
+created: '2025-12-16T20:52:24.036172+00:00'
+modified: '2025-12-16T21:57:49.159001+00:00'
 pattern: false
 entry:
-  _id: f720d7fc-c126-494f-b65c-7441276433a2
-  _name: Carin Modular U-Sofa Bumper Sectional
-  _slug: carin-modular-u-sofa-bumper-sectional
+  _id: 5cd40d69-3663-442a-b3d6-d3ebe3202d60
+  _name: Bryant L-Sectional (4 piece)
+  _slug: bryant-l-sectional-4-piece
   _thumbnail: >-
-    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/ClYQQEX5SlaqzLToiEbb1A-13513.webp
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/Hh0iVvigSayhw-0_uLBorg-8295.webp
   type: product
   fields:
     sku:
       type: text
-      value: 13513-CF559
+      value: BRYANT-L-SECT-4PC
     care:
       type: text
       value: >-
-        Vacuum regularly. Spot clean with mild detergent. Professional cleaning
-        recommended for deep stains.
+        Professional cleaning recommended. Vacuum regularly with an upholstery
+        attachment. Blot spills immediately.
     name:
       type: text
-      value: Carin Modular U-Sofa Bumper Sectional
+      value: Bryant L-Sectional (4 piece)
     badge:
       type: select
       value: Sale
@@ -27,25 +27,25 @@ entry:
       type: asset
       locales:
         en-US:
-          - _id: ac8b2149-0e61-4673-91af-412f3afd5926
+          - _id: 104ff0d7-aab1-417f-b6c6-c8c2f93bb67d
             type: image
             fields:
               id:
                 type: text
-                value: 88c53765-2288-4df0-959c-fced855ff80c
+                value: 4a2f9450-b089-4a5f-96ac-e3ceaec4ac4a
               url:
                 value: >-
-                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/ClYQQEX5SlaqzLToiEbb1A-13513.webp
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/Hh0iVvigSayhw-0_uLBorg-8295.webp
                 type: text
               file:
                 type: file
-                value: ec246c4f-6696-479b-b97b-753bb06aa805
+                value: 205dc069-b445-40a4-ad3f-e69bd65363b4
               size:
-                value: 41708
+                value: 39350
                 type: number
               title:
                 type: text
-                value: 13513.webp
+                value: 8295.webp
               width:
                 value: 1024
                 type: number
@@ -58,23 +58,32 @@ entry:
             _source: uniform-assets
     price:
       type: number
-      value: 4381
+      value: 4745
     colors:
       type: text
-      value: Soul in Pantone 11-4201 Cloud Dancer (white/cream)
+      value: >-
+        Cloud
+        Dancer,Beige,White,Black,Blue,Brown,Green,Gray,Orange,Pink,Red,Yellow
+    rating:
+      type: number
+      value: 4
     shipping:
       type: text
-      value: Available for home delivery. Measure for delivery to ensure proper fit.
+      value: >-
+        Ships in 4 boxes. Each box measures 45"L × 43"W × 28"H and weighs
+        between 65-70 lbs. White glove delivery is available.
     materials:
       type: text
-      value: Upholstered fabric, Wood legs
+      value: Velvet,Pet-friendly,Safeguard,Sustainable,GREENGUARD Gold,PANTONE
     collection:
       type: multi-select
       value:
         - Cloud Dancer
     dimensions:
       type: text
-      value: '122.5" W × 79.5" D × 29" H (Overall), Seating: 90.5" W × 63" D × 16.5" H'
+      value: >-
+        120"W × 80"D × 35"H (Overall), Seating: 104"W × 72"D × 24"H, Arm Height:
+        8" × 27"
     description:
       type: richText
       value:
@@ -91,12 +100,11 @@ entry:
               children:
                 - mode: normal
                   text: >-
-                    A king size sectional made for ultimate friends and family
-                    hosts, the Carin's overstuffed and low slung frame combines
-                    form and function into one chic package. Featuring plush
-                    cushioning, rounded edges and pillowed backing, and perfect
-                    for those who love to lounge a little lower to the ground,
-                    meet the modern minimalistic sectional of your dreams.
+                    The Bryant L-Sectional offers a roomy seating solution with
+                    customizable options, unparalleled comfort, and clean,
+                    modern lines. Designed to accommodate the whole family, it's
+                    the perfect choice for any occasion—whether you're hosting a
+                    holiday gathering or enjoying a quiet nap.
                   type: text
                   style: ''
                   detail: 0
@@ -112,8 +120,11 @@ entry:
               children:
                 - mode: normal
                   text: >-
-                    Comprised of two corner chairs, two armless chairs and an
-                    ottoman.
+                    Experience the ultimate in casual luxury as you sink into
+                    Bryant's ultra-plush cushions, deep seats, and gently sloped
+                    arms. This sectional sets the leading standard for comfort
+                    and style, making it a standout addition to any living
+                    space.
                   type: text
                   style: ''
                   detail: 0
@@ -131,10 +142,10 @@ entry:
           str: 50
     reviewCount:
       type: number
-      value: 0
+      value: 219
     originalPrice:
       type: number
-      value: 6258
+      value: 6779
     productcategory:
       type: select
       value: Sofas

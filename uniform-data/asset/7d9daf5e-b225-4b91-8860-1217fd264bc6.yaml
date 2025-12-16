@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 7d9daf5e-b225-4b91-8860-1217fd264bc6
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: showcase-lg.webp
+    file:
+      type: file
+      value: 32711ee4-2348-40ff-b4f8-3b9e35258dd2
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/n1D3bD_9R4ObIH4QR5JuLA-showcase-lg.webp
+      type: text
+    size:
+      value: 87932
+      type: number
+    width:
+      value: 1920
+      type: number
+    height:
+      value: 848
+      type: number
+    custom: {}
+created: '2025-12-16T20:16:28.890856+00:00'
+modified: '2025-12-16T20:16:28.890856+00:00'

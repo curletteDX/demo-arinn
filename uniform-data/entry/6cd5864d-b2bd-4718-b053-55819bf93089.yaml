@@ -1,0 +1,140 @@
+created: '2025-12-16T21:52:50.544941+00:00'
+modified: '2025-12-16T21:56:51.037708+00:00'
+pattern: false
+entry:
+  _id: 6cd5864d-b2bd-4718-b053-55819bf93089
+  _name: Dyer Ottoman
+  _slug: dyer-ottoman
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/ovZZ6PKPT4ieceyjlYyCSQ-13543.webp
+  type: product
+  fields:
+    sku:
+      type: text
+      locales:
+        en-US: DYER-OTT-AQU
+    care:
+      type: text
+      locales:
+        en-US: >-
+          Professional cleaning is recommended. Vacuum regularly using a soft
+          brush attachment to remove dust and debris. Avoid placing the product
+          in direct sunlight to prevent fading.
+    name:
+      type: text
+      locales:
+        en-US: Dyer Ottoman
+    badge:
+      type: select
+      value: Sale
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: f1855266-45fb-4dbb-8ed2-993f7043d755
+            type: image
+            fields:
+              id:
+                type: text
+                value: 48119008-69b7-44fb-8133-339a5319f74a
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/ovZZ6PKPT4ieceyjlYyCSQ-13543.webp
+                type: text
+              file:
+                type: file
+                value: c8875bd1-34e3-4dea-9c6a-9032ceb3eb73
+              size:
+                value: 238992
+                type: number
+              title:
+                type: text
+                value: 13543.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 768
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    price:
+      type: number
+      value: 581
+    colors:
+      type: text
+      value: Aquatic,Beige,Black,Blue,Brown,Green,Gray,Orange,Pink,Red,White,Yellow
+    rating:
+      type: number
+      value: 4
+    shipping:
+      type: text
+      locales:
+        en-US: >-
+          Box dimensions: 28" L × 38" W × 21" H (40 lbs). Free shipping
+          available.
+    materials:
+      type: text
+      value: Velvet
+    collection:
+      type: multi-select
+      value:
+        - Small Spaces
+        - Cloud Dancer
+    dimensions:
+      type: text
+      value: 37.5" W × 27.5" D × 19" H
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The Dyer ottoman blends cozy comfort with artistic flair,
+                      offering a sculptural and modern spot to relax. Its
+                      stacked design and smooth, curved silhouette make it a
+                      standout accent in any living room. Use it as a footrest,
+                      extra seating, or a statement piece, and pair it with the
+                      matching chair for a coordinated, inviting space to
+                      unwind.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    enrichments:
+      type: $enr
+      value:
+        - cat: pc
+          key: chairs
+          str: 50
+    reviewCount:
+      type: number
+      value: 0
+    originalPrice:
+      type: number
+      value: 775
+    productcategory:
+      type: select
+      value: Chairs
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

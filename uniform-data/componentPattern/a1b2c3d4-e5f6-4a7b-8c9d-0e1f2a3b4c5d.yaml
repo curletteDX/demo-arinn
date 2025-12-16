@@ -6,71 +6,19 @@ composition:
     name:
       type: text
       locales:
-        en-US: Oslo Sectional Sofa
+        en-US: ' ${#jptr:/Products Selector Content/entries/0/entry/_name}'
     image:
       type: asset
-      value:
-        - _id: a4072254-9275-4e2c-ac1b-d79d780d00da
-          type: image
-          fields:
-            id:
-              type: text
-              value: fe5b575c-ca4a-4592-9036-57a433521c03
-            url:
-              value: >-
-                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/XuXglDVJQb25UJgvcM0YFA-warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
-              type: text
-            file:
-              type: file
-              value: a9bc1cf7-3454-4913-ab06-6677902fc500
-            size:
-              value: 148148
-              type: number
-            title:
-              type: text
-              value: warm-cozy-den-cognac-brown-leather-sofa-mid-centur.jpg
-            width:
-              value: 1024
-              type: number
-            height:
-              value: 1024
-              type: number
-            mediaType:
-              value: image/jpeg
-              type: text
-          _source: uniform-assets
+      value: ${#jptr:/Products Selector Content/entries/0/entry/fields/image/value}
     price:
       type: number
-      value: 2499
+      value: ${#jptr:/Products Selector Content/entries/0/entry/fields/price/value}
     description:
       type: richText
       locales:
-        en-US:
-          root:
-            type: root
-            format: ''
-            indent: 0
-            version: 1
-            children:
-              - type: paragraph
-                format: ''
-                indent: 0
-                version: 1
-                children:
-                  - mode: normal
-                    text: >-
-                      Experience the perfect blend of mid-century modern design
-                      and contemporary comfort. Handcrafted with premium
-                      materials for lasting quality.
-                    type: text
-                    style: ''
-                    detail: 0
-                    format: 0
-                    version: 1
-                direction: null
-                textStyle: ''
-                textFormat: 0
-            direction: null
+        en-US: >-
+          ${#jptr:/Products Selector
+          Content/entries/0/entry/fields/description/value}
     productLink:
       type: link
       value:
@@ -86,11 +34,21 @@ composition:
         en-US: Add to Bag
     originalPrice:
       type: number
-      value: 2899
+      value: >-
+        ${#jptr:/Products Selector
+        Content/entries/0/entry/fields/originalPrice/value}
     viewDetailsText:
       type: text
       locales:
         en-US: View Product Detail
+  _dataResources:
+    Products Selector Content:
+      type: productsSelector
+      variables:
+        locale: ${locale}
+        entryIds: f720d7fc-c126-494f-b65c-7441276433a2
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
   _overridability:
     parameters:
       name: 'yes'
@@ -105,5 +63,5 @@ composition:
   _locales:
     - en-US
 created: '2025-12-15T12:10:41.281645+00:00'
-modified: '2025-12-15T12:36:27.32345+00:00'
+modified: '2025-12-16T21:44:24.927761+00:00'
 pattern: true

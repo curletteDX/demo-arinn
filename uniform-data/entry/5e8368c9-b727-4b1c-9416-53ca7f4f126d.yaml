@@ -1,0 +1,154 @@
+created: '2025-12-16T21:49:50.063881+00:00'
+modified: '2025-12-16T21:54:59.543135+00:00'
+pattern: false
+entry:
+  _id: 5e8368c9-b727-4b1c-9416-53ca7f4f126d
+  _name: Miller Double Chaise Sectional
+  _slug: miller-double-chaise-sectional
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/yCTPgin9SC6eQyehnKY9Mw-12883.webp
+  type: product
+  fields:
+    sku:
+      type: text
+      value: MILLER-DBL-CHAISE-SECT
+    care:
+      type: text
+      value: >-
+        Professional cleaning is recommended. Vacuum regularly using an
+        upholstery attachment to remove dust and debris. Blot spills immediately
+        with a clean, dry cloth—do not rub. Avoid using harsh chemicals or
+        soaking the fabric. For best results, consult a professional upholstery
+        cleaner for deep cleaning as needed.
+    name:
+      type: text
+      value: Miller Double Chaise Sectional
+    badge:
+      type: select
+      value: Sale
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 9ed56629-58ef-4c4d-b437-30d889b8f686
+            type: image
+            fields:
+              id:
+                type: text
+                value: 55ed7006-f8df-4c57-b8dd-226604d0665a
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/yCTPgin9SC6eQyehnKY9Mw-12883.webp
+                type: text
+              file:
+                type: file
+                value: 7040bf00-9b47-4643-8490-fbcc5e10cf64
+              size:
+                value: 51020
+                type: number
+              title:
+                type: text
+                value: 12883.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 768
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    price:
+      type: number
+      value: 3629
+    colors:
+      type: text
+      value: >-
+        Cloud
+        Dancer,Beige,White,Black,Blue,Brown,Green,Gray,Orange,Pink,Red,Yellow
+    rating:
+      type: number
+      value: 4
+    shipping:
+      type: text
+      value: >-
+        Available in Left or Right orientation. White glove delivery is
+        available for this product. Standard shipping options are also offered.
+        Delivery times and fees may vary based on your location and selected
+        service. Please contact us for more details or to schedule your
+        preferred delivery method.
+    materials:
+      type: text
+      value: Velvet, Pet-friendly, Safeguard, Sustainable, GREENGUARD Gold, PANTONE
+    collection:
+      type: multi-select
+      value:
+        - Cloud Dancer
+    dimensions:
+      type: text
+      value: >-
+        120"W × 65"D × 31"H (Overall), Seating: 64"W × 50"D × 19.5"H, Arm
+        Height: 7" × 27", Leg: 4"H
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    With its low back, deep seat, plush pillowed back, and ample
+                    leg room, the Miller Double Chaise Sectional keeps things
+                    cozy in effortless, chic contemporary style. Laidback, yet
+                    polished at the same time, the Miller is sure to level up
+                    your living room lounging.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Its deep, roomy cushions and double wide chaise mean there's
+                    space for the whole family to get cozy together, while the
+                    slightly angled arms are perfect for propping yourself up
+                    for movie nights or even a good read.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+    reviewCount:
+      type: number
+      value: 8
+    originalPrice:
+      type: number
+      value: 5185
+    productcategory:
+      type: select
+      value: Sofas
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

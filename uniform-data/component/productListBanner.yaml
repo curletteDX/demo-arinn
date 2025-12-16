@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: productListBanner
+name: Product List Banner
+icon: screen
+parameters:
+  - id: headline
+    name: Headline
+    type: text
+    guidance: >-
+      Banner headline text (displays in uppercase, e.g., 'OUR FAVORITE PIECES TO
+      UNWIND ON')
+    localizable: true
+  - id: backgroundColor
+    name: Background Color
+    type: text
+    guidance: 'Background color as hex code (e.g., #E8E4DE) or CSS color name'
+description: >-
+  A full-width banner showcasing a horizontal grid of products. Perfect for
+  featuring collections, categories, or promotional products.
+useTeamPermissions: true
+slots:
+  - id: items
+    name: Items
+    maxComponents: 10
+    minComponents: 1
+    allowedComponents:
+      - productListBannerItem
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: headline
+canBeComposition: false
+created: '2025-12-16T22:05:39.659+00:00'
+updated: '2025-12-16T22:05:39.659+00:00'

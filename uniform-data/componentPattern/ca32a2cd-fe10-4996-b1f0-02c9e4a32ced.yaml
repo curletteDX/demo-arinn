@@ -1,0 +1,23 @@
+composition:
+  _name: Product List Banner Item Pattern
+  _id: ca32a2cd-fe10-4996-b1f0-02c9e4a32ced
+  type: productListBannerItem
+  parameters:
+    title:
+      type: text
+      value: LUNA CHAIR
+    subtitle:
+      type: text
+      value: Office Furniture
+    tooltipName:
+      type: text
+      value: Luna Swivel Chair
+  _overridability:
+    parameters:
+      title: 'yes'
+      subtitle: 'yes'
+      tooltipName: 'yes'
+    hideLockedParameters: true
+created: '2025-12-16T22:05:58.315749+00:00'
+modified: '2025-12-16T22:05:58.315749+00:00'
+pattern: true

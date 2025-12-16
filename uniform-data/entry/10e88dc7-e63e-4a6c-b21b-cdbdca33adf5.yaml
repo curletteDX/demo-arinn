@@ -1,0 +1,143 @@
+created: '2025-12-16T21:52:27.080006+00:00'
+modified: '2025-12-16T21:57:04.663701+00:00'
+pattern: false
+entry:
+  _id: 10e88dc7-e63e-4a6c-b21b-cdbdca33adf5
+  _name: Dyer Chair
+  _slug: dyer-chair
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/4eZggzhuTy2jGTB8FiznAg-13542-(1).webp
+  type: product
+  fields:
+    sku:
+      type: text
+      locales:
+        en-US: DYER-CHAIR-KARINA-AQUATIC
+    care:
+      type: text
+      locales:
+        en-US: >-
+          Spot clean with mild soap and water. Avoid direct sunlight to prevent
+          fading. Professional cleaning is recommended for deep stains.
+    name:
+      type: text
+      locales:
+        en-US: Dyer Chair
+    badge:
+      type: select
+      value: Sale
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 2a637a4a-fbaf-4054-9416-3e7bd423ebdb
+            type: image
+            fields:
+              id:
+                type: text
+                value: 2ef3cc1d-ee4f-4c39-aaf5-1e54101df41a
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/4eZggzhuTy2jGTB8FiznAg-13542-(1).webp
+                type: text
+              file:
+                type: file
+                value: 87bfb839-5323-43b2-8d3e-4a9377382168
+              size:
+                value: 235286
+                type: number
+              title:
+                type: text
+                value: 13542-(1).webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 768
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    price:
+      type: number
+      value: 916
+    colors:
+      type: text
+      value: >-
+        Pantone
+        Aquatic,Beige,Black,Blue,Brown,Green,Gray,Orange,Pink,Red,White,Yellow
+    rating:
+      type: number
+      value: 4
+    shipping:
+      type: text
+      locales:
+        en-US: >-
+          Ships in one box: 39"L × 41"W × 32"H (76 lbs). White glove delivery
+          available. Free delivery on orders over $999.
+    materials:
+      type: text
+      value: Velvet,Pet-friendly Fabrics,Safeguard Fabrics,Sustainable Materials
+    collection:
+      type: multi-select
+      value:
+        - Small Spaces
+        - Cloud Dancer
+    dimensions:
+      type: text
+      value: '37.5"W × 37.5"D × 31"H (Seat: 37.5"W × 29"D × 19"H)'
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The Dyer Chair is a striking blend of comfort and modern
+                      artistry, designed to be both a cozy seat and a sculptural
+                      statement piece. Its distinctive stacked silhouette and
+                      gracefully curved semi-circle back make it a standout
+                      accent for any living room. Style it as a pair for a bold
+                      look, or pair it with the matching ottoman to elevate your
+                      space even further. Choose from pet-friendly and
+                      GREENGUARD Gold certified fabric options for a chair
+                      that’s as practical as it is stylish.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    enrichments:
+      type: $enr
+      value:
+        - cat: pc
+          key: chairs
+          str: 50
+    reviewCount:
+      type: number
+      value: 0
+    originalPrice:
+      type: number
+      value: 1221
+    productcategory:
+      type: select
+      value: Chairs
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

@@ -1,17 +1,17 @@
-created: '2025-12-16T20:14:50.670743+00:00'
-modified: '2025-12-16T21:27:33.637689+00:00'
+created: '2025-12-16T20:47:25.190139+00:00'
+modified: '2025-12-16T22:01:05.431087+00:00'
 pattern: false
 entry:
-  _id: f720d7fc-c126-494f-b65c-7441276433a2
-  _name: Carin Modular U-Sofa Bumper Sectional
-  _slug: carin-modular-u-sofa-bumper-sectional
+  _id: 31c13a54-a01e-440e-b90b-04e1e9445e89
+  _name: Bryant Loveseat (2 piece)
+  _slug: bryant-loveseat-2-piece
   _thumbnail: >-
-    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/ClYQQEX5SlaqzLToiEbb1A-13513.webp
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/nuEmWVCtTnaTpQndI21gZg-bryant.webp
   type: product
   fields:
     sku:
       type: text
-      value: 13513-CF559
+      value: 8291-CF557
     care:
       type: text
       value: >-
@@ -19,7 +19,7 @@ entry:
         recommended for deep stains.
     name:
       type: text
-      value: Carin Modular U-Sofa Bumper Sectional
+      value: Bryant Loveseat (2 piece)
     badge:
       type: select
       value: Sale
@@ -27,25 +27,25 @@ entry:
       type: asset
       locales:
         en-US:
-          - _id: ac8b2149-0e61-4673-91af-412f3afd5926
+          - _id: b90ad989-0d2b-452e-aeea-0b835c5b9273
             type: image
             fields:
               id:
                 type: text
-                value: 88c53765-2288-4df0-959c-fced855ff80c
+                value: e659df67-c79d-4b5b-b1cb-5d1e8e611c95
               url:
                 value: >-
-                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/ClYQQEX5SlaqzLToiEbb1A-13513.webp
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/nuEmWVCtTnaTpQndI21gZg-bryant.webp
                 type: text
               file:
                 type: file
-                value: ec246c4f-6696-479b-b97b-753bb06aa805
+                value: 28eb802a-121b-489b-a69c-b3f658ff2282
               size:
-                value: 41708
+                value: 78660
                 type: number
               title:
                 type: text
-                value: 13513.webp
+                value: bryant.webp
               width:
                 value: 1024
                 type: number
@@ -58,23 +58,32 @@ entry:
             _source: uniform-assets
     price:
       type: number
-      value: 4381
+      value: 2572
     colors:
       type: text
-      value: Soul in Pantone 11-4201 Cloud Dancer (white/cream)
+      value: Karina in Pantone 11-4201 Cloud Dancer (white/cream)
+    rating:
+      type: number
+      value: 5
     shipping:
       type: text
-      value: Available for home delivery. Measure for delivery to ensure proper fit.
+      value: >-
+        Ships in 2 boxes. Box 1: 45" × 43" × 28" (70 lbs), Box 2: 45" × 43" ×
+        28" (70 lbs). Available for home delivery.
     materials:
       type: text
-      value: Upholstered fabric, Wood legs
+      value: >-
+        Upholstered fabric (Karina), Wood legs, Pillowed back, Includes 22" x
+        22" accent pillows
     collection:
       type: multi-select
       value:
         - Cloud Dancer
     dimensions:
       type: text
-      value: '122.5" W × 79.5" D × 29" H (Overall), Seating: 90.5" W × 63" D × 16.5" H'
+      value: >-
+        80" W × 40" D × 35" H (Overall), Seating: 48" W × 26" D × 24" H, Corner
+        Chair: 40" W × 40" D × 35" H
     description:
       type: richText
       value:
@@ -91,12 +100,11 @@ entry:
               children:
                 - mode: normal
                   text: >-
-                    A king size sectional made for ultimate friends and family
-                    hosts, the Carin's overstuffed and low slung frame combines
-                    form and function into one chic package. Featuring plush
-                    cushioning, rounded edges and pillowed backing, and perfect
-                    for those who love to lounge a little lower to the ground,
-                    meet the modern minimalistic sectional of your dreams.
+                    Accentuating its modern finish with unrivaled softness, the
+                    Bryant Loveseat adds a pop of compact coziness to apartments
+                    and homes alike. Condensing the pillowy flair of the Bryant
+                    Collection into a smaller package, it offers a versatile
+                    option for a wide variety of room configurations.
                   type: text
                   style: ''
                   detail: 0
@@ -112,8 +120,10 @@ entry:
               children:
                 - mode: normal
                   text: >-
-                    Comprised of two corner chairs, two armless chairs and an
-                    ottoman.
+                    Whether you're seeking a lounge-worthy couch for your living
+                    room or a delightful accent for your book nook, the Bryant
+                    can adapt to your needs with its deep seating, sloped arms,
+                    and pillowed back.
                   type: text
                   style: ''
                   detail: 0
@@ -131,10 +141,10 @@ entry:
           str: 50
     reviewCount:
       type: number
-      value: 0
+      value: 64
     originalPrice:
       type: number
-      value: 6258
+      value: 3675
     productcategory:
       type: select
       value: Sofas

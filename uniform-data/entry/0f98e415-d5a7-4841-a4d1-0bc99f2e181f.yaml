@@ -1,0 +1,136 @@
+created: '2025-12-16T20:40:58.232896+00:00'
+modified: '2025-12-16T21:57:34.313868+00:00'
+pattern: false
+entry:
+  _id: 0f98e415-d5a7-4841-a4d1-0bc99f2e181f
+  _name: Romi Media Console
+  _slug: romi-media-console
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/sfXcB3FnSVmHVZMz_mBLCQ-romi.avif
+  type: product
+  fields:
+    sku:
+      type: text
+      value: 10919-white
+    care:
+      type: text
+      value: >-
+        Wipe clean with a soft, dry cloth. Avoid harsh chemicals. Protect from
+        excessive moisture and direct sunlight.
+    name:
+      type: text
+      value: Romi Media Console
+    badge:
+      type: select
+      value: Sale
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: ace139b1-76de-4d8a-b4e3-fadd607d8f74
+            type: image
+            fields:
+              id:
+                type: text
+                value: 98dbf42d-e4f7-487f-8048-8b3867af0a12
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/sfXcB3FnSVmHVZMz_mBLCQ-romi.avif
+                type: text
+              file:
+                type: file
+                value: 237d103f-1372-4c61-a869-216d368e0322
+              size:
+                value: 21594
+                type: number
+              title:
+                type: text
+                value: romi.avif
+              width:
+                value: 1946
+                type: number
+              height:
+                value: 1324
+                type: number
+              mediaType:
+                value: image/avif
+                type: text
+            _source: uniform-assets
+    price:
+      type: number
+      value: 1522
+    colors:
+      type: text
+      value: White (white-washed mango wood)
+    rating:
+      type: number
+      value: 5
+    shipping:
+      type: text
+      value: >-
+        Ships in 1 box (22" × 85" × 26", 150 lbs). Available for home delivery.
+        Measure for delivery to ensure proper fit.
+    materials:
+      type: text
+      value: White-washed mango wood, Rounded iron legs, Mermaid scale carved texture
+    collection:
+      type: multi-select
+      value:
+        - Cloud Dancer
+    dimensions:
+      type: text
+      value: >-
+        82" W × 18" D × 28" H (Overall), Shelves: 31.5" W × 17" H × 20" H, Leg
+        height: 5" H
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Clean and modern, this media console showcases white-washed
+                    mango wood with an intricate carved mermaid scale pattern
+                    throughout, offering spacious shelving for all your
+                    entertainment needs. The console's unique mermaid
+                    scale-inspired textured carving and rounded iron legs make
+                    it a standout piece, perfectly suited for Boho and Globalist
+                    spaces alike. Its clean white-washed mango construction adds
+                    a fresh, contemporary touch to any room.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+    enrichments:
+      type: $enr
+      value:
+        - cat: pc
+          key: tables
+          str: 50
+    reviewCount:
+      type: number
+      value: 4
+    originalPrice:
+      type: number
+      value: 2537
+    productcategory:
+      type: select
+      value: Storage
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

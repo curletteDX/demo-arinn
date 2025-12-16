@@ -1,7 +1,7 @@
 id: product
 name: Product
 created: '2025-11-27T12:29:15.024238+00:00'
-updated: '2025-12-11T17:08:51.131354+00:00'
+updated: '2025-12-16T21:28:14.668851+00:00'
 slugSettings: {}
 useTeamPermissions: true
 fields:
@@ -11,6 +11,17 @@ fields:
     typeConfig:
       required: true
     localizable: true
+  - id: collection
+    name: Collection
+    type: multi-select
+    typeConfig:
+      options:
+        - text: Cloud Dancer
+          value: Cloud Dancer
+        - text: Clearance
+          value: Clearance
+        - text: Small Spaces
+          value: Small Spaces
   - id: description
     name: Description
     type: richText
@@ -46,21 +57,16 @@ fields:
           allowedTypes:
             - image
     localizable: true
+  - id: price
+    name: Price
+    type: number
+    typeConfig: null
   - id: image
     name: Image
     type: asset
     typeConfig:
       allowedTypes:
         - image
-    localizable: true
-  - id: price
-    name: Price
-    type: number
-    typeConfig: null
-  - id: sku
-    name: Sku
-    type: text
-    typeConfig: null
     localizable: true
   - id: productcategory
     name: ProductCategory
@@ -92,13 +98,11 @@ fields:
       allowedTypes:
         - image
     localizable: false
-  - id: originalPrice
-    name: Original Price
-    type: number
-    guidance: Original price before discount (for sale items)
-    typeConfig:
-      min: 0
-    localizable: false
+  - id: sku
+    name: Sku
+    type: text
+    typeConfig: null
+    localizable: true
   - id: rating
     name: Rating
     type: number
@@ -158,9 +162,17 @@ fields:
     name: Enrichments
     type: $enr
     typeConfig: null
+  - id: originalPrice
+    name: Original Price
+    type: number
+    guidance: Original price before discount (for sale items)
+    typeConfig:
+      min: 0
+    localizable: false
 entryName: name
 thumbnailField: image
-icon: file-document
+description: ''
+icon: website
 type: contentType
 permissions: []
 previewConfigurations: []

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 88c53765-2288-4df0-959c-fced855ff80c
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: 13513.webp
+    file:
+      type: file
+      value: ec246c4f-6696-479b-b97b-753bb06aa805
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/ClYQQEX5SlaqzLToiEbb1A-13513.webp
+      type: text
+    size:
+      value: 41708
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 768
+      type: number
+    custom: {}
+created: '2025-12-16T20:20:00.34826+00:00'
+modified: '2025-12-16T20:20:00.34826+00:00'

@@ -1,0 +1,44 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: productListBannerItem
+name: Product List Banner Item
+icon: screen
+parameters:
+  - id: image
+    name: Image
+    type: asset
+    guidance: 'Product image (recommended: 400x300px or 4:3 aspect ratio)'
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: title
+    name: Title
+    type: text
+    guidance: Product name or title (displays in uppercase)
+    typeConfig:
+      required: true
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Product category or secondary text
+    localizable: true
+  - id: href
+    name: Link
+    type: link
+    guidance: Optional link to product page
+  - id: tooltipName
+    name: Tooltip Name
+    type: text
+    guidance: Text shown in tooltip on hover (e.g., full product name)
+    localizable: true
+description: >-
+  Individual product card for the Product List Banner. Displays a product image
+  with title, subtitle, and optional hover tooltip.
+useTeamPermissions: true
+slots: []
+titleParameter: title
+thumbnailParameter: image
+canBeComposition: false
+created: '2025-12-16T22:05:35.948268+00:00'
+updated: '2025-12-16T22:05:35.948268+00:00'

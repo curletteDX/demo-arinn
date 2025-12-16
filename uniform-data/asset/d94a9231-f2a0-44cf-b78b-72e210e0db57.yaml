@@ -1,0 +1,31 @@
+asset:
+  type: image
+  _id: d94a9231-f2a0-44cf-b78b-72e210e0db57
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: >-
+        12788-CF557-bryant-modular-grand-u-sofa-bumper-sectional-karina-in-pantone-11-4201-cloud-dancer-t1-1_t.avif
+    file:
+      type: file
+      value: a93221a5-3776-4688-9d6f-95d4967c7e53
+    mediaType:
+      value: image/avif
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/Q95NUjiyQ-WBDXOdT1kBIQ-12788-CF557-bryant-modular-grand-u-sofa-bumper-sectional-karina-in-pantone-11-4201-cloud-dancer-t1-1_t.avif
+      type: text
+    size:
+      value: 13118
+      type: number
+    width:
+      value: 1946
+      type: number
+    height:
+      value: 1324
+      type: number
+    custom: {}
+created: '2025-12-16T21:25:07.092785+00:00'
+modified: '2025-12-16T21:25:07.092785+00:00'

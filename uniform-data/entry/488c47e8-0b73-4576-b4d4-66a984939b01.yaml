@@ -1,0 +1,130 @@
+created: '2025-12-16T20:39:04.422383+00:00'
+modified: '2025-12-16T21:27:15.604409+00:00'
+pattern: false
+entry:
+  _id: 488c47e8-0b73-4576-b4d4-66a984939b01
+  _name: Bryant Modular Grand U-Sofa Bumper Sectional
+  _slug: bryant-modular-grand-u-sofa-bumper-sectional
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/Q95NUjiyQ-WBDXOdT1kBIQ-12788-CF557-bryant-modular-grand-u-sofa-bumper-sectional-karina-in-pantone-11-4201-cloud-dancer-t1-1_t.avif
+  type: product
+  fields:
+    sku:
+      type: text
+      value: 12788-CF557
+    care:
+      type: text
+      value: >-
+        Vacuum regularly. Spot clean with mild detergent. Professional cleaning
+        recommended for deep stains.
+    name:
+      type: text
+      value: Bryant Modular Grand U-Sofa Bumper Sectional
+    badge:
+      type: select
+      value: Sale
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 886a30b3-9ba5-4a8b-adff-fcfcc8f9cdc8
+            type: image
+            fields:
+              id:
+                type: text
+                value: d94a9231-f2a0-44cf-b78b-72e210e0db57
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/Q95NUjiyQ-WBDXOdT1kBIQ-12788-CF557-bryant-modular-grand-u-sofa-bumper-sectional-karina-in-pantone-11-4201-cloud-dancer-t1-1_t.avif
+                type: text
+              file:
+                type: file
+                value: a93221a5-3776-4688-9d6f-95d4967c7e53
+              size:
+                value: 13118
+                type: number
+              title:
+                type: text
+                value: >-
+                  12788-CF557-bryant-modular-grand-u-sofa-bumper-sectional-karina-in-pantone-11-4201-cloud-dancer-t1-1_t.avif
+              width:
+                value: 1946
+                type: number
+              height:
+                value: 1324
+                type: number
+              mediaType:
+                value: image/avif
+                type: text
+            _source: uniform-assets
+    price:
+      type: number
+      value: 5813
+    colors:
+      type: text
+      value: Karina in Pantone 11-4201 Cloud Dancer (white/cream)
+    rating:
+      type: number
+      value: 5
+    shipping:
+      type: text
+      value: >-
+        Ships in 1 box (16" × 40" × 16", 51 lbs). Available for home delivery.
+        Measure for delivery to ensure proper fit.
+    materials:
+      type: text
+      value: Upholstered fabric (Karina), Wood legs, Pillowed construction
+    collection:
+      type: multi-select
+      value:
+        - Cloud Dancer
+    dimensions:
+      type: text
+      value: >-
+        160" W × 80" D × 35" H (Overall), Seating: 128" W × 66" D × 24" H,
+        Corner Chair: 40" W × 40" D × 35" H
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Deep, roomy seats, pillowed construction, and dreamy
+                    comfort—what's not to love? Opt for this king-sized modular
+                    option and let the whole family lounge together. A model of
+                    effortless, modern design, this versatile modular sectional
+                    is sure to anchor your space with unparalleled comfort.
+                    Between its cradling seat and room for everyone, it will
+                    quickly become the best seat in the house.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+    reviewCount:
+      type: number
+      value: 3
+    originalPrice:
+      type: number
+      value: 8304
+    productcategory:
+      type: select
+      value: Sofas
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

@@ -11,21 +11,53 @@ composition:
       value: >-
         Our exclusive collection featuring the Pantone Color of the Year brings
         warmth and sophistication to every space.
+    mainImage:
+      type: asset
+      value:
+        - _id: b42a22ab-23e7-44cc-915e-fbc8b620329d
+          type: image
+          fields:
+            id:
+              type: text
+              value: 9c937f15-b5f9-4a9f-9337-4f1ddd885d7e
+            url:
+              value: >-
+                https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/GpMhQmNQRR-l06JxVcbCOQ-Screenshot-2025-12-16-at-10.16.46-PM.png
+              type: text
+            file:
+              type: file
+              value: 1dd4a7e7-40af-4d83-8c73-865fe72dee55
+            size:
+              value: 1193584
+              type: number
+            title:
+              type: text
+              value: Screenshot-2025-12-16-at-10.16.46-PM.png
+            width:
+              value: 1106
+              type: number
+            height:
+              value: 870
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
     pantoneCode:
       type: text
-      value: 17-1230
+      value: 11-4201
     pantoneName:
       type: text
-      value: Mocha Mousse
+      value: Cloud Dancer
     pantoneYear:
       type: text
-      value: '2025'
+      value: '2026'
     pantoneColor:
       type: text
-      value: '#A47148'
+      value: '#EEECE9'
     textHeadline:
       type: text
-      value: THE COLLECTION
+      value: THE COLOR OF CALM
     imagePosition:
       type: select
       value: left
@@ -39,18 +71,50 @@ composition:
         Mousse. Each piece is crafted to bring comfort and style to your home.
     showPantoneBadge:
       type: checkbox
-      value: 'true'
+      value: true
   slots:
     productCards:
       - _id: 3a21a140-e5f8-45a9-bcc6-eaadcf8d6917
         type: showcaseProductCard
         parameters:
+          image:
+            type: asset
+            value:
+              - _id: 5a79d234-8674-4571-904a-95e1d63f02b8
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: 4edc0031-ebf9-4e08-8828-377f7fb077a4
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/Yth0IeuCT5uVB5V5EGil5w-Screenshot-2025-12-16-at-10.22.39-PM.png
+                    type: text
+                  file:
+                    type: file
+                    value: e10f9d69-9293-44b5-82dd-1c65c281e0be
+                  size:
+                    value: 183271
+                    type: number
+                  title:
+                    type: text
+                    value: Screenshot-2025-12-16-at-10.22.39-PM.png
+                  width:
+                    value: 328
+                    type: number
+                  height:
+                    value: 368
+                    type: number
+                  mediaType:
+                    value: image/png
+                    type: text
+                _source: uniform-assets
           title:
             type: text
-            value: MOCHA VELVET SOFA
+            value: SOUL IN PANTONE 11-4201
           subtitle:
             type: text
-            value: Living Room
+            value: CLOUD DANCER
         _overridability:
           parameters:
             link: 'yes'
@@ -60,42 +124,44 @@ composition:
       - _id: e367cc84-af05-4eb8-8c6e-18d472115762
         type: showcaseProductCard
         parameters:
+          image:
+            type: asset
+            value:
+              - _id: e68f8764-657d-42c0-9b2f-72e4e4edee23
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: 4561da1a-0fdb-468b-9109-c1096c49750c
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/7n53IZItQUmew5jQvqx6iA-Screenshot-2025-12-16-at-10.22.44-PM.png
+                    type: text
+                  file:
+                    type: file
+                    value: 0bfbc8f5-bfe0-43f8-9053-82a6b5c0bfd0
+                  size:
+                    value: 188397
+                    type: number
+                  title:
+                    type: text
+                    value: Screenshot-2025-12-16-at-10.22.44-PM.png
+                  width:
+                    value: 332
+                    type: number
+                  height:
+                    value: 370
+                    type: number
+                  mediaType:
+                    value: image/png
+                    type: text
+                _source: uniform-assets
           title:
             type: text
-            value: ACCENT CHAIR
+            value: KARINA IN PANTONE 11-4201
           subtitle:
             type: text
-            value: Seating
-        _overridability:
-          parameters:
-            link: 'yes'
-            image: 'yes'
-            title: 'yes'
-            subtitle: 'yes'
-      - _id: fc3681a5-7a86-4d94-9a06-da00d20d3fd5
-        type: showcaseProductCard
-        parameters:
-          title:
-            type: text
-            value: OTTOMAN
-          subtitle:
-            type: text
-            value: Accessories
-        _overridability:
-          parameters:
-            link: 'yes'
-            image: 'yes'
-            title: 'yes'
-            subtitle: 'yes'
-      - _id: 4c622459-8a7a-4e82-a29c-efa39b28fc65
-        type: showcaseProductCard
-        parameters:
-          title:
-            type: text
-            value: THROW PILLOWS
-          subtitle:
-            type: text
-            value: Decor
+            value: CLOUD DANCER
         _overridability:
           parameters:
             link: 'yes'
@@ -118,6 +184,8 @@ composition:
       textDescription: 'yes'
       showPantoneBadge: 'yes'
     hideLockedParameters: true
+  _locales:
+    - en-US
 created: '2025-12-16T20:10:33.377077+00:00'
-modified: '2025-12-16T20:10:33.377077+00:00'
+modified: '2025-12-16T20:23:42.967128+00:00'
 pattern: true

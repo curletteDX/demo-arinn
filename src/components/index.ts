@@ -51,6 +51,8 @@ import './products/ProductImageGallery';
 import './products/ProductInfo';
 import './products/RelatedProducts';
 import './products/ProductHotspotCard';
+import './products/ProductListBanner';
+import './products/ProductListBannerItem';
 // Shared
 import './shared/PageHero';
 import './shared/ContentBlock';
@@ -116,6 +118,8 @@ export { default as ProductHotspotCard, type ProductHotspotCardProps } from './p
 export { default as ProductImageGallery, type ProductImageGalleryProps } from './products/ProductImageGallery';
 export { default as ProductInfo, type ProductInfoProps } from './products/ProductInfo';
 export { default as RelatedProducts, type RelatedProductsProps } from './products/RelatedProducts';
+export { default as ProductListBanner, type ProductListBannerProps } from './products/ProductListBanner';
+export { default as ProductListBannerItem, type ProductListBannerItemProps } from './products/ProductListBannerItem';
 // Static versions (for non-Uniform pages)
 export { default as ProductImageGalleryStatic, type ProductImageGalleryStaticProps } from './products/ProductImageGalleryStatic';
 export { default as ProductInfoStatic, type ProductInfoStaticProps } from './products/ProductInfoStatic';

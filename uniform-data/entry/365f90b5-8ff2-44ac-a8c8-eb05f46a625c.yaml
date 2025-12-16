@@ -1,0 +1,128 @@
+created: '2025-12-16T21:53:13.624135+00:00'
+modified: '2025-12-16T21:53:54.846456+00:00'
+pattern: false
+entry:
+  _id: 365f90b5-8ff2-44ac-a8c8-eb05f46a625c
+  _name: Sebastian Sofa Bed
+  _slug: sebastian-sofa-bed
+  _thumbnail: >-
+    https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/cIFNj0nMTViLoCL8ZYhPMQ-13540.webp
+  type: product
+  fields:
+    sku:
+      type: text
+      locales:
+        en-US: JB-SEBASTIAN-SOFA-BED
+    name:
+      type: text
+      locales:
+        en-US: Sebastian Sofa Bed
+    badge:
+      type: select
+      value: Sale
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 48130b38-244a-4254-aad5-c268106dfa90
+            type: image
+            fields:
+              id:
+                type: text
+                value: fa0be56c-3474-4a79-bb73-3e62f3ec93db
+              url:
+                value: >-
+                  https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/cIFNj0nMTViLoCL8ZYhPMQ-13540.webp
+                type: text
+              file:
+                type: file
+                value: 0dff7244-316b-4f9f-8764-b6c267eff4c9
+              size:
+                value: 50566
+                type: number
+              title:
+                type: text
+                value: 13540.webp
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 768
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+    price:
+      type: number
+      value: 2787
+    colors:
+      type: text
+      value: Aquatic,Beige,Black,Blue,Brown,Green,Gray,Orange,Pink,Red,White,Yellow
+    rating:
+      type: number
+      value: 4
+    shipping:
+      type: text
+      locales:
+        en-US: 'Box dimensions: 30"L × 43"W × 96.5"H. Weight: 195 lbs.'
+    materials:
+      type: text
+      value: Velvet,Pet-friendly,Sustainable,GREENGUARD Gold
+    collection:
+      type: multi-select
+      value:
+        - Cloud Dancer
+    dimensions:
+      type: text
+      value: 94"W × 41.5"D × 31"H
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Experience modern comfort and versatility with the
+                      Sebastian Sofa Bed. Designed with a pillowed, low-slung
+                      silhouette and a rounded shelter profile, this sofa bed
+                      offers deep seating and a plush, inviting backrest.
+                      Effortlessly transition from lounging to sleeping by
+                      simply unfurling the cushion—transforming your sofa into a
+                      cozy bed in seconds. Perfect for overnight guests, the
+                      easy-to-unfold cushion can also be unzipped and separated,
+                      providing two smaller beds for added flexibility. The
+                      Sebastian Sofa Bed combines style, comfort, and
+                      convenience for any living space.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    reviewCount:
+      type: number
+      value: 0
+    originalPrice:
+      type: number
+      value: 3982
+    productcategory:
+      type: select
+      value: Sofas
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

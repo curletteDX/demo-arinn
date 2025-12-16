@@ -3,7 +3,39 @@ composition:
   _id: 514f7ac6-3e65-4b5c-9fe6-a62ccd6a7058
   _slug: pantone
   type: page
+  _dataResources:
+    Products Selector Content:
+      type: productsSelector
+      variables:
+        locale: ${locale}
+        entryIds: f720d7fc-c126-494f-b65c-7441276433a2
+    Uniform Products Query Content:
+      type: uniformProductsQuery
+      variables:
+        locale: ${locale}
+        search: ''
+        filters: '{"type[eq]":"product","fields.productcategory[eq]":"Sofas"}'
+        uiFilters: >-
+          [{"field":"type","operator":"eq","value":"product"},{"field":"fields.productcategory","operator":"eq","value":"Sofas"}]
+        contentTypes: product
   _overrides:
+    8393665a-0b50-42e7-b288-d2387370d939:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Cloud Dancer Products
+      dataResources:
+        Uniform Products Query Content:
+          type: uniformProductsQuery
+          variables:
+            locale: ${locale}
+            search: ''
+            filters: '{"type[eq]":"product","fields.collection[eq]":"Cloud Dancer"}'
+            uiFilters: >-
+              [{"field":"type","operator":"eq","value":"product"},{"field":"fields.collection","operator":"eq","value":"Cloud
+              Dancer"}]
+            contentTypes: product
     be9f2942-7cfe-4a0d-8d30-41a9e57db10c:
       parameters:
         headline:
@@ -76,6 +108,26 @@ composition:
                 backgroundColor: 'yes'
                 textDescription: 'yes'
                 showPantoneBadge: 'yes'
+              hideLockedParameters: true
+          - _id: 8393665a-0b50-42e7-b288-d2387370d939
+            type: productGrid
+            _pattern: 06ed4868-81b5-4002-8fc4-8b485d4f0d31
+            _dataResources:
+              Uniform Products Query Content:
+                type: uniformProductsQuery
+                variables:
+                  locale: ${locale}
+                  search: ''
+                  filters: >-
+                    {"type[eq]":"product","fields.collection[eq]":"Cloud
+                    Dancer"}
+                  uiFilters: >-
+                    [{"field":"type","operator":"eq","value":"product"},{"field":"fields.collection","operator":"eq","value":"Cloud
+                    Dancer"}]
+                  contentTypes: product
+            _overridability:
+              parameters:
+                title: 'yes'
               hideLockedParameters: true
     6658eacf-a2a7-4b82-9cc1-c642ad092171|05101f89-75f0-40ba-98bc-9422d38979e1:
       parameters:
@@ -274,9 +326,21 @@ composition:
         originalPrice:
           type: number
           value: '713'
+    6658eacf-a2a7-4b82-9cc1-c642ad092171|e5f6a7b8-c9d0-4e1f-8a3b-4c5d6e7f8a9b|c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f:
+      parameters:
+        name:
+          type: text
+          locales:
+            en-US: ${#jptr:/Products Selector Content/entries/0/entry/_name}
+      dataResources:
+        Products Selector Content:
+          type: productsSelector
+          variables:
+            locale: ${locale}
+            entryIds: 75d0425f-317d-4d54-9afd-a444b5c72a96
   _locales:
     - en-US
   _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
 created: '2025-12-16T19:33:23.193842+00:00'
-modified: '2025-12-16T20:11:41.11188+00:00'
+modified: '2025-12-16T21:37:11.986141+00:00'
 pattern: false

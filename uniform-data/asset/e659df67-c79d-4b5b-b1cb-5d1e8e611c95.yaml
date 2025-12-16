@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: e659df67-c79d-4b5b-b1cb-5d1e8e611c95
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: bryant.webp
+    file:
+      type: file
+      value: 28eb802a-121b-489b-a69c-b3f658ff2282
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/ZOPy1_8-Qp-0rc9eM35cqw/nuEmWVCtTnaTpQndI21gZg-bryant.webp
+      type: text
+    size:
+      value: 78660
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 768
+      type: number
+    custom: {}
+created: '2025-12-16T20:48:49.53025+00:00'
+modified: '2025-12-16T20:48:49.53025+00:00'

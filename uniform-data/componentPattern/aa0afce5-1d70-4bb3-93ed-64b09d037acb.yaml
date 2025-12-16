@@ -1,0 +1,106 @@
+composition:
+  _name: Product List Banner Pattern
+  _id: aa0afce5-1d70-4bb3-93ed-64b09d037acb
+  type: productListBanner
+  parameters:
+    headline:
+      type: text
+      value: OUR FAVORITE PIECES TO UNWIND ON
+    backgroundColor:
+      type: text
+      value: '#E8E4DE'
+  slots:
+    items:
+      - _id: 58cbe958-80cc-4898-a14b-a34d064418c4
+        type: productListBannerItem
+        parameters:
+          title:
+            type: text
+            value: LUNA CHAIR
+          subtitle:
+            type: text
+            value: Swivel Chair
+          tooltipName:
+            type: text
+            value: Luna Swivel Chair
+        _overridability:
+          parameters:
+            title: 'yes'
+            subtitle: 'yes'
+            tooltipName: 'yes'
+      - _id: 17907b1e-e768-4f7c-8525-e0fc08462cf7
+        type: productListBannerItem
+        parameters:
+          title:
+            type: text
+            value: NOVA SOFA
+          subtitle:
+            type: text
+            value: 3-SEATER SOFA
+          tooltipName:
+            type: text
+            value: Nova 3-Seater Sofa
+        _overridability:
+          parameters:
+            title: 'yes'
+            subtitle: 'yes'
+            tooltipName: 'yes'
+      - _id: 6e7fd7a0-e21d-46ed-8741-4338f1c683e7
+        type: productListBannerItem
+        parameters:
+          title:
+            type: text
+            value: ARIA SECTIONAL
+          subtitle:
+            type: text
+            value: Modular Sectional
+          tooltipName:
+            type: text
+            value: Aria Modular Sectional
+        _overridability:
+          parameters:
+            title: 'yes'
+            subtitle: 'yes'
+            tooltipName: 'yes'
+      - _id: ac3b275c-c24f-4ec0-98a1-dcda2026c86e
+        type: productListBannerItem
+        parameters:
+          title:
+            type: text
+            value: MILO RECLINER
+          subtitle:
+            type: text
+            value: POWER RECLINER
+          tooltipName:
+            type: text
+            value: Milo Power Recliner
+        _overridability:
+          parameters:
+            title: 'yes'
+            subtitle: 'yes'
+            tooltipName: 'yes'
+      - _id: 11781333-0f3a-458c-9b2d-fcb956c96b87
+        type: productListBannerItem
+        parameters:
+          title:
+            type: text
+            value: OTTO OTTOMAN
+          subtitle:
+            type: text
+            value: STORAGE OTTOMAN
+          tooltipName:
+            type: text
+            value: Otto Storage Ottoman
+        _overridability:
+          parameters:
+            title: 'yes'
+            subtitle: 'yes'
+            tooltipName: 'yes'
+  _overridability:
+    parameters:
+      headline: 'yes'
+      backgroundColor: 'yes'
+    hideLockedParameters: true
+created: '2025-12-16T22:06:18.254086+00:00'
+modified: '2025-12-16T22:06:39.689862+00:00'
+pattern: true
