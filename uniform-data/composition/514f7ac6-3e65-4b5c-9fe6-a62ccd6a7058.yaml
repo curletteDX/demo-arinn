@@ -19,6 +19,11 @@ composition:
           [{"field":"type","operator":"eq","value":"product"},{"field":"fields.productcategory","operator":"eq","value":"Sofas"}]
         contentTypes: product
   _overrides:
+    0a78d69e-6b28-442a-bbba-b10233814c76:
+      parameters:
+        headline:
+          type: text
+          value: OUR FAVORITE PIECES FROM THE COLLECTION
     8393665a-0b50-42e7-b288-d2387370d939:
       parameters:
         title:
@@ -89,6 +94,14 @@ composition:
                 title: 'yes'
                 aspectRatio: 'yes'
                 description: 'yes'
+              hideLockedParameters: true
+          - _id: 0a78d69e-6b28-442a-bbba-b10233814c76
+            type: productListBanner
+            _pattern: aa0afce5-1d70-4bb3-93ed-64b09d037acb
+            _overridability:
+              parameters:
+                headline: 'yes'
+                backgroundColor: 'yes'
               hideLockedParameters: true
           - _id: da406311-1890-4e30-ad1c-25a4e0145e07
             type: colorShowcaseBlock
@@ -342,5 +355,5 @@ composition:
     - en-US
   _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
 created: '2025-12-16T19:33:23.193842+00:00'
-modified: '2025-12-16T21:37:11.986141+00:00'
+modified: '2025-12-16T22:11:38.513288+00:00'
 pattern: false
